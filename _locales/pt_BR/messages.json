@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Temporizador de tarefas"
+	},
+	"appDesc": {
+		"message": "Uma ferramenta simples para ajudar a monitorar o tempo gasto em atividades como trabalho, estudos ou outras coisas."
+	},
+	"txtTitle": {
+		"message": "Temporizador de tarefas"
+	},
+	"txtDescription": {
+		"message": "Use essa ferramenta para monitorar o tempo que você gasta com trabalho, estudos ou outro tipo de atividade."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Traduções podem não ser exatas."
+	},
+	"txtCreatedBy": {
+		"message": "Criado por [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Comunique um problema"
+	},
+	"txtSuggest": {
+		"message": "Tem alguma sugestão? [Diga-nos]"
+	},
+	"txtAbout": {
+		"message": "Sobre"
+	},
+	"txtDonate": {
+		"message": "Doação"
+	},
+	"txtLoading": {
+		"message": "Carregando..."
+	},
+	"txtComingSoon": {
+		"message": "Em breve!"
+	},
+	"txtHours": {
+		"message": "Horas"
+	},
+	"txtMinutes": {
+		"message": "Minutos"
+	},
+	"txtSeconds": {
+		"message": "Segundos"
+	},
+	"txtIndefinite": {
+		"message": "Indefinido"
+	},
+	"infoData": {
+		"message": "Nota: Isso somente salva localmente, no seu computador, no seu browser.\nNão se preocupe, suas tarefas **não** serão apagadas se você limpar o cache\/armazenamento do seu Chrome."
+	},
+	"infoSettings": {
+		"message": "Tenha certeza de verificar as configurações ao clicar no botão de engrenagem no canto superior direito do aplicativo!\nExistem configurações como notificações da área de trabalho quando as tarefas forem concluídas."
+	},
+	"infoPerformance": {
+		"message": "O aplicativo está lento para você? Tente aumentar o tempo de atualização do gráfico em configurações, ou desabilite os gráficos completamente.\nAinda continua lento? Aumente o tempo de atualização geral ou desative o histórico de tarefas."
+	},
+	"infoTranslate": {
+		"message": "Quer ajudar a traduzir o Task Timer para outras línguas? Clique [aqui]."
+	},
+	"infoTotals": {
+		"message": "Esta é a linha de total. Ela aparece apenas quando você tem mais de uma tarefa.\n\nA coluna \"Tempo Gasto\" desta linha totaliza o tempo gasto em cada uma de suas tarefas.\nA coluna \"Objetivo\" desta linha totaliza todos os objetivos de todas as suas tarefas, exceto as indefinidas.\nA coluna \"Progresso\" lhe dá o progresso total através da finalização dos objetivos de todas as suas tarefas. Este progresso não inclui o tempo gasto após o objetivo de uma tarefa ou tempo gasto em tarefas com objetivos indefinidos."
+	},
+	"txtNoTasks": {
+		"message": "Você não criou nenhuma atividade ainda!"
+	},
+	"txtEditTasks": {
+		"message": "Dê um duplo clique no nome da atividade, tempo ou objetivo para editá-lo"
+	},
+	"lblTask": {
+		"message": "Tarefa"
+	},
+	"lblTimeSpent": {
+		"message": "Tempo Gasto"
+	},
+	"lblGoal": {
+		"message": "Objetivo"
+	},
+	"lblProgress": {
+		"message": "Progresso"
+	},
+	"lblOptions": {
+		"message": "Opções"
+	},
+	"lblTotals": {
+		"message": "Totais"
+	},
+	"btnStart": {
+		"message": "Iniciar"
+	},
+	"btnStop": {
+		"message": "Parar"
+	},
+	"btnInfo": {
+		"message": "Informações"
+	},
+	"btnReset": {
+		"message": "Reiniciar"
+	},
+	"btnDelete": {
+		"message": "Apagar"
+	},
+	"btnClearHistory": {
+		"message": "Limpar histórico"
+	},
+	"btnResetAll": {
+		"message": "Reiniciar tudo"
+	},
+	"btnDeleteAll": {
+		"message": "Apagar tudo"
+	},
+	"lblName": {
+		"message": "Nome"
+	},
+	"lblTaskName": {
+		"message": "Nome da Tarefa"
+	},
+	"lblGoalBoth": {
+		"message": "Objetivo (horas : minutos)"
+	},
+	"lblGoalHours": {
+		"message": "Objetivo Horas"
+	},
+	"lblGoalMinutes": {
+		"message": "Objetivo Minutos"
+	},
+	"lblIndefinite": {
+		"message": "Indefinido"
+	},
+	"lblStart": {
+		"message": "Iniciar"
+	},
+	"lblStartNow": {
+		"message": "Iniciar tarefa imediatamente"
+	},
+	"btnAddTask": {
+		"message": "Adicionar Tarefa"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Tempo Gasto em Tarefas"
+	},
+	"txtTotalPieTitle": {
+		"message": "Tempo Total Gasto (Histórico)"
+	},
+	"txtTaskInfo": {
+		"message": "Informação da Tarefa"
+	},
+	"txtNoDescription": {
+		"message": "Entre com informações\/comentários sobre a tarefa"
+	},
+	"txtTaskOptions": {
+		"message": "Opções de Tarefa"
+	},
+	"txtHistory": {
+		"message": "Histórico"
+	},
+	"txtHistoryDisabled": {
+		"message": "Acompanhamento de histórico de tarefas está desativado. Você pode habilitá-lo no menu ferramentas."
+	},
+	"txtSelectDate": {
+		"message": "Por favor selecione uma data."
+	},
+	"txtNoHistory": {
+		"message": "Não há histórico salvo neste dia."
+	},
+	"lblDescription": {
+		"message": "Descrição"
+	},
+	"lblHour": {
+		"message": "Hora"
+	},
+	"tskExcludeTotals": {
+		"message": "Excluir esta tarefa da linha de totais"
+	},
+	"tskExcludeCharts": {
+		"message": "Excluir esta tarefa do gráfico"
+	},
+	"txtTools": {
+		"message": "Ferramentas"
+	},
+	"toolExportCSV": {
+		"message": "Exportar tarefas para arquivo CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Limpar histórico de todas as tarefas"
+	},
+	"toolClearData": {
+		"message": "Limpar todos os dados do aplicativo"
+	},
+	"toolResetSettings": {
+		"message": "Reiniciar para padrão"
+	},
+	"txtSettings": {
+		"message": "Configurações"
+	},
+	"txtGeneralSettings": {
+		"message": "Configurações Gerais"
+	},
+	"optEnableCharts": {
+		"message": "Ativar gráficos pizza"
+	},
+	"optHideNotice": {
+		"message": "Esconder a caixa de avisos"
+	},
+	"optConfirmReset": {
+		"message": "Perguntar para confirmar quando você tentar reiniciar uma tarefa"
+	},
+	"optConfirmDelete": {
+		"message": "Perguntar para confirmar quando você tentar excluir uma tarefa"
+	},
+	"optStartDefault": {
+		"message": "Marcar o campo \"Iniciar\" por padrão"
+	},
+	"optSaveFields": {
+		"message": "Manter os conteúdos do campo nova tarefa quando você reiniciar o aplicativo."
+	},
+	"optUseIcons": {
+		"message": "Usar ícones ao invés de botões nas Opções de Tarefa (útil para telas pequenas)"
+	},
+	"opt12Hour": {
+		"message": "Usar o formato de 12-horas quanto possível"
+	},
+	"optCustomDialogs": {
+		"message": "Usar diálogos personalizados ao invés do padrão do Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Abrir o aplicativo após a atualização"
+	},
+	"txtTaskSettings": {
+		"message": "Configurações de Tarefa"
+	},
+	"optEnableSync": {
+		"message": "Ativar a sincronização (EXPERIMENTAL, pode alterar suas tarefas)"
+	},
+	"optTrackHistory": {
+		"message": "Rastrear histórico de tarefas (você poderá visualizar as estatísticas de cada tarefa)"
+	},
+	"optNoOvertime": {
+		"message": "Não permitir tarefas ultrapassarem seus objetivos"
+	},
+	"optStopTimer": {
+		"message": "Parar uma tarefa quando ela alcançar seu objetivo"
+	},
+	"optOnlyOne": {
+		"message": "Permitir apenas uma tarefa sendo executada ao mesmo tempo"
+	},
+	"txtNotifSettings": {
+		"message": "Configurações de Notificação"
+	},
+	"optShowPopup": {
+		"message": "Mostrar um aviso na página quando uma tarefa alcançar seu objetivo"
+	},
+	"optShowNotification": {
+		"message": "Mostrar uma notificação na área de trabalho quando uma tarefa alcançar seu objetivo"
+	},
+	"optPlaySound": {
+		"message": "Tocar um som quando a tarefa alcançar seu objetivo"
+	},
+	"optUseDefault": {
+		"message": "Utilizar som padrão"
+	},
+	"optUseCustom": {
+		"message": "Utilizar som personalizado"
+	},
+	"optSoundURL": {
+		"message": "URL do som personalizado"
+	},
+	"optBtnPreview": {
+		"message": "Testar som"
+	},
+	"optLoopSound": {
+		"message": "Tocar o som até você pará-lo"
+	},
+	"txtPerfSettings": {
+		"message": "Configurações de Performance"
+	},
+	"optUpdateTime1": {
+		"message": "Atualizar tempo das tarefas a cada"
+	},
+	"optUpdateTime2": {
+		"message": "segundo(s)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Atualizar o gráfico a cada"
+	},
+	"txtSaveSettings": {
+		"message": "Salvar Configurações"
+	},
+	"txtJSError": {
+		"message": "Um erro ocorreu em algum lugar do script. Por favor, reporte o erro com a seguinte informação, incluindo o que você fez\/o que aconteceu:"
+	},
+	"txtTriedRefresh": {
+		"message": "Você tentou recarregar o aplicativo?"
+	},
+	"txtUsualFix": {
+		"message": "Isto normalmente corrige quaisquer erros, mas irá limpar todas as suas tarefas e configurações."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Cancelar"
+	},
+	"btnYes": {
+		"message": "Sim"
+	},
+	"btnNo": {
+		"message": "Não"
+	},
+	"btnClose": {
+		"message": "Fechar"
+	},
+	"btnCloseNotice": {
+		"message": "Fechar aviso"
+	},
+	"btnStopAlarm": {
+		"message": "Parar Alarme"
+	},
+	"btnSave": {
+		"message": "Salvar"
+	},
+	"confResetTask": {
+		"message": "Você tem certeza que quer reiniciar a tarefa \"$taskName$\"?\nIsto não reiniciará o histórico de tarefas",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Você tem certeza que quer apagar a tarefa \"$taskName$\"?\nIsto apagará todo seu histórico de tarefas.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Você tem certeza que deseja limpar o histórico da tarefa \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Você tem certeza que deseja reiniciar o tempo gasto em todas as suas tarefas?"
+	},
+	"confDeleteAll": {
+		"message": "Você tem certeza que deseja excluir todas as suas tarefas?"
+	},
+	"confClearAllHistory": {
+		"message": "Você tem certeza que deseja apagar o histórico de todas as tarefas?"
+	},
+	"confResetData": {
+		"message": "Você tem certeza que quer excluir completamente todas as tarefas do Task Timer?\nIsso ira limpar todas tarefas e configurações"
+	},
+	"confResetSettings": {
+		"message": "Você tem certeza que deseja reiniciar todas as configurações para seus valores padrão?"
+	},
+	"confUpdated": {
+		"message": "O Task Timer foi atualizado para a versão $version$!\nVocê gostaria de ver a lista de mudanças desta versão?\nEsteja ciente de que você terá que reiniciar as tarefas que estiverem rodando no caso do Chrome atualizar automaticamente o aplicativo.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Você gostaria de dar uma nota\/opinião para este aplicativo na Web Loja do Chrome?\nIsto realmente nos ajudará!"
+	},
+	"confSmallWindow": {
+		"message": "Parece que você está rodando o Task Timer em uma janela pequena, monitor pequeno ou em uma baixa resolução. Você gostaria de trocar os botões por ícones na lista de tarefas? Isto fará com que as tarefas não ocupem mais que uma linha cada.\n\nEsta configuração também pode ser alterada no menu ferramentas."
+	},
+	"noteTaskFinished": {
+		"message": "Tarefa Finalizada!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "A tarefa \"$taskName$\" alcançou seu final!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Notificações da Área de Trabalho Funcionam!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Se você está vendo isso significa que as notificações de desktop estão habilitadas e funcionando corretamente! Uhu!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Parece que você está usando um caminho para um arquivo local em sua máquina para a URL de som customizada.\nInfelizmente, arquivos locais não podem ser utilizados, pois Chrome não permite acesso aos arquivos do seu sistema, inclusive sons.\nApenas endereços de internet (começando com http, https, ou ftp) podem ser utilizados. Isto significa que você precisa encontrar um som online, ou enviar um som que você queira usar para algum lugar."
+	},
+	"noteErrorOccurred": {
+		"message": "Ocorreu um erro!"
+	},
+	"sucSavedDesc": {
+		"message": "Descrição salva!"
+	},
+	"sucSavedSettings": {
+		"message": "Configurações salvas!"
+	},
+	"sucSyncReceived": {
+		"message": "Recebeu dados de tarefas para sincronizar!"
+	},
+	"sucSyncSent": {
+		"message": "Enviou os dados de tarefas para sincronização!"
+	},
+	"errGeneric": {
+		"message": "Erro!"
+	},
+	"errTask": {
+		"message": "Nome da tarefa ou meta inválida."
+	},
+	"errTaskName": {
+		"message": "Nome de tarefa inválido."
+	},
+	"errTaskTime": {
+		"message": "Tempo inválido."
+	},
+	"errGoalTime": {
+		"message": "Tempo do objetivo inválido."
+	},
+	"errSoundURL": {
+		"message": "URL de som personalizado inválida"
+	},
+	"errFinishEditing": {
+		"message": "Finalize a edição da tarefa \"$taskName$\" primeiro!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "A aplicação já está aberta.\nSe isto parece estar incorreto, tente fechar todas as janelas do Chrome e reinicie a aplicação."
+	},
+	"txtSuggestionTitle": {
+		"message": "Faça uma sugestão"
+	},
+	"txtSuggestionInfo": {
+		"message": "Para fazer uma sugestão, por favor clique [aqui]\nSe ninguém ja tiver sugerido a mesma idéia, clique \"Nova Idéia\". Tenha certeza de selecionar o modelo \"Sugestão de Melhoria\", e um título descritivo."
+	},
+	"txtBugTitle": {
+		"message": "Comunicar um problema"
+	},
+	"txtBugInfo": {
+		"message": "Para reportar um problema, por favor clique [aqui].\nSe ninguém tiver reportado a mesma falha, clique \"Novo Problema\". Tenha certeza de entitular o assunto descritivamente!\nSe você encontrar múltiplas falhas, por favor crie uma ocorrência para cada problema, separadamente.\nTenha certeza de ter incluído a informação abaixo em seu relatório de falha:"
+	}
+}

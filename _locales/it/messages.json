@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Task Timer"
+	},
+	"appDesc": {
+		"message": "Un semplice strumento per tenere traccia del tempo dedicato a compiti quali lavoro, studio, o altro."
+	},
+	"txtTitle": {
+		"message": "Task Timer"
+	},
+	"txtDescription": {
+		"message": "Usa questo strumento per tenere traccia del tempo dedicato a lavoro, studio, o qualsiasi altro tipo di attività."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "La traduzione potrbbe non essere precisa"
+	},
+	"txtCreatedBy": {
+		"message": "Creato da [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Segnala un problema."
+	},
+	"txtSuggest": {
+		"message": "Hai un'idea? [Dimmela]"
+	},
+	"txtAbout": {
+		"message": "Informazioni"
+	},
+	"txtDonate": {
+		"message": "Dona"
+	},
+	"txtLoading": {
+		"message": "Caricamento..."
+	},
+	"txtComingSoon": {
+		"message": "Funzionalità future!"
+	},
+	"txtHours": {
+		"message": "Ore"
+	},
+	"txtMinutes": {
+		"message": "Minuti"
+	},
+	"txtSeconds": {
+		"message": "Secondi"
+	},
+	"txtIndefinite": {
+		"message": "Indefinito"
+	},
+	"infoData": {
+		"message": "Nota: Questo salva soltanto in locale, sul tuo computer, nel tuo browser.\nNon ti preoccupare, le tue attività **non** saranno cancellate se cancelli la cache di Chrome."
+	},
+	"infoSettings": {
+		"message": "Assicurati di controllare le impostazioni facendo clic sul pulsante dell'ingranaggio in alto a destra nell'applicazione.\nCi sono impostazioni come le notifiche sul desktop quando un'attività si conclude."
+	},
+	"infoPerformance": {
+		"message": "L'applicazione in esecuzione è troppo lenta? Prova ad aumentare il tempo di aggiornamento del grafico a torta nelle impostazioni, o disabilita del tutto i grafici. L'applicazione è ancora lenta? Aumenta l'intervallo di aggiornamento generale oppure disabilita il monitoraggio della cronologia delle attività."
+	},
+	"infoTranslate": {
+		"message": "Vuoi aiutarci a tradurre Task Timer in altre lingue? Clicca [qui]"
+	},
+	"infoTotals": {
+		"message": "Questa è la riga dei totali. Appare solo quando si è impostato più di un compito.\n\nLa colonna \"Tempo Trascorso\" di questa riga somma il tempo trascorso su ognuna delle tue attività.\nLa colonna \"Obiettivo\" di questa riga, somma i tempi prestabiliti come obiettivi di tutte le tue attività, piuttosto che di quelli non definiti\nLa colonna \"Avanzamento\" di questa riga, ti mostra quanto manca al termine di tutte le tue attività con tempo prestabilito. Questo valore non include il tempo speso oltre l'ammontare prestabilito sulle attività o il tempo trascorso su delle attività a scadenza indefinita."
+	},
+	"txtNoTasks": {
+		"message": "Non hai ancora creato nessuna attività!"
+	},
+	"txtEditTasks": {
+		"message": "Fai doppio click sul nome di un'attività, sul tempo o su un obiettivo per modificarlo."
+	},
+	"lblTask": {
+		"message": "Attività"
+	},
+	"lblTimeSpent": {
+		"message": "Tempo trascorso"
+	},
+	"lblGoal": {
+		"message": "Obiettivo"
+	},
+	"lblProgress": {
+		"message": "Avanzamento"
+	},
+	"lblOptions": {
+		"message": "Opzioni"
+	},
+	"lblTotals": {
+		"message": "Totali"
+	},
+	"btnStart": {
+		"message": "Inizia"
+	},
+	"btnStop": {
+		"message": "Ferma"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Ripristina"
+	},
+	"btnDelete": {
+		"message": "Elimina"
+	},
+	"btnClearHistory": {
+		"message": "Svuota la cronologia delle attività"
+	},
+	"btnResetAll": {
+		"message": "Ripristina tutto"
+	},
+	"btnDeleteAll": {
+		"message": "Elimina tutto"
+	},
+	"lblName": {
+		"message": "Nome"
+	},
+	"lblTaskName": {
+		"message": "Nome attività"
+	},
+	"lblGoalBoth": {
+		"message": "Obiettivo (ore : minuti)"
+	},
+	"lblGoalHours": {
+		"message": "Ore obiettivo"
+	},
+	"lblGoalMinutes": {
+		"message": "Minuti obiettivo"
+	},
+	"lblIndefinite": {
+		"message": "Indefinito"
+	},
+	"lblStart": {
+		"message": "Inizio"
+	},
+	"lblStartNow": {
+		"message": "Inizia subito l'attività"
+	},
+	"btnAddTask": {
+		"message": "Aggiungi attività"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Tempo trascorso nelle attività"
+	},
+	"txtTotalPieTitle": {
+		"message": "Tempo trascorso totale"
+	},
+	"txtTaskInfo": {
+		"message": "Informazione sull'attività"
+	},
+	"txtNoDescription": {
+		"message": "Aggiungi informazioni\/commenti sull'attività"
+	},
+	"txtTaskOptions": {
+		"message": "Opzioni attività"
+	},
+	"txtHistory": {
+		"message": "Cronologia"
+	},
+	"txtHistoryDisabled": {
+		"message": "La cronologia delle attività è disabilitata. Puoi abilitarla nel menù strumenti."
+	},
+	"txtSelectDate": {
+		"message": "Selezionare una data"
+	},
+	"txtNoHistory": {
+		"message": "Nessuna cronologia salvata in quel giorno."
+	},
+	"lblDescription": {
+		"message": "Descrizione"
+	},
+	"lblHour": {
+		"message": "Ora"
+	},
+	"tskExcludeTotals": {
+		"message": "Escludi quest'attività dalla riga dei totali"
+	},
+	"tskExcludeCharts": {
+		"message": "Escludi quest'attività dal grafico a torta"
+	},
+	"txtTools": {
+		"message": "Strumenti"
+	},
+	"toolExportCSV": {
+		"message": "Esporta le attività in un file CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Elimina la cronologia di tutte le attività"
+	},
+	"toolClearData": {
+		"message": "Elimina tutti i dati dell'applicazione"
+	},
+	"toolResetSettings": {
+		"message": "Ripristina situazione iniziale"
+	},
+	"txtSettings": {
+		"message": "Impostazioni"
+	},
+	"txtGeneralSettings": {
+		"message": "Impostazioni generali"
+	},
+	"optEnableCharts": {
+		"message": "Attiva grafici a torta"
+	},
+	"optHideNotice": {
+		"message": "Nascondi il box delle notifiche"
+	},
+	"optConfirmReset": {
+		"message": "Chiedi conferma quando si cerca di ripristinare un'attività"
+	},
+	"optConfirmDelete": {
+		"message": "Chiedi conferma prima di cancellare un'attività"
+	},
+	"optStartDefault": {
+		"message": "Seleziona \"Start\" automaticamente"
+	},
+	"optSaveFields": {
+		"message": "Mantieni i dati inseriti in una nuova attività quando riavvii l'applicazione"
+	},
+	"optUseIcons": {
+		"message": "Usa le icone al posto dei bottoni per le opzioni dell'attività (raccomandato per schermi piccoli)"
+	},
+	"opt12Hour": {
+		"message": "Usa il formato 12 ore per l'orario dove possibile"
+	},
+	"optCustomDialogs": {
+		"message": "Usa messaggi personalizzati anzichè quelli di Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Apri l'applicazione quando viene aggiornata"
+	},
+	"txtTaskSettings": {
+		"message": "Impostazioni attività"
+	},
+	"optEnableSync": {
+		"message": "Attiva sincronizzazione (SPERIMENTALE, potrebbe mettere in disordine le tue attività)"
+	},
+	"optTrackHistory": {
+		"message": "Tieni traccia della cronologie dell'attività (così potrai vedere le statistiche di ogni attività)"
+	},
+	"optNoOvertime": {
+		"message": "Non permettere alle attività di superare l'obbiettivo"
+	},
+	"optStopTimer": {
+		"message": "Ferma un'attività quando raggiunge l'obbiettivo"
+	},
+	"optOnlyOne": {
+		"message": "Consenti l'esecuzione di una sola attività alla volta"
+	},
+	"txtNotifSettings": {
+		"message": "Impostazioni notifiche"
+	},
+	"optShowPopup": {
+		"message": "Mostra un popup nella pagina quando un'attività raggiunge il suo obbiettivo"
+	},
+	"optShowNotification": {
+		"message": "Mostra una notifica sul desktop quando un'attività raggiunge il suo obbiettivo"
+	},
+	"optPlaySound": {
+		"message": "Riproduci un suono quando un'attività raggiunge il suo obbiettivo"
+	},
+	"optUseDefault": {
+		"message": "Usa il suono predefinito"
+	},
+	"optUseCustom": {
+		"message": "Usa un suono personalizzato"
+	},
+	"optSoundURL": {
+		"message": "Indirizzo suono personalizzato"
+	},
+	"optBtnPreview": {
+		"message": "Anteprima suono"
+	},
+	"optLoopSound": {
+		"message": "Ripeti il suono finchè non lo disattivi"
+	},
+	"txtPerfSettings": {
+		"message": "Impostazioni prestazioni"
+	},
+	"optUpdateTime1": {
+		"message": "Aggiorna il task ogni"
+	},
+	"optUpdateTime2": {
+		"message": "secondo(i)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Aggiorna il grafico a torta ogni"
+	},
+	"txtSaveSettings": {
+		"message": "Salva impostazioni"
+	},
+	"txtJSError": {
+		"message": "C'è stato un errore da qualche parte nello script. Per favore, segnala un baco con le informazioni seguenti e cosa hai fatto \/ cosa 'è successo"
+	},
+	"txtTriedRefresh": {
+		"message": "Hai provato a ricaricare la pagina?"
+	},
+	"txtUsualFix": {
+		"message": "Questo di norma sistemerà ogni errore, ma cancellerà tutte le tue attività e impostazioni"
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Annulla"
+	},
+	"btnYes": {
+		"message": "Sì"
+	},
+	"btnNo": {
+		"message": "No"
+	},
+	"btnClose": {
+		"message": "Chiudi"
+	},
+	"btnCloseNotice": {
+		"message": "Chiudi notifica"
+	},
+	"btnStopAlarm": {
+		"message": "Interrompi allarme"
+	},
+	"btnSave": {
+		"message": "Salva"
+	},
+	"confResetTask": {
+		"message": "Vuoi veramente ripristinare l'attività \"$taskName$\"?\nLa cronologia non verrà eliminata.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Vuoi veramente cancellare l'attività \"$taskName$\"?\nLa cronologia verrà eliminata.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Vuoi veramente cancellare la cronologia dell'attività \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Vuoi veramente ripristinare il tempo speso su tutte le tue attività?"
+	},
+	"confDeleteAll": {
+		"message": "Vuoi veramente eliminare tutte le attività?"
+	},
+	"confClearAllHistory": {
+		"message": "Vuoi veramente eliminare la cronologia di tutte le attività?"
+	},
+	"confResetData": {
+		"message": "Sei sicuro di voler eliminare tutti i dati di Task Timer?\nQuesto comporterà l'eliminazione delle tue attività e impostazioni."
+	},
+	"confResetSettings": {
+		"message": "Sei sicuro di voler ripristinare tutte le impostazioni al loro valore predefinito?"
+	},
+	"confUpdated": {
+		"message": "Task Timer è stato aggiornato alla versione $version$!\nVuoi vedere le novità?\nNota: dovrai avviare nuovamente le tue attività se Chrome ha aggiornato automaticamente l'app mentre era avviata.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Vuoi votare\/commentare sul Chrome Web Store?\nCi aiuterebbe molto!"
+	},
+	"confSmallWindow": {
+		"message": "Sembra che tu stia eseguendo Task Timer in una finestra piccola, su uno schermo piccolo o a una bassa risoluzione. Vuoi passate alle icone invece dei bottoni nella lista delle attività? Questo farà in modo che le attività non occupino più di una riga ciascuna.\n\nQuesta impostazione può anche essere modificata nel menu strumenti."
+	},
+	"noteTaskFinished": {
+		"message": "Attività terminata!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "L'attività \"$taskName$\" ha raggiunto il suo obiettivo!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Le notifiche sul desktop funzionano!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Se vedi questo, significa che le notifiche sul desktop sono attive e perfettamente funzionanti! Urrà!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Sembra tu stia usando un collegamento a un percorso locale come indirizzo del suono personale.\nSfortunatamente, i file locali non possono essere usati perché Chrome non permette l'accesso ai dati salvati sul PC, perfino per un suono!\nSolo i collegamenti a internet (che iniziano con http, https o ftp) possono essere usati. Questo significa che devi trovare un suono online, o caricare da qualche parte il suono che desideri."
+	},
+	"noteErrorOccurred": {
+		"message": "Si è verificato un errore!"
+	},
+	"sucSavedDesc": {
+		"message": "Descizione salvata!"
+	},
+	"sucSavedSettings": {
+		"message": "Impostazioni salvate!"
+	},
+	"sucSyncReceived": {
+		"message": "Ho ricevuto i dati delle attività per la sincronizzazione."
+	},
+	"sucSyncSent": {
+		"message": "Invio dati delle attività per la sincronizzazione."
+	},
+	"errGeneric": {
+		"message": "Errore!"
+	},
+	"errTask": {
+		"message": "Il nome o l'obiettivo dell'attività non è valido."
+	},
+	"errTaskName": {
+		"message": "Nome attività non valido"
+	},
+	"errTaskTime": {
+		"message": "Tempo non valido"
+	},
+	"errGoalTime": {
+		"message": "Tempo obiettivo non valido."
+	},
+	"errSoundURL": {
+		"message": "Indirizzo del suono personalizzato non valido."
+	},
+	"errFinishEditing": {
+		"message": "Prima completa le modifica all'attività \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "L'applicazione è già aperta.\nSe ti sembra che qualcosa non vada, prova a chiudere tutte le finestre di Chrome e riavviala."
+	},
+	"txtSuggestionTitle": {
+		"message": "Invia un suggerimento"
+	},
+	"txtSuggestionInfo": {
+		"message": "Per inviare un suggerimento, clicca [qui].\nSe nessun altro ha già suggerito la stessa idea, clicca su \"New Issue\". Assicurati di selezionare \"Enhancement Request\" come template, e di inserire un titolo descrittivo!\nSe hai più idee, inviale tutte singolarmente."
+	},
+	"txtBugTitle": {
+		"message": "Segnala un malfunzionamento"
+	},
+	"txtBugInfo": {
+		"message": "Per segnalare un bug, clicca [qui].\nSe nessun altro ha già segnalato questo stesso bug, clicca su \"New Issue\". Assicurati di inserire un titolo abbastanza descrittivo!\nSe hai trovato più bug, segnalali tutti singolarmente.\nAssicurati di inserire i seguenti dati nella tua segnalazione:"
+	}
+}

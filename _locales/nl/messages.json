@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Taken Timer"
+	},
+	"appDesc": {
+		"message": "Een eenvoudig middel om tijd bij te houden die besteed is taken zoals werk, studie en andere dingen."
+	},
+	"txtTitle": {
+		"message": "Taak Timer"
+	},
+	"txtDescription": {
+		"message": "Gebruik deze tool om de tijd die je besteedt aan werk, studies of andere taken bij te houden"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Vertalingen kunnen onjuist zijn."
+	},
+	"txtCreatedBy": {
+		"message": "Gemaakt door [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Meld een bug"
+	},
+	"txtSuggest": {
+		"message": "Heb je een idee? [Vertel het me]"
+	},
+	"txtAbout": {
+		"message": "Over"
+	},
+	"txtDonate": {
+		"message": "Doneer"
+	},
+	"txtLoading": {
+		"message": "Even wachten..."
+	},
+	"txtComingSoon": {
+		"message": "Binnenkort beschikbaar!"
+	},
+	"txtHours": {
+		"message": "Uren"
+	},
+	"txtMinutes": {
+		"message": "Minuten"
+	},
+	"txtSeconds": {
+		"message": "Seconden"
+	},
+	"txtIndefinite": {
+		"message": "Onbepaald"
+	},
+	"infoData": {
+		"message": "Opmerking: Deze app slaat data lokaal op, op je computer en in je browser.\nMaak je geen zorgen, je taken worden **niet** verwijderd als Chrome's geschiedenis\/tijdelijke bestanden opschoont."
+	},
+	"infoSettings": {
+		"message": "Bekijk ook eens de instellingen door te klikken op de moer in de rechterbovenhoek van de app!\nDaar staan instellingen zoals desktopnotificaties wanneer een taak afloopt."
+	},
+	"infoPerformance": {
+		"message": "Loopt deze app traag voor jou? Probeer eens de update tijd van het taartdiagram te verhogen bij de instellingen, of de grafiek geheel uit te schakelen. Nog steeds traag? Verhoog de algemene update tijd of schakel de taak geschiedenis log uit."
+	},
+	"infoTranslate": {
+		"message": "Wil je helpen met het vertalen van Taak Timer naar andere talen? Klik [hier]"
+	},
+	"infoTotals": {
+		"message": "Dit is de \"totaal\" rij. Het verschijnt alleen wanneer je meer dan één taak hebt.\n\nDe \"Gespendeerde tijd\" kolom van deze rij is een totaal van alle tijd die je hebt gebruikt voor alle taken.\nDe \"Doel\" kolom van deze rij geeft een totaal van alle doelen van je taken die geen onbepaalde tijd hebben.\nDe \"Voortgang\" kolom van deze rij geeft je de totale voortgang op je taken. Deze voortgang bevat geen tijden die over het doel van een taak zijn gegaan, of tijd die gespendeerd is op taken met onbepaalde doelen."
+	},
+	"txtNoTasks": {
+		"message": "Je hebt nog geen taak gemaakt!"
+	},
+	"txtEditTasks": {
+		"message": "Dubbel klik op een taak naam, tijd of doel om het te bewerken."
+	},
+	"lblTask": {
+		"message": "Taak"
+	},
+	"lblTimeSpent": {
+		"message": "Bestede Tijd"
+	},
+	"lblGoal": {
+		"message": "Doel"
+	},
+	"lblProgress": {
+		"message": "Vooruitgang"
+	},
+	"lblOptions": {
+		"message": "Opties"
+	},
+	"lblTotals": {
+		"message": "Totaal"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stop"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Reset"
+	},
+	"btnDelete": {
+		"message": "Verwijder"
+	},
+	"btnClearHistory": {
+		"message": "Wis de geschiedenis"
+	},
+	"btnResetAll": {
+		"message": "Reset alles"
+	},
+	"btnDeleteAll": {
+		"message": "Verwijder alles"
+	},
+	"lblName": {
+		"message": "Naam"
+	},
+	"lblTaskName": {
+		"message": "Taak Naam"
+	},
+	"lblGoalBoth": {
+		"message": "Doel (uren : minuten)"
+	},
+	"lblGoalHours": {
+		"message": "Doel Uren"
+	},
+	"lblGoalMinutes": {
+		"message": "Doel Minuten"
+	},
+	"lblIndefinite": {
+		"message": "Onbepaald"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Start taak meteen"
+	},
+	"btnAddTask": {
+		"message": "Taak toevoegen"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Besteedde Tijd voor de Taken"
+	},
+	"txtTotalPieTitle": {
+		"message": "Totale Besteedde Tijd (Geschiedenis)"
+	},
+	"txtTaskInfo": {
+		"message": "Taak Informatie"
+	},
+	"txtNoDescription": {
+		"message": "Vul informatie\/commentaar over de taak in"
+	},
+	"txtTaskOptions": {
+		"message": "Taak opties"
+	},
+	"txtHistory": {
+		"message": "Geschiedenis"
+	},
+	"txtHistoryDisabled": {
+		"message": "Het opslaan van de taak historie is uitgeschakeld. In het menu kan deze functie worden geactiveerd."
+	},
+	"txtSelectDate": {
+		"message": "Selecteer een datum a.u.b."
+	},
+	"txtNoHistory": {
+		"message": "Er is geen opgeslagen geschiedenis op deze dag beschikbaar."
+	},
+	"lblDescription": {
+		"message": "Omschrijving"
+	},
+	"lblHour": {
+		"message": "Uur"
+	},
+	"tskExcludeTotals": {
+		"message": "Laat deze taak buiten beschouwing in de totaal rij"
+	},
+	"tskExcludeCharts": {
+		"message": "Neem deze taak niet mee in het taartdiagram"
+	},
+	"txtTools": {
+		"message": "Instellingen"
+	},
+	"toolExportCSV": {
+		"message": "Zet je taken om naar .CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Verwijder alle taak geschiedenis"
+	},
+	"toolClearData": {
+		"message": "Verwijder alle opgeslagen applicatiegegevens"
+	},
+	"toolResetSettings": {
+		"message": "Reset naar Standaardinstellingen"
+	},
+	"txtSettings": {
+		"message": "Instellingen"
+	},
+	"txtGeneralSettings": {
+		"message": "Algemene Instellingen"
+	},
+	"optEnableCharts": {
+		"message": "Activeer cirkeldiagrammen"
+	},
+	"optHideNotice": {
+		"message": "Verberg het berichtenvenster"
+	},
+	"optConfirmReset": {
+		"message": "Vraag voor een bevestiging wanneer je een taak probeert te resetten"
+	},
+	"optConfirmDelete": {
+		"message": "Vraag om een bevestiging als je een taak wilt verwijderen"
+	},
+	"optStartDefault": {
+		"message": "Vink standaard het \"Start\" selectievakje aan"
+	},
+	"optSaveFields": {
+		"message": "Bewaar wat je in de nieuwe-taak-velden hebt staan wanneer je de app opnieuw opstart"
+	},
+	"optUseIcons": {
+		"message": "Gebruik een icoon in plaats van knoppen voor de taak opties (geschikt voor kleine schermen)"
+	},
+	"opt12Hour": {
+		"message": "Gebruik een 12-uurs formaat om tijd weer te geven indien toepasbaar"
+	},
+	"optCustomDialogs": {
+		"message": "Gebruik alternatieve dialoog vensters in plaats van de standaard Chroom dialoogvensters"
+	},
+	"optUpdateAlert": {
+		"message": "Open de applicatie wanneer een update is doorgevoerd"
+	},
+	"txtTaskSettings": {
+		"message": "Taak Instellingen"
+	},
+	"optEnableSync": {
+		"message": "Activeer de synchroniseer functie. (EXPERIMENTEEL, er kunnen ongewenste veranderingen optreden in de takenlijst)"
+	},
+	"optTrackHistory": {
+		"message": "Houd taak geschiedenis bij (zodat je statistieken kan bekijken voor elke taak)"
+	},
+	"optNoOvertime": {
+		"message": "Sta niet toe om de tijdsduur van een taak over de gestelde limiet te laten lopen"
+	},
+	"optStopTimer": {
+		"message": "Stop de taak wanneer het gestelde doel bereikt is"
+	},
+	"optOnlyOne": {
+		"message": "Sta toe om slechts 1 taak tegelijk te laten lopen"
+	},
+	"txtNotifSettings": {
+		"message": "Notificatie Instellingen"
+	},
+	"optShowPopup": {
+		"message": "Laat een notificatie pop-up zien op de pagina wanneer een taak zijn doel bereikt."
+	},
+	"optShowNotification": {
+		"message": "Laat een desktop notificatie zien wanneer een taak zijn doel bereikt"
+	},
+	"optPlaySound": {
+		"message": "Speel een geluid wanneer een taak zijn doel bereikt"
+	},
+	"optUseDefault": {
+		"message": "Gebruik het standaard geluid"
+	},
+	"optUseCustom": {
+		"message": "Stel een ander geluid in"
+	},
+	"optSoundURL": {
+		"message": "Alternatief geluid URL"
+	},
+	"optBtnPreview": {
+		"message": "Voorbeeld weergave van het geluid"
+	},
+	"optLoopSound": {
+		"message": "Herhaal het geluid tot je het afzet"
+	},
+	"txtPerfSettings": {
+		"message": "Prestatieinstellingen"
+	},
+	"optUpdateTime1": {
+		"message": "Vernieuw de taak looptijd elke"
+	},
+	"optUpdateTime2": {
+		"message": "second(en)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Vernieuw de taart-grafiek elke"
+	},
+	"txtSaveSettings": {
+		"message": "Instellingen opslaan"
+	},
+	"txtJSError": {
+		"message": "Er is een fout is opgetreden. Stuur aub een foutomschrijving met de volgende informatie:"
+	},
+	"txtTriedRefresh": {
+		"message": "Heb je geprobeerd de applicatie te herladen?"
+	},
+	"txtUsualFix": {
+		"message": "Dit zal vrijwel elke fout oplossen, maar alle taken en instellingen zullen worden gewist."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Annueleren"
+	},
+	"btnYes": {
+		"message": "Ja"
+	},
+	"btnNo": {
+		"message": "Nee"
+	},
+	"btnClose": {
+		"message": "Sluiten"
+	},
+	"btnCloseNotice": {
+		"message": "Sluit notificatie"
+	},
+	"btnStopAlarm": {
+		"message": "Stop het alarm"
+	},
+	"btnSave": {
+		"message": "Opslaan"
+	},
+	"confResetTask": {
+		"message": "Weet je zeker dat je de taak \"$taskName$\" wilt resetten?\nDit zal de taak geschiedenis niet wissen.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Weet je zeker dat je de taak \"$taskName$\" wilt verwijderen?\nDit zal ook de taak geschiedenis wissen.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Weet je zeker dat je de geschiedenis van de taak \"$taskName$\" wilt verwijderen?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Weet je zeker dat je de verstreken tijd voor al je taken wilt resetten?"
+	},
+	"confDeleteAll": {
+		"message": "Weet je zeker dat je al jouw taken wilt verwijderen?"
+	},
+	"confClearAllHistory": {
+		"message": "Weet je zeker dat je de geschiedenis van alle taken wilt verwijderen?"
+	},
+	"confResetData": {
+		"message": "Weet je zeker dat je alle opgeslagen applicatie data van Task Timer wilt verwijderen?\nAlle opgeslagen taken en instellingen zullen worden gewist."
+	},
+	"confResetSettings": {
+		"message": "Weet je zeker dat je alle instellingen wilt terugzetten naar de standaard waarden?"
+	},
+	"confUpdated": {
+		"message": "Task Timer is bijgewerkt tot versie $version$!\nWil je de lijst met doorgevoerde veranderingen bekijken?\nWees ervan bewust dat indien Chrome de update automatisch heeft doorgevoerd taken die aan het lopen waren opnieuw moeten worden gestart.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Zou je deze applicatie een waardering\/review willen geven in de Chrome Web Store?\nDit wordt erg gewaardeerd!"
+	},
+	"confSmallWindow": {
+		"message": "Het ziet ernaar uit dat je Taak Timer gebruikt in een klein venster, kleine monitor of op een lage resolutie. Wil je de knoppen in de taaklijst veranderen in icoontjes? Dit zal ervoor zorgen dat taken niet meer dan een regel innemen.\n\nDeze instelling kan ook veranderd worden in het instellingenmenu."
+	},
+	"noteTaskFinished": {
+		"message": "Taak Voltooid!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Taak \"$taskName$\" heeft zijn doelstelling bereikt.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Desktop Notificaties werken!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Als je dit ziet zijn desktop notificaties ingeschakelt en werkt alles correct! Yippy!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Het ziet ernaar uit dat je een pad naar een lokaal bestand op je machine gebruikt voor de URL van het aangepaste geluid. Helaas kunnen lokale bestanden niet gebruikt worden, omdat Chrome geen toegang toestaat tot jouw lokale bestandensysteem, zelfs niet voor een geluidje. \nAlleen internet-URL's (beginnend met http, https of ftp) kunnen gebruikt worden. Dit betekent dat je online een geluid moet vinden, of het geluid dat je wilt ergens zal moeten uploaden."
+	},
+	"noteErrorOccurred": {
+		"message": "Een fout heeft zich voorgedaan!"
+	},
+	"sucSavedDesc": {
+		"message": "Beschrijving opgeslagen!"
+	},
+	"sucSavedSettings": {
+		"message": "Instellingen opgeslagen!"
+	},
+	"sucSyncReceived": {
+		"message": "Taak gegevens ontvangen voor synchronisatie!"
+	},
+	"sucSyncSent": {
+		"message": "Taak gegevens verstuurd voor synchronisatie!"
+	},
+	"errGeneric": {
+		"message": "Fout!"
+	},
+	"errTask": {
+		"message": "Ongeldige naam of doel van de taak."
+	},
+	"errTaskName": {
+		"message": "Ongeldige naam van de taak."
+	},
+	"errTaskTime": {
+		"message": "Ongeldige tijd."
+	},
+	"errGoalTime": {
+		"message": "Ongeldige tijd van het doel."
+	},
+	"errSoundURL": {
+		"message": "De URL voor het alternatief geluidsbestand is ongeldig."
+	},
+	"errFinishEditing": {
+		"message": "Bevestig eerst de bewerking van de taak \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "De applicatie is reeds aan het lopen.\nProbeer all chrome vensters te sluiten en opnieuw te starten als dit onjuist blijkt te zijn."
+	},
+	"txtSuggestionTitle": {
+		"message": "Doe een suggestie"
+	},
+	"txtSuggestionInfo": {
+		"message": "Om een suggestie achter te laten, kun je [hier] klikken (engels).\nAls niemand anders hetzelfde idee heeft achtergelaten, klik je op \"New issue\". Zorg ervoor dat je \"Enhancement Request\" selecteert als sjabloon, en maak een beschrijvende titel!\nAls je meerdere ideeën hebt, creëer dan alstublieft aparte kwesties voor elk idee."
+	},
+	"txtBugTitle": {
+		"message": "Meld een bug"
+	},
+	"txtBugInfo": {
+		"message": "Om een bug te rapporteren, kun je [hier] klikken.\nAls niemand anders dezelfde bug heeft gerapporteerd, klik je op \"New Issue\". Zorg ervoor dat je een beschrijvende titel maakt!\nAls je meerdere bugs hebt gevonden, creëer dan alstublieft aparte kwesties voor elk idee."
+	}
+}

@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Időbeosztó"
+	},
+	"appDesc": {
+		"message": "Ezen eszköz segítségével egyszerűen nyomon követheti az egyes feladatokkal - munkával, tanulással, egyéb dolgokkal - töltött idejét."
+	},
+	"txtTitle": {
+		"message": "Időbeosztó"
+	},
+	"txtDescription": {
+		"message": "Ezzel az eszközzel nyomon követheti, hogy mennyi időt tölt az adott munkával, tanulással, vagy bármilyen más típusú feladatával."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "A fordítás talán nem pontos"
+	},
+	"txtCreatedBy": {
+		"message": "Készítette [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Hiba bejelentés"
+	},
+	"txtSuggest": {
+		"message": "Van egy ötlete? [Mondja el]"
+	},
+	"txtAbout": {
+		"message": "Leírás"
+	},
+	"txtDonate": {
+		"message": "Adományoz"
+	},
+	"txtLoading": {
+		"message": "Töltés..."
+	},
+	"txtComingSoon": {
+		"message": "Hamarosan!"
+	},
+	"txtHours": {
+		"message": "Óra"
+	},
+	"txtMinutes": {
+		"message": "Perc"
+	},
+	"txtSeconds": {
+		"message": "Másodperc"
+	},
+	"txtIndefinite": {
+		"message": "Határozatlan"
+	},
+	"infoData": {
+		"message": "Megjegyzés: Az alkalmazás a számítógépén lévő böngészőjébe ment.\nNe aggódjon, a feladatok nem törlődnek ha kiüríti a Chrome gyorsítótárát."
+	},
+	"infoSettings": {
+		"message": "Az ütemező beállításainak megtekintéséhez kattintson a fogaskerék gombra az alkalmazás jobb felső sarkában. Beállíthatja az asztali értesítést amikor az adott feladatra szánt idő eltelik."
+	},
+	"infoPerformance": {
+		"message": "Lassúnak tűnik az alkalmazás? Próbálja meg a diagram frissítési idejét növelni, vagy kapcsolja ki az automatikus frissítést. Még mindig lassú? Növelje az általános frissítési időt, vagy tiltsa le az előzményeket."
+	},
+	"infoTranslate": {
+		"message": "Szeretne segíteni más nyelvekre lefordítani a Időbeosztó? Kattintson [ide]."
+	},
+	"infoTotals": {
+		"message": "Ez az összesítő sor. Csak akkor jelenik meg, hogy egynél több feladata fut.\n\nA \"eltöltött idő\" oszlop az valamennyi feladattal kapcsolatban összesen eltöltött időt mutatja.\nA \"Cél\" oszlopban az összes feladatra fordítható idő összegét mutatja.\nA \"Folyamatjelző\" az elérendő célhoz hátralevő időt jeleníti meg grafikusan. Ez a folyamatjelző nem jeleníti meg az egyes feladatokból hátralévő, illetve a meghatározatlan idejű feladatokat."
+	},
+	"txtNoTasks": {
+		"message": "Nem tudsz több feladatot létrehozni!"
+	},
+	"txtEditTasks": {
+		"message": "Kattints duplán a feladatnevén, idején, végén hogy módosíthasd."
+	},
+	"lblTask": {
+		"message": "Feladat"
+	},
+	"lblTimeSpent": {
+		"message": "Eltelt idő"
+	},
+	"lblGoal": {
+		"message": "Vége"
+	},
+	"lblProgress": {
+		"message": "Folyamatban"
+	},
+	"lblOptions": {
+		"message": "Beállítások"
+	},
+	"lblTotals": {
+		"message": "Összesen"
+	},
+	"btnStart": {
+		"message": "Kezdés"
+	},
+	"btnStop": {
+		"message": "Állj"
+	},
+	"btnInfo": {
+		"message": "Információ"
+	},
+	"btnReset": {
+		"message": "Alaphelyzet"
+	},
+	"btnDelete": {
+		"message": "Törlés"
+	},
+	"btnClearHistory": {
+		"message": "Előzmények törlése"
+	},
+	"btnResetAll": {
+		"message": "Összes alaphelyzetbe"
+	},
+	"btnDeleteAll": {
+		"message": "Összes törlése"
+	},
+	"lblName": {
+		"message": "Név"
+	},
+	"lblTaskName": {
+		"message": "Feladat neve"
+	},
+	"lblGoalBoth": {
+		"message": "Vége (óra:perc)"
+	},
+	"lblGoalHours": {
+		"message": "Vége óra"
+	},
+	"lblGoalMinutes": {
+		"message": "Vége Perc"
+	},
+	"lblIndefinite": {
+		"message": "Határozatlan"
+	},
+	"lblStart": {
+		"message": "Kezdés"
+	},
+	"lblStartNow": {
+		"message": "Feladat kezdése azonnal"
+	},
+	"btnAddTask": {
+		"message": "Feladat hozzáadása"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Feladat eltel ideje"
+	},
+	"txtTotalPieTitle": {
+		"message": "Összes felhasznált idő"
+	},
+	"txtTaskInfo": {
+		"message": "Feladat információ"
+	},
+	"txtNoDescription": {
+		"message": "Írja be a feladattal kapcsolatos információkat\/megjegyzéseket"
+	},
+	"txtTaskOptions": {
+		"message": "Feladat beállítások"
+	},
+	"txtHistory": {
+		"message": "Előzmény"
+	},
+	"txtHistoryDisabled": {
+		"message": "A feladat előzmény követő kikapcsolva. Az eszközök menüben tudod visszakapcsolni."
+	},
+	"txtSelectDate": {
+		"message": "Válasz dátumot."
+	},
+	"txtNoHistory": {
+		"message": "Nincs előzménye ennek a napnak"
+	},
+	"lblDescription": {
+		"message": "Leírás"
+	},
+	"lblHour": {
+		"message": "Óra"
+	},
+	"tskExcludeTotals": {
+		"message": "Hagyd ki ezt a feladatot az összesen sorból"
+	},
+	"tskExcludeCharts": {
+		"message": "Hagyd ki ezt a feladatot a torta diagramból"
+	},
+	"txtTools": {
+		"message": "Eszközök"
+	},
+	"toolExportCSV": {
+		"message": "A feladatok exportálása CSV fileként."
+	},
+	"toolClearAllHistory": {
+		"message": "Az összes előzmény törlése."
+	},
+	"toolClearData": {
+		"message": "Az alkalmazás által mentett adatok törlése."
+	},
+	"toolResetSettings": {
+		"message": "Alaphelyzetbe állít"
+	},
+	"txtSettings": {
+		"message": "Beállítások"
+	},
+	"txtGeneralSettings": {
+		"message": "Általános beállítások"
+	},
+	"optEnableCharts": {
+		"message": "Kördiagram engedélyezése"
+	},
+	"optHideNotice": {
+		"message": "Az emlékeztető elrejtése"
+	},
+	"optConfirmReset": {
+		"message": "Kérjen megerősítést, amikor alaphelyzetbe akarja állítani a feladatot"
+	},
+	"optConfirmDelete": {
+		"message": "Kérjen megerősítést, amikor egy feladatot törölni akar"
+	},
+	"optStartDefault": {
+		"message": "A start jelölődoboz bekapcsolva alaphelyzetben"
+	},
+	"optSaveFields": {
+		"message": "Az alkalmazás újraindításakor emlékezzem az új feladat mezőbe írtakra"
+	},
+	"optUseIcons": {
+		"message": "Ikonok használata a feladatok beállításainál (kis képernyőnél hasznos)"
+	},
+	"opt12Hour": {
+		"message": "12 órás formátum használata"
+	},
+	"optCustomDialogs": {
+		"message": "Az alkalmazás saját párbeszédablakainak használata a Chrome beépített párbeszédablakai helyett"
+	},
+	"optUpdateAlert": {
+		"message": "Frissítéskor indítsa el az alkalmazást"
+	},
+	"txtTaskSettings": {
+		"message": "Feladat beállítás"
+	},
+	"optEnableSync": {
+		"message": "A szinkronizáció bekapcsolása (Kísérleti változat, összezavarhatja a feladatokat)"
+	},
+	"optTrackHistory": {
+		"message": "Kövesd a feladat előzményeket (így statisztikákat láthatsz a feladatokhoz)"
+	},
+	"optNoOvertime": {
+		"message": "Ne engedd, hogy a feladatok tovább tartsanak a meghatározott időnél"
+	},
+	"optStopTimer": {
+		"message": "Állítsa meg a feladatot amikor elérte a kitűzött célt"
+	},
+	"optOnlyOne": {
+		"message": "Csak egy feladatot engedélyezz egy időben"
+	},
+	"txtNotifSettings": {
+		"message": "Figyelmeztetés beállítás"
+	},
+	"optShowPopup": {
+		"message": "A feladat befejezésekor felugró ablakban jelenítse azt meg."
+	},
+	"optShowNotification": {
+		"message": "Jelenjen meg egy figyelmeztető ablak, ha a feladat ideje lejárt"
+	},
+	"optPlaySound": {
+		"message": "Hang lejátszása a feladat befejezésekor"
+	},
+	"optUseDefault": {
+		"message": "Alapértelmezett hang lejátszása"
+	},
+	"optUseCustom": {
+		"message": "Egyedi hang használata"
+	},
+	"optSoundURL": {
+		"message": "Egyedi hang URL"
+	},
+	"optBtnPreview": {
+		"message": "Hang meghallgatása"
+	},
+	"optLoopSound": {
+		"message": "Ismétled a hangot amíg meg nem állítom"
+	},
+	"txtPerfSettings": {
+		"message": "Teljesítmény beállítások"
+	},
+	"optUpdateTime1": {
+		"message": "Frissítsd a feladat idejét minden"
+	},
+	"optUpdateTime2": {
+		"message": "Másodperc"
+	},
+	"optChartUpdateTime1": {
+		"message": "Frissítsd a tortadiagramot minden"
+	},
+	"txtSaveSettings": {
+		"message": "Beállítások mentése"
+	},
+	"txtJSError": {
+		"message": "Valami hiba történt a script futása közben. Kérem jelentsd a hibát az alábbi információval, és írd meg mit csináltál és mi történt."
+	},
+	"txtTriedRefresh": {
+		"message": "Frissítette az alkalmazást?"
+	},
+	"txtUsualFix": {
+		"message": "Ez általában megjavít minden hibát, de törli az összes feladatot és beállításod"
+	},
+	"btnOK": {
+		"message": "Ok"
+	},
+	"btnCancel": {
+		"message": "Mégse"
+	},
+	"btnYes": {
+		"message": "Igen"
+	},
+	"btnNo": {
+		"message": "Nem"
+	},
+	"btnClose": {
+		"message": "Bezárás"
+	},
+	"btnCloseNotice": {
+		"message": "Bezárás figyelmeztetés"
+	},
+	"btnStopAlarm": {
+		"message": "Megállítás riasztás"
+	},
+	"btnSave": {
+		"message": "Mentés"
+	},
+	"confResetTask": {
+		"message": "Biztos benne, hogy alaphelyzetbe akarja állítani a \"$taskName$\" feladatot?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Biztos törölni akarod a(z) \"$taskName$\" feladatot?\nEz törli a feladat előzményét is!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Biztos benne hogy törli a  \"$taskName$\" feladat előzményeit?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Biztos benne hogy alaphelyzetbe állítja az összes felhasznált időt?"
+	},
+	"confDeleteAll": {
+		"message": "Biztos benne hogy törli a feladatot?"
+	},
+	"confClearAllHistory": {
+		"message": "Biztos benne hogy az összes feladat előzményt?"
+	},
+	"confResetData": {
+		"message": "Biztos törölni akarod a Task Timer minden adatát?\nEz törli a a feladatokat és beállításokat is!"
+	},
+	"confResetSettings": {
+		"message": "Biztos vissza akarod állítani az összes beállításodat alapértelmezettre"
+	},
+	"confUpdated": {
+		"message": "A Task Timer frissítve a \"$version$\" verzióra.\nMegakarod nézni a változásokat?\nNe feledd, hogy újra indítsd a feladataidat, ha a Chrome auto-update folyamatban frissített, amikor a program futott.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Nem akarnád osztályozni ezt a programot a Chrome Web Store-ban?\nEz tényleg segítene nekünk!"
+	},
+	"confSmallWindow": {
+		"message": "Úgy tűnik a Task Timer-t kis ablakban futtatod, vagy kis monitoron, vagy kis felbontáson. Nem akarsz inkább ikonokra váltani, gombok helyett a feladat listában? Ez biztosítja, hogy a feladatok nem foglalnak el többet egy sornál.\nEz a beállítás is módosítható az eszközök menüben."
+	},
+	"noteTaskFinished": {
+		"message": "Feladat vége!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "A \"$taskName$\" feladat végéhez ért!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Asztal figyelmeztetés beállítva!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Ha ezt látod, akkor az asztali értesítők be vannak állítva és jól működnek! Hurrá! :)"
+	},
+	"noteNoLocalFiles": {
+		"message": "Úgy néz ki, mintha egy utat egy helyi fájlt készülék az egyéni hang URL-t.\nSajnos, a helyi fájlokat nem lehet használni, mivel a Chrome nem teszi lehetővé a hozzáférést a helyi fájlrendszer, még egy hang.\nCsak az internet URL (kezdődő http, https vagy ftp) lehet használni. Ez azt jelenti, hogy meg kell találni a megfelelő online, vagy töltse fel a kívánt hangot valahol."
+	},
+	"noteErrorOccurred": {
+		"message": "Egy hiba történt!"
+	},
+	"sucSavedDesc": {
+		"message": "Leírás elmentve!"
+	},
+	"sucSavedSettings": {
+		"message": "Beállítások elmentve!"
+	},
+	"sucSyncReceived": {
+		"message": "Szinkronizáláshoz adat megérkezett!"
+	},
+	"sucSyncSent": {
+		"message": "Küld a feladat adatát szinkornizáláshoz"
+	},
+	"errGeneric": {
+		"message": "Hiba!"
+	},
+	"errTask": {
+		"message": "Érvénytelen  feladat név vagy vége időpont"
+	},
+	"errTaskName": {
+		"message": "Érvénytelen feladatnév"
+	},
+	"errTaskTime": {
+		"message": "Érvénytelen időpont."
+	},
+	"errGoalTime": {
+		"message": "Érvénytelen vége időpont"
+	},
+	"errSoundURL": {
+		"message": "Érvénytelen egyedi hang URL"
+	},
+	"errFinishEditing": {
+		"message": "Előszőr fejezd be a \"$taskName$\" feladat szerkesztését!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "A program már meg van nyitva. \nHa ez hibásnak tűnik, próbáld meg bezárni a Chrome ablakot és újraindítani a böngészőt."
+	},
+	"txtSuggestionTitle": {
+		"message": "Ajánlat"
+	},
+	"txtSuggestionInfo": {
+		"message": "Ahhoz, hogy javaslatot tegyen kérem kattintson [ide].\nHa senki nem javasolta ugyanezt a gondolatot, kattintson az \"Új kérdés\". Győződjön meg róla, hogy válassza ki a \"Enhancement Request\" a sablont, és a címet is leírást!\nHa több ötlete van, kérjük hozzon létre egy külön kérdést mindegyikre."
+	},
+	"txtBugTitle": {
+		"message": "Hiba bejelentés"
+	},
+	"txtBugInfo": {
+		"message": "Hiba bejelentésére kérem kattintson [ide].\nHa senki nem javasolta ugyanezt a gondolatot, kattintson az \"Új kérdés\". Győződjön meg róla, hogy válassza ki a \"Enhancement Request\" a sablont, és a címet is leírást!\nHa több ötlete van, kérjük hozzon létre egy külön kérdést mindegyikre."
+	}
+}

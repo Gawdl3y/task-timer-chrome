@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Task Timer"
+	},
+	"appDesc": {
+		"message": "O unealtă simplă care vă ajută să contabilizaţi timpul petrecut în diverse sarcini de lucru, cum ar fi munca, studiile sau alte lucruri."
+	},
+	"txtTitle": {
+		"message": "Task Timer"
+	},
+	"txtDescription": {
+		"message": "Folosiţi această unealtă pentru a contabiliza timpul pe care îl petreceţi muncind, studiind sau îndeplinind orice altă sarcină de lucru."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "E posibil ca traducerile să nu fie corecte."
+	},
+	"txtCreatedBy": {
+		"message": "Creat de [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Raportează o defecţiune"
+	},
+	"txtSuggest": {
+		"message": "Ai o idee? [Spune-mi-o]"
+	},
+	"txtAbout": {
+		"message": "Despre"
+	},
+	"txtDonate": {
+		"message": "Donează!"
+	},
+	"txtLoading": {
+		"message": "Se încarcă ..."
+	},
+	"txtComingSoon": {
+		"message": "În curând!"
+	},
+	"txtHours": {
+		"message": "Ore"
+	},
+	"txtMinutes": {
+		"message": "Minute"
+	},
+	"txtSeconds": {
+		"message": "Secunde"
+	},
+	"txtIndefinite": {
+		"message": "Nedefinit"
+	},
+	"infoData": {
+		"message": "Notă: Aceste informaţii se salvează doar local, pe computerul tău, în browserul tău.\nNu-ţi face griji, sarcinile tale de lucru **nu** vor fi şterse când vei curăţa cache-ul\/memoria browserului Chrome."
+	},
+	"infoSettings": {
+		"message": "Asigură-te că ai verificat toate setările dând click pe butonul de tip pinion din colţul din dreapta sus al aplicaţiei!\nSunt setări, cum ar fi notificările pe desktop atunci când o sarcină de lucru se termină."
+	},
+	"infoPerformance": {
+		"message": "Aplicaţia rulează prea încet pentru tine? Încearcă să măreşti în setări timpul de updatare a diagramei circulare sau chiar să anulezi complet diagramele circulare. Tot mai rulează încet? Măreşte timpul general de update sau anulează urmărirea istoriei sarcinilor de lucru."
+	},
+	"infoTranslate": {
+		"message": "Vrei să ajuţi la traducerea aplicaţiei Task Timer în alte limbi? Dă click [aici]."
+	},
+	"infoTotals": {
+		"message": "Acesta este rândul totalurilor. Apare doar atunci când ai mai mult de o sarcină de lucru.\n\nColoana \"Timp petrecut\" a acestui rând totalizează timpul petrecut pe fiecare sarcină de lucru.\nColoana \"Ţintă\" a acestui rând totalizează toţi timpii propuşi ca ţintă de la toate sarcinile tale de lucru, cu excepţia celor nedefinite.\nColoana \"Progres\" a acestui rând îţi dă progresul total înregistrat în îndeplinirea timpilor-ţintă ai tuturor sarcinilor de lucru. Acest progres nu include timpul petrecut peste ţinta de timp a unei sarcini de lucru sau timpul petrecut pe sarcini de lucru cu ţinte nedefinite."
+	},
+	"txtNoTasks": {
+		"message": "Nu ai creat încă nicio sarcină de lucru!"
+	},
+	"txtEditTasks": {
+		"message": "Dublu-click pe numele, timpul sau ţinta unei sarcini de lucru pentru a o edita."
+	},
+	"lblTask": {
+		"message": "Sarcina de lucru"
+	},
+	"lblTimeSpent": {
+		"message": "Timp petrecut"
+	},
+	"lblGoal": {
+		"message": "Ţintă"
+	},
+	"lblProgress": {
+		"message": "Progres"
+	},
+	"lblOptions": {
+		"message": "Opţiuni"
+	},
+	"lblTotals": {
+		"message": "Totaluri"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stop"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Resetare"
+	},
+	"btnDelete": {
+		"message": "Ştergere"
+	},
+	"btnClearHistory": {
+		"message": "Curăţă istoria"
+	},
+	"btnResetAll": {
+		"message": "Resetare totală"
+	},
+	"btnDeleteAll": {
+		"message": "Ştergere totală"
+	},
+	"lblName": {
+		"message": "Nume"
+	},
+	"lblTaskName": {
+		"message": "Numele sarcinii de lucru"
+	},
+	"lblGoalBoth": {
+		"message": "Ţintă (ore : minute)"
+	},
+	"lblGoalHours": {
+		"message": "Orele ţintei"
+	},
+	"lblGoalMinutes": {
+		"message": "Minutele ţintei"
+	},
+	"lblIndefinite": {
+		"message": "Nedefinit"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Începe sarcina de lucru imediat"
+	},
+	"btnAddTask": {
+		"message": "Adaugă sarcină de lucru"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Timp petrecut pe sarcinile de lucru"
+	},
+	"txtTotalPieTitle": {
+		"message": "Totalul timpului petrecut până acum (istorie)"
+	},
+	"txtTaskInfo": {
+		"message": "Informaţii despre sarcina de lucru"
+	},
+	"txtNoDescription": {
+		"message": "Introdu informaţii\/comentarii despre sarcina de lucru"
+	},
+	"txtTaskOptions": {
+		"message": "Opţiunile sarcinii de lucru"
+	},
+	"txtHistory": {
+		"message": "Istorie"
+	},
+	"txtHistoryDisabled": {
+		"message": "Urmărirea istoricului sarcinilor este dezactivată. O poţi activa în meniul instrumentelor."
+	},
+	"txtSelectDate": {
+		"message": "Alege o dată."
+	},
+	"txtNoHistory": {
+		"message": "Nu există date de istorie salvate pentru acea zi."
+	},
+	"lblDescription": {
+		"message": "Descriere"
+	},
+	"lblHour": {
+		"message": "Oră"
+	},
+	"tskExcludeTotals": {
+		"message": "Exclude această sarcină de lucru din rândul totalurilor"
+	},
+	"tskExcludeCharts": {
+		"message": "Exclude această sarcină de lucru din diagramele circulare"
+	},
+	"txtTools": {
+		"message": "Unelte"
+	},
+	"toolExportCSV": {
+		"message": "Exportă sarcinile de lucru ca un fişier de tip CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Curăţă toată istoria sarcinilor de lucru"
+	},
+	"toolClearData": {
+		"message": "Curăţă toate datele aplicaţiei"
+	},
+	"toolResetSettings": {
+		"message": "Resetare la implicit"
+	},
+	"txtSettings": {
+		"message": "Setări"
+	},
+	"txtGeneralSettings": {
+		"message": "Setări generale"
+	},
+	"optEnableCharts": {
+		"message": "Activează diagramele circulare"
+	},
+	"optHideNotice": {
+		"message": "Ascunde căsuţa de notificare"
+	},
+	"optConfirmReset": {
+		"message": "Cere confirmare atunci când încerci să resetezi o sarcină de lucru"
+	},
+	"optConfirmDelete": {
+		"message": "Cere confirmare atunci când încerci să ştergi o sarcină de lucru"
+	},
+	"optStartDefault": {
+		"message": "Bifează căsuţa \"Start\" în mod implicit"
+	},
+	"optSaveFields": {
+		"message": "Păstrează ce ai în câmpurile noii sarcini de lucru atunci când reporneşti aplicaţia"
+	},
+	"optUseIcons": {
+		"message": "Foloseşte iconuri în loc de butoane pentru opţiunile sarcinilor de lucru (bun pentru ecranele mici)"
+	},
+	"opt12Hour": {
+		"message": "Foloseşte formatul de 12 ore pentru timpi acolo unde este cazul"
+	},
+	"optCustomDialogs": {
+		"message": "Foloseşte dialoguri particularizate, nu pe cele integrate în Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Deschide aplicaţia după ce s-a updatat"
+	},
+	"txtTaskSettings": {
+		"message": "Setările sarcinii de lucru"
+	},
+	"optEnableSync": {
+		"message": "Activează sincronizarea (EXPERIMENTAL, îţi poate încurca sarcinile)"
+	},
+	"optTrackHistory": {
+		"message": "Urmăreşte istoria sarcinilor de lucru (pentru a putea vedea statistici pentru fiecare sarcină de lucru)"
+	},
+	"optNoOvertime": {
+		"message": "Nu permite sarcinilor de lucru să ruleze dincolo de ţintele lor"
+	},
+	"optStopTimer": {
+		"message": "Opreşte o sarcină de lucru atunci când şi-a atins ţinta"
+	},
+	"optOnlyOne": {
+		"message": "Nu permite să ruleze mai multe sarcini de lucru în acelaşi timp"
+	},
+	"txtNotifSettings": {
+		"message": "Setări pentru notificări"
+	},
+	"optShowPopup": {
+		"message": "Arată o căsuţă de tip pop-up atunci când sarcina de lucru şi-a atins ţinta"
+	},
+	"optShowNotification": {
+		"message": "Arată o notificare pe desktop atunci când sarcina de lucru şi-a atins ţinta"
+	},
+	"optPlaySound": {
+		"message": "Rulează un sunet atunci când sarcina de lucru şi-a atins ţinta"
+	},
+	"optUseDefault": {
+		"message": "Foloseşte sunetul implicit"
+	},
+	"optUseCustom": {
+		"message": "Foloseşte un sunet particularizat"
+	},
+	"optSoundURL": {
+		"message": "URL pentru sunetul particularizat"
+	},
+	"optBtnPreview": {
+		"message": "Previzualizează sunetul"
+	},
+	"optLoopSound": {
+		"message": "Repetă sunetul până îl opreşti"
+	},
+	"txtPerfSettings": {
+		"message": "Setări de performanţă"
+	},
+	"optUpdateTime1": {
+		"message": "Updatează timpul sarcinilor de lucru la fiecare"
+	},
+	"optUpdateTime2": {
+		"message": "secundă(e)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Updatează diagramele circulare la fiecare"
+	},
+	"txtSaveSettings": {
+		"message": "Salvează setările"
+	},
+	"txtJSError": {
+		"message": "A apărut o eroare undeva în script. Vă rugăm raportaţi defecţiunea împreună cu următoarele informaţii, precum şi cu o descriere a ceea ce făceaţi\/ce s-a întâmplat:"
+	},
+	"txtTriedRefresh": {
+		"message": "Aţi încercat să reîncărcaţi aplicaţia?"
+	},
+	"txtUsualFix": {
+		"message": "Aceasta va repara în mod normal orice defecţiune, însă vă va curăţa toate setările şi sarcinile de lucru."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Anulează"
+	},
+	"btnYes": {
+		"message": "Da"
+	},
+	"btnNo": {
+		"message": "Nu"
+	},
+	"btnClose": {
+		"message": "Închide"
+	},
+	"btnCloseNotice": {
+		"message": "Închide notificarea"
+	},
+	"btnStopAlarm": {
+		"message": "Opreşte alarma"
+	},
+	"btnSave": {
+		"message": "Salvează"
+	},
+	"confResetTask": {
+		"message": "Eşti sigur că vrei să resetezi sarcina de lucru \"$taskName$\"?\nAceasta nu va reseta istoria sarcinii de lucru.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Eşti sigur că vrei să ştergi sarcina de lucru \"$taskName$\"?\nAceasta va şterge şi istoria sarcinii de lucru.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Eşti sigur că vrei să cureţi istoria sarcinii de lucru \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Eşti sigur că vrei să resetezi timpul petrecut pe toate sarcinile tale de lucru?"
+	},
+	"confDeleteAll": {
+		"message": "Eşti sigur că vrei să ştergi toate sarcinile tale de lucru?"
+	},
+	"confClearAllHistory": {
+		"message": "Eşti sigur că vrei să cureţi istoria tuturor sarcinilor tale de lucru?"
+	},
+	"confResetData": {
+		"message": "Eşti sigură că vrei să elimini complet toate datele Task Timer?\nAceasta va şterge setările şi sarcinile tale de lucru."
+	},
+	"confResetSettings": {
+		"message": "Eşti sigur că vrei să resetezi toate setările la valorile lor implicite?"
+	},
+	"confUpdated": {
+		"message": "Task Timer s-a updatat la versiunea $version$!\nAi vrea să vezi jurnalul de modificări?\nAtenţie! Va trebui să îţi reporneşi sarcinile de lucru dacă browserul Chrome a autoupdatat aplicaţia în timp ce vreuna dintre ele rula.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Ai vrea să evaluezi\/recenzezi această aplicaţie pe Chrome Web Store?\nM-ar ajuta enorm!"
+	},
+	"confSmallWindow": {
+		"message": "Se pare că Task Timer rulează într-o fereastră micşorată, pe un monitor mic sau la o rezoluţie mică. Ai vrea să foloseşti iconuri în loc de butoane în lista de sarcini de lucru? Asta va face ca sarcinile să nu ocupe mai mult de un rând fiecare.\n\nAceastă setare poate fi schimbată de asemenea din meniul uneltelor."
+	},
+	"noteTaskFinished": {
+		"message": "Sarcină de lucru finalizată!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Sarcina de lucru \"$taskName$\" şi-a atins ţinta!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Notificările pe desktop merg!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Dacă vezi asta, înseamnă că notificările pe desktop sunt activate şi funcţionează corect!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Se pare că foloseşti o cale spre un fişier local de pe calculatorul tău pentru URL-ul sunetului particularizat.\nDin păcate, fişierele locale nu pot fi folosite, deoarece Chrome nu permite accesul la sistemul tău local de fişiere, nici măcar pentru un sunet. Doar URL-uri de internet (care încep cu http, https sau ftp) pot fi folosite. Aceasta înseamnă că va trebui să cauţi un sunet online sau să uploadezi undeva sunetul pe care îl doreşti."
+	},
+	"noteErrorOccurred": {
+		"message": "A apărut o eroare!"
+	},
+	"sucSavedDesc": {
+		"message": "Descriere salvată!"
+	},
+	"sucSavedSettings": {
+		"message": "Setări salvate!"
+	},
+	"sucSyncReceived": {
+		"message": "Am primit date ale sarcinilor, pentru sincronizare!"
+	},
+	"sucSyncSent": {
+		"message": "Am trimis date ale sarcinilor, pentru sincronizare!"
+	},
+	"errGeneric": {
+		"message": "Eroare!"
+	},
+	"errTask": {
+		"message": "Nume de sarcină sau ţintă nevalid."
+	},
+	"errTaskName": {
+		"message": "Nume de sarcină de lucru nevalid."
+	},
+	"errTaskTime": {
+		"message": "Timp nevalid."
+	},
+	"errGoalTime": {
+		"message": "Timp-ţintă nevalid."
+	},
+	"errSoundURL": {
+		"message": "URL pentru sunet particularizat nevalid."
+	},
+	"errFinishEditing": {
+		"message": "Termină mai întâi de editat sarcina de lucru \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplicaţie este deja pornită.\nDacă nu este bine acest lucru, încearcă să închizi toate ferestrele Chromw şi să-l reporneşti."
+	},
+	"txtSuggestionTitle": {
+		"message": "Fă o sugestie!"
+	},
+	"txtSuggestionInfo": {
+		"message": "Pentru a face o sugestie, dă click [aici].\nDacă nimeni nu a mai avut sugestia ta, dă click pe \"Problemă nouă\". Asigură-te că ai selectat ca şablon \"Cerere de îmbunătăţire\" şi dă-i un nume sugestiv!\nDacă ai mai multe idei, te rog să creezi o problemă separată pentru fiecare."
+	},
+	"txtBugTitle": {
+		"message": "Raportează o defecţiune!"
+	},
+	"txtBugInfo": {
+		"message": "Pentru a raporta o defecţiune, dă click [aici].\nDacă nimeni nu a mai raportat aceeaşi defecţiune, dă click pe \"Problemă nouă\". Asigură-te că i-ai dat problemei un nume sugestiv!\nDacă ai găsit mai multe defecţiuni, te rog să creezi o problemă separată pentru fiecare.\nAsigură-te că incluzi datele de mai jos în raportul tău!"
+	}
+}

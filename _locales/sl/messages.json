@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Štoparica opravil"
+	},
+	"appDesc": {
+		"message": "Enostavno orodje, ki pomaga nadzorovati čas porabljen za različne naloge, kot so delo, študij in podobno."
+	},
+	"txtTitle": {
+		"message": "Štoparica opravil"
+	},
+	"txtDescription": {
+		"message": "Uporabite to orodje za spremljanje časa, ki ga porabite za delo, študij ali katera koli druga vrsta nalog.Undo edits"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Prevod morda ni točen."
+	},
+	"txtCreatedBy": {
+		"message": "Izdelal je [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Prijavi napako"
+	},
+	"txtSuggest": {
+		"message": "Imate morda predlog?  [Povejte mi]"
+	},
+	"txtAbout": {
+		"message": "O aplikaciji"
+	},
+	"txtDonate": {
+		"message": "Donirajte"
+	},
+	"txtLoading": {
+		"message": "Nalagam...."
+	},
+	"txtComingSoon": {
+		"message": "Kmalu!"
+	},
+	"txtHours": {
+		"message": "Ure"
+	},
+	"txtMinutes": {
+		"message": "Minute"
+	},
+	"txtSeconds": {
+		"message": "Sekunde"
+	},
+	"txtIndefinite": {
+		"message": "Nedoločeno"
+	},
+	"infoData": {
+		"message": "Opozorilo: Shranjevanje poteka lokalno, na vašem računalniku, v vašem brskalniku.\nNe skrbite, opravila se **ne bodo** izbrisala če izbrišete cache v Chrome-u."
+	},
+	"infoSettings": {
+		"message": "Preverite nastavitve s klikom na gumb nastavitve v zgornjem desnem kotu aplikacije!\nNa tem mestu se nahajajo nastavitve kot so opozorilo na namizju ob zaključku opravila."
+	},
+	"infoPerformance": {
+		"message": "Je aplikacija teče počasi za vas? Poskusite povečati posodobitev Tortni grafikon čas v nastavitvah, ali onemogočanje Tortni grafikoni v celoti. Še vedno teče počasi? Povečajte splošni čas za posodobitev ali onemogočiti sledenje opravil zgodovino."
+	},
+	"infoTranslate": {
+		"message": "Želite pomagati prevajanje opravil Timer v druge jezike? Kliknite [tukaj]."
+	},
+	"infoTotals": {
+		"message": "To je vrstica z vsotami. Pojavi se le, če imate več kot eno nalogo.\n\n\"Čas na\" stolpec te vrstice sešteje čas, porabljen na vsaki od vaših nalog.\n\"Cilj\" stolpec te vrstice sešteje vseh ciljnih časih vse svoje naloge, razen tistih, za nedoločen čas.\n\"Napredek\" stolpec te vrstice prikazuje celoten napredek pri doseganju ciljev končanem vse svoje naloge. Ta napredek ne vključuje porabljen čas, ki je šla čez gol opravila je, ali čas, porabljen za naloge z nedoločeno ciljev."
+	},
+	"txtNoTasks": {
+		"message": "Niste ustvarili še nobenega opravila!"
+	},
+	"txtEditTasks": {
+		"message": "Z urejanje dvojno klikni na ime opravila, čas ali cilj."
+	},
+	"lblTask": {
+		"message": "Opravilo"
+	},
+	"lblTimeSpent": {
+		"message": "Porabljen čas"
+	},
+	"lblGoal": {
+		"message": "Cilj"
+	},
+	"lblProgress": {
+		"message": "Napredek"
+	},
+	"lblOptions": {
+		"message": "Možnosti"
+	},
+	"lblTotals": {
+		"message": "Seštevki"
+	},
+	"btnStart": {
+		"message": "Pričetek"
+	},
+	"btnStop": {
+		"message": "Konec"
+	},
+	"btnInfo": {
+		"message": "Informacije"
+	},
+	"btnReset": {
+		"message": "Ponastavi"
+	},
+	"btnDelete": {
+		"message": "Izbriši"
+	},
+	"btnClearHistory": {
+		"message": "Pobriši zgodovino"
+	},
+	"btnResetAll": {
+		"message": "Vse resetiraj"
+	},
+	"btnDeleteAll": {
+		"message": "Vse pobriši"
+	},
+	"lblName": {
+		"message": "Naziv"
+	},
+	"lblTaskName": {
+		"message": "Ime opravila"
+	},
+	"lblGoalBoth": {
+		"message": "Cilj (ure : minute)"
+	},
+	"lblGoalHours": {
+		"message": "Cilj ur"
+	},
+	"lblGoalMinutes": {
+		"message": "Cilj minut"
+	},
+	"lblIndefinite": {
+		"message": "Nedoločeno"
+	},
+	"lblStart": {
+		"message": "Začetek"
+	},
+	"lblStartNow": {
+		"message": "Takoj začni z opravilom"
+	},
+	"btnAddTask": {
+		"message": "Dodaj opravilo"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Porabljen čas pri opravilu"
+	},
+	"txtTotalPieTitle": {
+		"message": "Ves porabljen čas (zgodovina)"
+	},
+	"txtTaskInfo": {
+		"message": "Podrobnosti opravila"
+	},
+	"txtNoDescription": {
+		"message": "Vnesite podrobnosti ali komentarje k opravilu"
+	},
+	"txtTaskOptions": {
+		"message": "Možnosti opravila"
+	},
+	"txtHistory": {
+		"message": "Zgodovina"
+	},
+	"txtHistoryDisabled": {
+		"message": "Spremljanje zgodovine opravil je izključeno. To lahko vključite v menuju orodja."
+	},
+	"txtSelectDate": {
+		"message": "Prosim izberite datum."
+	},
+	"txtNoHistory": {
+		"message": "Na ta dan ni shranjene zgodovine."
+	},
+	"lblDescription": {
+		"message": "Opis"
+	},
+	"lblHour": {
+		"message": "Ura"
+	},
+	"tskExcludeTotals": {
+		"message": "To oravilo izključi iz skupnega seštevka"
+	},
+	"tskExcludeCharts": {
+		"message": "Izključi opravilo iz grafa"
+	},
+	"txtTools": {
+		"message": "Orodja"
+	},
+	"toolExportCSV": {
+		"message": "Izvozi opravila v CSV datoteko"
+	},
+	"toolClearAllHistory": {
+		"message": "Počisti vso zgodovino opravil"
+	},
+	"toolClearData": {
+		"message": "Počisti vse podatke te aplikacije"
+	},
+	"toolResetSettings": {
+		"message": "Ponastavi na privzete nastavitve"
+	},
+	"txtSettings": {
+		"message": "Nastavitve"
+	},
+	"txtGeneralSettings": {
+		"message": "Splošne nastavitve"
+	},
+	"optEnableCharts": {
+		"message": "Omogoči tortne grafe"
+	},
+	"optHideNotice": {
+		"message": "Skrij pojavno okno z obvestili"
+	},
+	"optConfirmReset": {
+		"message": "Vprašaj me za potrditev preden ponastavim podatke opravila"
+	},
+	"optConfirmDelete": {
+		"message": "Vprašaj me za potrditev preden izbrišem opravilo"
+	},
+	"optStartDefault": {
+		"message": "Privzeto naj bo gumb \"začetek\" obkljukan"
+	},
+	"optSaveFields": {
+		"message": "Obdrži vsebino polj novega opravila, ko ponovno zaženeš aplikacijo."
+	},
+	"optUseIcons": {
+		"message": "Uporabi ikone namesto gumbov pri možnostih opravil (dobro za manjše zaslone)"
+	},
+	"opt12Hour": {
+		"message": "Uporabi 12-urni format časa, kjer je mogoče."
+	},
+	"optCustomDialogs": {
+		"message": "Uporabi prirejena pogovorna okna namesto privzetih pogovornih oken vgrajenih v Chrome."
+	},
+	"optUpdateAlert": {
+		"message": "Odpri aplikacijo ko je posodobitev končana"
+	},
+	"txtTaskSettings": {
+		"message": "Nastavitve opravil"
+	},
+	"optEnableSync": {
+		"message": "Vključite sinhronizacijo (Poskusno, lahko naredi zmešnjavo pri vaših opravilih)"
+	},
+	"optTrackHistory": {
+		"message": "Beleži zgodovino opravil (tako lahko spremljate statistiko za vsako opravilo)"
+	},
+	"optNoOvertime": {
+		"message": "Ne dovoli da opravila presežejo predviden čas"
+	},
+	"optStopTimer": {
+		"message": "Ustavi opravilo, ko je dosežen časovni cilj."
+	},
+	"optOnlyOne": {
+		"message": "Dovoli da hkrati poteka le eno opravilo."
+	},
+	"txtNotifSettings": {
+		"message": "Nastavitve opozarjanja"
+	},
+	"optShowPopup": {
+		"message": "Pokaži pojavno okno na strani aplikacije, ko opravilo doseže časovni cilj."
+	},
+	"optShowNotification": {
+		"message": "Prikaži opozorilo na namizju ko opravilo doseže časovni cilj"
+	},
+	"optPlaySound": {
+		"message": "Predvajaj zvočno opozorilo, ko opravilo doseže časovni cilj."
+	},
+	"optUseDefault": {
+		"message": "Uporabi privzeto zvočno opozorilo."
+	},
+	"optUseCustom": {
+		"message": "Uporabi zvočno opozorilo po meri"
+	},
+	"optSoundURL": {
+		"message": "URL naslov za zvočno opozorilo po meri"
+	},
+	"optBtnPreview": {
+		"message": "Preizkusi zvočno opozorilo"
+	},
+	"optLoopSound": {
+		"message": "Ponavljaj zvočno opozorilo dokler ga ne ustavim"
+	},
+	"txtPerfSettings": {
+		"message": "Nastavitev delovanja"
+	},
+	"optUpdateTime1": {
+		"message": "Posodobi čas opravila vsako (vsaki, vsakih)"
+	},
+	"optUpdateTime2": {
+		"message": "sekundo (sekundi, sekund)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Posodobi tortni graf vsako (vsaki, vsakih)"
+	},
+	"txtSaveSettings": {
+		"message": "Shrani nastavitve"
+	},
+	"txtJSError": {
+		"message": "Nekje v skripti se je pojavila napaka. Prosimo, da nam napako sporočite z naslednjimi informacijami, kakor tudi z opisom o tem kaj se je zgodilo oziroma kaj ste počeli:"
+	},
+	"txtTriedRefresh": {
+		"message": "Ali ste poizkusili osvežiti aplikacijo?"
+	},
+	"txtUsualFix": {
+		"message": "To bo običajno odpravilo vse napake, vendar bo tudi izbrisalo vsa vaša shranjena opravila in nastavitve."
+	},
+	"btnOK": {
+		"message": "V redu"
+	},
+	"btnCancel": {
+		"message": "Prekliči"
+	},
+	"btnYes": {
+		"message": "Da"
+	},
+	"btnNo": {
+		"message": "Ne"
+	},
+	"btnClose": {
+		"message": "Zapri"
+	},
+	"btnCloseNotice": {
+		"message": "Obvestilo o zapiranju"
+	},
+	"btnStopAlarm": {
+		"message": "Ustavi alarm."
+	},
+	"btnSave": {
+		"message": "Shrani"
+	},
+	"confResetTask": {
+		"message": "prepričani, da si želite ponastaviti opravilo \"$taskName$\"?\nZgodovina opravila se ne bo ponastavila.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Ali ste prepričani, da si želite izbrisati opravilo \"$taskName$\"?\nS tem boste izbrisali tudi zgodovino tega opravila.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Ali ste prepričani, da želite izbrisati zgodovino opravila \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Ste prepričan,i da želite ponastaviti čas porabljen pri vseh opravilih?"
+	},
+	"confDeleteAll": {
+		"message": "Ste prepričani, da želite pobrisati vsa opravila?"
+	},
+	"confClearAllHistory": {
+		"message": "Ste prepričani, da želite pobirsati zgodovino vseh opravil?"
+	},
+	"confResetData": {
+		"message": "Ste prepričani, da si želite popolnoma izbrisati podatke aplikacije Task Timer?\nS tem boste izbrisali tudi vsa opravila in shranjene nastavitve."
+	},
+	"confResetSettings": {
+		"message": "Ste prepričan, da želite ponastaviti vse nastavitve na privzete vrednosti?"
+	},
+	"confUpdated": {
+		"message": "Task Timer je bil posodobljen na verzijo $version$!\nSi želite ogledati dnevnik sprememb?\nV primeru, da je Chrome samodejno posodobil aplikacijo med tem, ko ste beležili čas na opravilih, je potrebno ponovno pričeti beleženje časa za ta opravila.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Ste pripravljeni na Chrome Web Store oceniti aplikacijo ali napisati mnenje?\nTo zares pomaga!"
+	},
+	"confSmallWindow": {
+		"message": "Izgleda, da imate Task Timer zagnan v majhnem oknu, na majhnem monitorju ali v nizki ločljivosti. Si želite, da v seznamu opravil namesto gumbov raje prikazujemo ikone? Tako lahko zagotovimo, da opravila na zavzamejo več kot ene vrstice.\n\nTo nastavitev lahko spremenite v menuju orodja."
+	},
+	"noteTaskFinished": {
+		"message": "Opravilo končano!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Opravilo \"$taskName$\" je doseglo cilj!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Opomnik na namizju deluje!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Če vidite to sporočilo je vaš opomnik na namizju vklopljen in delujoč! Juhu!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Izgleda, da za zvočno opozorilo po meri neuspešno uporabljate pot do datoteke shranjene na vašem računalniku. Na žalost se na računalniku shranjenih datotek ne da uporabiti, saj brskalnik Chrome ne dovoljuje dostopa do lokalnega datotečnega sistema, niti za zvočne datoteke. Uporabi se lahko le URL bližnjice (ki se začno z http, https, ali ftp). To pomeni, da mora zvočna datoteka prihajati iz spleta, oziroma, da jo morate predhodno naložiti na spletno mesto."
+	},
+	"noteErrorOccurred": {
+		"message": "Prišlo je do napake!"
+	},
+	"sucSavedDesc": {
+		"message": "Opis je shranjen!"
+	},
+	"sucSavedSettings": {
+		"message": "Nastavitve so shranjene!"
+	},
+	"sucSyncReceived": {
+		"message": "Prejeti podatki opravil za sinhronizacijo!"
+	},
+	"sucSyncSent": {
+		"message": "Poslani podatki opravil za sinhronizacijo!"
+	},
+	"errGeneric": {
+		"message": "Napaka!"
+	},
+	"errTask": {
+		"message": "Napačno ime opravila ali cilja."
+	},
+	"errTaskName": {
+		"message": "Napačno ime opravila."
+	},
+	"errTaskTime": {
+		"message": "Napačen čas."
+	},
+	"errGoalTime": {
+		"message": "Napačen čas cilja."
+	},
+	"errSoundURL": {
+		"message": "Napačen URL."
+	},
+	"errFinishEditing": {
+		"message": "Najprej končajte z urejanjem opravila \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplikacija je že odprta.\nČe aplikacija ni odprta in zagledate to sporočilo, poskusite zapreti vsa okna v Chrome-u in ga ponovno zagnati."
+	},
+	"txtSuggestionTitle": {
+		"message": "Predlog"
+	},
+	"txtSuggestionInfo": {
+		"message": "Če nam želite kaj predlagati kliknite [tukaj].\nČe ni še nihče predlagal enake izboljšave, kliknite \"Nova tema\". Prepričajte se, da ste izbrali \"zahteva za izbojšave\" kot predlogo ter da ste izbrali primeren naslov. \nČe imate več idej, vas prosimo, predstavite vsako posebej."
+	},
+	"txtBugTitle": {
+		"message": "Prijava napake"
+	},
+	"txtBugInfo": {
+		"message": "Za prijavo napake prosim kliknite [tukaj].\nV primeru da še nihče pred vami ni prijavil take napake, potem kliknite \"Nova napaka\". Prepričajte se da je naslov napake zgovoren.\nČe ste našli več različnih napak, sporočite vsako izmed njih posebej.\nProsim da v prijavo napake vključite naslednje podatke:"
+	}
+}

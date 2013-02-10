@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title i18n="txtBugTitle">Report a bug</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="style/global.css" />
+	<link rel="stylesheet" type="text/css" href="style/report-bug.css" />
+
+	<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="scripts/utilities.js"></script>
+	<script type="text/javascript" src="scripts/report-bug.js"></script>
+</head>
+<body>
+    <header>
+        <h1 i18n="txtBugTitle">Report a bug</h1>
+        <a href="https://chrome.google.com/webstore/detail/task-timer/aomfjmibjhhfdenfkpaodhnlhkolngif" target="_blank"><img src="style/images/icon-64.png" id="logo" width="64" height="64" alt="Task Timer" /></a>
+    </header>
+
+    <div class="container">
+		<p i18n="txtBugInfo" i18n-url="http://code.google.com/p/simple-task-timer/issues/list">
+			To report a bug, please click <a href="http://code.google.com/p/simple-task-timer/issues/list">here</a>.<br />
+			If nobody has already reported the same bug, click \"New Issue\". Make sure to title the issue descriptively!\nIf you have found multiple bugs, please create a separate issue for each one.<br />
+			Be sure to include the below data in your bug report:
+		</p>
+
+		<p id="debug-info"></p>
+	</div>
+</body>

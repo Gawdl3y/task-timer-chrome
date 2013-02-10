@@ -1,0 +1,5 @@
+h1, form { text-align: center; }
+
+li.new { list-style-type: disc; }
+li.fix { list-style-type: circle; }
+li.change { list-style-type: square; }

@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "任务计时器"
+	},
+	"appDesc": {
+		"message": "这是一个简单的计时工具，你可以用它来记录你在工作、学习或者任何其他事情上所使用的时间。"
+	},
+	"txtTitle": {
+		"message": "任务计时器"
+	},
+	"txtDescription": {
+		"message": "用这个工具来记录你在工作、学习或者其他任何事情上所用的时间。"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "请注意：各种本地语言的翻译可能没有准确表达出原本的含义，甚至出现翻译错误的情况。"
+	},
+	"txtCreatedBy": {
+		"message": "由Schuyler Cebulskie编写"
+	},
+	"txtReportBug": {
+		"message": "报告错误"
+	},
+	"txtSuggest": {
+		"message": "有好的点子？[告诉我]"
+	},
+	"txtAbout": {
+		"message": "关于"
+	},
+	"txtDonate": {
+		"message": "捐助"
+	},
+	"txtLoading": {
+		"message": "载入中..."
+	},
+	"txtComingSoon": {
+		"message": "即将推出！"
+	},
+	"txtHours": {
+		"message": "小时"
+	},
+	"txtMinutes": {
+		"message": "分钟"
+	},
+	"txtSeconds": {
+		"message": "秒"
+	},
+	"txtIndefinite": {
+		"message": "无限期"
+	},
+	"infoData": {
+		"message": "注意：记录只能在本地保存，只能在您的电脑上使用浏览器来查看数据。\n另外，请放心，清理Chrome缓存和历史记录不会删除您的任务。"
+	},
+	"infoSettings": {
+		"message": "点击右上角的齿轮图标进行设置。\n您甚至可以设置任务结束时进行桌面提醒！"
+	},
+	"infoPerformance": {
+		"message": "加载缓慢？请在设置里延长饼状图的刷新间隔，或者设置不显示饼状图。\n仍然很慢？请延长总刷新间隔，或关闭历史任务追踪。"
+	},
+	"infoTranslate": {
+		"message": "想帮忙把任务计时器翻译成别的语言吗？点击[这里]。"
+	},
+	"infoTotals": {
+		"message": "这是总计栏。只有在你有多于一个任务的时候出现。\n这一栏中的“已花时间”项是你花在每个任务上的时间总和。\n这一栏中的“目标”项是你所有任务目标完成时间的总和，不包含无限期任务。\n这一栏中的“进度”项是你所有任务目标达成进度的总和，这一进度不包括超出任务目标完成时间的部分或无限期任务所花费的时间。"
+	},
+	"txtNoTasks": {
+		"message": "您还没有创建任何任务呢亲~"
+	},
+	"txtEditTasks": {
+		"message": "双击一项任务的名称、时间或目标时间进行编辑。"
+	},
+	"lblTask": {
+		"message": "任务"
+	},
+	"lblTimeSpent": {
+		"message": "已花时间"
+	},
+	"lblGoal": {
+		"message": "目标"
+	},
+	"lblProgress": {
+		"message": "进度"
+	},
+	"lblOptions": {
+		"message": "选项"
+	},
+	"lblTotals": {
+		"message": "总计"
+	},
+	"btnStart": {
+		"message": "开始"
+	},
+	"btnStop": {
+		"message": "停止"
+	},
+	"btnInfo": {
+		"message": "信息"
+	},
+	"btnReset": {
+		"message": "清零任务时间"
+	},
+	"btnDelete": {
+		"message": "删除"
+	},
+	"btnClearHistory": {
+		"message": "清除历史"
+	},
+	"btnResetAll": {
+		"message": "清零所有任务时间"
+	},
+	"btnDeleteAll": {
+		"message": "删除所有任务"
+	},
+	"lblName": {
+		"message": "名称"
+	},
+	"lblTaskName": {
+		"message": "任务名称"
+	},
+	"lblGoalBoth": {
+		"message": "目标（小时：分钟）"
+	},
+	"lblGoalHours": {
+		"message": "目标小时"
+	},
+	"lblGoalMinutes": {
+		"message": "目标分钟"
+	},
+	"lblIndefinite": {
+		"message": "无限期"
+	},
+	"lblStart": {
+		"message": "开始"
+	},
+	"lblStartNow": {
+		"message": "立刻开始任务"
+	},
+	"btnAddTask": {
+		"message": "增加任务"
+	},
+	"txtCurrentPieTitle": {
+		"message": "任务已花时间"
+	},
+	"txtTotalPieTitle": {
+		"message": "总计任务已花时间（历史）"
+	},
+	"txtTaskInfo": {
+		"message": "任务信息"
+	},
+	"txtNoDescription": {
+		"message": "输入任务信息\/备注"
+	},
+	"txtTaskOptions": {
+		"message": "任务选项"
+	},
+	"txtHistory": {
+		"message": "历史"
+	},
+	"txtHistoryDisabled": {
+		"message": "任务历史跟踪功能被关闭了，你可以在工具菜单中重新开启它。"
+	},
+	"txtSelectDate": {
+		"message": "请选择日期。"
+	},
+	"txtNoHistory": {
+		"message": "当日无保存记录。"
+	},
+	"lblDescription": {
+		"message": "描述"
+	},
+	"lblHour": {
+		"message": "小时"
+	},
+	"tskExcludeTotals": {
+		"message": "这项任务不包含在总计栏中"
+	},
+	"tskExcludeCharts": {
+		"message": "这项任务不包含在饼状图中"
+	},
+	"txtTools": {
+		"message": "工具"
+	},
+	"toolExportCSV": {
+		"message": "导出任务到CSV格式文件"
+	},
+	"toolClearAllHistory": {
+		"message": "清除所有任务历史"
+	},
+	"toolClearData": {
+		"message": "清除所有软件数据"
+	},
+	"toolResetSettings": {
+		"message": "恢复默认设置"
+	},
+	"txtSettings": {
+		"message": "设置"
+	},
+	"txtGeneralSettings": {
+		"message": "通用设置"
+	},
+	"optEnableCharts": {
+		"message": "使用饼状图"
+	},
+	"optHideNotice": {
+		"message": "隐藏提示框"
+	},
+	"optConfirmReset": {
+		"message": "清零任务时间之前提示确认"
+	},
+	"optConfirmDelete": {
+		"message": "删除任务之前提示确认"
+	},
+	"optStartDefault": {
+		"message": "默认勾选“开始”选项"
+	},
+	"optSaveFields": {
+		"message": "在下次打开软件时保留新任务输入栏中已输入内容"
+	},
+	"optUseIcons": {
+		"message": "用小图标代替任务选项按钮（适用于小屏幕）"
+	},
+	"opt12Hour": {
+		"message": "使用12小时制（如果可用）"
+	},
+	"optCustomDialogs": {
+		"message": "使用软件自带的对话提示而非Chrome浏览器的对话提示"
+	},
+	"optUpdateAlert": {
+		"message": "在软件更新后打开"
+	},
+	"txtTaskSettings": {
+		"message": "任务设置"
+	},
+	"optEnableSync": {
+		"message": "允许同步（测试版功能，可能出错）"
+	},
+	"optTrackHistory": {
+		"message": "追踪任务历史（选择此项可使你看到每个任务的统计数据）"
+	},
+	"optNoOvertime": {
+		"message": "不允许任务超过目标完成时间"
+	},
+	"optStopTimer": {
+		"message": "当任务到达目标完成时间时停止任务"
+	},
+	"optOnlyOne": {
+		"message": "只允许同时进行一个任务"
+	},
+	"txtNotifSettings": {
+		"message": "提示设置"
+	},
+	"optShowPopup": {
+		"message": "当一项任务到达完成时间时在页面上显示弹出窗口"
+	},
+	"optShowNotification": {
+		"message": "当一项任务到达完成时间时在桌面上显示提示窗口"
+	},
+	"optPlaySound": {
+		"message": "当一项任务到达完成时间时播放声音"
+	},
+	"optUseDefault": {
+		"message": "使用默认声音"
+	},
+	"optUseCustom": {
+		"message": "使用自定义声音"
+	},
+	"optSoundURL": {
+		"message": "自定义声音的链接"
+	},
+	"optBtnPreview": {
+		"message": "声音预览"
+	},
+	"optLoopSound": {
+		"message": "循环播放声音直到点击停止"
+	},
+	"txtPerfSettings": {
+		"message": "性能设置"
+	},
+	"optUpdateTime1": {
+		"message": "更新每个任务的时间"
+	},
+	"optUpdateTime2": {
+		"message": "秒（s）"
+	},
+	"optChartUpdateTime1": {
+		"message": "更新每个饼状图"
+	},
+	"txtSaveSettings": {
+		"message": "保存设置"
+	},
+	"txtJSError": {
+		"message": "脚本出现错误，请使用以下信息报错，并填写您的操作及出错情况。"
+	},
+	"txtTriedRefresh": {
+		"message": "您尝试刷新页面了吗？"
+	},
+	"txtUsualFix": {
+		"message": "这通常会修复所有的问题，但是会清除所有的任务及设置。"
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "取消"
+	},
+	"btnYes": {
+		"message": "是"
+	},
+	"btnNo": {
+		"message": "否"
+	},
+	"btnClose": {
+		"message": "关闭"
+	},
+	"btnCloseNotice": {
+		"message": "关闭提示"
+	},
+	"btnStopAlarm": {
+		"message": "停止播放声音"
+	},
+	"btnSave": {
+		"message": "保存"
+	},
+	"confResetTask": {
+		"message": "你确定要清零任务\"$taskName$\"吗？\n这不会清零任务的历史。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "你确定要删除任务\"$taskName$\"吗？\n这将同时删除任务历史。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "你确定要清除任务\"$taskName$\"的历史吗？",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "你确定要清零你在所有任务上所花的时间吗？"
+	},
+	"confDeleteAll": {
+		"message": "你确定要删除所有任务吗？"
+	},
+	"confClearAllHistory": {
+		"message": "你确定要清除所有任务的历史吗？"
+	},
+	"confResetData": {
+		"message": "你确定要完全清除任务计时器的所有数据吗？\n这将删除你所有的任务和设置。"
+	},
+	"confResetSettings": {
+		"message": "你确定要将所有的设置还原为默认设置吗？"
+	},
+	"confUpdated": {
+		"message": "任务计时器已更新至版本$version$！\n你想看看我们改了些什么吗？\n注意如果在Chrome浏览器自动更新软件时你有正在运行的任务，请在更新后重新开始。",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
+	},
+	"confSmallWindow": {
+		"message": "你好像正在一个小窗口、小显示器、或低分辨率下运行任务计时器。你想把任务清单中的按钮换成小图标吗？这样可以确保每个任务占据的空间不超过一行。\n这个设置可以在工具菜单进行更改。"
+	},
+	"noteTaskFinished": {
+		"message": "任务完成！"
+	},
+	"noteTaskFinishedLong": {
+		"message": "任务\"$taskName$\"达到了目标时间！",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "桌面提示可以使用了！"
+	},
+	"noteNotifsWorkBody": {
+		"message": "你看到这个提示说明桌面提示打开并且正常运行了！耶！"
+	},
+	"noteNoLocalFiles": {
+		"message": "你好像在使用电脑上的一个声音文件作为自定义声音的网址。\n不幸的是，本地文件是不能使用的，因为Chrome浏览器不允许软件使用你本地的文件系统，即时是一个声音文件也不可以。\n只有网址（用http，https，或者ftp开头的）才能使用。这意味着你需要找一个网上的声音文件，或上传你的声音文件到网上。"
+	},
+	"noteErrorOccurred": {
+		"message": "出现错误！"
+	},
+	"sucSavedDesc": {
+		"message": "描述已保存！"
+	},
+	"sucSavedSettings": {
+		"message": "设置已保存！"
+	},
+	"sucSyncReceived": {
+		"message": "新同步的任务数据已接收！"
+	},
+	"sucSyncSent": {
+		"message": "任务数据已发送同步！"
+	},
+	"errGeneric": {
+		"message": "错误！"
+	},
+	"errTask": {
+		"message": "任务名称或完成时间格式错误。"
+	},
+	"errTaskName": {
+		"message": "任务名称格式错误。"
+	},
+	"errTaskTime": {
+		"message": "时间格式错误。"
+	},
+	"errGoalTime": {
+		"message": "任务完成时间格式错误。"
+	},
+	"errSoundURL": {
+		"message": "自定义声音网址格式错误。"
+	},
+	"errFinishEditing": {
+		"message": "请先编辑完任务\"$taskName$\" ！",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "软件已经打开。\n如果出现问题，请关闭Chrome浏览器的所有窗口后重新启动软件。"
+	},
+	"txtSuggestionTitle": {
+		"message": "提个建议"
+	},
+	"txtSuggestionInfo": {
+		"message": "想要提建议，请按[这里]。\n如果之前没有人提过类似的建议，请点击“新问题”。确保选择模板中的”要求优化“并在题目中简单描述建议内容！\n如果你有多个建议，请就每个问题创建一个单独的建议。"
+	},
+	"txtBugTitle": {
+		"message": "报告一个错误"
+	},
+	"txtBugInfo": {
+		"message": "要报告一个错误，请点击[这里]。\n如果在您之前没有人报告过相同的错误，请点击”新问题“，然后再表单中简单描述问题的内容！\n如果您发现了多个错误，请就每个问题创建一个单独的建议。\n请确保在您的错误报告中包含以下数据："
+	}
+}

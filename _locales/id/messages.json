@@ -1,0 +1,455 @@
+{
+	"appName": {
+		"message": "Pencatat Waktu"
+	},
+	"appDesc": {
+		"message": "Alat sederhana yang membantu anda mencatat waktu yang digunakan seperti bekerja, belajar dan hal lain."
+	},
+	"txtTitle": {
+		"message": "Pencatat Waktu"
+	},
+	"txtDescription": {
+		"message": "Gunakan perangkat ini untuk mencatat lamanya waktu yang anda gunakan untuk bekerja, belajar, atau mengerjakan tugas lainnya."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Terjemahan mungkin kurang akurat"
+	},
+	"txtCreatedBy": {
+		"message": "Dibuat oleh [Schulyer Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Laporkan Error atau Celah"
+	},
+	"txtSuggest": {
+		"message": "Punya ide lain yang keren? [Beritahu saya]"
+	},
+	"txtAbout": {
+		"message": "About"
+	},
+	"txtDonate": {
+		"message": "Donasi"
+	},
+	"txtLoading": {
+		"message": "Loading..."
+	},
+	"txtComingSoon": {
+		"message": "Segera!"
+	},
+	"txtHours": {
+		"message": "Jam"
+	},
+	"txtMinutes": {
+		"message": "Menit"
+	},
+	"txtSeconds": {
+		"message": "Detik"
+	},
+	"txtIndefinite": {
+		"message": "Tak berbatas"
+	},
+	"infoData": {
+		"message": "Catatan: Ini hanya akan disimpan secara lokal di komputer anda di browser anda.\nJangan khawatir, daftar ini tidak akan terhapus ketika anda membersihkan cache\/storage Chrome."
+	},
+	"infoSettings": {
+		"message": "Pastikan anda telah mengecek laman pengaturan dengan mengklik tombol gear di sisi kanan atas aplikasi ini!\nAda pengaturan seperti notifikasi desktop ketika tugas telah selesai."
+	},
+	"infoPerformance": {
+		"message": "Apakah applikasi ini terlalu lambat? Coba tingkatkan waktu pie chart di setting, atau matikan pie charts. \nMasih lambat? Tingkatkan waktu update umum atau matikan tracking sejarah tugas."
+	},
+	"infoTranslate": {
+		"message": "Ingin membantu menerjemahkan Task Timer ke bahasa lain? Klik [di sini]."
+	},
+	"txtNoTasks": {
+		"message": "Anda belum membuat tugas apapun!"
+	},
+	"txtEditTasks": {
+		"message": "Klik dua kali di nama tugas, waktu, atau target untuk mengeditnya."
+	},
+	"lblTask": {
+		"message": "Tugas"
+	},
+	"lblTimeSpent": {
+		"message": "Waktu yang diperlukan"
+	},
+	"lblGoal": {
+		"message": "Target"
+	},
+	"lblProgress": {
+		"message": "Perkembangan"
+	},
+	"lblOptions": {
+		"message": "Pilihan"
+	},
+	"lblTotals": {
+		"message": "Total"
+	},
+	"btnStart": {
+		"message": "Mulai"
+	},
+	"btnStop": {
+		"message": "Berhenti"
+	},
+	"btnInfo": {
+		"message": "Informasi"
+	},
+	"btnReset": {
+		"message": "Reset"
+	},
+	"btnDelete": {
+		"message": "Hapus"
+	},
+	"btnClearHistory": {
+		"message": "Bersihkan sejarah"
+	},
+	"btnResetAll": {
+		"message": "Ulang semua"
+	},
+	"btnDeleteAll": {
+		"message": "Hapus Semua"
+	},
+	"lblName": {
+		"message": "Nama"
+	},
+	"lblTaskName": {
+		"message": "Nama Pekerjaan"
+	},
+	"lblGoalBoth": {
+		"message": "Target (jam : menit)"
+	},
+	"lblGoalHours": {
+		"message": "Target Jam"
+	},
+	"lblGoalMinutes": {
+		"message": "Target Menit"
+	},
+	"lblIndefinite": {
+		"message": "Tak terbatas"
+	},
+	"lblStart": {
+		"message": "Mulai"
+	},
+	"lblStartNow": {
+		"message": "Mulai segera"
+	},
+	"btnAddTask": {
+		"message": "Tambah tugas"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Waktu yang Telah Dihabiskan untuk Tugas"
+	},
+	"txtTotalPieTitle": {
+		"message": "Total Waktu yang Telah Dihabiskan (Sejarah)"
+	},
+	"txtTaskInfo": {
+		"message": "Informasi Tugas"
+	},
+	"txtNoDescription": {
+		"message": "Masukkan informasi\/komentar tentang tugas"
+	},
+	"txtTaskOptions": {
+		"message": "Opsi Tugas"
+	},
+	"txtHistory": {
+		"message": "Sejarah"
+	},
+	"txtHistoryDisabled": {
+		"message": "Pencarian jejak Tugas tidak diizinkan. Kamu bisa mengizinkannya melalui menu Peralatan (Tools)"
+	},
+	"txtSelectDate": {
+		"message": "Pilih tanggal."
+	},
+	"txtNoHistory": {
+		"message": "Tak ada catatan untuk hari itu."
+	},
+	"lblDescription": {
+		"message": "Deskripsi"
+	},
+	"lblHour": {
+		"message": "Jam"
+	},
+	"tskExcludeTotals": {
+		"message": "Termasuk tugas ini dalam baris total"
+	},
+	"tskExcludeCharts": {
+		"message": "Termasuk tugas ini dalam grafik pie"
+	},
+	"txtTools": {
+		"message": "Peralatan"
+	},
+	"toolExportCSV": {
+		"message": "Export pekerjaan jadi file CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Hapus semua catatan tugas"
+	},
+	"toolClearData": {
+		"message": "Hapus semua data aplikasi"
+	},
+	"toolResetSettings": {
+		"message": "Reset ke Setting Awal"
+	},
+	"txtSettings": {
+		"message": "Setting"
+	},
+	"txtGeneralSettings": {
+		"message": "Setting Umum"
+	},
+	"optEnableCharts": {
+		"message": "Aktifkan Grafik Pie"
+	},
+	"optHideNotice": {
+		"message": "Sembunyikan kotak pengingat"
+	},
+	"optConfirmReset": {
+		"message": "Tanya untuk mengkonfirmasi upaya untuk mereset tugas"
+	},
+	"optConfirmDelete": {
+		"message": "Tanya untuk mengkonfirmasi upaya untuk menghapus tugas"
+	},
+	"optStartDefault": {
+		"message": "Centang kotak \"Mulai\" secara default"
+	},
+	"optSaveFields": {
+		"message": "Jaga data pekerjaan yang ada ketika mengulang aplikasi"
+	},
+	"optUseIcons": {
+		"message": "Gunakan ikon di tombol Opsi Tugas (Bagus untuk layar mini)"
+	},
+	"opt12Hour": {
+		"message": "Gunakan format 12-jam jika memungkinkan"
+	},
+	"optCustomDialogs": {
+		"message": "Lebih baik menggunakan Kotak dialog yang telah dimodifikasi"
+	},
+	"optUpdateAlert": {
+		"message": "Buka aplikasi setelah selesai diupdate"
+	},
+	"txtTaskSettings": {
+		"message": "Setting Tugas"
+	},
+	"optEnableSync": {
+		"message": "Bisa Sinkron (UJI COBA, mungkin tidak pas dengan tugas anda)"
+	},
+	"optTrackHistory": {
+		"message": "Jelajah sejarah pekerjaan (sehingga anda bisa melihat statistik masing-masing tugas)"
+	},
+	"optNoOvertime": {
+		"message": "Jangan izinkan tugas melebihi targetnya"
+	},
+	"optStopTimer": {
+		"message": "Hentikan tugas ketika sudah mencapai target"
+	},
+	"optOnlyOne": {
+		"message": "Hany perbolehkan satu tugas dalam satu waktu"
+	},
+	"txtNotifSettings": {
+		"message": "Setting Pengingat"
+	},
+	"optShowPopup": {
+		"message": "Munculkan popup di halaman ketika tugas mencapai target"
+	},
+	"optShowNotification": {
+		"message": "Munculkan notifikasi desktop ketika tugas mencapai target"
+	},
+	"optPlaySound": {
+		"message": "Mainkan bunyi ketika tugas mencapai target"
+	},
+	"optUseDefault": {
+		"message": "Gunakan bunyi default"
+	},
+	"optUseCustom": {
+		"message": "Gunakan bunyi pilihan"
+	},
+	"optSoundURL": {
+		"message": "URL bunyi pilihan"
+	},
+	"optBtnPreview": {
+		"message": "Preview bunyi"
+	},
+	"optLoopSound": {
+		"message": "Ulang terus bunyi itu sampai dihentikan"
+	},
+	"txtPerfSettings": {
+		"message": "Setting Performa"
+	},
+	"optUpdateTime1": {
+		"message": "Update waktu tugas setiap"
+	},
+	"optUpdateTime2": {
+		"message": "Detik"
+	},
+	"optChartUpdateTime1": {
+		"message": "Update grafik pie setiap"
+	},
+	"txtSaveSettings": {
+		"message": "Simpan Setting"
+	},
+	"txtJSError": {
+		"message": "Telah terjadi kesalahan skrip. Silakan laporkan beserta informasinya, seperti apa yang telah anda lakukan atau apa yang telah terjadi"
+	},
+	"txtTriedRefresh": {
+		"message": "Apakah anda sudah mencoba refresh aplikasi?"
+	},
+	"txtUsualFix": {
+		"message": "Tindakan ini biasanya akan menyelesaikan error, tapi akan menghapus seluruh tugas dan setting."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Batal"
+	},
+	"btnYes": {
+		"message": "Ya"
+	},
+	"btnNo": {
+		"message": "Tidak"
+	},
+	"btnClose": {
+		"message": "Tutup"
+	},
+	"btnCloseNotice": {
+		"message": "Tutup pengumuman"
+	},
+	"btnStopAlarm": {
+		"message": "Hentikan Alarm"
+	},
+	"btnSave": {
+		"message": "Simpan"
+	},
+	"confResetTask": {
+		"message": "Apakah anda yakin akan mereset tugas \"$taskName$\"?\nRekaman tugas tidak ikut direset.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Apakah anda yakin akan menghapus tugas \"$taskName$\"?\nRekaman tugas juga ikut terhapus.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Apakah anda yakin akan menghapus rekaman tugas \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Anda yakin ingin reset waktu yang anda habiskan untuk seluruh tugas?"
+	},
+	"confDeleteAll": {
+		"message": "Anda yakin ingin menghapus seluruh tugas?"
+	},
+	"confClearAllHistory": {
+		"message": "Anda yakin ingin menghapus catatan seluruh tugas?"
+	},
+	"confResetData": {
+		"message": "Apakah anda yakin akan membersihkan seluruh data Pencatat Waktu ?"
+	},
+	"confResetSettings": {
+		"message": "Apakah anda yakin akan mereset seluruh seting ke setingan awal?"
+	},
+	"confUpdated": {
+		"message": "Pencata Waktu telah diperbaharui ke versi $version$!\nApakah anda ingin melihat catatan perubahan?\nIngat! Anda harus mengulang catatan tugas anda jika jika Chrome memperbaharui aplikasi secara otomatis sewaktu tugas tersebut sedang dikerjakan.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confRating": {
+		"message": "Apakah anda ingin memberikan peringkat\/ulasan untuk aplikasi ini di Chrome Web Store? \nHal ini akan sangat membantu!"
+	},
+	"confSmallWindow": {
+		"message": "Hal ini juga bisa di rubah di menu Peralatan (Tools)"
+	},
+	"noteTaskFinished": {
+		"message": "Tugas Selesai!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Tugas \"$taskName$\" sudah mencapai target!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Notifikasi Desktop Sudah Bekerja!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Ketika anda melihat ini, artinya notifikasi desktop sudah diaktifkan dan bekerja dengan baik! Asyik!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Nampaknya anda menggunakan suara yang ada di komputer anda.\nSayangnya, file ini tidak bisa digunakan karena Chrome tidak mengizinkan untuk mengaksesnya. Hanya URL internet (diawali dengan http, https, atau ftp) yang bisa digunakan. Anda perlu mencari atau juga meng-upload file suara online"
+	},
+	"noteErrorOccurred": {
+		"message": "Telah terjadi error!"
+	},
+	"sucSavedDesc": {
+		"message": "Deskripsi sudah tersimpan!"
+	},
+	"sucSavedSettings": {
+		"message": "Setting sudah tersimpan!"
+	},
+	"sucSyncReceived": {
+		"message": "Menerima Data tugas untuk disinkronkan!"
+	},
+	"sucSyncSent": {
+		"message": "Mengirim Data tugas untuk disinkronkan!"
+	},
+	"errGeneric": {
+		"message": "Error!"
+	},
+	"errTask": {
+		"message": "Nama tugas atau target tidak valid."
+	},
+	"errTaskName": {
+		"message": "Nama tugas tidak valid."
+	},
+	"errTaskTime": {
+		"message": "Waktu tidak valid."
+	},
+	"errGoalTime": {
+		"message": "Target waktu tidak valid."
+	},
+	"errSoundURL": {
+		"message": "URL bunyi khusus tidak valid."
+	},
+	"errFinishEditing": {
+		"message": "Selesaikan editing tugas \"$taskName$\" dahulu!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplikasi sudah terbuka.\nKalau nampaknya kurang benar, silakan tutup semua jendela Chrome kemudian restart kembali."
+	},
+	"txtSuggestionTitle": {
+		"message": "Beri saran"
+	},
+	"txtSuggestionInfo": {
+		"message": "Untuk memberi saran, silakan klik [Di sini].\nJika Saran anda tidak ada yang sama dengan yang lainnya, klik \" New issue\". Pastikan anda telah memilih \"Enhancement Request\" sebagai template, dan beri judul yang deskriptif.\nKalau idenya lebih dari satu, silakan bagi menjadi beberapa bagian."
+	},
+	"txtBugTitle": {
+		"message": "Laporkan bug"
+	},
+	"txtBugInfo": {
+		"message": "Untuk melaporkan bug, silakan klik [Di sini].\nJika laporan anda tidak ada yang sama dengan yang lainnya, klik \" New issue\". Pastikan anda telah memberi judul yang deskriptif.\nPastikan juga anda memasukkan data berikut ke dalam laporan anda:"
+	}
+}

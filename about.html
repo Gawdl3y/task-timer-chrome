@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Task Timer</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="style/global.css" />
+    <link rel="stylesheet" type="text/css" href="style/about.css" />
+</head>
+<body>
+    <header>
+        <h1>About Task Timer</h1>
+        <a href="https://chrome.google.com/webstore/detail/task-timer/aomfjmibjhhfdenfkpaodhnlhkolngif" target="_blank"><img src="style/images/icon-64.png" id="logo" width="64" height="64" alt="Task Timer" /></a>
+    </header>
+
+    <div class="container">
+        <h2>About Task Timer</h2>
+        <p>Task Timer is an HTML5/JavaScript project I (Schuyler Cebulskie) created in order to fulfill my needs in keeping track of the time that I spent working for a company that I was an intern at. It has quickly become something with a wider range of uses, and has gained features very quickly in the past months. I began this project in August (or maybe September), and have continuously been working on it since. It started out as a boring old thing with absolutely no styles to it at all. I added styles a few days after the first release. After adding a link to make a suggestion for me, the most popular suggestion was to offer finer granularity in your goal time - it used to only be in hours. Since then, it's evolved into the version you're looking at.</p>
+        <p>Task Timer is an open source project. <a href="http://code.google.com/p/simple-task-timer/" target="_blank">Check it out on Google Code!</a></p>
+
+        <h2 id="me">About me (Schuyler Cebulskie)</h2>
+        <p>My usual alias is Gawdl3y. I'm a 12th grade student (senior!) in high school, and my favourite areas of study are the computer sciences. I've dumped a fair amount of time into many different coding languages, but I primarily work with PHP, HTML, CSS, and JavaScript. I finished a C++ class in school, I have done two years of Visual Basic 6.0, and am currently in a Java class. I enjoy working on projects such as these in my free time.</p>
+        <p>I enjoy playing computer and video games. I own a PS3, but it died. I plan on getting a new one very soon. You can add me to your friends list with the username SneakymodeEngage. I also enjoy playing games on the computer (modding!). You can add me on Steam via <a href="http://steamcommunity.com/id/Gawdl3y" target="_blank">my Steam profile</a>. I currently go back and forth between games, and I don't play a certain one the most, really. I built my own computer, and I finally put a <a href="http://msi.com/product/vga/N670-PE-2GD5-OC.html">GTX 670</a> in it.</p>
+        <p>I have a website! <a href="http://gawdl3y.com/" target="_blank">Gawdl3y.com</a> It's actually down for now, but it'll be back at some point in the future.</p>
+
+        <h2 id="language">Language/translation information</h2>
+        <p>The language of the app is selected by whatever language you have Chrome set to use. To change the language, paste this URL in a new tab: <a>chrome://chrome/settings/languages</a>. Add your language, then select the language in the list, and click "Display Google Chrome in this language".</p>
+        <p>I cannot guarantee the accuracy of the translations.<br />If you want to help translate the app, <a href="http://interpr.it/extension/16">go here</a>.</p>
+
+        <h2 id="support">Support Task Timer</h2>
+        <p>Enjoying the app? Consider donating to help maintain it and keep it going.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="8V5Q6WN49WRZ6" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+        </form>
+
+        <h2 id="thanks">Thanks</h2>
+        <ul>
+            <li><a href="http://www.adimage.net.au/">Ad Image</a> for the Chrome Web Store promotional images!</li>
+            <li>The huge amount of people who volunteered to help with the images!</li>
+            <li>Marcos Garcia</li>
+        </ul>
+    </div>
+
+    <h1 id="changelog">Changelog</h1>
+
+    <div class="container">
+        <a href="installed.html">Installation page</a>
+        <p><strong>If you experience weird issues like seeing things like "lblTask" or "txtHistoryDisabled", make sure to try closing ALL Chrome windows/tabs and restarting Chrome and/or your computer.</strong></p>
+
+        <div class="version">
+            <h2>Version 3.8.3</h2>
+            <ul>
+                <li class="new">Added lots of localisations that are completed (no right-to-left languages yet, though)</li>
+                <li class="new">Added <a href="#language">language information</a> to the about page</li>
+                <li class="fix">Fixed image titles/alternate texts not localising</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.8.2</h2>
+            <ul>
+                <li class="change">Updated jQuery and jQuery UI</li>
+                <li class="change">Updated about page</li>
+                <li class="change">Removed the custom dialogs info (the bug in Chrome it referenced is fixed)</li>
+                <li class="fix">Fixed bug where the overlay on the page wouldn't disappear after closing a menu after a dialog, when not using custom dialogs</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.8.1</h2>
+            <ul>
+                <li class="fix">Fixed broken icons in desktop notifications</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.8.0</h2>
+            <ul>
+                <li class="new">Added EXPERIMENTAL sync setting</li>
+                <li class="new">Added CSV exporting (if Chrome opens a window instead of downloading the file, simply right click on the new page and click "Save as...", and make sure to end the file name in .csv)</li>
+                <li class="change">Updated jQuery and jQuery UI</li>
+                <li class="change">Updated to Chrome manifest version 2</li>
+                <li class="change">Lots of code changes</li>
+                <li class="change">Updated about page</li>
+                <li class="fix">Fixed crash when leaving a task current/goal time edit field blank</li>
+                <li class="fix">Fixed task description placeholder not localising correctly</li>
+                <li class="fix">Fixed missing locale when history is disabled</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.7.3</h2>
+            <ul>
+                <li class="change">Isolated URLs from the locale strings</li>
+                <li class="fix">Fixed reset all button only resetting the first task (regression)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.7.2</h2>
+            <ul>
+                <li class="new">Added bold text syntax in locale strings</li>
+                <li class="change">Changed format of URLs in locale strings</li>
+                <li class="change">Renamed main page's file to main.html</li>
+                <li class="fix">Fixed app thinking it was still open after you clear the data</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.7.1</h2>
+            <ul>
+                <li class="fix">Fixed main page saying the app was already opened on installation</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.7.0</h2>
+            <ul>
+                <li class="new">Added "Exclude task from totals row" task setting</li>
+                <li class="new">Added "Exclude task from pie charts" task setting</li>
+                <li class="new">Added page for reporting a bug (with debug info)</li>
+                <li class="new">Added page for suggesting something</li>
+                <li class="new">Added translation notice</li>
+                <li class="new">Added error if you try to open multiple instances of the app</li>
+                <li class="change">Made the app delay before opening when it's updated (will maybe fix locale string errors on update)</li>
+                <li class="change">Updated to jQuery 1.7.2</li>
+                <li class="fix">Fixed dialogs showing off-centre when opened while scrolled down</li>
+                <li class="fix">Fixed scroll position resetting whenever the task list is rebuilt</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.6.3</h2>
+            <ul>
+                <li>Fixed description field resetting itself while you're trying to edit it when the task is running</li>
+                <li>Fixed the start/stop button in the task info menu not matching the main one when you open it</li>
+                <li>Fixed locales on the goal edit fields</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.6.2</h2>
+            <ul>
+                <li>Changed the description field's placeholder</li>
+                <li>Changed the icon for the stop button to a "pause" style</li>
+                <li>Removed excessive padding on the tools and task menus at the top and bottom</li>
+                <li>Fixed indefinite goal text</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.6.1</h2>
+            <ul>
+                <li>Made the update check occur <em>after</em> loading the settings</li>
+                <li>Removed excessive breaks in the update notice</li>
+                <li>Small code changes</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.6.0</h2>
+            <ul>
+                <li>Added custom dialog system (the only alerts left on the default Chrome ones are for clearing the app's data and when the app is in a small window)</li>
+                <li>Added a task description field in the task info (for any notes, comments, etc. about a task)</li>
+                <li>Added a setting to toggle stopping a task's timer when its goal is reached (for when going over goals is allowed)</li>
+                <li>Added a setting to turn off the custom dialogs</li>
+                <li>Added a setting to use 12-hour format for applicable times (like in the task history list)</li>
+                <li>Made all of the time fields do math for themselves (if you input a number greater than 59 in seconds or minutes, they'll automatically correct themselves)</li>
+                <li>Made the desktop notification close the popup notice and stop the alarm when clicked on (but not on the close button)</li>
+                <li>Removed the cap on goal time (you can go above 80 hours now, just type it in)</li>
+                <li>Removed the seconds digits in the history times</li>
+                <li>Added "thanks" section to the about page</li>
+                <li>Removed the volunteer notice</li>
+                <li>Moved "save settings" to the top of the settings menu</li>
+                <li>Changed the style of the popup notification</li>
+                <li>Fixed the rating reminder</li>
+                <li>Made the locale strings more identifiable (added prefixes)</li>
+                <li>Tons of other behind-the-scenes code changes</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.3.1</h2>
+            <ul>
+                <li>Added notice for volunteers to make a few images</li>
+                <li>Added URL format for locale strings</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.3.0</h2>
+            <ul>
+                <li>Made the app open up when it's updated</li>
+                <li>Added setting to turn opening on update off</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.2.2</h2>
+            <ul>
+                <li>Fixed error when attempting to delete or edit tasks</li>
+                <li>Made the small window notice re-enable when resetting the use icons settings back to off</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.2.1</h2>
+            Blast off!
+            <ul>
+                <li>Changed the window width check to use the actual width, not the inner width</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.2.0</h2>
+            <ul>
+                <li>Added a reset settings to default button</li>
+                <li>Added glow effect to the Custom Sound URL field when invalid</li>
+                <li>Custom Sound URL field is no longer marked as invalid when the sound type is set to default</li>
+                <li>Fixed the sound type dropdown not resetting when changed but not saved while closing the tools menu</li>
+                <li>Lots of code tidying and prettifying</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.1.0</h2>
+            <ul>
+                <li>Added detection for running in a small window (asks if you want to switch to icons)</li>
+                <li>Added input validation to the Custom Sound URL field for the notification sound</li>
+                <li>Made the icon buttons not make the task rows uglier</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.0.2</h2>
+            <ul>
+                <li>Fixed the play sound setting not saving</li>
+                <li>Fixed the stop alarm popup not showing when sound looping is on but show popup is off</li>
+                <li>Fixed error when play sound is off</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.0.1</h2>
+            <ul>
+                <li>Fixed the modal overlay not fading away when closing the popup after opening the task info menu</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 3.0.0</h2>
+            Already? Yup!
+            <ul>
+                <li>Added task info menu</li>
+                <li>Added task history tracking</li>
+                <li>Added a reset all button in the totals row</li>
+                <li>Moved the delete all button to the totals row</li>
+                <li>Added setting to turn on/off task history tracking</li>
+                <li>Added a button to clear all task history in the tools menu</li>
+                <li>Added an option to switch to icons instead of buttons for the task controls</li>
+                <li>Added a faux CSV export button to the tools menu (hee hee)</li>
+                <li>Fixed show popup setting not actually disabling the popup</li>
+                <li>Lots of code prettifying and optimisations</li>
+            </ul>
+
+        <div class="version">
+            <h2>Version 2.1.7</h2>
+            <ul>
+                <li>Fixed error when closing the popup without the tools menu being open</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.6</h2>
+            <ul>
+                <li>Made the popup fade out when closing it while the tools menu is open, rather than it all fading out</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.5</h2>
+            <ul>
+                <li>Made the notice fade in/out when the settings are saved rather than waiting until the tools menu is closed</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.4</h2>
+            <ul>
+                <li>Fixed the "Hide notice" option not saving in the settings</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.3</h2>
+            <ul>
+                <li>Fixed the fade on the pulsating ring</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.2</h2>
+            <ul>
+                <li>Fixed side effects of excessive queuing of the pulsate animation</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.1</h2>
+            <ul>
+                <li>Fixed display of the close button in the task finished popup</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.1.0</h2>
+            <ul>
+                <li>Added a popup that displays when a task reaches its goal</li>
+                <li>Added an option to enable/disable said popup</li>
+                <li>Added an option to loop the task alarm until you stop it</li>
+                <li>Fixed tools button pulsate effect not disappearing after clicking the tools button until after page reload</li>
+                <li>Made code slightly more pretty</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 2.0.0</h2>
+            Version 2.0 just happened to come after 1.9... That's neat. :P
+            <ul>
+                <li>Changed the settings menu to a general "tools" menu</li>
+                <li>Changed the layout and design of the tools/settings menu</li>
+                <li>Added a pretty little effect on the tools button to get you to click it :P (hides after opening tools menu once)</li>
+                <li>Added button to delete all tasks in the tools menu</li>
+                <li>Added button to clear all of the app data in the tools menu</li>
+                <li>Added an option to save the contents of the new task fields when the app is relaunched</li>
+                <li>Updated to jQuery 1.7.1</li>
+                <li>Optimised the task update timer's code a little (CSS selectors for jQuery in it are more specific, should mean less searching for the correct element)</li>
+                <li>Fixed the repetition of the animation for the error notice (slightly less pretty now, but less obnoxious for multiple clicks)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.9.3</h2>
+            <ul>
+                <li>Fixed hours and minute fields in the time spent edit fields becoming disabled after checking the indefinite box in a task's goal edit field</li>
+                <li>Made the text in the notice box a little prettier</li>
+                <li>Added a scrollbar to the settings menu when the contents overflow (for those who have large default font sizes)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.9.2</h2>
+            <ul>
+                <li>Fixed desktop notification on task completion showing "taskName" instead of the task's name</li>
+                <li>Changed the "Stop a task when it reaches its goal" setting to "Don't allow tasks to go over their goals"</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.9.1</h2>
+            <ul>
+                <li>Added help button that informs about the totals row</li>
+                <li>Fixed DOM Exception 9 error when creating the first task in your list when it has an indeifnite goal</li>
+                <li>Fixed desktop notification locale</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.9.0</h2>
+            <ul>
+                <li>Added pie charts (and corresponding settings)</li>
+                <li>Added a "totals" row</li>
+                <li>Rearranged the settings in the menu</li>
+                <li>Made the progress bars of tasks with indefinite goals have a "scanning" progress bar</li>
+                <li>Made the task list take up the full width of the container</li>
+                <li>Fixed bug letting you enter a number greater than 59 for minutes and seconds in time edit fields</li>
+                <li>Fixed enter key in time spent edit fields</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.8.3</h2>
+            <ul>
+                <li>Updated the about page some more</li>
+                <li>Added version 1.0.0 to the changelog (lol)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.8.2</h2>
+            <ul>
+                <li>Updated the about page</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.8.1</h2>
+            <ul>
+                <li>Fixed task reordering</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.8.0</h2>
+            <ul>
+                <li>Added a reset data button for when an error occurs</li>
+                <li>Changed the task reorder drag image</li>
+                <li>Clarified the text stating that your data would be gone if cleared</li>
+                <li>Restructured some code</li>
+                <li>Fixed irrecoverable error when moving task during deletion</li>
+                <li>Fixed bug where the task list disappeared when adding a task during deletion</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.7.2</h2>
+            <ul>
+                <li>Added donate link</li>
+                <li>Fixed time spent editing</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.7.1</h2>
+            <ul>
+                <li>Fixed update locale message</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.7.0</h2>
+            <ul>
+                <li>Added task re-ordering (drag and drop)</li>
+                <li>Added time spent editing</li>
+                <li>Added about page (and moved the changelog there)</li>
+                <li>Made the installation page less informative :P</li>
+                <li>Linked the app's icon in the top-left corner to its page on the Chrome Web Store</li>
+                <li>Made the error popup more specific</li>
+                <li>Made the goal field of a task expand when being edited</li>
+                <li>Made the time fields default to 0 when the number in them is negative</li>
+                <li>Localised the main app page (about and installation page localisation coming soon)</li>
+                <li>Tweaked styles</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.6.0</h2>
+            <ul>
+                <li>Added a preview button next to the Custom URL option for the notification sound</li>
+                <li>Added a stack trace to error messages when available</li>
+                <li>Updated jQuery to 1.7</li>
+                <li>Fixed notification sound and desktop notification on tasks that finish and you then edit to a higher goal, then they reach the new goal</li>
+                <li>Fixed deleting tasks when they're running</li>
+                <li>Some code rehaul</li>
+            </il>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.5.0</h2>
+            <ul>
+                <li>Added an Indefinite goal option</li>
+                <li>Added input verification to the edit fields</li>
+                <li>Made tasks resume running if they were running before you edited their goal</li>
+                <li>Changed the finish editing notice to state the task's name</li>
+                <li>Made the goal fields default to 0 when left blank</li>
+                <li>Moved the error notice</li>
+                <li>Fixed error when a goal field is left blank</li>
+                <li>Fixed errors when goal times were null</li>
+                <li>Fixed error when the the progress done is infinity (should never happen anyways)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.4.1</h2>
+            <ul>
+                <li>Switched the "close" text on the button in the notice to an image</li>
+                <li>Changed JS error message</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.4.0</h2>
+            <ul>
+                <li>Added option to default the auto-start box to on</li>
+                <li>Added a message when a JavaScript error occurs</li>
+                <li>Added a reminder to check out the settings menu in the notice</li>
+                <li>Added a reminder to re-start your tasks when the app is updated</li>
+                <li>Added a page that opens when you first install the app</li>
+                <li>Added the app's icon to every page</li>
+                <li>Moved loading indicator to bottom left corner of screen</li>
+                <li>Fixed error when you manage to delete a task right as an auto-save kicks in</li>
+                <li>Fixed bug when you are editing a task and add a new task, then editing would become non-functional</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.3.2</h2>
+            <ul>
+                <li>Added top/bottom margins to option buttons</li>
+                <li>Made the minimum width apply to the notice as well</li>
+                <li>Changed width of changelog container to match app main page</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.3.1</h2>
+            <ul>
+                <li>Fixed edit task label</li>
+                <li>Made the width of the main container be at least 960px</li>
+                <li>Fixed fading on task deletion</li>
+                <li>Reduced margin on all buttons</li>
+                <li>Reduced width of the goal time fields slightly</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.3.0</h2>
+            <ul>
+                <li>Added in-line editing of the task names and goals (double-click to edit)</li>
+                <li>Added a checkbox to automatically start a task when you add it</li>
+                <li>Fixed the main loading icon (You've probably never even noticed it, but it's been there forever -- it only appears during an autosave) pushing the header over</li>
+                <li>Removed the period in the footer</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.2.2</h2>
+            <ul>
+                <li>Fixed going over the task goal when using an update time of a non-multiple of 60 with stop a task when goal is reached enabled... Semi-obscure bug.</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.2.1</h2>
+            <ul>
+                <li>Slowed down the running task spinner</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.2.0</h2>
+            <ul>
+                <li>Added an option to not stop a task's timer when it reaches its goal</li>
+                <li>Added an option to only allow one task to be running at a time</li>
+                <li>Added an error notice when you have an invalid task name or goal</li>
+                <li>Added a success notice when saving your settings</li>
+                <li>Added a loading indicator to tasks that are running</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.5</h2>
+            <ul>
+                <li>Added a rating reminder every 6 app launches (clicking OK will make it not show again)</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.4</h2>
+            <ul>
+                <li>Fixed the update time option in the new time format</li>
+                <li>Switched the comma in the label for the new task goal fields to a colon</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.3</h2>
+            <ul>
+                <li>Improved the new version detection</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.2</h2>
+            <ul>
+                <li>Fixed conversion for real this time</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.1</h2>
+            <ul>
+                <li>Fixed conversion from old format to new format for times</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.1.0</h2>
+            <p>This update may cause some oddities with your current tasks, due to the the format change. New tasks you make will not have any problems, but the old ones might. I have attempted to have the old format convert to the new format as accurately as possible, but there may be some problems. Please tell me if you have any major issues. <a href="http://code.google.com/p/simple-task-timer/issues/list" target="_blank">Report a bug</a></p>
+            <ul>
+                <li>Added desktop notifications (go in the options to enable these)</li>
+                <li>Goal times can now be set with minutes</li>
+                <li>Increased the width of everything</li>
+                <li>Changed the way the times are stored</li>
+                <li>Added an alert when the app is updated</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.8</h2>
+            <ul>
+                <li>Added this beautiful changelog</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.7</h2>
+            <ul>
+                <li>Added check for the existence of every option in localStorage</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.6</h2>
+            <ul>
+                <li>If coming from an older version, the reset button confirmation option will default to on</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.5</h2>
+            <ul>
+                <li>Added a reset button to tasks</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.4</h2>
+            <ul>
+                <li>Fixed a typo in the deletion confirmation message</li>
+                <li>The options modal box now has a fixed width</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.3</h2>
+            <ul>
+                <li>Switched the Custom File Path option to a Custom File URL option for the custom sound</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.2</h2>
+            <ul>
+                <li>Added a link to suggest features</li>
+                <li>Added a link to report bugs</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.1</h2>
+            <ul>
+                <li>Switched to a local copy of jQuery rather than the Google API's jQuery</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h2>Version 1.0.0</h2>
+            <ul>
+                <li>Initial release</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
