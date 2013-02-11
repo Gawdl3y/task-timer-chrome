@@ -183,7 +183,7 @@
 		"message": "Export tasks as a CSV file"
 	},
 	"toolClearAllHistory": {
-		"message": "Clear all task histor"
+		"message": "Clear all task history"
 	},
 	"toolClearData": {
 		"message": "Clear all of the app's data"
