@@ -102,8 +102,8 @@ $(function() {
                 // Add the description property to a task if it doesn't exist
                 if(typeof tasks[i].description == 'undefined') tasks[i].description = '';
 
-                // Add the settings property to a task if it doesn't exist
-                if(typeof tasks[i].settings == 'undefined') tasks[i].settings = task_settings_checkboxes;
+                // Add the settings property to a task if it doesn't exist or is null
+                if(typeof tasks[i].settings == 'undefined' || tasks[i].settings == null) tasks[i].settings = {};
                 LoadTaskSettings(i);
 
                 // Make sure goal times aren't null
