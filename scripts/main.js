@@ -87,6 +87,12 @@ $(function() {
                     tasks[i].goal_mins = Math.round((tasks[i].goal - tasks[i].goal_hours) * 60);
                 }
 
+                // Delete the old time format properties
+                if(typeof tasks[i].current != 'undefined') {
+                    delete tasks[i].current;
+                    delete tasks[i].goal;
+                }
+
                 // Add the notified property to a task if it doesn't exist
                 if(typeof tasks[i].notified == 'undefined') {
                     if(tasks[i].current_hours >= tasks[i].goal_hours && tasks[i].current_mins >= tasks[i].goal_mins) {
