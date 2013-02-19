@@ -277,6 +277,21 @@ $(function() {
     });
 
 
+    // User clicked the set localStorage button (debug)
+    $('#debug-set').click(function() {
+        // Assign localStorage
+        var tmp = JSON.parse($('#debug-json').val());
+        for(var i in tmp) {
+            localStorage[i] = tmp[i];
+        }
+
+        // Reload
+        $(window).unbind('unload');
+        background.opened = false;
+        window.location = window.location;
+    });
+
+
     /**************************************************
      ********     I N P U T   E V E N T S      ********
      **************************************************/

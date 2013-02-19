@@ -3,6 +3,7 @@ var alarm_open = false, task_open = false, tools_open = false, dialog_open = fal
 var js_error_shown = false, no_local_files_alerted = false; // Alert state variables
 var current_plot = false, total_plot = false; // Plot variables
 var save_timer, timer, timer_step = 0; // Timer variables
+var DEBUG = true; // Debug mode
 
 // Set error event (most important event)
 window.onerror = function(msg, url, line) { js_error(msg, url, line); };
@@ -195,6 +196,7 @@ $(function() {
         rebuild_totals();
         rebuild_charts();
         check_width();
+        if(DEBUG) $('#debug').show();
     } catch(e) {
         js_error(e);
     }
