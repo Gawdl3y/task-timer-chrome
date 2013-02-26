@@ -1,6 +1,5 @@
 // Settings checkboxes (ID: Default value)
 var settings_checkboxes = {
-    'enable-charts': true,
     'hide-notice': false,
     'confirm-reset': true,
     'confirm-delete': true,
@@ -20,7 +19,11 @@ var settings_checkboxes = {
     'show-popup': true,
     'notify': false,
     'play-sound': true,
-    'loop-sound': false
+    'loop-sound': false,
+
+    'enable-charts': true,
+    'chart-show-percent': true,
+    'chart-combine': false
 };
 
 // Other settings (ID: Default value)

@@ -7,6 +7,17 @@ $(function() {
         if($(this).val() == '' || parseInt($(this).val()) < 0) $(this).val('0');
     });
 
+    // User hovered over the pie chart
+    $('#current-pie-chart').bind("plothover", function(event, pos, obj) {
+        if (!obj) {
+            $('#current-pie-hover').text('');
+            return;
+        }
+
+        percent = Math.round(parseFloat(obj.series.percent));
+        $('#current-pie-hover').text(obj.series.label + ' - ' + percent + '%');
+    });
+
     // User resized window
     $(window).resize(function() {
         $('#error, #saved, #alarm-menu, #modal-dialog').center();

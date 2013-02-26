@@ -214,6 +214,10 @@
         "message": "Total Time Spent Ever (History)",
         "description": "Title for total time spent pie chart"
     },
+    "txtOther": {
+        "message": "Other",
+        "description": "Label for the \"other\" chart group"
+    },
 
 
 
@@ -306,10 +310,6 @@
     "txtGeneralSettings": {
         "message": "General Settings",
         "description": "General settings header"
-    },
-    "optEnableCharts": {
-        "message": "Enable pie charts",
-        "description": "Setting - Enable pie charts"
     },
     "optHideNotice": {
         "message": "Hide the notice box",
@@ -408,6 +408,23 @@
     "optLoopSound": {
         "message": "Loop the sound until you stop it",
         "description": "Setting - Loop the sound"
+    },
+
+    "txtChartSettings": {
+        "message": "Chart Settings",
+        "description": "Chart settings header"
+    },
+    "optEnableCharts": {
+        "message": "Enable pie charts",
+        "description": "Setting - Enable pie charts"
+    },
+    "optShowChartPercent": {
+        "message": "Show chart percentage labels",
+        "description": "Setting - Show chart percentage labels"
+    },
+    "optCombineSmallSlices": {
+        "message": "Combine small slices of the chart into \"Other\"",
+        "description": "Setting - Combine small slices"
     },
 
     "txtPerfSettings": {

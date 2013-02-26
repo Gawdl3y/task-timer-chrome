@@ -6,10 +6,10 @@
 
     <link rel="stylesheet" type="text/css" href="style/global.css" />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
-    <link rel="stylesheet" type="text/css" href="style/redmond/jquery-ui-1.9.2.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/redmond/jquery-ui-1.10.1.custom.min.css" />
 
-    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-1.10.1.custom.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.tablednd-0.5.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.center-2.0.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.flot.min.js"></script>
@@ -116,6 +116,7 @@
         <div id="current-pie">
             <div id="current-pie-title" i18n="txtCurrentPieTitle">Current Time Usage</div>
             <div id="current-pie-chart"></div>
+            <div id="current-pie-hover"></div>
         </div>
         <!--<div id="total-pie">
             <div id="total-pie-title" i18n="txtTotalPieTitle">Total Time Usage</div>
@@ -250,7 +251,6 @@
                 <div class="menu-group">
                     <h2 i18n="txtGeneralSettings">General Settings</h2>
 
-                    <label><input type="checkbox" id="enable-charts" /><span i18n="optEnableCharts">Enable pie charts</span></label><br />
                     <label><input type="checkbox" id="hide-notice" /><span i18n="optHideNotice">Hide the notice box</span></label><br />
                     <label><input type="checkbox" id="confirm-reset" /><span i18n="optConfirmReset">Ask to confirm when you attempt to reset a task</span></label><br />
                     <label><input type="checkbox" id="confirm-delete" /><span i18n="optConfirmDelete">Ask to confirm when you attempt to delete a task</span></label><br />
@@ -286,6 +286,14 @@
                     </select>
                     <input type="text" id="custom-sound" placeholder="Custom Sound URL" i18n="optSoundURL" />
                     <button id="preview-sound" i18n="optBtnPreview">Preview sound</button>
+                </div>
+
+                <div class="menu-group">
+                    <h2 i18n="txtChartSettings">Chart Settings</h2>
+
+                    <label><input type="checkbox" id="enable-charts" /><span i18n="optEnableCharts">Enable pie charts</span></label><br />
+                    <label><input type="checkbox" id="chart-show-percent" /><span i18n="optShowChartPercent">Show chart percentage labels</span></label><br />
+                    <label><input type="checkbox" id="chart-combine" /><span i18n="optCombineSmallSlices">Combine small slices of the chart into "other"</span></label>
                 </div>
 
                 <div class="menu-group">
