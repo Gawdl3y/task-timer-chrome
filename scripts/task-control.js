@@ -383,7 +383,7 @@ function show_history(y, m, d) {
             for(h = 0; h <= 23; h++) {
                 if(typeof tasks[displaying_task].history[y][m - 1][d][h] != 'undefined') {
                     $('<tr />')
-                        .append('<td>'+ (Setting('12-hour') ? (h == 0 ? '12' : (h > 12 ? h - 12 : '')) : h) +':00'+ (Setting('12-hour') ? (h >= 12 ? ' PM' : ' AM') : '') +'</td>')
+                        .append('<td>'+ (Setting('12-hour') ? (h == 0 ? '12' : (h > 12 ? h - 12 : h)) : h) +':00'+ (Setting('12-hour') ? (h >= 12 ? ' PM' : ' AM') : '') +'</td>')
                         .append('<td>'+ format_time(tasks[displaying_task].history[y][m - 1][d][h].hours, tasks[displaying_task].history[y][m - 1][d][h].mins, tasks[displaying_task].history[y][m - 1][d][h].secs) +'</td>')
                         .appendTo('#history tbody')
                     ;
@@ -419,6 +419,9 @@ function LoadTaskSettings(task) {
 // Return or set the value of a task setting setting
 function TaskSetting(id, task, value, only_not_exists) {
     if(typeof only_not_exists == 'undefined') only_not_exists = false;
+
+    // Make sure the task itself exists
+    if(typeof tasks[task] == 'undefined') tasks[task] = {};
 
     // Check if the setting exists
     if(typeof tasks[task].settings[id] == 'undefined') {
