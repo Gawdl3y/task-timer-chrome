@@ -1,5 +1,5 @@
 /* General Look and Feel */
-#loading, #notice, #translate-notice, #tasks, #charts, #task-list, #task-list tfoot, #debug, #nothing, #edit-tasks, #translations-accuracy, #js-error, #modal, #history, #alarm-menu, #modal-dialog { display: none; }
+#loading, #notice, #translate-notice, #tasks, #charts, #task-list, #task-list tfoot, #debug, #nothing, #edit-tasks, #translations-accuracy, #js-error, #error-opened-reload, #modal, #history, #alarm-menu, #modal-dialog { display: none; }
 
 header, footer { text-align: center; }
 hr { border-color: #E9E9E9; }
@@ -228,3 +228,4 @@ tfoot td.text, tfoot td.current, tfoot td.goal, tfoot td.progress { font-weight:
 }
 
 #error-info { margin-bottom: 30px; }
+#error-opened-reload { font-size: 1.4em; }

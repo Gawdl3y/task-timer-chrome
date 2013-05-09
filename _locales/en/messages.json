@@ -290,6 +290,10 @@
         "message": "Clear all task history",
         "description": "Clear all task history"
     },
+    "toolReloadApp": {
+        "message": "Reload the app",
+        "description": "Reload app"
+    },
     "toolClearData": {
         "message": "Clear all of the app's data",
         "description": "Clear all data"
@@ -672,7 +676,7 @@
         }
     },
     "errAlreadyOpen": {
-        "message": "The app is already open.\nIf this appears to be incorrect, try closing all Chrome windows and restarting it.",
+        "message": "The app is already open.\nIf this appears to be incorrect, press the reload button below. Task Timer will be reloaded as if you closed Chrome.",
         "description": "App already open"
     },
 

@@ -231,6 +231,7 @@ function js_error(error, url, line) {
         } else {
             $('#big-error-thang').text(locale('errAlreadyOpen')).css({'text-align': 'center', 'font-size': '2em'});
             $('#error-info, #error-clear-data').hide();
+            $('#error-opened-reload').show();
             $(window).unbind();
         }
 

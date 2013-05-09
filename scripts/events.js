@@ -30,7 +30,7 @@ $(function() {
     // User is leaving the page... Save the data.
     $(window).unload(function() {
         SaveTasks();
-        background.opened = false;
+        Setting('opened', false);
     });
 
     // Preview sound is ready
@@ -100,9 +100,14 @@ $(function() {
             clearTimeout(save_timer);
             clearTimeout(timer);
             localStorage.clear();
-            background.opened = false;
             location.reload();
         }
+    });
+
+    // User clicked one of the reload app buttons
+    $('.reload-app').click(function() {
+        Setting('opened', false);
+        chrome.runtime.reload();
     });
 
 
@@ -297,8 +302,8 @@ $(function() {
         }
 
         // Reload
+        Setting('opened', false);
         $(window).unbind('unload');
-        background.opened = false;
         window.location = window.location;
     });
 

@@ -1,4 +1,4 @@
-var app, version, lang, background, load, autosaves = 0,  dragging = false, preview_sound = false, now = new Date(); // General variables
+var app, version, lang, load, autosaves = 0,  dragging = false, preview_sound = false, now = new Date(); // General variables
 var alarm_open = false, task_open = false, tools_open = false, dialog_open = false; // Menu state variables
 var js_error_shown = false, no_local_files_alerted = false; // Alert state variables
 var current_plot = false, total_plot = false; // Plot variables
@@ -15,7 +15,6 @@ $(function() {
         app = chrome.app.getDetails();
         version = app.version;
         lang = window.navigator.language;
-        background = chrome.extension.getBackgroundPage();
         load = $('#loading');
 
         // Localise ALL the things!
@@ -25,10 +24,8 @@ $(function() {
         if(lang != 'en' && lang != 'en-CA' && lang != 'en-GB' && lang != 'en-US') $('#translations-accuracy').show();
 
         // Check to see if the app is already opened
-        if(background.opened) throw 'open';
-
-        // Tell the background page that the app is open
-        background.opened = true;
+        if(Setting('opened', false, true)) throw 'open';
+        Setting('opened', true);
 
         // Load settings
         LoadSettings();
@@ -48,9 +45,6 @@ $(function() {
                     if(status) window.open('about.html#changelog');
                 }, {}, 'question', false, true);
             }
-        } else {
-            background.opened = false;
-            window.location = 'installed.html';
         }
 
         // Set old-version to the current version
@@ -103,14 +97,12 @@ $(function() {
                     }
                 }
 
-                // Add the indefinite property to a task if it doesn't exist
+                // Add missing properties
                 if(typeof tasks[i].indefinite == 'undefined') tasks[i].indefinite = false;
-
-                // Add the description property to a task if it doesn't exist
                 if(typeof tasks[i].description == 'undefined') tasks[i].description = '';
-
-                // Add the settings property to a task if it doesn't exist or is null
                 if(typeof tasks[i].settings == 'undefined' || tasks[i].settings == null) tasks[i].settings = {};
+
+                // Load the task settings for the task
                 LoadTaskSettings(i);
 
                 // Make sure goal times aren't null
