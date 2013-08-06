@@ -10,7 +10,7 @@ function RetrieveTasks() {
                 // Only do stuff if the object isn't empty
                 if(typeof content[0] != 'undefined') {
                     for(var index in content) {
-                        var i = parseInt(index);
+                        var i = parseInt(index, 10);
                         if(!isNaN(i)) {
                             tasks[i] = content[i];
                         }

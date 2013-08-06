@@ -155,11 +155,11 @@ function SaveSettings() {
     Setting('custom-sound', $('#custom-sound').val());
 
     // Save the update times
-    if(parseInt($('#update-time').val()) > 0 && parseInt($('#update-time').val()) <= 60) {
+    if(parseInt($('#update-time').val(), 10) > 0 && parseInt($('#update-time').val(), 10) <= 60) {
         Setting('update-time', $('#update-time').val());
     }
-    if(parseInt($('#chart-update-time').val()) > 0 && parseInt($('#chart-update-time').val()) <= 60) {
-        Setting('chart-update-time', parseInt($('#chart-update-time').val()));
+    if(parseInt($('#chart-update-time').val(), 10) > 0 && parseInt($('#chart-update-time').val(), 10) <= 60) {
+        Setting('chart-update-time', parseInt($('#chart-update-time').val(), 10));
     }
 
     // Check for notification permissions
@@ -183,11 +183,8 @@ function Setting(id, value, only_not_exists) {
     if(typeof only_not_exists == 'undefined') only_not_exists = false;
 
     // Check if the setting exists
-    if(typeof localStorage[id] == 'undefined') {
-        var exists = false;
-    } else {
-        var exists = true;
-    }
+    var exists = false;
+    if(typeof localStorage[id] != 'undefined') exists = true;
 
     if(typeof value != 'undefined' && ((exists && !only_not_exists) || (!exists && only_not_exists))) {
         // Set the setting
@@ -203,7 +200,7 @@ function Setting(id, value, only_not_exists) {
         value = localStorage[id];
         if(value == 'true') return true;
         if(value == 'false') return false;
-        if(!isNaN(parseInt(value))) return parseInt(value);
+        if(!isNaN(parseInt(value, 10))) return parseInt(value, 10);
         return value;
     }
 }

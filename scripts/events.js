@@ -4,7 +4,7 @@ $(function() {
      **************************************************/
     // User clicked away from the goal fields
     $('#new-goal-hours, #new-goal-mins').blur(function() {
-        if($(this).val() == '' || parseInt($(this).val()) < 0) $(this).val('0');
+        if($(this).val() === '' || parseInt($(this).val(), 10) < 0) $(this).val('0');
     });
 
     // User hovered over the pie chart
@@ -58,10 +58,10 @@ $(function() {
     // User clicked the Add Task button
     $('#new-btn').click(function() {
         // Validate time
-        fix_time('#new-goal-hours', '#new-goal-mins')
-        var hours = parseInt($('#new-goal-hours').val()), mins = parseInt($('#new-goal-mins').val()), indef = $('#new-goal-indef').is(':checked');
+        fix_time('#new-goal-hours', '#new-goal-mins');
+        var hours = parseInt($('#new-goal-hours').val(), 10), mins = parseInt($('#new-goal-mins').val(), 10), indef = $('#new-goal-indef').is(':checked');
 
-        if($('#new-txt').val() != '' && (hours > 0 || mins > 0 || indef)) {
+        if($('#new-txt').val() !== '' && (hours > 0 || mins > 0 || indef)) {
             // Add the task to the array
             cancel_edit();
             add_task({
@@ -178,30 +178,30 @@ $(function() {
 
     // User clicked the save description button in the task info menu
     $('#save-description').click(function() {
-        tasks[parseInt($(this).attr('name'))].description = $('#info-description textarea').val();
+        tasks[parseInt($(this).attr('name'), 10)].description = $('#info-description textarea').val();
         success('sucSavedDesc');
     });
 
     // User clicked the toggle button in the task info menu
     $('#task-toggle').click(function() {
-        toggle_task(parseInt($(this).attr('name')));
+        toggle_task(parseInt($(this).attr('name'), 10));
     });
 
     // User clicked the reset button in the task info menu
     $('#task-reset').click(function() {
-        reset_task(parseInt($(this).attr('name')));
+        reset_task(parseInt($(this).attr('name'), 10));
     });
 
     // User clicked the delete button in the task info menu
     $('#task-delete').click(function() {
         cancel_edit();
-        delete_task(parseInt($(this).attr('name')));
+        delete_task(parseInt($(this).attr('name'), 10));
         $('.close-menus').click();
     });
 
     // User clicked the clear history button in the task info menu
     $('#task-clear-history').click(function() {
-        clear_history(parseInt($(this).attr('name')));
+        clear_history(parseInt($(this).attr('name'), 10));
     });
 
 
@@ -229,7 +229,10 @@ $(function() {
         }
 
         // Open CSV file
-        window.open('data:text/csv;charset=utf-8,'+ encodeURIComponent(csv));
+        var link = document.createElement('a');
+        link.setAttribute('href', URL.createObjectURL(new Blob([csv], {type: 'text/csv'})));
+        link.setAttribute('download', 'Task Timer ' + new Date().toLocaleString() + '.csv');
+        link.click();
     });
 
     // User clicked the clear all history button in the tools menu
@@ -253,7 +256,7 @@ $(function() {
         }
 
         // Play preview sound
-        if($('#sound-type').val() == 1 || $('#custom-sound').val() != '') {
+        if($('#sound-type').val() == 1 || $('#custom-sound').val() !== '') {
             preview_sound = true;
             $('#preview').attr('src', $('#sound-type').val() == 1 ? 'Deneb.ogg' : $('#custom-sound').val());
             $(this).text(locale('txtLoading')).attr('disabled', 'disabled');
@@ -275,7 +278,7 @@ $(function() {
                 }
 
                 // Reset other settings
-                for(var i in settings_other) {
+                for(i in settings_other) {
                     Setting(i, settings_other[i]);
                 }
 
@@ -314,7 +317,7 @@ $(function() {
     // User toggled the new task indefinite checkbox
     $('#new-goal-indef').change(function() {
         if($(this).is(':checked')) {
-            $('#new-goal-hours, #new-goal-mins').attr('disabled', 'disabled')
+            $('#new-goal-hours, #new-goal-mins').attr('disabled', 'disabled');
         } else {
             $('#new-goal-hours, #new-goal-mins').removeAttr('disabled');
         }

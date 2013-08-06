@@ -11,6 +11,7 @@ window.onerror = function(msg, url, line) { js_error(msg, url, line); };
 // Document finished loading
 $(function() {
     try {
+        chrome.alarms.create('derp', {when: Date.now() + 60000});
         // Set some variables
         app = chrome.app.getDetails();
         version = app.version;
@@ -54,7 +55,7 @@ $(function() {
         var launches = Setting('launches', Setting('launches', 0, true) + 1);
 
         // Show a rating reminder if at a multiple of 6 launches
-        if(launches % 6 == 0 && typeof localStorage['rated'] == 'undefined') {
+        if(launches % 6 === 0 && typeof localStorage['rated'] == 'undefined') {
             dialog(locale('confRating'), function(status) {
                 if(status) {
                     localStorage['rated'] = 'true';
@@ -100,14 +101,14 @@ $(function() {
                 // Add missing properties
                 if(typeof tasks[i].indefinite == 'undefined') tasks[i].indefinite = false;
                 if(typeof tasks[i].description == 'undefined') tasks[i].description = '';
-                if(typeof tasks[i].settings == 'undefined' || tasks[i].settings == null) tasks[i].settings = {};
+                if(typeof tasks[i].settings == 'undefined' || tasks[i].settings === null) tasks[i].settings = {};
 
                 // Load the task settings for the task
                 LoadTaskSettings(i);
 
                 // Make sure goal times aren't null
-                if(tasks[i].goal_hours == null) tasks[i].goal_hours = 0;
-                if(tasks[i].goal_mins == null) tasks[i].goal_mins = 0;
+                if(tasks[i].goal_hours === null) tasks[i].goal_hours = 0;
+                if(tasks[i].goal_mins === null) tasks[i].goal_mins = 0;
 
                 list_task(i, 0);
                 task_running[i] = false;
@@ -119,7 +120,7 @@ $(function() {
 
         // Start the timers
         timer = setTimeout(update_time, Setting('update-time') * 1000);
-        save_timer = setTimeout(function() { SaveTasks(true) }, 60000);
+        save_timer = setTimeout(function() { SaveTasks(true); }, 60000);
 
 
 
@@ -156,7 +157,7 @@ $(function() {
             },*/
 
             onDrop: function(table, row) {
-                var old_id = parseInt($(row).attr('id').replace('task-', ''));
+                var old_id = parseInt($(row).attr('id').replace('task-', ''), 10);
                 var id = $('table#task-list tbody tr').index(row);
                 var tmp = tasks[old_id], tmp2 = task_running[old_id];
 
@@ -178,7 +179,7 @@ $(function() {
 
             onSelect: function(dateText, inst) {
                 date = dateText.split('-');
-                show_history(parseInt(date[0]), parseInt(date[1]), parseInt(date[2]));
+                show_history(parseInt(date[0], 10), parseInt(date[1], 10), parseInt(date[2], 10));
             }
         });
 
@@ -267,7 +268,7 @@ function rebuild_charts() {
         var plot_data = [], total_time = 0, t, i;
 
         // Get the total of all times
-        for(var t = 0; t < task_count; t++) {
+        for(t = 0; t < task_count; t++) {
             if(!TaskSetting('exclude-charts', t)) total_time += (tasks[t].current_hours) + (tasks[t].current_mins / 60) + (tasks[t].current_secs / 3600);
         }
 
@@ -275,8 +276,8 @@ function rebuild_charts() {
         if(total_time > 0) $('#charts').fadeIn(); else $('#charts').fadeOut();
 
         // Build the time spent chart
-        var i = 0;
-        for(var t = 0; t < task_count; t++) {
+        i = 0;
+        for(t = 0; t < task_count; t++) {
             if(!TaskSetting('exclude-charts', t)) {
                 plot_data[i] = {
                     label: tasks[t].text,
@@ -304,7 +305,7 @@ function rebuild_charts() {
                         formatter: function(label, series) {
                             return '<div style="font-size: 8pt; text-align: center; padding: 2px; color: white;">' + label + (Setting('chart-show-percent', true, true) ? '<br />' + Math.round(series.percent) + '%' : '') + '</div>';
                         },
-                        background: { 
+                        background: {
                             opacity: 0.5,
                             color: '#000'
                         },
@@ -392,14 +393,14 @@ function SaveTasks(timeout) {
     if(timeout) { autosaves++; }
 
     // Sync every 10 autosaves
-    if(!timeout || autosaves % 10 == 0 || !synced) {
+    if(!timeout || autosaves % 10 === 0 || !synced) {
         SendTasks();
         synced = true;
     }
 
     // Timeout
     clearTimeout(save_timer);
-    save_timer = setTimeout(function() { SaveTasks(true) }, 60000);
+    save_timer = setTimeout(function() { SaveTasks(true); }, 60000);
 
     $('button.delete, #new-btn').removeAttr('disabled');
     if(timeout) load.hide();

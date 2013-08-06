@@ -69,7 +69,7 @@ function update_time() {
                         }
 
                         // Show Desktop Notification
-                        if(Setting('notify') && webkitNotifications.checkPermission() == 0) {
+                        if(Setting('notify') && webkitNotifications.checkPermission() === 0) {
                             var notification = webkitNotifications.createNotification('style/images/icon-64.png', locale('noteTaskFinished', tasks[i].text), locale('noteTaskFinishedLong', tasks[i].text));
                             notification.onclick = function() {
                                 $('#close-alarm').click();
@@ -119,7 +119,7 @@ function add_task(data) {
     task_running[task_count] = false;
     task_count++;
 
-    list_task(task_count - 1, (task_count - 1 == 0 ? 1 : 2));
+    list_task(task_count - 1, (task_count - 1 === 0 ? 1 : 2));
     rebuild_totals();
 }
 
@@ -165,7 +165,7 @@ function delete_task(task, override) {
 
                 // Animate accordingly.
                 setTimeout(function() {
-                    if(task_count == 0) {
+                    if(task_count === 0) {
                         $('#edit-tasks').fadeOut();
                         $('table#task-list').fadeOut(400, function() {
                             $('table#task-list tbody').empty();
@@ -211,6 +211,7 @@ function toggle_task(task) {
             $('#task-'+ task +' img.toggle').attr('title', locale('btnStart')).attr('src', 'style/images/control_play_blue.png');
             if(displaying_task == task) $('#task-toggle').text(locale('btnStart'));
             $('#task-'+ task).removeClass('running');
+            chrome.alarms.clear('task-' + task);
         } else {
             // Disable other tasks if they have it set to allow only one running at a time
             if(Setting('only-one')) {
@@ -224,6 +225,9 @@ function toggle_task(task) {
             $('#task-'+ task +' img.toggle').attr('title', locale('btnStop')).attr('src', 'style/images/control_pause_blue.png');
             if(displaying_task == task) $('#task-toggle').text(locale('btnStop'));
             $('#task-'+ task).addClass('running');
+
+            // Set a future alarm for the task reaching its goal
+            chrome.alarms.create('task-' + task, {when: Date.now() + (tasks[task].goal_hours * 3600 + tasks[task].goal_mins * 60 - tasks[task].current_hours * 3600 - tasks[task].current_mins * 60 - tasks[task].current_secs) * 1000});
         }
     } catch(e) {
         js_error(e);
@@ -256,18 +260,18 @@ function list_task(task, anim) {
 
         // Option Buttons
         $('#task-'+ task +' .toggle').attr('name', task).click(function() {
-            if(!$(this).hasClass('disabled')) toggle_task(parseInt($(this).attr('name')));
+            if(!$(this).hasClass('disabled')) toggle_task(parseInt($(this).attr('name'), 10));
         });
         $('#task-'+ task +' .info').attr('name', task).click(function() {
-            if(!$(this).hasClass('disabled')) task_info(parseInt($(this).attr('name')), true, true, false);
+            if(!$(this).hasClass('disabled')) task_info(parseInt($(this).attr('name'), 10), true, true, false);
         });
         $('#task-'+ task +' .reset').attr('name', task).click(function() {
-            if(!$(this).hasClass('disabled')) reset_task(parseInt($(this).attr('name')));
+            if(!$(this).hasClass('disabled')) reset_task(parseInt($(this).attr('name'), 10));
         });
         $('#task-'+ task +' .delete').attr('name', task).click(function() {
             if(!$(this).hasClass('disabled')) {
                 cancel_edit();
-                delete_task(parseInt($(this).attr('name')));
+                delete_task(parseInt($(this).attr('name'), 10));
             }
         });
 
@@ -279,13 +283,13 @@ function list_task(task, anim) {
 
         // In-line editing events
         $('#task-'+ task +' td.text').dblclick(function() {
-            edit_name(parseInt($(this).parent().attr('id').replace('task-', '')));
+            edit_name(parseInt($(this).parent().attr('id').replace('task-', ''), 10));
         });
         $('#task-'+ task +' td.current').dblclick(function() {
-            edit_current(parseInt($(this).parent().attr('id').replace('task-', '')));
+            edit_current(parseInt($(this).parent().attr('id').replace('task-', ''), 10));
         });
         $('#task-'+ task +' td.goal').dblclick(function() {
-            edit_goal(parseInt($(this).parent().attr('id').replace('task-', '')));
+            edit_goal(parseInt($(this).parent().attr('id').replace('task-', ''), 10));
         });
 
         // Disable the toggle button if task is at its goal, and change the bg colour
@@ -302,11 +306,11 @@ function list_task(task, anim) {
         if(displaying_task == task) task_info(task, false, false, progress);
 
         // Animation
-        if(anim == 0) {
+        if(anim === 0) {
             // Show instantly
             $('#no-tasks').hide();
             $('#edit-tasks, table#task-list, #task-'+ task).show();
-        } else if(anim == 1) {
+        } else if(anim === 1) {
             // Fade all at once
             $('#task-'+ task).show();
             $('#no-tasks').fadeOut(400, function() {
@@ -334,7 +338,7 @@ function task_info(task, user_triggered, anim, progress) {
         if(user_triggered) $('#info-description textarea').val(tasks[task].description);
 
         // Progress done
-        if(typeof progress == 'undefined' || !progress) var progress = task_progress(task);
+        if(typeof progress == 'undefined' || !progress) progress = task_progress(task);
 
         // Progress bar
         if(!tasks[task].indefinite) {
@@ -383,7 +387,7 @@ function show_history(y, m, d) {
             for(h = 0; h <= 23; h++) {
                 if(typeof tasks[displaying_task].history[y][m - 1][d][h] != 'undefined') {
                     $('<tr />')
-                        .append('<td>'+ (Setting('12-hour') ? (h == 0 ? '12' : (h > 12 ? h - 12 : h)) : h) +':00'+ (Setting('12-hour') ? (h >= 12 ? ' PM' : ' AM') : '') +'</td>')
+                        .append('<td>'+ (Setting('12-hour') ? (h === 0 ? '12' : (h > 12 ? h - 12 : h)) : h) +':00'+ (Setting('12-hour') ? (h >= 12 ? ' PM' : ' AM') : '') +'</td>')
                         .append('<td>'+ format_time(tasks[displaying_task].history[y][m - 1][d][h].hours, tasks[displaying_task].history[y][m - 1][d][h].mins, tasks[displaying_task].history[y][m - 1][d][h].secs) +'</td>')
                         .appendTo('#history tbody')
                     ;
@@ -406,7 +410,7 @@ function LoadTaskSettings(task) {
         if(typeof task == 'undefined') task = displaying_task;
 
         if(task != -1) {
-            for(s in task_settings_checkboxes) {
+            for(var s in task_settings_checkboxes) {
                 TaskSetting(s, task, task_settings_checkboxes[s], true);
                 if(task == displaying_task) $('#task-'+ s).attr('checked', TaskSetting(s, task));
             }
@@ -425,11 +429,7 @@ function TaskSetting(id, task, value, only_not_exists) {
     if(typeof tasks[task].settings == 'undefined') tasks[task].settings = {};
 
     // Check if the setting exists
-    if(typeof tasks[task].settings[id] == 'undefined') {
-        var exists = false;
-    } else {
-        var exists = true;
-    }
+    var exists = typeof tasks[task].settings[id] != 'undefined';
 
     if(typeof value != 'undefined' && ((exists && !only_not_exists) || (!exists && only_not_exists))) {
         // Set the setting
@@ -444,7 +444,7 @@ function TaskSetting(id, task, value, only_not_exists) {
 // Get the progress of a task
 function task_progress(task) {
     var progress = Math.floor((tasks[task].current_hours + (tasks[task].current_mins / 60) + (tasks[task].current_secs / 3600)) / (tasks[task].goal_hours + (tasks[task].goal_mins / 60)) * 100);
-    if(tasks[task].indefinite == true) progress = 0;
+    if(tasks[task].indefinite) progress = 0;
     if(progress == Infinity) progress = 100;
 
     return progress;

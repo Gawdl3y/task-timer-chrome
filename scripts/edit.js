@@ -5,24 +5,24 @@ function edit_name(task) {
     try {
         if(editing_task === -1) {
             editing_task = task;
-            
+
             // Disable the task's toggle button
             $('#task-'+ task +' button.toggle').attr('disabled', 'disabled');
             $('#task-'+ task +' img.toggle').addClass('disabled');
-            
+
             // Replace the text with a text field and a save button
             $('#task-'+ task +' td.text').empty();
             $('#name-edit-template').clone().attr('id', 'name-edit-'+ task).appendTo('#task-'+ task +' td.text');
-            
+
             // Set the current name and focus
             $('#name-edit-'+ task +' input').val(tasks[task].text).focus();
-            
+
             // Set names & add events
             $('#name-edit-'+ task +' input').attr('name', task).keypress(function (e) {
-                if(e.keyCode == 13) save_name(parseInt(this.name));
+                if(e.keyCode == 13) save_name(parseInt(this.name, 10));
             });
             $('#name-edit-'+ task +' button.save').attr('name', task).click(function() {
-                save_name(parseInt(this.name));
+                save_name(parseInt(this.name, 10));
             });
             $('#name-edit-'+ task +' button.cancel').click(function() {
                 cancel_edit();
@@ -38,10 +38,10 @@ function edit_name(task) {
 // Finish editing a task's name
 function save_name(task) {
     try {
-        if($('#name-edit-'+ task +' input').val() != '') {
+        if($('#name-edit-'+ task +' input').val() !== '') {
             // Set the name
             tasks[task].text = $('#name-edit-'+ task +' input').val();
-            
+
             // Finish editing
             rebuild_list();
             SaveTasks();
@@ -61,31 +61,31 @@ function edit_current(task) {
             editing_task = task;
             was_running = task_running[task];
             if(task_running[task]) toggle_task(task);
-            
+
             $('#task-list tbody').addClass('editing-current');
-            
+
             // Disable the task's toggle button
             $('#task-'+ task +' button.toggle').attr('disabled', 'disabled');
             $('#task-'+ task +' img.toggle').attr('src', 'style/images/control_play.png').addClass('disabled');
-            
+
             // Replace the current text with inputs
             $('#task-'+ task +' td.current').empty();
             $('#current-edit-template').clone().attr('id', 'current-edit-'+ task).appendTo('#task-'+ task +' td.current');
-            
+
             // Add events
             $('#current-edit-'+ task +' input').keypress(function (e) {
                 if(e.keyCode == 13) save_current(editing_task);
             }).blur(function() {
                 fix_time('#current-edit-'+ editing_task +' .hrs', '#current-edit-'+ editing_task +' .mins', '#current-edit-'+ editing_task +' .secs');
             });
-            
+
             $('#current-edit-'+ task +' button.save').attr('name', task).click(function() {
-                save_current(parseInt(this.name));
+                save_current(parseInt(this.name, 10));
             });
             $('#current-edit-'+ task +' button.cancel').click(function() {
                 cancel_edit();
             });
-            
+
             // Set the current goal and focus
             $('#current-edit-'+ task +' .hrs').val(tasks[task].current_hours).focus();
             $('#current-edit-'+ task +' .mins').val(tasks[task].current_mins);
@@ -103,16 +103,16 @@ function save_current(task) {
     try {
         // Fix time
         fix_time('#current-edit-'+ task +' .hrs', '#current-edit-'+ task +' .mins', '#current-edit-'+ task +' .secs');
-        var hours = parseInt($('#current-edit-'+ task +' .hrs').val()), mins = parseInt($('#current-edit-'+ task +' .mins').val()), secs = parseInt($('#current-edit-'+ task +' .secs').val());
-        
+        var hours = parseInt($('#current-edit-'+ task +' .hrs').val(), 10), mins = parseInt($('#current-edit-'+ task +' .mins').val(), 10), secs = parseInt($('#current-edit-'+ task +' .secs').val(), 10);
+
         // Set the goal
         tasks[task].current_hours = hours;
         tasks[task].current_mins = mins;
         tasks[task].current_secs = secs;
-        
+
         // Reset the task's notified property
         tasks[task].notified = false;
-        
+
         // Finish editing
         rebuild_list();
         SaveTasks();
