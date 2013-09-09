@@ -41,7 +41,7 @@ $(function() {
         // Check the version, and show the changelog if necessary
         if(typeof localStorage['old-version'] != 'undefined') {
             if(version != localStorage['old-version']) {
-                dialog(locale('confUpdated', version), function(status) {
+                dialog(locale('confUpdated', version) + (!Setting('background-running') ? '\n'+ locale('confUpdatedRestartAddendum') : ''), function(status) {
                     if(status) window.open('about.html#changelog');
                 }, {}, 'question', false, true);
             }

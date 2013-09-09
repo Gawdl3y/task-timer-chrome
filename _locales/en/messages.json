@@ -566,7 +566,7 @@
     },
 
     "confUpdated": {
-        "message": "Task Timer has been updated to version $version$!\nWould you like to see the changelog?\nBe aware that you will need to start your tasks again if Chrome auto-updated the app while any were running.",
+        "message": "Task Timer has been updated to version $version$!\nWould you like to see the changelog?",
         "description": "Task timer was updated",
         "placeholders": {
             "version": {
@@ -574,6 +574,10 @@
                 "example": "1.7.2"
             }
         }
+    },
+    "confUpdatedRestartAddendum": {
+        "message": "Be aware that you will need to start your tasks again if Chrome auto-updated the app while any were running.",
+        "description": "The addendum when time tracking while the app is closed is disabled"
     },
     "confRating": {
         "message": "Would you like to give this app a rating/review on the Chrome Web Store?\nIt really helps out!",
