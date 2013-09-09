@@ -2,9 +2,6 @@
 	"appName": {
 		"message": "Temporizador de Tareas"
 	},
-	"appDesc": {
-		"message": "Una herramienta simple diseñada para ayudarlo a mantener un registro del tiempo que ocupa en hacer tareas relacionadas con el trabajo, los estudios, el ocio, entre otras."
-	},
 	"txtTitle": {
 		"message": "Temporizador de Tareas"
 	},
