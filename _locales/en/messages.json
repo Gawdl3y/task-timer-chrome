@@ -376,6 +376,10 @@
         "message": "Only allow one task to be running at a time",
         "description": "Setting - Only allow one task to be running"
     },
+    "optBackgroundRunning": {
+        "message": "Keep timing tasks while the app is closed",
+        "description": "Setting - Keep time tasks in the background"
+    },
 
     "txtNotifSettings": {
         "message": "Notification Settings",

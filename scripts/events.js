@@ -2,13 +2,24 @@ $(function() {
     /**************************************************
      ******     G E N E R A L   E V E N T S      ******
      **************************************************/
+    // Window gained focus
+    $(window).focus(function() {
+        background = false;
+    });
+
+    // Window lost focus
+    $(window).blur(function() {
+        background = true;
+
+    });
+
     // User clicked away from the goal fields
     $('#new-goal-hours, #new-goal-mins').blur(function() {
         if($(this).val() === '' || parseInt($(this).val(), 10) < 0) $(this).val('0');
     });
 
     // User hovered over the pie chart
-    $('#current-pie-chart').bind("plothover", function(event, pos, obj) {
+    $('#current-pie-chart').bind('plothover', function(event, pos, obj) {
         if (!obj) {
             $('#current-pie-hover').text('');
             return;
@@ -74,7 +85,9 @@ $(function() {
                 'goal_mins': mins,
                 'indefinite': indef,
                 'notified': false,
-                'settings': task_settings_checkboxes
+                'running': false,
+                'last_tick': null,
+                'settings': task_settings_checkboxes,
             });
 
             // Start the task if the start checkbox is checked and save the tasks
@@ -184,7 +197,7 @@ $(function() {
 
     // User clicked the toggle button in the task info menu
     $('#task-toggle').click(function() {
-        toggle_task(parseInt($(this).attr('name'), 10));
+        toggle_task(parseInt($(this).attr('name'), 10), true);
     });
 
     // User clicked the reset button in the task info menu

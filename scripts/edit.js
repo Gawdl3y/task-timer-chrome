@@ -59,8 +59,8 @@ function edit_current(task) {
     try {
         if(editing_task === -1) {
             editing_task = task;
-            was_running = task_running[task];
-            if(task_running[task]) toggle_task(task);
+            was_running = tasks[task].last_tick != null;
+            if(tasks[task].last_tick) toggle_task(task);
 
             $('#task-list tbody').addClass('editing-current');
 
@@ -128,8 +128,8 @@ function edit_goal(task) {
     try {
         if(editing_task === -1) {
             editing_task = task;
-            was_running = task_running[task];
-            if(task_running[task]) toggle_task(task);
+            was_running = tasks[task].last_tick != null;
+            if(tasks[task].last_tick) toggle_task(task);
             
             $('#task-list tbody').addClass('editing-goal');
             

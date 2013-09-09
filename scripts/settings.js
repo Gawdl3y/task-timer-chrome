@@ -15,6 +15,7 @@ var settings_checkboxes = {
     'stop-timer': true,
     'no-overtime': true,
     'only-one': false,
+    'background-running': true,
 
     'show-popup': true,
     'notify': false,

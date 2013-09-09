@@ -1,7 +1,7 @@
-var app, version, lang, load, autosaves = 0,  dragging = false, preview_sound = false, now = new Date(); // General variables
+var app, version, lang, load, background = false, autosaves = 0,  dragging = false, preview_sound = false; // General variables
 var alarm_open = false, task_open = false, tools_open = false, dialog_open = false; // Menu state variables
 var js_error_shown = false, no_local_files_alerted = false; // Alert state variables
-var current_plot = false, total_plot = false; // Plot variables
+var current_plot, total_plot; // Plot variables
 var save_timer, timer, timer_step = 0; // Timer variables
 var DEBUG = false; // Debug mode
 
@@ -11,7 +11,6 @@ window.onerror = function(msg, url, line) { js_error(msg, url, line); };
 // Document finished loading
 $(function() {
     try {
-        chrome.alarms.create('derp', {when: Date.now() + 60000});
         // Set some variables
         app = chrome.app.getDetails();
         version = app.version;
@@ -102,6 +101,7 @@ $(function() {
                 if(typeof tasks[i].indefinite == 'undefined') tasks[i].indefinite = false;
                 if(typeof tasks[i].description == 'undefined') tasks[i].description = '';
                 if(typeof tasks[i].settings == 'undefined' || tasks[i].settings === null) tasks[i].settings = {};
+                if(typeof tasks[i].last_tick == 'undefined') tasks[i].last_tick = null;
 
                 // Load the task settings for the task
                 LoadTaskSettings(i);
@@ -110,8 +110,10 @@ $(function() {
                 if(tasks[i].goal_hours === null) tasks[i].goal_hours = 0;
                 if(tasks[i].goal_mins === null) tasks[i].goal_mins = 0;
 
+                // Clear the last tick if the app shouldn't run in the background
+                if(!Setting('background-running')) tasks[i].last_tick = null;
+
                 list_task(i, 0);
-                task_running[i] = false;
             }
         }
 
@@ -119,7 +121,7 @@ $(function() {
         RetrieveTasks();
 
         // Start the timers
-        timer = setTimeout(update_time, Setting('update-time') * 1000);
+        update_time();
         save_timer = setTimeout(function() { SaveTasks(true); }, 60000);
 
 
@@ -159,13 +161,11 @@ $(function() {
             onDrop: function(table, row) {
                 var old_id = parseInt($(row).attr('id').replace('task-', ''), 10);
                 var id = $('table#task-list tbody tr').index(row);
-                var tmp = tasks[old_id], tmp2 = task_running[old_id];
+                var tmp = tasks[old_id];
 
                 if(typeof tasks[old_id] != 'undefined' /*&& tasks[old_id] === dragging*/) {
                     tasks.splice(old_id, 1);
                     tasks.splice(id, 0, tmp);
-                    task_running.splice(old_id, 1);
-                    task_running.splice(id, 0, tmp2);
                 }
 
                 rebuild_list();
