@@ -1,11 +1,11 @@
 {
 	"appName": {
 		"message": "Task Timer",
-		"description": "The name of the app"
+		"description": "The name of the app (maximum 45 characters)"
 	},
 	"appDesc": {
 		"message": "A simple tool to help keep track of time spent on tasks such as work, studies, or other things.",
-		"description": "The short description of the app"
+		"description": "The short description of the app (maximum 132 characters)"
 	},
 	"txtTitle": {
 		"message": "Task Timer",

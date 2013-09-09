@@ -252,7 +252,7 @@ function toggle_task(task, update) {
             $('#task-'+ task).addClass('running');
 
             // Set a future alarm for the task reaching its goal
-            if(Setting('background-running')) chrome.alarms.create('task-' + task, {when: Date.now() + (tasks[task].goal_hours * 3600 + tasks[task].goal_mins * 60 - tasks[task].current_hours * 3600 - tasks[task].current_mins * 60 - tasks[task].current_secs) * 1000});
+            if(Setting('background-running') && !tasks[task].indefinite) chrome.alarms.create('task-' + task, {when: Date.now() + (tasks[task].goal_hours * 3600 + tasks[task].goal_mins * 60 - tasks[task].current_hours * 3600 - tasks[task].current_mins * 60 - tasks[task].current_secs) * 1000});
         }
     } catch(e) {
         js_error(e);
