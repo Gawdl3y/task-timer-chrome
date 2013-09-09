@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Vymazať celú historiu úloh"
 	},
+	"toolReloadApp": {
+		"message": "Znovunačítať aplikáciu"
+	},
 	"toolClearData": {
 		"message": "Vyčistiť všetky údaje aplikácie"
 	},
@@ -245,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Povoliť naraz iba jednu prebiehajúcu úlohu"
 	},
+	"optBackgroundRunning": {
+		"message": "sleduj časy úloh kým je aplikácia zatvorená"
+	},
 	"txtNotifSettings": {
 		"message": "Nastavenie upozornenia"
 	},
@@ -280,6 +286,9 @@
 	},
 	"optShowChartPercent": {
 		"message": "Zobraziť menovky grafu v percentách"
+	},
+	"optCombineSmallSlices": {
+		"message": "Spoj malé kúsky grafu do jedného pod názvom \"Ostatné\""
 	},
 	"txtPerfSettings": {
 		"message": "Nastavenia výkonu"
@@ -371,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Naozaj chcete vrátiť všetky nastavenia na základné hodnoty?"
 	},
+	"confUpdated": {
+		"message": "Task Timer bol aktualizovaný na verziu $version$!",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Buď si vedomý, že ak bežia úlohy, a prebehne aktualizácia Chrome, budete musieť úlohy znovu spustiť."
+	},
 	"confRating": {
 		"message": "Radi by ste dali hodnotenie tejto aplikácii na Chrome Web Store ?\nSkutočne to pomože!"
 	},
@@ -439,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplikácia je už otvorená.\nAk je toto hlásenie nesprávne, prosím klikni na tlačidlo Znovunačítanie. Task Timer sa znovu načíta tak, ako bol keď si zatvoril Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Dajte nápad"

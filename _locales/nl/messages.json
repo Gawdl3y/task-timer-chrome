@@ -443,6 +443,9 @@
 			}
 		}
 	},
+	"errAlreadyOpen": {
+		"message": "De applicatie is al geopend.\nAls dit niet lijkt te kloppen, klik je op reload. Task Timer zal automatisch"
+	},
 	"txtSuggestionTitle": {
 		"message": "Doe een suggestie"
 	},

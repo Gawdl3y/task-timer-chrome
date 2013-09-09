@@ -3,7 +3,7 @@
 		"message": "任务计时器"
 	},
 	"appDesc": {
-		"message": "66"
+		"message": "一个用来跟踪任务时间消耗的简单工具,包括工作,学习,等其他任务."
 	},
 	"txtTitle": {
 		"message": "任务计时器"
@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "清除所有任务历史"
 	},
+	"toolReloadApp": {
+		"message": "重新载入应用"
+	},
 	"toolClearData": {
 		"message": "清除所有软件数据"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "只允许同时进行一个任务"
+	},
+	"optBackgroundRunning": {
+		"message": "当应用关闭的时候,保持任务计时继续."
 	},
 	"txtNotifSettings": {
 		"message": "提示设置"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "你确定要将所有的设置还原为默认设置吗？"
 	},
+	"confUpdated": {
+		"message": "任务计时器将更新到版本$version$!\n想看看变更日志吗?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "如果应用运行时候,Chrome自动更新了应用,请一定记得你需要重新开始任务."
+	},
 	"confRating": {
 		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "应用已经打开.\n如果这个出现的不正常,按下方的重新载入按钮.任务计时器将会重新载入,就像关闭了Chrome一样."
 	},
 	"txtSuggestionTitle": {
 		"message": "提一个建议"

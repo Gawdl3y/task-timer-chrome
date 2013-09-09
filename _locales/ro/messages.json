@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Curăţă toată istoria sarcinilor de lucru"
 	},
+	"toolReloadApp": {
+		"message": "Reîncarcă aplicaţia"
+	},
 	"toolClearData": {
 		"message": "Curăţă toate datele aplicaţiei"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "Nu permite să ruleze mai multe sarcini de lucru în acelaşi timp"
+	},
+	"optBackgroundRunning": {
+		"message": "Continuă cronometrarea sarcinilor cât timp aplicaţia este închisă"
 	},
 	"txtNotifSettings": {
 		"message": "Setări pentru notificări"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Eşti sigur că vrei să resetezi toate setările la valorile lor implicite?"
 	},
+	"confUpdated": {
+		"message": "Task Timer a fost actualizat la versiunea $version$!\nAi vrea să vezi jurnalul de schimbări?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Ţine minte că va trebui să îţi reporneşti sarcinile de lucru dacă Chrome a actualizat automat aplicaţia în timp ce acestea rulau."
+	},
 	"confRating": {
 		"message": "Ai vrea să evaluezi\/recenzezi această aplicaţie pe Chrome Web Store?\nM-ar ajuta enorm!"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplicaţia este deja deschisă.\nDacă situaţia aceasta pare a fi incorectă, apasă butonul de reîncărcare de mai jos. Task Timer va fi reîncărcat ca şi cum ai fi închis brwoserul Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Fă o sugestie!"

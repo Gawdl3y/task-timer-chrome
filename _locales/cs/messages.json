@@ -48,7 +48,7 @@
 		"message": "Na neurčito"
 	},
 	"infoData": {
-		"message": "Poznámka: Data jsou ukládána pouze lokálně, na Vašem počítači.\nNemějte obavy - Vaše data **NE**budou smazána, když vymažete cache prohlížeče."
+		"message": "Poznámka: Data jsou ukládána pouze lokálně, na Vašem počítači.\nNemějte obavy - Vaše data **NEBUDOU** smazána, když vymažete cache prohlížeče."
 	},
 	"infoSettings": {
 		"message": "Zkontrolujte nastavení aplikace kliknutím na ikonu v pravém horním rohu aplikace.\nZde můžete nastavit např. upozornění na plochu, jakmile čas vyhrazený pro úkol vyprší."
@@ -165,7 +165,7 @@
 		"message": "Vyberte prosím datum."
 	},
 	"txtNoHistory": {
-		"message": "Na tento den není žádná uložená historie."
+		"message": "Z tohoto dne není k dispozici žádná uložená historie."
 	},
 	"lblDescription": {
 		"message": "Popis"
@@ -177,7 +177,7 @@
 		"message": "Vyloučit tento úkol z řádku součtů"
 	},
 	"tskExcludeCharts": {
-		"message": "Vyloučit tento úkol z výsečové grafy"
+		"message": "Vyloučit tento úkol z výsečového grafu"
 	},
 	"txtTools": {
 		"message": "Nástroje"
@@ -188,11 +188,14 @@
 	"toolClearAllHistory": {
 		"message": "Vymazat historii všech úloh"
 	},
+	"toolReloadApp": {
+		"message": "Znovu načíst aplikaci"
+	},
 	"toolClearData": {
-		"message": "Vymazat všechny údaje aplikace"
+		"message": "Vymazat všechna data aplikace."
 	},
 	"toolResetSettings": {
-		"message": "Obnovit výchozí"
+		"message": "Obnovit do výchozího nastavení"
 	},
 	"txtSettings": {
 		"message": "Nastavení"
@@ -213,16 +216,16 @@
 		"message": "Ve výchozím nastavení zaškrtněte políčko \"Start\""
 	},
 	"optSaveFields": {
-		"message": "Ponechat, co máte v polích při novém úkolu, při obnovení aplikace"
+		"message": "Zachovat obsah polí nového úkolu při restartu aplikace"
 	},
 	"optUseIcons": {
-		"message": "Pomocí ikony místo tlačítka pro možnosti úkolu (dobré pro malé obrazovky)"
+		"message": "Použít pro možnosti úkolu ikony namísto tlačítek (dobré pro malé obrazovky)"
 	},
 	"opt12Hour": {
 		"message": "Použít 12 hodinový formát pro čas"
 	},
 	"optCustomDialogs": {
-		"message": "Použít vlastní dialogová okna než předdefinované od Chrome"
+		"message": "Použít raději vlastní dialogová okna než předdefinovaná Chromem"
 	},
 	"optUpdateAlert": {
 		"message": "Otevřít aplikaci, když je aktualizována"
@@ -237,25 +240,28 @@
 		"message": "Sledovat historii úkolů (takže můžete zobrazit statistiku pro každý úkol)"
 	},
 	"optNoOvertime": {
-		"message": "Nepovolovat úkoly přejít přes jejich cíle"
+		"message": "Nedovolit úkolům překračovat své cíle"
 	},
 	"optStopTimer": {
-		"message": "Ukončit úkol dosáhne-li svého cíle"
+		"message": "Ukončit úkol, dosáhne-li svého cíle"
 	},
 	"optOnlyOne": {
-		"message": "Povolit pouze jeden zároveň běží úkol"
+		"message": "Zakázat, aby v jednom okamžiku probíhal více než jeden úkol"
+	},
+	"optBackgroundRunning": {
+		"message": "Pokračovat v časování úkolu, zatímco je aplikace zavřena"
 	},
 	"txtNotifSettings": {
 		"message": "Nastavení upozorňování"
 	},
 	"optShowPopup": {
-		"message": "Na stránce zobrazit vyskakovací okno, když úkol dosáhne svého cíle"
+		"message": "Zobrazit vyskakovací oknona stránce, když úkol dosáhne svého cíle"
 	},
 	"optShowNotification": {
-		"message": "Zobrazit oznámení na ploše dosáhne-li úkolu svého cíle"
+		"message": "Zobrazit oznámení na ploše, dosáhne-li úkol svého cíle"
 	},
 	"optPlaySound": {
-		"message": "Přehrávat zvuk, když úkol dosáhne svého cíle"
+		"message": "Přehrát zvuk, když úkol dosáhne svého cíle"
 	},
 	"optUseDefault": {
 		"message": "Použít výchozí zvuk"
@@ -264,10 +270,10 @@
 		"message": "Použít vlastní zvuk"
 	},
 	"optSoundURL": {
-		"message": "URL adresa vlastního zvuku"
+		"message": "URL vlastního zvuku"
 	},
 	"optBtnPreview": {
-		"message": "Náhled zvuku"
+		"message": "Zkouška zvuku"
 	},
 	"optLoopSound": {
 		"message": "Opakovat zvuk, dokud jej nezastavíte"
@@ -300,7 +306,7 @@
 		"message": "Uložit nastavení"
 	},
 	"txtJSError": {
-		"message": "Někde ve skriptu nastala chyba. Prosím nahlašte chybu s následujícími informacemi, stejně tak co jste dělali a co se stalo:"
+		"message": "Někde ve skriptu nastala chyba. Nahlaste prosím chybu s následujícími informacemi, stejně tak co jste dělali a co se stalo:"
 	},
 	"txtTriedRefresh": {
 		"message": "Zkoušeli jste aktualizaci aplikace?"
@@ -374,11 +380,23 @@
 	"confResetSettings": {
 		"message": "Opravdu chcete obnovit všechna nastavení zpět na výchozí hodnoty?"
 	},
+	"confUpdated": {
+		"message": "Task Timer byl aktualizován na verzi $version$!\nChcete vidět protokol o provedených změnách?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Berte prosím na vědomí, že své úkoly budete muset spustit znovu, pokud Chrome aplikaci automaticky aktualizuje, zrovna když některý z nich právě běží."
+	},
 	"confRating": {
 		"message": "Chcete přidat k této aplikaci hodnocení nebo recenzi na Chrome Web Store?\nPomůže nám to!"
 	},
 	"confSmallWindow": {
-		"message": "Zdá se, že Task Timer je spuštěn v malém okně, na malém monitoru, nebo v nízkém rozlišení. Chcete přepnout na zobrazení ikon místo tlačítek v seznamu úkolů? To zajistí, aby každý z úkolů nezabíral více než jeden řádek."
+		"message": "Zdá se, že Task Timer je spuštěn v malém okně, na malém monitoru, nebo v nízkém rozlišení. Chcete přepnout na zobrazení ikon namísto tlačítek v seznamu úkolů? To zajistí, aby každý z úkolů nezabíral více než jeden řádek."
 	},
 	"noteTaskFinished": {
 		"message": "Úkol byl dokončen!"
@@ -399,7 +417,7 @@
 		"message": "Jestli tohle vidíte, znamená to že oznámení na ploše jsou povolená a pracují správně! Hurá!"
 	},
 	"noteNoLocalFiles": {
-		"message": "Vypadá to, že používáte vlastní zvukové URL cesty k místnímu souboru na vašem počítači.\nBohužel nelze použít místní soubory, Chrome neumožňuje přístup k vašemu lokální souborovému systému, dokonce i pro zvuk.\nLze použít pouze internet URL (začínající http, https a ftp). To znamená, že potřebujete najít online zvuk, nebo zvuk Uložit, tam kam chcete."
+		"message": "Vypadá to, že jako URL vlastního zvuku používáte cestu k lokálnímu souboru na Vašem počítači.\nLokální soubory bohužel nelze použít, protože Chrome neumožňuje přístup k Vašemu souborovému systému, a to ani pro zvuk.\nLze použít pouze internetové URL (začínající http, https a ftp). To znamená, že budete muset najít zvuk on-line, případně takový, který chcete použít, nahrát někam na web."
 	},
 	"noteErrorOccurred": {
 		"message": "Došlo k chybě!"
@@ -408,13 +426,13 @@
 		"message": "Popis uložen!"
 	},
 	"sucSavedSettings": {
-		"message": "Nastavení uloženo."
+		"message": "Nastavení uloženo!"
 	},
 	"sucSyncReceived": {
-		"message": "Přijmout data pro synchronizaci!"
+		"message": "Přijata data pro synchronizaci!"
 	},
 	"sucSyncSent": {
-		"message": "Synchronizovat data!"
+		"message": "Data odeslána k synchronizaci!"
 	},
 	"errGeneric": {
 		"message": "Chyba!"
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplikace je již otevřena.\nPokud se zdá, že tomu tak není, stiskněte na tlačítko opětovného načtení níže. Task Timer bude znovu načten, jako byste zavřeli Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Vytvořte návrh"
