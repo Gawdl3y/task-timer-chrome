@@ -51,7 +51,7 @@
 		"message": "Notă: Aceste informaţii se salvează doar local, pe computerul tău, în browserul tău.\nNu-ţi face griji, sarcinile tale de lucru **nu** vor fi şterse când vei curăţa cache-ul\/memoria browserului Chrome."
 	},
 	"infoSettings": {
-		"message": "Asigură-te că ai verificat toate setările dând click pe butonul de tip pinion din colţul din dreapta sus al aplicaţiei!\nSunt setări, cum ar fi notificările pe desktop atunci când o sarcină de lucru se termină."
+		"message": "Asigură-te că ai verificat toate setările dând click pe butonul de tip pinion din colţul din dreapta sus al aplicaţiei!\nSunt setări cum ar fi notificările pe desktop atunci când o sarcină de lucru se termină."
 	},
 	"infoPerformance": {
 		"message": "Aplicaţia rulează prea încet pentru tine? Încearcă să măreşti în setări timpul de updatare a diagramei circulare sau chiar să anulezi complet diagramele circulare. Tot mai rulează încet? Măreşte timpul general de update sau anulează urmărirea istoriei sarcinilor de lucru."
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Totalul timpului petrecut până acum (istorie)"
 	},
+	"txtOther": {
+		"message": "Altele"
+	},
 	"txtTaskInfo": {
 		"message": "Informaţii despre sarcina de lucru"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Setări generale"
-	},
-	"optEnableCharts": {
-		"message": "Activează diagramele circulare"
 	},
 	"optHideNotice": {
 		"message": "Ascunde căsuţa de notificare"
@@ -272,6 +272,18 @@
 	"optLoopSound": {
 		"message": "Repetă sunetul până îl opreşti"
 	},
+	"txtChartSettings": {
+		"message": "Setări ale diagramei"
+	},
+	"optEnableCharts": {
+		"message": "Activează diagramele circulare"
+	},
+	"optShowChartPercent": {
+		"message": "Arată etichetele cu procente pe diagramă"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combină feliile mici ale diagramei în \"Altele\""
+	},
 	"txtPerfSettings": {
 		"message": "Setări de performanţă"
 	},
@@ -291,7 +303,7 @@
 		"message": "A apărut o eroare undeva în script. Vă rugăm raportaţi defecţiunea împreună cu următoarele informaţii, precum şi cu o descriere a ceea ce făceaţi\/ce s-a întâmplat:"
 	},
 	"txtTriedRefresh": {
-		"message": "Aţi încercat să reîncărcaţi aplicaţia?"
+		"message": "Ai încercat să reîncarci aplicaţia?"
 	},
 	"txtUsualFix": {
 		"message": "Aceasta va repara în mod normal orice defecţiune, însă vă va curăţa toate setările şi sarcinile de lucru."
@@ -357,19 +369,10 @@
 		"message": "Eşti sigur că vrei să cureţi istoria tuturor sarcinilor tale de lucru?"
 	},
 	"confResetData": {
-		"message": "Eşti sigură că vrei să elimini complet toate datele Task Timer?\nAceasta va şterge setările şi sarcinile tale de lucru."
+		"message": "Eşti sigur că vrei să elimini complet toate datele Task Timer?\nAceasta va şterge setările şi sarcinile tale de lucru."
 	},
 	"confResetSettings": {
 		"message": "Eşti sigur că vrei să resetezi toate setările la valorile lor implicite?"
-	},
-	"confUpdated": {
-		"message": "Task Timer s-a updatat la versiunea $version$!\nAi vrea să vezi jurnalul de modificări?\nAtenţie! Va trebui să îţi reporneşi sarcinile de lucru dacă browserul Chrome a autoupdatat aplicaţia în timp ce vreuna dintre ele rula.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
 	},
 	"confRating": {
 		"message": "Ai vrea să evaluezi\/recenzezi această aplicaţie pe Chrome Web Store?\nM-ar ajuta enorm!"
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "Aplicaţie este deja pornită.\nDacă nu este bine acest lucru, încearcă să închizi toate ferestrele Chromw şi să-l reporneşti."
 	},
 	"txtSuggestionTitle": {
 		"message": "Fă o sugestie!"

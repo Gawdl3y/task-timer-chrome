@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "مؤقت المهام"
+	},
+	"appDesc": {
+		"message": "داة بسيطة تساعدك على تسجيل الوقت المستغرق في أداء المهام مثل: العمل، الدراسة و غيرها من المهام"
+	},
+	"txtTitle": {
+		"message": "مؤقت المهام"
+	},
+	"txtDescription": {
+		"message": "استخدم هذه الأداة لمتابعة الوقت الذي تمضيه في أداء عملك, ودراستك, أو أي نوع آخر من المهام."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "الترجمة قد لا تكون دقيقة."
+	},
+	"txtCreatedBy": {
+		"message": "[تصميم: [سكايلر سيبولسكي"
+	},
+	"txtReportBug": {
+		"message": "أبلغ عن خطأ برمجي"
+	},
+	"txtSuggest": {
+		"message": "هل لديك فكرة؟ اخبرني"
+	},
+	"txtAbout": {
+		"message": "عن البرنامج"
+	},
+	"txtDonate": {
+		"message": "تبرّع"
+	},
+	"txtLoading": {
+		"message": "جاري التحميل..."
+	},
+	"txtComingSoon": {
+		"message": "!قريباً"
+	},
+	"txtHours": {
+		"message": "الساعات"
+	},
+	"txtMinutes": {
+		"message": "الدقائق"
+	},
+	"txtSeconds": {
+		"message": "الثواني"
+	},
+	"txtIndefinite": {
+		"message": "غير محدد"
+	},
+	"infoData": {
+		"message": "ملاحظة: هذه الأداة تقوم بالحفظ محلياً, على جهازك, في متصفحك\nلا تقلق, **لن** يتم حذف مهامك إذا قمت بمسح التخزين المؤقت (cache) في متصفح الكروم."
+	},
+	"infoSettings": {
+		"message": "تأكد من فحص الاعدادات بالنقرعلى الزرالعجلة مسننة في الزاوية العليا اليمنى من واجهة التطبيق!\nتوجد هناك إعدادات مثل التنبيه على سطح المكتب عند انتهاء وقت المهمة."
+	},
+	"infoPerformance": {
+		"message": "ًهل يعمل التطبيق ببطء لديك؟ حاول زيادة وقت تحديث التخطيط الدائري في واجهة الاعدادات او قم بايقاف عمل التخطيطات الدائرية كليا.\nهل ما زال التطبيق بطيئا؟ قم بزيادة وقت التحديث العام او اوقف عمل متابعة تاريخ المهام"
+	},
+	"infoTranslate": {
+		"message": "[أتريد المساعدة في ترجمة برنامج \"مؤقت المهام\" الى لغات اخرى؟؟ انقر [هنا"
+	},
+	"infoTotals": {
+		"message": "هذا هو سطر الاجماليات  (الحاصل الكلي)، يظهر هذا السطر فقط عندما تكون لديك اكثر من مهمة.\n\nعمود \"الوقت المستغرق\" في هذا السطر يجمع الوقت المستغرق للقيام بكل مهمة على حدى.\nعمود\"الهدف\" في هذا السطر يجمع كل الأوقات الهدف من كل مهامك, باستثناء الاهداف غير المحددة.\nعمود \"التقدم\" في هذا السطر يعطيك التقدم الإجمالي حتى إنتهاء اهداف مهامك كلها. هذا التقدم لا يشمل الوقت المستغرق بعد تجاوز الوقت الهدف، وكذلك الوقت المستغرق على المهام ذات الوقت الهدف غير المحدد."
+	},
+	"txtNoTasks": {
+		"message": "لم تقم بوضع أي مهمة بعد!"
+	},
+	"txtEditTasks": {
+		"message": "انقر نقرة مزدوجة على اسم المهمة او وقتها او الهدف لتغييرها او تحريرها"
+	},
+	"lblTask": {
+		"message": "مهمة"
+	},
+	"lblTimeSpent": {
+		"message": "الوقت المستغرق"
+	},
+	"lblGoal": {
+		"message": "الهدف"
+	},
+	"lblProgress": {
+		"message": "سير المهمة (تقدم الوقت) ـ"
+	},
+	"lblOptions": {
+		"message": "الخيارات"
+	},
+	"lblTotals": {
+		"message": "الإجماليات"
+	},
+	"btnStart": {
+		"message": "ابدأ"
+	},
+	"btnStop": {
+		"message": "توقف"
+	},
+	"btnInfo": {
+		"message": "معلومات المهمة"
+	},
+	"btnReset": {
+		"message": "اعادة المهمة"
+	},
+	"btnDelete": {
+		"message": "حذف المهمة"
+	},
+	"btnClearHistory": {
+		"message": "ازالة تاريخ المهام"
+	},
+	"btnResetAll": {
+		"message": "تصفير مؤقت جميع المهام"
+	},
+	"btnDeleteAll": {
+		"message": "محو جميع المهام"
+	},
+	"lblName": {
+		"message": "الاسم"
+	},
+	"lblTaskName": {
+		"message": "اسم المهمة"
+	},
+	"lblGoalBoth": {
+		"message": "الهدف (ساعات: دقائق)ـ"
+	},
+	"lblGoalHours": {
+		"message": "عدد الساعات المستهدفة"
+	},
+	"lblGoalMinutes": {
+		"message": "عدد الدقائق المستهدفة."
+	},
+	"lblIndefinite": {
+		"message": "غير محدَّد"
+	},
+	"lblStart": {
+		"message": "إبدأ"
+	},
+	"lblStartNow": {
+		"message": "ابدأ المهمة حالاً"
+	},
+	"btnAddTask": {
+		"message": "أضف مهمة"
+	},
+	"txtCurrentPieTitle": {
+		"message": "الوقت المنقضي للمهمة"
+	},
+	"txtTotalPieTitle": {
+		"message": "الوقت المنقضي بالمجمل (التاريخ)"
+	},
+	"txtOther": {
+		"message": "اخرى"
+	},
+	"txtTaskInfo": {
+		"message": "معلومات المهمة"
+	},
+	"txtNoDescription": {
+		"message": "ادخل معلومات\/تعليقات حول المهمة"
+	},
+	"txtTaskOptions": {
+		"message": "خيارات المهمة"
+	},
+	"txtHistory": {
+		"message": "التاريخ"
+	},
+	"txtHistoryDisabled": {
+		"message": "تم تعطيل مهمة تتبع التاريخ. يمكنك تمكين ذلك في القائمة أدوات."
+	},
+	"txtSelectDate": {
+		"message": "اختر تاريخاً من فضلك."
+	},
+	"txtNoHistory": {
+		"message": "لم تقم بحفظ أي تاريخ لذلك اليوم"
+	},
+	"lblDescription": {
+		"message": "وصف"
+	},
+	"lblHour": {
+		"message": "ساعة"
+	},
+	"tskExcludeTotals": {
+		"message": "استثن هذه المهمة من سطر الإجماليات"
+	},
+	"tskExcludeCharts": {
+		"message": "استثن هذه المهمة من المخطط الدائري"
+	},
+	"txtTools": {
+		"message": "أدوات"
+	},
+	"toolExportCSV": {
+		"message": "صدّر المهام الى ملف بصيغة (CSV)"
+	},
+	"toolClearAllHistory": {
+		"message": "قم بمسح جميع سجلات المهام"
+	},
+	"toolClearData": {
+		"message": "امسح جميع بيانات التطبيق"
+	},
+	"toolResetSettings": {
+		"message": "الإعدادات الإفتراضية"
+	},
+	"txtSettings": {
+		"message": "إعدادات"
+	},
+	"txtGeneralSettings": {
+		"message": "إعدادات عامة"
+	},
+	"optHideNotice": {
+		"message": "إخفاء مربع الإشعارات"
+	},
+	"optConfirmReset": {
+		"message": "اسألني إن كنت متأكّداً عندما أقوم بإعادة ضبط مهمّة"
+	},
+	"optConfirmDelete": {
+		"message": "قم بطلب التأكيد عندما اقوم بحذف مهمّة"
+	},
+	"optStartDefault": {
+		"message": "انقر  خيار \"ابدأ\" بشكل افتراضي"
+	},
+	"optSaveFields": {
+		"message": "ابقي على محتويات القائمة \"مهمة جديدة\" عند اعادة تشغيل التطبيق"
+	},
+	"optUseIcons": {
+		"message": "استخدم الصور المصغّرة بدلاً من الازرار في الخيارات الخاصة بالمهام (ينصح به للشاشات الصغيرة)"
+	},
+	"opt12Hour": {
+		"message": "استخدم صيغة 12-ساعة للتوقيت (للزمن) عندما تكون هذه الصيغة متاحة للتطبيق"
+	},
+	"optCustomDialogs": {
+		"message": "قم بإستخدام مربّعات الحوار المخصصة بدلاً من المربعات الافتراضية في متصفح \"كروم\""
+	},
+	"optUpdateAlert": {
+		"message": "اطلق التطبيق فور انتهائها من كل عملية تحديث"
+	},
+	"txtTaskSettings": {
+		"message": "إعدادات المهام"
+	},
+	"optEnableSync": {
+		"message": "تفعيل المزامنة (تحذير , هذا الخيار ما زال في المرحلة التجريبية و يمكن أن يؤثر على المهام)"
+	},
+	"optTrackHistory": {
+		"message": "المسار محفوظات المهمة (حتى تتمكن من عرض إحصائيات لكل مهمة)"
+	},
+	"optNoOvertime": {
+		"message": "لا تسمح للمهمات بتخطي الزمن المخصص لها (يمكن للمهمة ان تستمر في التقدم إلى ما بعد الزمن المحدد لها)"
+	},
+	"optStopTimer": {
+		"message": "اوقف المهمة عند انتهاء الزمن المخصص لها"
+	},
+	"optOnlyOne": {
+		"message": "لا تسمح لأكثر من مهمة ان تنطلق في وقت واحد"
+	},
+	"txtNotifSettings": {
+		"message": "إعدادات الإشعارات"
+	},
+	"optShowPopup": {
+		"message": "اعرض نافدة منبثقة عندما تصل احدى المهام إلى نهايتها"
+	},
+	"optShowNotification": {
+		"message": "اعرض تنبيه-سطح المكتب عندما تصل إحدى المهام إلى نهايتها"
+	},
+	"optPlaySound": {
+		"message": "اطلق تنبيهاً صوتياً عندما تصل إحدى المهام إلى نهايتها"
+	},
+	"optUseDefault": {
+		"message": "استخدم الصوت الافتراضي"
+	},
+	"optUseCustom": {
+		"message": "استخدم صوت مخصص"
+	},
+	"optSoundURL": {
+		"message": "رابط الصوت المخصص للتنبيه"
+	},
+	"optBtnPreview": {
+		"message": "معاينة صوت التنبيه"
+	},
+	"optLoopSound": {
+		"message": "استمر بتكرار الصوت حتى اوقفه بنفسي"
+	},
+	"txtChartSettings": {
+		"message": "اعدادات الرسوم البيانيه"
+	},
+	"optEnableCharts": {
+		"message": "تفعيل المخططات الدائرية"
+	},
+	"optShowChartPercent": {
+		"message": "عرض الوسوم المؤية للرسومات البيانيه"
+	},
+	"optCombineSmallSlices": {
+		"message": "دمج الشراح الصغيرة للرسومات البيانية في \"اخرى\""
+	},
+	"txtPerfSettings": {
+		"message": "إعدادات الأداء"
+	},
+	"optUpdateTime1": {
+		"message": "حدّث التوقيت الخاص بالمهام كل"
+	},
+	"optUpdateTime2": {
+		"message": "ثانية(ث)"
+	},
+	"optChartUpdateTime1": {
+		"message": "تفعيل المخططات الدائرية كلما"
+	},
+	"txtSaveSettings": {
+		"message": "حفظ الإعدادات"
+	},
+	"txtJSError": {
+		"message": "حدث خطأٌ ما اثناء تنفيذ النص البرمجي, نرجو تزويدنا بتقرير عن المشكلة, يحتوي ما قمتَ به وما حدث معك"
+	},
+	"txtTriedRefresh": {
+		"message": "هل حاولت إعادة تشغيل التطبيق"
+	},
+	"txtUsualFix": {
+		"message": "هذا الامر يقوم عادةً بإصلاح اية اعطال موجودة, لكنّه سيقوم بإزالة كل المهام والإعدادات التي حفظتها في التطبيق"
+	},
+	"btnOK": {
+		"message": "نعم"
+	},
+	"btnCancel": {
+		"message": "إلغاء"
+	},
+	"btnYes": {
+		"message": "نعم"
+	},
+	"btnNo": {
+		"message": "لا"
+	},
+	"btnClose": {
+		"message": "إغلاق"
+	},
+	"btnCloseNotice": {
+		"message": "أغلق الإشعار"
+	},
+	"btnStopAlarm": {
+		"message": "أوقف المنبه"
+	},
+	"btnSave": {
+		"message": "حفظ"
+	},
+	"confResetTask": {
+		"message": "هل انت متأكّد من أنك تريد اعادة ضبط المهمة \"$taskName$\" ؟\nهذا الامر لن يؤثّر على سجل المهام",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "هل أنت متأكّد بأنك تريد حذف المهمة \"$taskName$\" ؟\nهذا الامر لن يؤثّر على سجل المهام",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "هل أنت متأكّد بأنك تريد حذف السجل الخاص بالمهمّة \"$taskName$\" ؟",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "هل أنت متأكّد بأنّك تريد إعادة ضبط جميع المؤقتات لجميع المهام إلى الصفر؟"
+	},
+	"confDeleteAll": {
+		"message": "هل أنت متأكّد بأنك تريد حذف جميع المهام؟"
+	},
+	"confClearAllHistory": {
+		"message": "هل أنت متأكد من أنك تريد مسح السجل لجميع المهام؟"
+	},
+	"confResetData": {
+		"message": "هل أنت متأكد أنك تريد إزالة كل بيانات مؤقت المهام نهائياً؟\nهذا سوف يؤثر على كافة المهام والإعدادات."
+	},
+	"confResetSettings": {
+		"message": "هل أنت متأكّد من انك تريد إعادة ضبط جميع الاعدادات إلى حالتها الافتراضية؟"
+	},
+	"confRating": {
+		"message": "هل تودّ إعطاء هذا التطبيق تقييماً\/مراجعة على \"سوق كروم الإلكتروني\"؟\nسيساعدنا ذلك حقّاً في مسيرتنا"
+	},
+	"confSmallWindow": {
+		"message": "يبدو أنك تشغل مؤقت المهام فى نافذة صغيرة , على شاشة صغيرة أو بدرجة نقاء منخفضه , هل تريد أن"
+	},
+	"noteTaskFinished": {
+		"message": "انتهت المهمة!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "مهمة \"$taskName$\" تمّت بفضل الله",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "تنبيهات سطح المكتب : تعمل"
+	},
+	"noteNotifsWorkBody": {
+		"message": "رؤيتك لهذا يعني أنك قد فعلت إعلام سطح المكتب بنجاح.. مذهل!!"
+	},
+	"noteNoLocalFiles": {
+		"message": "يبدو أنك تستخدم عنوان ملف محلي على جهازك لأجل نوع التنبيه. للأسف, الملفات المحلية لا يمكن استخدامها, وذلك تبعاً لمتصفح كروم الذي لا يسمح باستخدام الملفات المحلية حتى للصوت. فقط روابط الانترنت مسموح باستخدامها والمبتدئة بـ (http, https, ftp). هذا يعني أنك يجب أن تستخدم ملفات صوتية موجوده على الانترنت أو أن تقةم برفع ملفاتك الصوتية على الانترنت حتى تقوم باستخدامها."
+	},
+	"noteErrorOccurred": {
+		"message": "حدث عطلٌ ما!"
+	},
+	"sucSavedDesc": {
+		"message": "تم حفظ الوصف"
+	},
+	"sucSavedSettings": {
+		"message": "تم حفظ الإعدادات"
+	},
+	"sucSyncReceived": {
+		"message": "استقبل المهام من المزامنة"
+	},
+	"sucSyncSent": {
+		"message": "ارسل المهام للمزامنة"
+	},
+	"errGeneric": {
+		"message": "خطأ"
+	},
+	"errTask": {
+		"message": "خطأ في اسم المهمة او وقت انتهائها"
+	},
+	"errTaskName": {
+		"message": "اسم المهمة غير صالح"
+	},
+	"errTaskTime": {
+		"message": "هذا الزمن غير صالح"
+	},
+	"errGoalTime": {
+		"message": "زمن انتهاء غير صالح"
+	},
+	"errSoundURL": {
+		"message": "رابط صوت التنبيه المخصص غير صالح"
+	},
+	"errFinishEditing": {
+		"message": "انهي تحرير المهمة \"$taskName$\" اولاً",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "قدم اقتراحاً"
+	},
+	"txtSuggestionInfo": {
+		"message": "لإضافة اقتراح، انقر [هنا].\nإذا لم يكن شخص ما قد أضاف نفس الاقتراح مسبقاً، اضغط \"قضية جديدة\". تأكد من أنك قد اخترت \"طلب تحسين\" للقالب، واكتب عنواناً معبراً.\nإذا كان لديك عدة أفكار، أضف قضية جديدة لكل فكرة.."
+	},
+	"txtBugTitle": {
+		"message": "ابلغ عن مشكلة"
+	},
+	"txtBugInfo": {
+		"message": "للإبلاغ عن مشكلة في التطبيق، انقر هنا\nفي حال لم يقم شخص آخر بالإبلاغ عن نفس المشكلة، انقر \"مشكلة جديدة\"\nإذا وجدت عدة مشاكل، قم بالابلاغ عن كل مشكلة بشكل منفصل من فضلك\nتأكد من تضمين المعلومات التالية في الأسفل عند الإبلاغ عن المشكلة"
+	}
+}

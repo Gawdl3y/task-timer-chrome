@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "Task Timer :: Aufgabenplaner"
+		"message": "Task Timer : Aufgabenplaner"
 	},
 	"appDesc": {
-		"message": "Ein einfaches Tool, um zu dokumentieren, wie viel Zeit Sie für Ihre Arbeit, Ihr Studium oder jede andere Art von Aufgaben aufwenden."
+		"message": "Ein einfaches Tool, um zu dokumentieren, wie viel Zeit Sie für Ihre Arbeit, Ihr Studium oder jede andere Art von Aufgabe aufwenden."
 	},
 	"txtTitle": {
 		"message": "Task Timer"
 	},
 	"txtDescription": {
-		"message": "Nutzen Sie dieses Tool, um zu dokumentieren, wie viel Zeit Sie für Ihre Arbeit, Ihr Studium oder jede andere Art von Aufgaben aufwenden."
+		"message": "Nutzen Sie dieses Tool, um zu dokumentieren, wie viel Zeit Sie für Ihre Arbeit, Ihr Studium oder jede andere Art von Aufgabe aufwenden."
 	},
 	"txtTranslationsAccuracy": {
 		"message": "Bedenken Sie, das Übersetzungen nicht immer genau sind."
@@ -48,7 +48,7 @@
 		"message": "Unbestimmt"
 	},
 	"infoData": {
-		"message": "Anmerkung: Alle Daten werden lokal gesichert, auf Ihrem Computer und in Ihrem Browser.\nIhre Aufgaben werden **nicht** gelöscht, wenn Sie den Cache\/Speicher von Chrome löschen."
+		"message": "Anmerkung: Alle Daten werden lokal, auf Ihrem Computer und in Ihrem Browser, gesichert.\nIhre Aufgaben werden **nicht** gelöscht, wenn Sie den Cache\/Speicher von Chrome löschen."
 	},
 	"infoSettings": {
 		"message": "Überprüfen Sie die Einstellungen durch einem Klick auf das Zahnradsymbol in der rechten oberen Ecke!\nDort finden Sie z.B. Einstellungen für Desktop-Benachrichtigungen bei abgeschlossenen Aufgaben."
@@ -60,7 +60,7 @@
 		"message": "Möchten Sie dabei helfen, Task Timer in andere Sprachen zu übersetzen? Klicken Sie [hier]."
 	},
 	"infoTotals": {
-		"message": "Das ist die Gesamt-Zeile. Sie erscheint wenn Sie mehr als eine Aufgabe eingetragen haben.\n\nDie Spalte \"Zeitaufwand\" in dieser Zeile gibt die Summe der für die einzelnen Aufgaben aufgewendeten Zeiten an.\nDie Spalte \"Ziel\" in dieser Zeile gibt die Summe der für die einzelnen Aufgaben aufgewendeten Zielzeiten an.\nDie Spalte \"Fortschritt\"  in dieser Zeile gibt den Gesamtfortschritt in Bezug auf das Erreichen aller Aufgabenziele an. Hierbei werden Zeiten die über das Ziel hinausgehen sowie unbefristete Aufgaben nicht eingerechnet."
+		"message": "Das ist die Gesamt-Zeile. Sie erscheint wenn Sie mehr als eine Aufgabe eingetragen haben.\n\nDie Spalte \"Zeitaufwand\" in dieser Zeile gibt die Summe der für die einzelnen Aufgaben aufgewendeten Zeiten an.\nDie Spalte \"Ziel\" in dieser Zeile gibt die Summe der für die einzelnen Aufgaben aufgewendeten Zielzeiten an.\nDie Spalte \"Fortschritt\"  in dieser Zeile gibt den Gesamtfortschritt in Bezug auf das Erreichen aller Aufgabenziele an. Hierbei werden Zeiten, die über das Ziel hinausgehen sowie unbefristete Aufgaben nicht eingerechnet."
 	},
 	"txtNoTasks": {
 		"message": "Sie haben noch keine Aufgaben erstellt!"
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Gesamter Zeitaufwand (Verlauf)"
 	},
+	"txtOther": {
+		"message": "andere"
+	},
 	"txtTaskInfo": {
 		"message": "Aufgaben-Info"
 	},
@@ -159,7 +162,7 @@
 		"message": "Verlaufsverfolgung ist deaktiviert. Sie können es im Toolsmenü aktivieren."
 	},
 	"txtSelectDate": {
-		"message": "Bitte Datum wählen."
+		"message": "Bitte wählen Sie ein Datum."
 	},
 	"txtNoHistory": {
 		"message": "Für diesen Tag gibt es keinen Verlauf."
@@ -197,9 +200,6 @@
 	"txtGeneralSettings": {
 		"message": "Allgemeine Einstellungen"
 	},
-	"optEnableCharts": {
-		"message": "Kreisdiagramme aktivieren"
-	},
 	"optHideNotice": {
 		"message": "Hinweisbox ausblenden"
 	},
@@ -213,7 +213,7 @@
 		"message": "Kontrollkästchen \"Starten\" automatisch auswählen"
 	},
 	"optSaveFields": {
-		"message": "Bei Neustart der Anwendung alle Eintragungen in den Feldern für neue Aufgaben erinnern"
+		"message": "Bei Neustart der Anwendung alle Eintragungen in den Feldern für neue Aufgaben beibehalten"
 	},
 	"optUseIcons": {
 		"message": "Symbole anstelle von Schaltflächen für Aufgaben-Optionen nutzen (gut für kleine Bildschirme)"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "Ton wiederholen, bis Sie ihn stoppen"
+	},
+	"txtChartSettings": {
+		"message": "Chart Einstellungen"
+	},
+	"optEnableCharts": {
+		"message": "Kreisdiagramme aktivieren"
+	},
+	"optShowChartPercent": {
+		"message": "Prozente in der Grafik anzeigen"
+	},
+	"optCombineSmallSlices": {
+		"message": "Kleine Bereiche der Grafik als \"Andere\" zusammenfassen"
 	},
 	"txtPerfSettings": {
 		"message": "Leistungs-Einstellungen"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "Sind Sie sicher, dass Sie alle Einstellungen auf die Standardwerte zurücksetzen wollen?"
 	},
-	"confUpdated": {
-		"message": "Task Timer wurde auf Version $version$ aktualisiert!\nMöchten Sie das Änderungsprotokoll sehen?\nSie müssen Ihre Aufgaben gegebenenfalls erneut starten, wenn Chrome die Anwendung im laufenden Betrieb aktualisiert hat.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Möchten Sie für diese Anwendung im Chrome Web Store eine Bewertung abgeben?\nIch wäre Ihnen sehr dankbar!"
 	},
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "Die Anwendung ist bereits geöffnet.\nKommt Ihnen die Benachrichtigung falsch vor, versuchen Sie, alle Chrome Fenster zu schließen und neu zu starten."
 	},
 	"txtSuggestionTitle": {
 		"message": "Vorschlag machen"

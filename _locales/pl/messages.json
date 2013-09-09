@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Licznik Czasu Zadań"
+	},
+	"appDesc": {
+		"message": "Proste narzędzie, pozwalające monitorować czas poświęcany na zadania takie jak praca, nauka i inne."
+	},
+	"txtTitle": {
+		"message": "Licznik Czasu Zadań"
+	},
+	"txtDescription": {
+		"message": "Używaj tego narzędzia, by monitorować czas poświęcany na pracę, naukę albo jakiekolwiek inne zajęcie."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Tłumaczenia mogą być niedokładne."
+	},
+	"txtCreatedBy": {
+		"message": "Autor: [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Zgłoś błąd"
+	},
+	"txtSuggest": {
+		"message": "Masz pomysł? [Napisz do mnie]"
+	},
+	"txtAbout": {
+		"message": "O aplikacji (or) O Minutniku Zadań"
+	},
+	"txtDonate": {
+		"message": "Przekaż darowiznę (or) Dotacja"
+	},
+	"txtLoading": {
+		"message": "Ładowanie, Proszę czekać."
+	},
+	"txtComingSoon": {
+		"message": "Już wkrótce!"
+	},
+	"txtHours": {
+		"message": "Godziny"
+	},
+	"txtMinutes": {
+		"message": "Minuty"
+	},
+	"txtSeconds": {
+		"message": "Sekundy"
+	},
+	"txtIndefinite": {
+		"message": "Nieokreślony"
+	},
+	"infoData": {
+		"message": "Uwaga: Dane zachowują (or) zapisują się tylko na Twoim komputerze, w przeglądarce.\nNie martw się, Twoje zadania nie zostaną usunięte, nawet, jeżeli usuniesz pamięć podręczną Chrome."
+	},
+	"infoSettings": {
+		"message": "Upewnij się, że zapoznałeś\/aś się z ustawieniami aplikacji. Kliknij w przycisk z \"trybem\" w prawym górnym rogu aplikacji. Znajdziesz tam ustawienia dotyczące między innymi powiadomień o dokończonych zadaniach."
+	},
+	"infoPerformance": {
+		"message": "Czy według Ciebie aplikacja działa powoli? Spróbuj zwiększyć czas odświeżania wykresu kołowego w ustawieniach lub wyłączyć go całkowicie. Nadal działa wolno? Zwiększ czas odświeżania licznika czasu lub wyłącz historię śledzenia zadań."
+	},
+	"infoTranslate": {
+		"message": "Chcesz pomóc w tłumaczeniu [Task Timer] na inne języki? Kliknij [tutaj]"
+	},
+	"infoTotals": {
+		"message": "To jest rząd z podsumowaniem. Pojawia się tylko, gdy masz więcej niż jedno zadanie.\n\nKolumna \"Spędzony czas\" tego rzędu podsumowuje czas spędzony na każdym z Twoich zadań.\nKolumna \"Cel\" tego rzędu podsumowuje wszystkie czasy celów z wszystkich zadań, poza tymi nieokreślonymi.\nKolumna \"Postęp\" tego rzędu podaje całkowity postęp przy finalizowaniu celów z wszystkich zadań. Ten postęp nie uwzględnia czasu spędzonego po przekroczeniu zadanego celu zadania, ani czasu spędzonego na zadaniach z nieokreślonymi celami."
+	},
+	"txtNoTasks": {
+		"message": "Nie stworzyłeś jeszcze żadnego zadania!"
+	},
+	"txtEditTasks": {
+		"message": "Aby edytować, kliknij dwukrotnie na nazwę zadania, czas lub cel."
+	},
+	"lblTask": {
+		"message": "Zadanie"
+	},
+	"lblTimeSpent": {
+		"message": "Poświęcony czas"
+	},
+	"lblGoal": {
+		"message": "Cel"
+	},
+	"lblProgress": {
+		"message": "Postęp"
+	},
+	"lblOptions": {
+		"message": "Opcje (or) Ustawienia"
+	},
+	"lblTotals": {
+		"message": "Łącznie"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stop"
+	},
+	"btnInfo": {
+		"message": "Info (or) Informacje"
+	},
+	"btnReset": {
+		"message": "Reset (or) Zresetuj"
+	},
+	"btnDelete": {
+		"message": "Usuń"
+	},
+	"btnClearHistory": {
+		"message": "Wyczyść historię"
+	},
+	"btnResetAll": {
+		"message": "Zresetuj wszystko"
+	},
+	"btnDeleteAll": {
+		"message": "Usuń wszystko"
+	},
+	"lblName": {
+		"message": "Nazwa"
+	},
+	"lblTaskName": {
+		"message": "Nazwa Zadania"
+	},
+	"lblGoalBoth": {
+		"message": "Cel (godziny : minuty)"
+	},
+	"lblGoalHours": {
+		"message": "Godziny do celu"
+	},
+	"lblGoalMinutes": {
+		"message": "Minut do końca"
+	},
+	"lblIndefinite": {
+		"message": "Niezdefiniowany (or) Nieoznaczony"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Rozpocznij zadanie natychmiast"
+	},
+	"btnAddTask": {
+		"message": "Dodaj Zadanie"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Czas poświęcony na zadania"
+	},
+	"txtTotalPieTitle": {
+		"message": "Całkowity poświęcony czas"
+	},
+	"txtOther": {
+		"message": "Pozostałe"
+	},
+	"txtTaskInfo": {
+		"message": "Informacja o zadaniu"
+	},
+	"txtNoDescription": {
+		"message": "Wprowadź informacje\/komentarze na temat zadania"
+	},
+	"txtTaskOptions": {
+		"message": "Opcje Zadania"
+	},
+	"txtHistory": {
+		"message": "Historia"
+	},
+	"txtHistoryDisabled": {
+		"message": "Śledzenie historii zadań jest wyłączone. Może zostać uruchomione poprzez menu narzędzi."
+	},
+	"txtSelectDate": {
+		"message": "Proszę wybrać datę."
+	},
+	"txtNoHistory": {
+		"message": "Nie ma zachowanej historii w tym dniu."
+	},
+	"lblDescription": {
+		"message": "Opis"
+	},
+	"lblHour": {
+		"message": "Godzina"
+	},
+	"tskExcludeTotals": {
+		"message": "Wyodrębnij (or) Wyklucz (or) Wyłącz to zadanie z łącznego czasu"
+	},
+	"tskExcludeCharts": {
+		"message": "Wyodrębnij (or) Wyklucz to zadanie z wykresów."
+	},
+	"txtTools": {
+		"message": "Narzędzia."
+	},
+	"toolExportCSV": {
+		"message": "Eksportuj zadania jako plik CSV."
+	},
+	"toolClearAllHistory": {
+		"message": "Wyczyść całą historię zadań"
+	},
+	"toolClearData": {
+		"message": "Wyczyść wszystkie dane aplikacji."
+	},
+	"toolResetSettings": {
+		"message": "Przywróć ustawienia domyślne."
+	},
+	"txtSettings": {
+		"message": "Ustawienia"
+	},
+	"txtGeneralSettings": {
+		"message": "Ustawienia Podstawowe"
+	},
+	"optHideNotice": {
+		"message": "Ukryj okno z uwagami"
+	},
+	"optConfirmReset": {
+		"message": "Pytaj o potwierdzenie, gdy zamierzasz resetować zadania"
+	},
+	"optConfirmDelete": {
+		"message": "Pytaj o potwierdzenie, gdy zamierzasz usunąć zadanie"
+	},
+	"optStartDefault": {
+		"message": "Zaznacz domyślnie \"Start\""
+	},
+	"optSaveFields": {
+		"message": "Zachowaj to, co jest w polach nowego zadania, przy ponownym starcie aplikacji"
+	},
+	"optUseIcons": {
+		"message": "Użyj ikon zamiast guzików dla opcji zadań (dobre dla małych ekranów)"
+	},
+	"opt12Hour": {
+		"message": "Używaj 12-godzinnego formatu czasu  w stosownych przypadkach"
+	},
+	"optCustomDialogs": {
+		"message": "Użyj własne okna dialogowe zamiast wbudowanych w Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Uruchom aplikację, kiedy została zaktualizowana"
+	},
+	"txtTaskSettings": {
+		"message": "Ustawienia Zadań"
+	},
+	"optEnableSync": {
+		"message": "Włącz synchronizację (FUNKCJA EKSPERYMENTALNA - może wprowadzić nieporządane zmianu w zadaniach,"
+	},
+	"optTrackHistory": {
+		"message": "Oglądaj historię twoich zadań (możesz oglądać wykresy dla każdego zadania)"
+	},
+	"optNoOvertime": {
+		"message": "Nie pozwól, by zadania przekraczały swoje cele"
+	},
+	"optStopTimer": {
+		"message": "Zatrzymaj zadanie, gdy osiągnie swój cel"
+	},
+	"optOnlyOne": {
+		"message": "Pozwól, by tylko jedno zadania mogło być wykonywane w danej chwili"
+	},
+	"txtNotifSettings": {
+		"message": "Ustawienia powiadomień"
+	},
+	"optShowPopup": {
+		"message": "Pokaż wyskakujące okno na stronie, gdy zadanie osiągnie swój cel"
+	},
+	"optShowNotification": {
+		"message": "Pokaż powiadomienie na pulpicie kiedy zadanie osiągnie cel"
+	},
+	"optPlaySound": {
+		"message": "Daj sygnał, gdy cel zostaje osiągnięty"
+	},
+	"optUseDefault": {
+		"message": "Użyj domyślnego dźwięku"
+	},
+	"optUseCustom": {
+		"message": "Użyj wybranego dźwięku"
+	},
+	"optSoundURL": {
+		"message": "Adres URL wybranego dźwięku"
+	},
+	"optBtnPreview": {
+		"message": "Odtwórz dźwięk"
+	},
+	"optLoopSound": {
+		"message": "Zapętlaj dźwięk, dopóki go nie zatrzymasz"
+	},
+	"txtChartSettings": {
+		"message": "Ustawienia wykresu"
+	},
+	"optEnableCharts": {
+		"message": "Pokazuj wykresy kołowe"
+	},
+	"optShowChartPercent": {
+		"message": "Pokaż w procentach"
+	},
+	"optCombineSmallSlices": {
+		"message": "Połącz małe wycinki wykresu w \"Pozostałe\""
+	},
+	"txtPerfSettings": {
+		"message": "Ustawienia wydajności"
+	},
+	"optUpdateTime1": {
+		"message": "Aktualizuj czas zadań co"
+	},
+	"optUpdateTime2": {
+		"message": "sekundę(y)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Aktualizuj wykres kołowy co"
+	},
+	"txtSaveSettings": {
+		"message": "Zapisz ustawienia"
+	},
+	"txtJSError": {
+		"message": "Gdzieś w skrypcie pojawił się błąd. Proszę, zgłoś ten błąd z informacją o tym, co robiłeś\/robiłaś(male\/female) i co się stało."
+	},
+	"txtTriedRefresh": {
+		"message": "Czy próbowałeś\/próbowałaś odświeżyć aplikację?"
+	},
+	"txtUsualFix": {
+		"message": "To zwykle naprawia większość błędów, jednak usunie wszystkie Twoje zadania i ustawienia."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Anuluj"
+	},
+	"btnYes": {
+		"message": "Tak"
+	},
+	"btnNo": {
+		"message": "Nie"
+	},
+	"btnClose": {
+		"message": "Zamknij"
+	},
+	"btnCloseNotice": {
+		"message": "Zamknij ostrzeżenie"
+	},
+	"btnStopAlarm": {
+		"message": "Zatrzymaj Alarm"
+	},
+	"btnSave": {
+		"message": "Zapisz"
+	},
+	"confResetTask": {
+		"message": "Jesteś pewien\/pewna, że chcesz zresetować zadanie \"$taskName$\"?\nHistoria zadania nie zostanie zresetowana.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Jesteś pewien\/pewna, że chcesz usunąć zadanie \"$taskName$\"?\nHistoria zadania również zostanie usunięta",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Czy jesteś pewny\/pewna, że chcesz usunąć historię zadania \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Czy jesteś pewny\/pewna, że chcesz zresetować czas poświęcony na wszystkie Twoje zadania?"
+	},
+	"confDeleteAll": {
+		"message": "Czy jesteś pewny\/pewna, że chcesz usunąć wszystkie swoje zadania?"
+	},
+	"confClearAllHistory": {
+		"message": "Czy jesteś pewny\/pewna, że chcesz usunąć historię wszystkich swoich zadań?"
+	},
+	"confResetData": {
+		"message": "Czy jesteś pewien, że chcesz wykasować wszystkie dane Minutnika Zadań?\nSpowoduje to usunięcie wszystkich zadań i ustawień."
+	},
+	"confResetSettings": {
+		"message": "Czy jesteś pewny\/pewna, że chcesz zresetować wszystkie ustawienia do ich domyślnych wartości?"
+	},
+	"confRating": {
+		"message": "Chciałbyś\/abyś ocenić\/skomentować aplikację w Sklepie Chrome?\nTo będzie naprawdę pomocne!"
+	},
+	"confSmallWindow": {
+		"message": "Wygląda na to, że używasz Minutnika Zadań w małym oknie, na małym monitorze lub w niskiej rozdzielczości. Czy chciałbyś zamienić przyciski na liście zadań na ikony? Dzięki temu zadania będą wyświetlały się poprawnie.\n\nTo ustawienie może być zmienione również z poziomu menu ustawień."
+	},
+	"noteTaskFinished": {
+		"message": "Zadanie wykonane!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Osiągnięto cel zadania \"$taskName$\"",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Powiadomienia pulpitu działają!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Jeśli to widzisz, to znaczy, że powiadomienia pulpitu są włączone i działają poprawnie! Juhuu!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Wygląda na to, że wskazałeś ścieżkę do lokalnego pliku na Twoim komputerze.\nNiestety, nie możesz użyć lokalnego pliku, gdyż Chrome nie zezwala na dostęp do Twojego systemu plików.\nMusisz użyć internetowego adresu URL (zaczynającego się od http, https albo ftp)."
+	},
+	"noteErrorOccurred": {
+		"message": "Wystąpił błąd!"
+	},
+	"sucSavedDesc": {
+		"message": "Opis został zapisany!"
+	},
+	"sucSavedSettings": {
+		"message": "Ustawienia zostały zapisane!"
+	},
+	"sucSyncReceived": {
+		"message": "Otrzymano dane do synchronizacji!"
+	},
+	"sucSyncSent": {
+		"message": "Wysłano dane do synchronizacji!"
+	},
+	"errGeneric": {
+		"message": "Błąd!"
+	},
+	"errTask": {
+		"message": "Niewłaściwa nazwa zadania lub cel"
+	},
+	"errTaskName": {
+		"message": "Niewłaściwa nazwa zadania"
+	},
+	"errTaskTime": {
+		"message": "Niewłaściwy czas"
+	},
+	"errGoalTime": {
+		"message": "Niewłaściwy czas osiągnięcia celu"
+	},
+	"errSoundURL": {
+		"message": "Niewłaściwy URL dźwięku"
+	},
+	"errFinishEditing": {
+		"message": "Najpierw dokończ edycję zadania \"$taskName$\"",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Zgłoś sugestię"
+	},
+	"txtSuggestionInfo": {
+		"message": "Aby zgłosić sugestię kliknij [tutaj].\nJeśli nikt jeszcze nie zgłosił podobnej sugestii kliknij \"[New issue]\". Upewnij się, że wybrałeś szablon \"[Enhancement Request]\" i nadaj odpowiedni tytuł!\nJeśli masz kilka sugestii, utwórz osobny [issue] dla każdej z nich."
+	},
+	"txtBugTitle": {
+		"message": "Zgłoś błąd"
+	},
+	"txtBugInfo": {
+		"message": "Aby zgłosić błąd, kliknij [tutaj].\nJeśli nikt jeszcze nie zgłosił podobnego błędu kliknij \"[New issue]\". Upewnij się, że nadałeś zgłoszeniu (issue) odpowiedni tytuł!\nJeśli znalazłeś wiele błędów, proszę stwórz osobne zgłoszenia dla każdego z nich.\nPamiętaj, aby dodać poniższe dane w zgłoszeniu:"
+	}
+}

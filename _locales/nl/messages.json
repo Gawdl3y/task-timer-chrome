@@ -3,10 +3,10 @@
 		"message": "Taken Timer"
 	},
 	"appDesc": {
-		"message": "Een eenvoudig middel om tijd bij te houden die besteed is taken zoals werk, studie en andere dingen."
+		"message": "Een eenvoudig hulpmiddel om de tijd, besteed aan taken, projecten, studie, enz. te registreren."
 	},
 	"txtTitle": {
-		"message": "Taak Timer"
+		"message": "Taken Timer"
 	},
 	"txtDescription": {
 		"message": "Gebruik deze tool om de tijd die je besteedt aan werk, studies of andere taken bij te houden"
@@ -138,10 +138,13 @@
 		"message": "Taak toevoegen"
 	},
 	"txtCurrentPieTitle": {
-		"message": "Besteedde Tijd voor de Taken"
+		"message": "Bestede Tijd voor de Taken"
 	},
 	"txtTotalPieTitle": {
-		"message": "Totale Besteedde Tijd (Geschiedenis)"
+		"message": "Totale Bestede Tijd (Geschiedenis)"
+	},
+	"txtOther": {
+		"message": "Overig"
 	},
 	"txtTaskInfo": {
 		"message": "Taak Informatie"
@@ -197,17 +200,14 @@
 	"txtGeneralSettings": {
 		"message": "Algemene Instellingen"
 	},
-	"optEnableCharts": {
-		"message": "Activeer cirkeldiagrammen"
-	},
 	"optHideNotice": {
 		"message": "Verberg het berichtenvenster"
 	},
 	"optConfirmReset": {
-		"message": "Vraag voor een bevestiging wanneer je een taak probeert te resetten"
+		"message": "Vraag om een bevestiging wanneer je een taak probeert te resetten"
 	},
 	"optConfirmDelete": {
-		"message": "Vraag om een bevestiging als je een taak wilt verwijderen"
+		"message": "Vraag om een bevestiging wanneer je een taak wilt verwijderen"
 	},
 	"optStartDefault": {
 		"message": "Vink standaard het \"Start\" selectievakje aan"
@@ -222,7 +222,7 @@
 		"message": "Gebruik een 12-uurs formaat om tijd weer te geven indien toepasbaar"
 	},
 	"optCustomDialogs": {
-		"message": "Gebruik alternatieve dialoog vensters in plaats van de standaard Chroom dialoogvensters"
+		"message": "Gebruik alternatieve dialoog vensters in plaats van de standaard Chrome dialoogvensters"
 	},
 	"optUpdateAlert": {
 		"message": "Open de applicatie wanneer een update is doorgevoerd"
@@ -240,7 +240,7 @@
 		"message": "Sta niet toe om de tijdsduur van een taak over de gestelde limiet te laten lopen"
 	},
 	"optStopTimer": {
-		"message": "Stop de taak wanneer het gestelde doel bereikt is"
+		"message": "Stop de taak wanneer het doel bereikt is"
 	},
 	"optOnlyOne": {
 		"message": "Sta toe om slechts 1 taak tegelijk te laten lopen"
@@ -272,8 +272,20 @@
 	"optLoopSound": {
 		"message": "Herhaal het geluid tot je het afzet"
 	},
+	"txtChartSettings": {
+		"message": "Grafiek instellingen"
+	},
+	"optEnableCharts": {
+		"message": "Activeer cirkeldiagrammen"
+	},
+	"optShowChartPercent": {
+		"message": "Toon de percentage labels op de grafiek"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combineer kleine delen van de grafiek in \"Other\""
+	},
 	"txtPerfSettings": {
-		"message": "Prestatieinstellingen"
+		"message": "Prestatie-instellingen"
 	},
 	"optUpdateTime1": {
 		"message": "Vernieuw de taak looptijd elke"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "Weet je zeker dat je alle instellingen wilt terugzetten naar de standaard waarden?"
 	},
-	"confUpdated": {
-		"message": "Task Timer is bijgewerkt tot versie $version$!\nWil je de lijst met doorgevoerde veranderingen bekijken?\nWees ervan bewust dat indien Chrome de update automatisch heeft doorgevoerd taken die aan het lopen waren opnieuw moeten worden gestart.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Zou je deze applicatie een waardering\/review willen geven in de Chrome Web Store?\nDit wordt erg gewaardeerd!"
 	},
@@ -393,7 +396,7 @@
 		"message": "Desktop Notificaties werken!"
 	},
 	"noteNotifsWorkBody": {
-		"message": "Als je dit ziet zijn desktop notificaties ingeschakelt en werkt alles correct! Yippy!"
+		"message": "Als je dit ziet zijn desktop notificaties ingeschakeld en werkt alles correct! Yippy!"
 	},
 	"noteNoLocalFiles": {
 		"message": "Het ziet ernaar uit dat je een pad naar een lokaal bestand op je machine gebruikt voor de URL van het aangepaste geluid. Helaas kunnen lokale bestanden niet gebruikt worden, omdat Chrome geen toegang toestaat tot jouw lokale bestandensysteem, zelfs niet voor een geluidje. \nAlleen internet-URL's (beginnend met http, https of ftp) kunnen gebruikt worden. Dit betekent dat je online een geluid moet vinden, of het geluid dat je wilt ergens zal moeten uploaden."
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "De applicatie is reeds aan het lopen.\nProbeer all chrome vensters te sluiten en opnieuw te starten als dit onjuist blijkt te zijn."
 	},
 	"txtSuggestionTitle": {
 		"message": "Doe een suggestie"

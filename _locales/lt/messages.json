@@ -1,0 +1,446 @@
+{
+	"appName": {
+		"message": "Užduočių laikmatis"
+	},
+	"appDesc": {
+		"message": "Paprastas įrankis, padedantis sekti laiką, praleistą atliekant darbo, studijų ar kitų dalykų užduotis."
+	},
+	"txtTitle": {
+		"message": "Užduočių laikmatis"
+	},
+	"txtDescription": {
+		"message": "Su šio įrankio pagalba stebėk laiką, praleistą atliekant darbo, studijų ar kitas užduotis."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Vertimas į tam tikras kalbas gali būti netikslus."
+	},
+	"txtCreatedBy": {
+		"message": "Sukurta [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Pranešk apie klaidą"
+	},
+	"txtSuggest": {
+		"message": "Turi pasiūlymą?"
+	},
+	"txtAbout": {
+		"message": "Apie programėlę"
+	},
+	"txtDonate": {
+		"message": "Paremk"
+	},
+	"txtLoading": {
+		"message": "Kraunama..."
+	},
+	"txtComingSoon": {
+		"message": "Artimiausioje ateityje!"
+	},
+	"txtHours": {
+		"message": "Valandos"
+	},
+	"txtMinutes": {
+		"message": "Minutės"
+	},
+	"txtSeconds": {
+		"message": "Sekundės"
+	},
+	"txtIndefinite": {
+		"message": "Neapibrėžta"
+	},
+	"infoData": {
+		"message": "Pastaba: Tai užsaugoma tik lokaliai - tavo kompiuteryje, naršyklėje.\nNesijaudink, tavo užduotys **ne**bus ištrintos, jei išvalysi Chrome talpyklę arba laikmeną."
+	},
+	"infoSettings": {
+		"message": "Norint išbandyti įvairius nustatymus reikia paspausti sraigtelio simbolį viršutiniame dešiniajame programėlės kampe!\nTen galima rasti tokius nustatymus kaip, pavyzdžiui, priminimą ant ekrano apie užduoties pabaigą."
+	},
+	"infoPerformance": {
+		"message": "Programa veikia per lėta Jums? Pabandykite padidinti diagramos atnaujinimo laiką nustatymuose arba išjungti  diagramą visiškai. Vis tiek veikia per lėtai? Padidinkite pagrindinio atnaujinimo laiką arba išjunkite užduočių istorijos stebėjimą."
+	},
+	"infoTranslate": {
+		"message": "Jeigu nori padėti išversti programėlę į kitas užsienio kalbas, spausk [čia]."
+	},
+	"infoTotals": {
+		"message": "Tai visas sąrašas. Jis matomas, kai Jūs turite daugiau nei vieną užduotį. \n\nStulpelis \"Praleistas laikas\" šioje eilutėje rodo visą praleistą laiką atskirai pagal kiekvieną užduotį. \nStulpelis \"Tikslas\" šioje eilutėje rodo visų užduočių laiką, išskyrus užduotis neapibrėžtam laikui. \nStulpelis \"Progresas\" šioje eilutėje parodo Jūsų progresą pasiekiant Jūsų užduočių tikslą. Progresas nerodo laiko, praleisto po užduoties pabaigos, ar laiko užduočių su neapibrėžtais tikslais."
+	},
+	"txtNoTasks": {
+		"message": "Jūs dar nesukūrėte jokios užduoties!"
+	},
+	"txtEditTasks": {
+		"message": "Du kartus spragtelėkite užduoties pavadinimą, laiką arba tikslą, jei norite juos redaguot."
+	},
+	"lblTask": {
+		"message": "Užduotis"
+	},
+	"lblTimeSpent": {
+		"message": "Praleistas laikas"
+	},
+	"lblGoal": {
+		"message": "Tikslas"
+	},
+	"lblProgress": {
+		"message": "Progresas"
+	},
+	"lblOptions": {
+		"message": "Pasirinkimai"
+	},
+	"lblTotals": {
+		"message": "Iš viso"
+	},
+	"btnStart": {
+		"message": "Pradėti"
+	},
+	"btnStop": {
+		"message": "Sustabdyti"
+	},
+	"btnInfo": {
+		"message": "Informacija"
+	},
+	"btnReset": {
+		"message": "Paleisti iš naujo"
+	},
+	"btnDelete": {
+		"message": "Ištrinti"
+	},
+	"btnClearHistory": {
+		"message": "Išvalyti istoriją"
+	},
+	"btnResetAll": {
+		"message": "Viską nustatyti iš naujo"
+	},
+	"btnDeleteAll": {
+		"message": "Viską ištrinti"
+	},
+	"lblName": {
+		"message": "Pavadinimas"
+	},
+	"lblTaskName": {
+		"message": "Užduoties pavadinimas"
+	},
+	"lblGoalBoth": {
+		"message": "Tikslas (valandos : minutės)"
+	},
+	"lblGoalHours": {
+		"message": "Tikslo valandos"
+	},
+	"lblGoalMinutes": {
+		"message": "Tikslo minutės"
+	},
+	"lblIndefinite": {
+		"message": "Neapibrėžtas"
+	},
+	"lblStart": {
+		"message": "Pradėti"
+	},
+	"lblStartNow": {
+		"message": "Pradėti užduotį tuoj pat"
+	},
+	"btnAddTask": {
+		"message": "Sukurti naują užduotį"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Laikas, praleistas atliekant užduotį"
+	},
+	"txtTotalPieTitle": {
+		"message": "Visas praleistas laikas (istorija)"
+	},
+	"txtTaskInfo": {
+		"message": "Užduoties aprašymas"
+	},
+	"txtNoDescription": {
+		"message": "Įveskite užduoties aprašymą ar komentarus"
+	},
+	"txtTaskOptions": {
+		"message": "Užduoties nustatymai"
+	},
+	"txtHistory": {
+		"message": "Istorija"
+	},
+	"txtHistoryDisabled": {
+		"message": "Užduočių istorijos stebėjimas yra išjungtas. Jūs galite tai įjungti įrankių meniu."
+	},
+	"txtSelectDate": {
+		"message": "Pasirinkite datą."
+	},
+	"txtNoHistory": {
+		"message": "Nėra išsaugotų įrašų šią dieną."
+	},
+	"lblDescription": {
+		"message": "Aprašymas"
+	},
+	"lblHour": {
+		"message": "Valanda"
+	},
+	"tskExcludeTotals": {
+		"message": "Pašalinti šią užduotį iš viso sąrašo."
+	},
+	"tskExcludeCharts": {
+		"message": "Pašalinti šią užduotį iš diagramos."
+	},
+	"txtTools": {
+		"message": "Įrankiai"
+	},
+	"toolExportCSV": {
+		"message": "Eksportuoti užduotis kaip CSV failą."
+	},
+	"toolClearAllHistory": {
+		"message": "Išvalyti visą užduočių istoriją."
+	},
+	"toolClearData": {
+		"message": "Išvalyti visus programos duomenis."
+	},
+	"toolResetSettings": {
+		"message": "Nustatyti iš naujo pagal numatytus nustatymus"
+	},
+	"txtSettings": {
+		"message": "Nustatymai"
+	},
+	"txtGeneralSettings": {
+		"message": "Pagrindiniai nustatymai"
+	},
+	"optHideNotice": {
+		"message": "Slėpti pastabų langelį"
+	},
+	"optConfirmReset": {
+		"message": "Prašyti patvirtinimo, kai Jūs bandote nustatyti iš naujo užduotį."
+	},
+	"optConfirmDelete": {
+		"message": "Prašyti patvirtinimo, kai Jūs bandote ištrinti užduotį."
+	},
+	"optStartDefault": {
+		"message": "Pažymėkite \"Pradėti\" patvirtinimą kaip numatyta."
+	},
+	"optSaveFields": {
+		"message": "Išlaikyti informaciją apie naujos užduotį, kai jūs perkraunate programą."
+	},
+	"optUseIcons": {
+		"message": "Naudoti piktogramas vietoje mygtukų užduoties nustatymuose (rekomenduojama mažiems ekranams)"
+	},
+	"opt12Hour": {
+		"message": "Naudoti 12 valandų laiko formatą tam tikrais atvejais."
+	},
+	"optCustomDialogs": {
+		"message": "Naudokite dažniau vartotojų dialogus nei Chrome naršyklės pagalbą."
+	},
+	"optUpdateAlert": {
+		"message": "Atidaryti programą, kai ji atnaujinama."
+	},
+	"txtTaskSettings": {
+		"message": "Užduoties nustatymai"
+	},
+	"optEnableSync": {
+		"message": "Įjungti sinchronizavimą (EKSPERIMETIŠKA, gali paveikti Jūsų užduotis )"
+	},
+	"optTrackHistory": {
+		"message": "Stebėti užduočių istoriją ( Jūsų galėsite matyti kiekvienos užduoties statistiką)"
+	},
+	"optNoOvertime": {
+		"message": "Neleisti užduočių eiti prieš tikslus"
+	},
+	"optStopTimer": {
+		"message": "Sustabdyti užduotį, kai pasiekimas tikslas"
+	},
+	"optOnlyOne": {
+		"message": "Vienu metu leisti tik vieną užduotį"
+	},
+	"txtNotifSettings": {
+		"message": "Pranešimų nustatymai"
+	},
+	"optShowPopup": {
+		"message": "Rodyti papildomą langą puslapyje, kai užduotis pasiekia savo tikslą"
+	},
+	"optShowNotification": {
+		"message": "Rodyti pranešimą darbalaukyje, kai užduotis pasiekia savo tikslą."
+	},
+	"optPlaySound": {
+		"message": "Groti garsą, kai užduoties pasiekia savo tikslą."
+	},
+	"optUseDefault": {
+		"message": "Naudoti numatomus garsus"
+	},
+	"optUseCustom": {
+		"message": "Naudoti pasirinktus garsus"
+	},
+	"optSoundURL": {
+		"message": "Pasirinkti garsus URL"
+	},
+	"optBtnPreview": {
+		"message": "Perklausyti garsą"
+	},
+	"optLoopSound": {
+		"message": "Kartoti garsą, kol Jūs jį sustabdysite."
+	},
+	"optEnableCharts": {
+		"message": "Įjungta dieagramos"
+	},
+	"txtPerfSettings": {
+		"message": "Našumo nustatymai"
+	},
+	"optUpdateTime1": {
+		"message": "Atnaujinkite užduočių laiką kiekvieną kartą"
+	},
+	"optUpdateTime2": {
+		"message": "Sekundė(s)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Atnaujinkite diagramą kiekvieną kartą"
+	},
+	"txtSaveSettings": {
+		"message": "Išsaugoti nustatymus"
+	},
+	"txtJSError": {
+		"message": "Įvyko klaida naudojant programą. Prašome pranešti apie klaidą pateikiant informaciją apie tai, ką Jūs darėte\/kas atsitiko, kai ji įvyko:"
+	},
+	"txtTriedRefresh": {
+		"message": "Ar Jūs bandėte perkrauti programą?"
+	},
+	"txtUsualFix": {
+		"message": "Tai paprastai ištaiso bet kokias klaidas, bet gali išvalyti visas Jūsų užduotis ir nustatymus."
+	},
+	"btnOK": {
+		"message": "Gerai"
+	},
+	"btnCancel": {
+		"message": "Atšaukti"
+	},
+	"btnYes": {
+		"message": "Taip"
+	},
+	"btnNo": {
+		"message": "Ne"
+	},
+	"btnClose": {
+		"message": "Uždaryti"
+	},
+	"btnCloseNotice": {
+		"message": "Uždaryti pranešimą"
+	},
+	"btnStopAlarm": {
+		"message": "Sustabdyti aliarmą"
+	},
+	"btnSave": {
+		"message": "Išsaugoti"
+	},
+	"confResetTask": {
+		"message": "Ar Jūs tikras,kad norite iš naujo nustatyti užduotį \"$taskName$\"?\nTai neatstatys iš naujo užduoties istorijos.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Ar Jūs tikras,kad norite ištrinti užduotį \"$taskName$\"?\nTai taip pat ištrins užduoties istoriją.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Ar Jūs tikras,kad norite išvalyti užduoties \"$taskName$\" istoriją?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Ar Jūs tikras,kad norite iš naujo nustatyti laiką, praleistą atliekant visas Jūsų užduotis?"
+	},
+	"confDeleteAll": {
+		"message": "Ar Jūs tikras,kad norite ištrinti visas savo užduotis?"
+	},
+	"confClearAllHistory": {
+		"message": "Ar Jūs tikras,kad norite išvalyti savo užduočių istoriją?"
+	},
+	"confResetData": {
+		"message": "Ar Jūs tikrai norite visiškai išvalyti visus Užduočių laikmačio duomenis? \nTai išvalys Jūsų užduotis ir nustatymus."
+	},
+	"confResetSettings": {
+		"message": "Ar Jūs tikrai norite nustatyti iš naujo visus nustatymus pagal numatytas vertes?"
+	},
+	"confRating": {
+		"message": "Ar norėtumėte suteikti programai reitingą ar atsiliepimą Chrome Internetinėje parduotuvėje?\nTai tikrai pagelbėtų!"
+	},
+	"confSmallWindow": {
+		"message": "Atrodo, kad Užduočių laikmatis veikia mažame lange, mažame monitoriuje arba nustatyta maža rezoliucija. Ar norėtumėte įjungti piktogramas vietoje mygtukų užduočių sąraše? Tai padėtų užtikrinti, kad užduotys neužimtų daugiau nei vienos eilutės kiekviena.\n\nŠis nustatymas taip pat gali būti pakeistas įrankių meniu."
+	},
+	"noteTaskFinished": {
+		"message": "Užduotis baigta!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Užduotis \"$taskName$\" pasiekė tikslą!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Darbalaukio pranešimai įjungti!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Kaip matote, tai reiškia, kad darbalaukio pranešimai įjungti ir veikia teisingai! Taip!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Atrodo, kad Jūs naudojate nuorodą į vietinį failą savo kompiuteryje pasirenkant garso URL.\nDeja, vietiniai failai negali būti naudojamas, kaip \"Chrome\" neleidžia prieigos prie Jūsų vietinio failų sistemos, net garso.\nTik interneto URL (pradedant nuo HTTP, HTTPS ir FTP) gali būti naudojama. Tai reiškia, kad Jums reikia rasti garsą internete, arba įkelti garsą, kurio pageidaujate, kitur."
+	},
+	"noteErrorOccurred": {
+		"message": "Įvyko klaida!"
+	},
+	"sucSavedDesc": {
+		"message": "Aprašymas išsaugotas!"
+	},
+	"sucSavedSettings": {
+		"message": "Nustatymai išsaugoti!"
+	},
+	"sucSyncReceived": {
+		"message": "Gauti užduoties duomenys sinchronizacijai!"
+	},
+	"sucSyncSent": {
+		"message": "Siųsti užduoties duomenis sinchronizacijai!"
+	},
+	"errGeneric": {
+		"message": "Kalida!"
+	},
+	"errTask": {
+		"message": "Negalimas užduoties pavadinimas arba tikslas."
+	},
+	"errTaskName": {
+		"message": "Negalimas užduoties pavadinimas."
+	},
+	"errTaskTime": {
+		"message": "Negalimas laikas."
+	},
+	"errGoalTime": {
+		"message": "Negalimas tikslo laikas."
+	},
+	"errSoundURL": {
+		"message": "Negalimas pasirinkot garso URL."
+	},
+	"errFinishEditing": {
+		"message": "Baigti redaguoti užduotį \"$taskName$\" pirmiausia!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Pateikti pasiūlymą."
+	},
+	"txtSuggestionInfo": {
+		"message": "Jeigu norite pateikti pasiūlymą, spauskite [čia].\nJeigu niekas nepasiūlė tokios pačios idėjos, spauskite \"Naujas\". Įsitikinkite, kad pasirinkote \"Pagerinimo užklausa\" kaip šabloną, ir tai apibūdinančią antraštę!\nJeigu turite daug idėjų, prašome sukurti atskirą formą kiekvienai iš jų."
+	},
+	"txtBugTitle": {
+		"message": "Praneškite apie klaidą"
+	},
+	"txtBugInfo": {
+		"message": "Norėdami pranešti apie klaidą, spauskite [čia].\nJeigu niekas dar nepaskelbė tokios klaidos, spauskite \"Nauja klaida\". Tinkamai pateikite antraštę!\nJeigu aptikote daugiau klaidų, sukurkite atskirą formą kiekvienai iš jų.\nĮsitikinkite, kad įvedėte žemiau duomenis klaidos raporte:"
+	}
+}

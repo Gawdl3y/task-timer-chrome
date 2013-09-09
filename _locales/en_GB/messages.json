@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Total Time Spent Ever (History)"
 	},
+	"txtOther": {
+		"message": "Other"
+	},
 	"txtTaskInfo": {
 		"message": "Task Information"
 	},
@@ -185,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Clear all task history"
 	},
+	"toolReloadApp": {
+		"message": "Reload the app"
+	},
 	"toolClearData": {
 		"message": "Clear all of the app's data"
 	},
@@ -196,9 +202,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "General Settings"
-	},
-	"optEnableCharts": {
-		"message": "Enable pie charts"
 	},
 	"optHideNotice": {
 		"message": "Hide the notice box"
@@ -245,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Only allow one task to be running at a time"
 	},
+	"optBackgroundRunning": {
+		"message": "Keep timing tasks while the app is closed"
+	},
 	"txtNotifSettings": {
 		"message": "Notification Settings"
 	},
@@ -271,6 +277,18 @@
 	},
 	"optLoopSound": {
 		"message": "Loop the sound until you stop it"
+	},
+	"txtChartSettings": {
+		"message": "Chart Settings"
+	},
+	"optEnableCharts": {
+		"message": "Enable pie charts"
+	},
+	"optShowChartPercent": {
+		"message": "Show chart percentage labels"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combine small slices of the chart into \"Other\""
 	},
 	"txtPerfSettings": {
 		"message": "Performance Settings"
@@ -363,13 +381,16 @@
 		"message": "Are you sure you want to reset all of the settings back to their default values?"
 	},
 	"confUpdated": {
-		"message": "Task Timer has been updated to version $version$!\nWould you like to see the changelog?\nBe aware that you will need to start your tasks again if Chrome auto-updated the app while any were running.",
+		"message": "Task Timer has been updated to version $version$!\nWould you like to see the changelog?",
 		"placeholders": {
 			"version": {
 				"content": "$1",
 				"example": "1.7.2"
 			}
 		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Be aware that you will need to start your tasks again if Chrome auto-updated the app while any were running."
 	},
 	"confRating": {
 		"message": "Would you like to give this app a rating\/review on the Chrome Web Store?\nIt really helps out!"

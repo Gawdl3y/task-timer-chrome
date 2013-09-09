@@ -1,0 +1,449 @@
+{
+	"appName": {
+		"message": "タスク・タイマー"
+	},
+	"appDesc": {
+		"message": "仕事や勉強などの作業に費やした時間を測るシンプルなツール"
+	},
+	"txtTitle": {
+		"message": "タスク・タイマー"
+	},
+	"txtDescription": {
+		"message": "このタスク・タイマーは、あなたの仕事や勉強などの作業に費やした時間をそれぞれ測ることができます。"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "翻訳は正確ではないかもしれません。"
+	},
+	"txtCreatedBy": {
+		"message": "制作者[Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "バグを報告する"
+	},
+	"txtSuggest": {
+		"message": "ご意見をお聞かせください。"
+	},
+	"txtAbout": {
+		"message": "本ツールについて"
+	},
+	"txtDonate": {
+		"message": "寄付する"
+	},
+	"txtLoading": {
+		"message": "ロード中"
+	},
+	"txtComingSoon": {
+		"message": "近日公開予定"
+	},
+	"txtHours": {
+		"message": "時間"
+	},
+	"txtMinutes": {
+		"message": "分"
+	},
+	"txtSeconds": {
+		"message": "秒"
+	},
+	"txtIndefinite": {
+		"message": "無制限"
+	},
+	"infoData": {
+		"message": "注：ここに登録された情報は、あなたのコンピュータのクロームブラウザ内のみに保存されます。\nクロームのキャッシュや履歴などを消去しても、タスクは削除されません。"
+	},
+	"infoSettings": {
+		"message": "アプリの設定を確認するときは、右上にあるアプリの歯車のボタンをクリックしてください。\nタスクが終了した際のデスクトップ通知などの設定ができます。"
+	},
+	"infoPerformance": {
+		"message": "アプリの速度が遅い場合は、設定の中にあるパイチャートを増加させるか、パイチャートの機能を無効にしてください。\nそれでも速度が遅い場合は、アップデート期間を長くするか、タスク履歴の追跡機能を無効にしてください。"
+	},
+	"infoTranslate": {
+		"message": "このアプリを他の言語に翻訳して下さる方は、こちらをクリックしてください。"
+	},
+	"infoTotals": {
+		"message": "こちらは総合タスクです。タスクが１つ以上ある場合にのみ表示されます。\n\nこちらの「経過時間」は、各タスクに費やされた時間の合計時間を表示しています。\nこちらの「目標時間」は、各タスクで設定された目標時間の合計時間（時間無限定のタスクを除く。）を表示しています。\nこちらの「進行状況」は、各タスクを完了するまでの進行状況の合計量を表示しています。ここでは、タスクの目標時間を超えた場合の超過時間及び時間無限定のタスクは含まれていません。"
+	},
+	"txtNoTasks": {
+		"message": "まだタスクは設定されていません。"
+	},
+	"txtEditTasks": {
+		"message": "タスク名、時間、又は目標時間を編集するときは、ダブルクリックしてください。"
+	},
+	"lblTask": {
+		"message": "タスク"
+	},
+	"lblTimeSpent": {
+		"message": "経過時間"
+	},
+	"lblGoal": {
+		"message": "目標時間"
+	},
+	"lblProgress": {
+		"message": "進行状況"
+	},
+	"lblOptions": {
+		"message": "オプション設定"
+	},
+	"lblTotals": {
+		"message": "合計時間"
+	},
+	"btnStart": {
+		"message": "スタート"
+	},
+	"btnStop": {
+		"message": "一時停止"
+	},
+	"btnInfo": {
+		"message": "このタスクについて"
+	},
+	"btnReset": {
+		"message": "リセット"
+	},
+	"btnDelete": {
+		"message": "タスクを削除"
+	},
+	"btnClearHistory": {
+		"message": "履歴を削除"
+	},
+	"btnResetAll": {
+		"message": "すべてをリセット"
+	},
+	"btnDeleteAll": {
+		"message": "すべてを削除"
+	},
+	"lblName": {
+		"message": "タスク名"
+	},
+	"lblTaskName": {
+		"message": "名前をつけてください"
+	},
+	"lblGoalBoth": {
+		"message": "目標時間（時間 : 分）"
+	},
+	"lblGoalHours": {
+		"message": "目標時間（時）"
+	},
+	"lblGoalMinutes": {
+		"message": "目標時間（分）"
+	},
+	"lblIndefinite": {
+		"message": "目標時間を設定しない"
+	},
+	"lblStart": {
+		"message": "すぐに開始"
+	},
+	"lblStartNow": {
+		"message": "タスクをすぐに開始します"
+	},
+	"btnAddTask": {
+		"message": "タスクを追加"
+	},
+	"txtCurrentPieTitle": {
+		"message": "タスクに費やした時間"
+	},
+	"txtTotalPieTitle": {
+		"message": "これまでに費やされた合計時間（履歴）"
+	},
+	"txtOther": {
+		"message": "その他"
+	},
+	"txtTaskInfo": {
+		"message": "タスク情報"
+	},
+	"txtNoDescription": {
+		"message": "タスクに関する情報やコメントを書き込んでください。"
+	},
+	"txtTaskOptions": {
+		"message": "タスク・オプション"
+	},
+	"txtHistory": {
+		"message": "履歴"
+	},
+	"txtHistoryDisabled": {
+		"message": "タスク履歴の追跡が無効になっています。 [ツール]メニューで有効にすることができます。"
+	},
+	"txtSelectDate": {
+		"message": "日にちを選択してください。"
+	},
+	"txtNoHistory": {
+		"message": "その日に記録された履歴はありません。"
+	},
+	"lblDescription": {
+		"message": "説明"
+	},
+	"lblHour": {
+		"message": "時間"
+	},
+	"tskExcludeTotals": {
+		"message": "このタスクを総合タスクから除外する。"
+	},
+	"tskExcludeCharts": {
+		"message": "このタスクを円グラフから除外する。"
+	},
+	"txtTools": {
+		"message": "ツール"
+	},
+	"toolExportCSV": {
+		"message": "タスクをCSVファイルに転送する。"
+	},
+	"toolClearAllHistory": {
+		"message": "すべてのタスク履歴を消去する。"
+	},
+	"toolClearData": {
+		"message": "すべてのアプリデータを消去する。"
+	},
+	"toolResetSettings": {
+		"message": "初期設定にリセットする"
+	},
+	"txtSettings": {
+		"message": "設定"
+	},
+	"txtGeneralSettings": {
+		"message": "一般設定"
+	},
+	"optHideNotice": {
+		"message": "お知らせボックスを非表示にする"
+	},
+	"optConfirmReset": {
+		"message": "タスクをリセットする際に、コンピューター画面で確認する。"
+	},
+	"optConfirmDelete": {
+		"message": "タスクを消去する際に、コンピューター画面で確認する。"
+	},
+	"optStartDefault": {
+		"message": "初期設定のスタートをチェックしてください。"
+	},
+	"optSaveFields": {
+		"message": "新しく入力したタスクをアプリを再起動するときまで残しておく。"
+	},
+	"optUseIcons": {
+		"message": "（小さな画面に適した）タスクオプションのボタンの代わりにアイコンを使用"
+	},
+	"opt12Hour": {
+		"message": "12時間表記を使用する"
+	},
+	"optCustomDialogs": {
+		"message": "カスタム·ダイアログではなく、Chromeの組み込みのものを使用します。"
+	},
+	"optUpdateAlert": {
+		"message": "それが更新されたアプリを開く"
+	},
+	"txtTaskSettings": {
+		"message": "タスク設定"
+	},
+	"optEnableSync": {
+		"message": "同期（実験版の使用。あなたのタスクが台無しになるかもしれません。）"
+	},
+	"optTrackHistory": {
+		"message": "トラックのタスクの履歴（そのため、各タスクの統計情報を表示できます）"
+	},
+	"optNoOvertime": {
+		"message": "設定された目標時間の超過を許可しない"
+	},
+	"optStopTimer": {
+		"message": "完了したら、タスクを停止してください"
+	},
+	"optOnlyOne": {
+		"message": "一度に一つのタスクの進行のみを許可する"
+	},
+	"txtNotifSettings": {
+		"message": "通知設定"
+	},
+	"optShowPopup": {
+		"message": "タスクが完了したら、ページのポップアップを見て下さい"
+	},
+	"optShowNotification": {
+		"message": "タスクに設定した目標時間に達したら、デスクトップ通知を表示する"
+	},
+	"optPlaySound": {
+		"message": "タスクで設定した目標時間に達したら、音を鳴らす"
+	},
+	"optUseDefault": {
+		"message": "既定の音を使用します"
+	},
+	"optUseCustom": {
+		"message": "カスタム音を使用する"
+	},
+	"optSoundURL": {
+		"message": "カスタム音のURL"
+	},
+	"optBtnPreview": {
+		"message": "再生音のプレビュー"
+	},
+	"optLoopSound": {
+		"message": "停止するまで、音声を繰り返す"
+	},
+	"txtChartSettings": {
+		"message": "チャートセッティング"
+	},
+	"optEnableCharts": {
+		"message": "円グラフの有効化"
+	},
+	"optShowChartPercent": {
+		"message": "円グラフのパーセンテージを表示"
+	},
+	"optCombineSmallSlices": {
+		"message": "円グラフの小さい断片を合わせ「その他」とする"
+	},
+	"txtPerfSettings": {
+		"message": "パフォーマンス設定"
+	},
+	"optUpdateTime1": {
+		"message": "毎日タスクの時間を更新する"
+	},
+	"optUpdateTime2": {
+		"message": "秒(s)"
+	},
+	"optChartUpdateTime1": {
+		"message": "毎日円グラフを更新する"
+	},
+	"txtSaveSettings": {
+		"message": "設定を保存する"
+	},
+	"txtJSError": {
+		"message": "実行中のスクリプトにおいてエラーが発生しました。どのようなエラーが、何を行った結果発生したかを、下記の情報と併せて報告願います。"
+	},
+	"txtTriedRefresh": {
+		"message": "アプリケーションの初期化を試しましたか？"
+	},
+	"txtUsualFix": {
+		"message": "通常、この操作によりエラーが解決しますが、同時に入力したタスクや設定の情報も削除されます。"
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "キャンセル"
+	},
+	"btnYes": {
+		"message": "YES"
+	},
+	"btnNo": {
+		"message": "NO"
+	},
+	"btnClose": {
+		"message": "閉じる"
+	},
+	"btnCloseNotice": {
+		"message": "終了時に警告を表示する"
+	},
+	"btnStopAlarm": {
+		"message": "アラームを停止する"
+	},
+	"btnSave": {
+		"message": "保存"
+	},
+	"confResetTask": {
+		"message": "<em>$taskName$<em>タスクをリセットしてもよろしいですか？\nタスクの履歴はリセットされません。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "タスク：\"$taskName$\"　を削除しても宜しいですか？\nこの操作を行うと同時に、タスクの履歴も削除されます。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "タスク：\"$taskName$\"　の履歴を削除しても宜しいですか？",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "すべてのタスクに費やした合計時間を消去してもよろしいですか。"
+	},
+	"confDeleteAll": {
+		"message": "すべてのタスクを消去してもよろしいですか。"
+	},
+	"confClearAllHistory": {
+		"message": "すべてのタスクの履歴を削除しても宜しいですか？"
+	},
+	"confResetData": {
+		"message": "タスク・タイマーに登録されたすべてのデータを完全に削除します。宜しいですか？\nこの操作を行うと同時に、すべてのタスクとそれらの履歴が削除されます。"
+	},
+	"confResetSettings": {
+		"message": "すべての設定情報を初期化して宜しいですか？"
+	},
+	"confRating": {
+		"message": "クローム・ウェブ・ストアで、このアプリケーションの評価やレビューを行っていただけると、非常に助かります。"
+	},
+	"confSmallWindow": {
+		"message": "タスク・タイマーが小さいウィンドウ、小さい画面、もしくは低画質で実行されているようです。タスクリストのボタンをアイコンに切り替えますか？アイコンに切り替えると１つのタスクは一列で表示されつづけます。\n\nこの変更は[ツール]メニューでも可能です。"
+	},
+	"noteTaskFinished": {
+		"message": "タスクが完了しました。"
+	},
+	"noteTaskFinishedLong": {
+		"message": "タスク： $taskName$ が目標時間に達しました。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "デスクトップ通知は問題無く動作しています。"
+	},
+	"noteNotifsWorkBody": {
+		"message": "これが表示されているということはデスクトップ通知は有効で正常に作動しています！やったね！"
+	},
+	"noteErrorOccurred": {
+		"message": "エラーが発生しました。"
+	},
+	"sucSavedDesc": {
+		"message": "詳細情報が保存されました。"
+	},
+	"sucSavedSettings": {
+		"message": "設定が保存されました。"
+	},
+	"sucSyncReceived": {
+		"message": "同期するデータを受け取りました！"
+	},
+	"sucSyncSent": {
+		"message": "同期するデータを送りました！"
+	},
+	"errGeneric": {
+		"message": "エラー！"
+	},
+	"errTask": {
+		"message": "無効なタスク名、または目標が設定されています。"
+	},
+	"errTaskName": {
+		"message": "無効なタスク名です。"
+	},
+	"errTaskTime": {
+		"message": "無効な時間です。"
+	},
+	"errGoalTime": {
+		"message": "無効な目標時間です。"
+	},
+	"errSoundURL": {
+		"message": "無効なカスタム音URLです。"
+	},
+	"errFinishEditing": {
+		"message": "まずタスク： $taskName$ の編集を終了してください。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "ツールについて提言する"
+	},
+	"txtBugTitle": {
+		"message": "バグ報告"
+	}
+}

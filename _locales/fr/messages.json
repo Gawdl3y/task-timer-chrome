@@ -21,7 +21,7 @@
 		"message": "Signaler un problème"
 	},
 	"txtSuggest": {
-		"message": "Une idée ? [Nous contacter]"
+		"message": "Une idée ? [Contacter moi ¡]"
 	},
 	"txtAbout": {
 		"message": "À propos"
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Temps Total Passé (Historique)"
 	},
+	"txtOther": {
+		"message": "Autre"
+	},
 	"txtTaskInfo": {
 		"message": "Information sur la Tâche"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Options Générales"
-	},
-	"optEnableCharts": {
-		"message": "Activer les Graphiques"
 	},
 	"optHideNotice": {
 		"message": "Cacher l'en-tête de notifications"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "Faire tourner l'alerte en boucle jusqu'à ce que vous l'arrêtiez"
+	},
+	"txtChartSettings": {
+		"message": "Paramètres du graphique"
+	},
+	"optEnableCharts": {
+		"message": "Activer les Graphiques"
+	},
+	"optShowChartPercent": {
+		"message": "Afficher les légendes des pourcentages"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combiner des portions du graphique pour \"Autre\""
 	},
 	"txtPerfSettings": {
 		"message": "Options de Performances"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "Etes-vous sûr de vouloir réinitialiser toutes vos options à leur valeur par défault?"
 	},
-	"confUpdated": {
-		"message": "Task Timer a été mis à jour pour la version $version$ !\nVoulez-vous consulter le rapport de mise à jour ?\nSachez que vous devrez relancer vos tâches si la mise à jour s'est faîte pendant qu'une tâche était en cours.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Voudriez-vous noter et commenter cette application sur Chrome Web Store?\nCela nous aide énormément !"
 	},
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "L'application est déjà lancée.\nSi ce n'est pas le cas, essayez de fermer tous les fenêtres de Chrome et relancez-la."
 	},
 	"txtSuggestionTitle": {
 		"message": "Faire une suggestion"

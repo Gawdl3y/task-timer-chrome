@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Celkový strávený čas (počas celej histórie)"
 	},
+	"txtOther": {
+		"message": "Ďalšia"
+	},
 	"txtTaskInfo": {
 		"message": "Informácia o úlohe"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Všeobecné nastavenia"
-	},
-	"optEnableCharts": {
-		"message": "Povoliť koláčové grafy"
 	},
 	"optHideNotice": {
 		"message": "Skryť oblasť poznámok"
@@ -271,6 +271,15 @@
 	},
 	"optLoopSound": {
 		"message": "Opakovať zvuk až do zastavenia užívateľa"
+	},
+	"txtChartSettings": {
+		"message": "Nastavenia grafu"
+	},
+	"optEnableCharts": {
+		"message": "Povoliť koláčové grafy"
+	},
+	"optShowChartPercent": {
+		"message": "Zobraziť menovky grafu v percentách"
 	},
 	"txtPerfSettings": {
 		"message": "Nastavenia výkonu"
@@ -362,15 +371,6 @@
 	"confResetSettings": {
 		"message": "Naozaj chcete vrátiť všetky nastavenia na základné hodnoty?"
 	},
-	"confUpdated": {
-		"message": "TaskTimer bol aktualizovaný na verziu $version$!\nChcete vidieť záznam o zmenách ?\nBuďte si vedomý, že bude potrebné znovu spustiť úlohy, ktoré bežali, ak Chrome aktualizoval aplikáciu.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Radi by ste dali hodnotenie tejto aplikácii na Chrome Web Store ?\nSkutočne to pomože!"
 	},
@@ -439,9 +439,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "Táto aplikácia je už otvorená.\nAk to nie je pravda, skúste zatvoriť všetky okná Chrome prehliadača a reštartujte Chrome prehliadač."
 	},
 	"txtSuggestionTitle": {
 		"message": "Dajte nápad"

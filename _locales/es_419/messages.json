@@ -66,7 +66,7 @@
 		"message": "¡No has creado una tarea todavía!"
 	},
 	"txtEditTasks": {
-		"message": "Has doble cick al nombre de una tarea, tiempo u objetivo para editarlo."
+		"message": "Has doble click al nombre de una tarea, tiempo u objetivo para editarlo."
 	},
 	"lblTask": {
 		"message": "Tarea"
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Tiempo total trancurrido (Historial)"
 	},
+	"txtOther": {
+		"message": "Otros"
+	},
 	"txtTaskInfo": {
 		"message": "Información de la tarea"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Ajustes generales"
-	},
-	"optEnableCharts": {
-		"message": "Habilitar gráficos de torta"
 	},
 	"optHideNotice": {
 		"message": "Ocultar la caja de notificaciones"
@@ -270,19 +270,31 @@
 		"message": "Vista previa del sonido"
 	},
 	"optLoopSound": {
-		"message": "Repetir el sonido hasta que lo pares"
+		"message": "Repetir el sonido hasta que lo detengas"
+	},
+	"txtChartSettings": {
+		"message": "Configuraciones de la Grafica"
+	},
+	"optEnableCharts": {
+		"message": "Habilitar cuadros de la gráfica"
+	},
+	"optShowChartPercent": {
+		"message": "Mostrar etiquetas de porcentaje de la gráfica."
+	},
+	"optCombineSmallSlices": {
+		"message": "Combinar pequeñas partes de la gráfica en \"Otra\""
 	},
 	"txtPerfSettings": {
 		"message": "Ajustes de rendimiento"
 	},
 	"optUpdateTime1": {
-		"message": "Actualizar el tiempo de las tareas cada"
+		"message": "Actualizar el tiempo de cada tarea"
 	},
 	"optUpdateTime2": {
 		"message": "segundo(s)"
 	},
 	"optChartUpdateTime1": {
-		"message": "Actualizar los gráficos de torta cada"
+		"message": "Actualizar cada cuadro de la gráfica"
 	},
 	"txtSaveSettings": {
 		"message": "Guardar ajustes"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "¿Realmente deseas regresar todas las configuraciones a los valores por defecto?"
 	},
-	"confUpdated": {
-		"message": "El temporizador de tareas ha sido actualizado a la versión $version$!\n¿Deseas ver los cambios?\nTen en cuenta que necesitarás iniciar sus tareas nuevamente si Chrome autoactualizó la aplicación mientras estaban siendo utilizadas.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "¿Te gustaría dar a esta aplicación una calificación\/comentario en la Tienda de Chrome (Chrome Web Store)?\n¡Realmente nos ayudaría!"
 	},
@@ -402,7 +405,7 @@
 		"message": "¡Ha ocurrido un error!"
 	},
 	"sucSavedDesc": {
-		"message": "¡Descripción salvada!"
+		"message": "¡Descripción guardada!"
 	},
 	"sucSavedSettings": {
 		"message": "¡Ajustes guardados!"
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "La aplicación ya esta abierta.\nSi esto pudiera estar incorrecto. trata cerrando todas las ventanas de Chrome y reinicia el explorador."
 	},
 	"txtSuggestionTitle": {
 		"message": "Haz una sugerencia"

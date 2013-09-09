@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Task Timer"
+	},
+	"appDesc": {
+		"message": "Jednoduchý nástroj pro evidenci času stráveného aktivitami jako např. práce, studium a další."
+	},
+	"txtTitle": {
+		"message": "Task Timer"
+	},
+	"txtDescription": {
+		"message": "Využijte tento nástroj pro sledování času stráveného prací, studiem, nebo jinými typy úkolů."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Překlad nemusí být přesný."
+	},
+	"txtCreatedBy": {
+		"message": "Vytvořil [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Nahlásit chybu"
+	},
+	"txtSuggest": {
+		"message": "Máte nápad na vylepšení? [Podělte se]"
+	},
+	"txtAbout": {
+		"message": "O aplikaci"
+	},
+	"txtDonate": {
+		"message": "Přispět"
+	},
+	"txtLoading": {
+		"message": "Načítám..."
+	},
+	"txtComingSoon": {
+		"message": "Již brzy!"
+	},
+	"txtHours": {
+		"message": "Hodin"
+	},
+	"txtMinutes": {
+		"message": "Minut"
+	},
+	"txtSeconds": {
+		"message": "Sekund"
+	},
+	"txtIndefinite": {
+		"message": "Na neurčito"
+	},
+	"infoData": {
+		"message": "Poznámka: Data jsou ukládána pouze lokálně, na Vašem počítači.\nNemějte obavy - Vaše data **NE**budou smazána, když vymažete cache prohlížeče."
+	},
+	"infoSettings": {
+		"message": "Zkontrolujte nastavení aplikace kliknutím na ikonu v pravém horním rohu aplikace.\nZde můžete nastavit např. upozornění na plochu, jakmile čas vyhrazený pro úkol vyprší."
+	},
+	"infoPerformance": {
+		"message": "Běží aplikace pomalu? Zkuste zvýšit interval aktualizací výsečového grafu v nastavení nebo vypněte výsečové grafy úplně.\nStále běží pomalu? Zvyšte interval celkové aktualizace časovače nebo zakažte sledování historie úkolů."
+	},
+	"infoTranslate": {
+		"message": "Chcete pomoci přeložit Task Timer do jiných jazyků? Klikněte [sem]."
+	},
+	"infoTotals": {
+		"message": "Toto je řádek výsledků. Zobrazuje se pouze tehdy, máte-li více než jeden úkol.\n\nSloupec \"Strávený čas\" na tomto řádku představuje součet času stráveného každým úkolem.\nSloupec \"Cíle\" na tomto řádku představuje součet všech časů stanovených cílů od všech úkolů, vyjma úkolů s cíli stanovenými na neurčito.\nSloupec \"Pokrok\" na tomto řádku zobrazuje celkový pokrok směrem k dosažení cílů všech úkolů. Tento pokrok nezahrnuje čas strávený nad rámec cíle úkolu ani čas strávený na úkolech s cílem stanoveným na neurčito."
+	},
+	"txtNoTasks": {
+		"message": "Ještě jste nevytvořil(a) žádný úkol!"
+	},
+	"txtEditTasks": {
+		"message": "Poklepáním na název úkolu, čas nebo cíl je můžete upravit."
+	},
+	"lblTask": {
+		"message": "Úkol"
+	},
+	"lblTimeSpent": {
+		"message": "Odpracováno"
+	},
+	"lblGoal": {
+		"message": "Cíl"
+	},
+	"lblProgress": {
+		"message": "Pokrok"
+	},
+	"lblOptions": {
+		"message": "Možnosti"
+	},
+	"lblTotals": {
+		"message": "Souhrny"
+	},
+	"btnStart": {
+		"message": "Spustit"
+	},
+	"btnStop": {
+		"message": "Zastavit"
+	},
+	"btnInfo": {
+		"message": "Informace"
+	},
+	"btnReset": {
+		"message": "Obnovit"
+	},
+	"btnDelete": {
+		"message": "Smazat"
+	},
+	"btnClearHistory": {
+		"message": "Vymazat historii"
+	},
+	"btnResetAll": {
+		"message": "Obnovit vše"
+	},
+	"btnDeleteAll": {
+		"message": "Odstranit vše"
+	},
+	"lblName": {
+		"message": "Jméno"
+	},
+	"lblTaskName": {
+		"message": "Název úkolu"
+	},
+	"lblGoalBoth": {
+		"message": "Cíl (hodiny : minuty)"
+	},
+	"lblGoalHours": {
+		"message": "Hodinový cíl"
+	},
+	"lblGoalMinutes": {
+		"message": "Minutový cíl"
+	},
+	"lblIndefinite": {
+		"message": "Neurčitý"
+	},
+	"lblStart": {
+		"message": "Spustit"
+	},
+	"lblStartNow": {
+		"message": "Okamžitě spustit úkol"
+	},
+	"btnAddTask": {
+		"message": "Přidat úkol"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Čas strávený na úkolech"
+	},
+	"txtTotalPieTitle": {
+		"message": "Celkový odpracovaný čas (historie)"
+	},
+	"txtOther": {
+		"message": "Ostatní"
+	},
+	"txtTaskInfo": {
+		"message": "Informace o úkolu"
+	},
+	"txtNoDescription": {
+		"message": "Zadejte informace\/komentář k úkolu"
+	},
+	"txtTaskOptions": {
+		"message": "Možnosti úkolů"
+	},
+	"txtHistory": {
+		"message": "Historie"
+	},
+	"txtHistoryDisabled": {
+		"message": "Záznam historie není spuštěn. Můžete ho povolit v menu nástrojů."
+	},
+	"txtSelectDate": {
+		"message": "Vyberte prosím datum."
+	},
+	"txtNoHistory": {
+		"message": "Na tento den není žádná uložená historie."
+	},
+	"lblDescription": {
+		"message": "Popis"
+	},
+	"lblHour": {
+		"message": "Hodina"
+	},
+	"tskExcludeTotals": {
+		"message": "Vyloučit tento úkol z řádku součtů"
+	},
+	"tskExcludeCharts": {
+		"message": "Vyloučit tento úkol z výsečové grafy"
+	},
+	"txtTools": {
+		"message": "Nástroje"
+	},
+	"toolExportCSV": {
+		"message": "Exportovat úkoly jako soubor CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Vymazat historii všech úloh"
+	},
+	"toolClearData": {
+		"message": "Vymazat všechny údaje aplikace"
+	},
+	"toolResetSettings": {
+		"message": "Obnovit výchozí"
+	},
+	"txtSettings": {
+		"message": "Nastavení"
+	},
+	"txtGeneralSettings": {
+		"message": "Obecná nastavení"
+	},
+	"optHideNotice": {
+		"message": "Skrýt pole oznámení"
+	},
+	"optConfirmReset": {
+		"message": "Požádat o potvrzení, když se pokusíte obnovit úlohu"
+	},
+	"optConfirmDelete": {
+		"message": "Požádat o potvrzení při pokusu o odstranění úkolu"
+	},
+	"optStartDefault": {
+		"message": "Ve výchozím nastavení zaškrtněte políčko \"Start\""
+	},
+	"optSaveFields": {
+		"message": "Ponechat, co máte v polích při novém úkolu, při obnovení aplikace"
+	},
+	"optUseIcons": {
+		"message": "Pomocí ikony místo tlačítka pro možnosti úkolu (dobré pro malé obrazovky)"
+	},
+	"opt12Hour": {
+		"message": "Použít 12 hodinový formát pro čas"
+	},
+	"optCustomDialogs": {
+		"message": "Použít vlastní dialogová okna než předdefinované od Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Otevřít aplikaci, když je aktualizována"
+	},
+	"txtTaskSettings": {
+		"message": "Nastavení úkolů"
+	},
+	"optEnableSync": {
+		"message": "Povolit synchronizaci (EXPERIMENTÁLNÍ, může způsobit potíže)"
+	},
+	"optTrackHistory": {
+		"message": "Sledovat historii úkolů (takže můžete zobrazit statistiku pro každý úkol)"
+	},
+	"optNoOvertime": {
+		"message": "Nepovolovat úkoly přejít přes jejich cíle"
+	},
+	"optStopTimer": {
+		"message": "Ukončit úkol dosáhne-li svého cíle"
+	},
+	"optOnlyOne": {
+		"message": "Povolit pouze jeden zároveň běží úkol"
+	},
+	"txtNotifSettings": {
+		"message": "Nastavení upozorňování"
+	},
+	"optShowPopup": {
+		"message": "Na stránce zobrazit vyskakovací okno, když úkol dosáhne svého cíle"
+	},
+	"optShowNotification": {
+		"message": "Zobrazit oznámení na ploše dosáhne-li úkolu svého cíle"
+	},
+	"optPlaySound": {
+		"message": "Přehrávat zvuk, když úkol dosáhne svého cíle"
+	},
+	"optUseDefault": {
+		"message": "Použít výchozí zvuk"
+	},
+	"optUseCustom": {
+		"message": "Použít vlastní zvuk"
+	},
+	"optSoundURL": {
+		"message": "URL adresa vlastního zvuku"
+	},
+	"optBtnPreview": {
+		"message": "Náhled zvuku"
+	},
+	"optLoopSound": {
+		"message": "Opakovat zvuk, dokud jej nezastavíte"
+	},
+	"txtChartSettings": {
+		"message": "Nastavení grafu"
+	},
+	"optEnableCharts": {
+		"message": "Povolit výsečové grafy"
+	},
+	"optShowChartPercent": {
+		"message": "Zobraz popisky grafu v procentech"
+	},
+	"optCombineSmallSlices": {
+		"message": "Zkombinovat malé části grafu do \"Ostatních\""
+	},
+	"txtPerfSettings": {
+		"message": "Nastavení výkonnosti"
+	},
+	"optUpdateTime1": {
+		"message": "Aktualizovat čas úlohy každých"
+	},
+	"optUpdateTime2": {
+		"message": "sekund"
+	},
+	"optChartUpdateTime1": {
+		"message": "Aktualizovat výsečové grafy každých"
+	},
+	"txtSaveSettings": {
+		"message": "Uložit nastavení"
+	},
+	"txtJSError": {
+		"message": "Někde ve skriptu nastala chyba. Prosím nahlašte chybu s následujícími informacemi, stejně tak co jste dělali a co se stalo:"
+	},
+	"txtTriedRefresh": {
+		"message": "Zkoušeli jste aktualizaci aplikace?"
+	},
+	"txtUsualFix": {
+		"message": "Toto obvykle opraví případné chyby, ale všechny úkoly a nastavení budou vymazána."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Zrušit"
+	},
+	"btnYes": {
+		"message": "Ano"
+	},
+	"btnNo": {
+		"message": "Ne"
+	},
+	"btnClose": {
+		"message": "Zavřít"
+	},
+	"btnCloseNotice": {
+		"message": "Zavřít oznámení"
+	},
+	"btnStopAlarm": {
+		"message": "Zastavit Alarm"
+	},
+	"btnSave": {
+		"message": "Uložit"
+	},
+	"confResetTask": {
+		"message": "Opravdu chcete obnovit úkol \"$taskName$\"?\nToto neobnoví historii úkolu.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Opravdu chcete odstranit úkol \"$taskName$\"?\nTímto odstraníte i historii úkolu.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Opravdu chcete vymazat historii úkolu \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Opravdu chcete obnovit čas všech strávený úkolů?"
+	},
+	"confDeleteAll": {
+		"message": "Opravdu chcete smazat všechny Vaše úkoly?"
+	},
+	"confClearAllHistory": {
+		"message": "Opravdu chcete vymazat historii všech úkolů?"
+	},
+	"confResetData": {
+		"message": "Opravdu chcete zcela vymazat všechny všechny úlohy časovače?\nZbavíte se tak svých úkolů a nastavení."
+	},
+	"confResetSettings": {
+		"message": "Opravdu chcete obnovit všechna nastavení zpět na výchozí hodnoty?"
+	},
+	"confRating": {
+		"message": "Chcete přidat k této aplikaci hodnocení nebo recenzi na Chrome Web Store?\nPomůže nám to!"
+	},
+	"confSmallWindow": {
+		"message": "Zdá se, že Task Timer je spuštěn v malém okně, na malém monitoru, nebo v nízkém rozlišení. Chcete přepnout na zobrazení ikon místo tlačítek v seznamu úkolů? To zajistí, aby každý z úkolů nezabíral více než jeden řádek."
+	},
+	"noteTaskFinished": {
+		"message": "Úkol byl dokončen!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "V úkolu \"$taskName$\" bylo dosaženo cíle!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Oznámení na ploše fungují!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Jestli tohle vidíte, znamená to že oznámení na ploše jsou povolená a pracují správně! Hurá!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Vypadá to, že používáte vlastní zvukové URL cesty k místnímu souboru na vašem počítači.\nBohužel nelze použít místní soubory, Chrome neumožňuje přístup k vašemu lokální souborovému systému, dokonce i pro zvuk.\nLze použít pouze internet URL (začínající http, https a ftp). To znamená, že potřebujete najít online zvuk, nebo zvuk Uložit, tam kam chcete."
+	},
+	"noteErrorOccurred": {
+		"message": "Došlo k chybě!"
+	},
+	"sucSavedDesc": {
+		"message": "Popis uložen!"
+	},
+	"sucSavedSettings": {
+		"message": "Nastavení uloženo."
+	},
+	"sucSyncReceived": {
+		"message": "Přijmout data pro synchronizaci!"
+	},
+	"sucSyncSent": {
+		"message": "Synchronizovat data!"
+	},
+	"errGeneric": {
+		"message": "Chyba!"
+	},
+	"errTask": {
+		"message": "Neplatný název úlohy nebo cíle."
+	},
+	"errTaskName": {
+		"message": "Neplatný název úlohy."
+	},
+	"errTaskTime": {
+		"message": "Neplatný čas."
+	},
+	"errGoalTime": {
+		"message": "Neplatný čas cíle."
+	},
+	"errSoundURL": {
+		"message": "Neplatná URL vlastního zvuku."
+	},
+	"errFinishEditing": {
+		"message": "Nejdříve dokončete úpravu úkolu $taskName$.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Vytvořte návrh"
+	},
+	"txtSuggestionInfo": {
+		"message": "Pro návrh na změnu klepněte prosím [sem].\nPokud dosud nikdo stejný nápad neměl, klepněte na \"Nové téma\". Ujistěte se, že jste vybrali možnost \"Žádost o vylepšení\" a zvolili dostatečně popisný název!\nPokud máte vícero nápadů, vytvořte prosím samostatné téma pro každý z nich."
+	},
+	"txtBugTitle": {
+		"message": "Nahlásit chybu"
+	},
+	"txtBugInfo": {
+		"message": "Pro nahlášení chyby klepněte prosím [sem].\nPokud dosud nikdo nenašel stejnou chybu, klepněte na \"Nové téma\". Ujistěte se, že jste pro téma zvolili dostatečně popisný název!\nPokud jste našli vícero chyb, vytvořte prosím samostatné téma pro každou z nich.\nNezapomeňte do svého hlášení o chybě zahrnout také níže uvedené údaje:"
+	}
+}

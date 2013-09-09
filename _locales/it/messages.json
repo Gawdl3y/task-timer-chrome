@@ -9,10 +9,10 @@
 		"message": "Task Timer"
 	},
 	"txtDescription": {
-		"message": "Usa questo strumento per tenere traccia del tempo dedicato a lavoro, studio, o qualsiasi altro tipo di attività."
+		"message": "Usa questo strumento per tenere traccia del tempo dedicato al lavoro, studio, o qualsiasi altro tipo di attività."
 	},
 	"txtTranslationsAccuracy": {
-		"message": "La traduzione potrbbe non essere precisa"
+		"message": "La traduzione potrebbe non essere precisa"
 	},
 	"txtCreatedBy": {
 		"message": "Creato da [Schuyler Cebulskie]"
@@ -33,7 +33,7 @@
 		"message": "Caricamento..."
 	},
 	"txtComingSoon": {
-		"message": "Funzionalità future!"
+		"message": "Presto in arrivo!"
 	},
 	"txtHours": {
 		"message": "Ore"
@@ -48,10 +48,10 @@
 		"message": "Indefinito"
 	},
 	"infoData": {
-		"message": "Nota: Questo salva soltanto in locale, sul tuo computer, nel tuo browser.\nNon ti preoccupare, le tue attività **non** saranno cancellate se cancelli la cache di Chrome."
+		"message": "Nota: Il salvataggio avverrà soltanto in locale, sul tuo computer, nel tuo browser.\nNon ti preoccupare, le tue attività **NON** saranno cancellate anche se cancelli la cache di Chrome."
 	},
 	"infoSettings": {
-		"message": "Assicurati di controllare le impostazioni facendo clic sul pulsante dell'ingranaggio in alto a destra nell'applicazione.\nCi sono impostazioni come le notifiche sul desktop quando un'attività si conclude."
+		"message": "Assicurati di controllare le impostazioni facendo clic sul pulsante dell'ingranaggio in alto a destra nell'applicazione.\nCi sono impostazioni, come le notifiche sul desktop, quando un'attività si conclude."
 	},
 	"infoPerformance": {
 		"message": "L'applicazione in esecuzione è troppo lenta? Prova ad aumentare il tempo di aggiornamento del grafico a torta nelle impostazioni, o disabilita del tutto i grafici. L'applicazione è ancora lenta? Aumenta l'intervallo di aggiornamento generale oppure disabilita il monitoraggio della cronologia delle attività."
@@ -60,7 +60,7 @@
 		"message": "Vuoi aiutarci a tradurre Task Timer in altre lingue? Clicca [qui]"
 	},
 	"infoTotals": {
-		"message": "Questa è la riga dei totali. Appare solo quando si è impostato più di un compito.\n\nLa colonna \"Tempo Trascorso\" di questa riga somma il tempo trascorso su ognuna delle tue attività.\nLa colonna \"Obiettivo\" di questa riga, somma i tempi prestabiliti come obiettivi di tutte le tue attività, piuttosto che di quelli non definiti\nLa colonna \"Avanzamento\" di questa riga, ti mostra quanto manca al termine di tutte le tue attività con tempo prestabilito. Questo valore non include il tempo speso oltre l'ammontare prestabilito sulle attività o il tempo trascorso su delle attività a scadenza indefinita."
+		"message": "Questa è la riga dei totali. Appare solo quando si è impostato più di un compito.\n\nLa colonna \"Tempo Trascorso\" somma il tempo trascorso su ognuna delle tue attività.\nLa colonna \"Obiettivo\" somma i tempi prestabiliti come obiettivi di tutte le tue attività, piuttosto che di quelli indefiniti\nLa colonna \"Avanzamento\" ti mostra quanto manca al termine di tutte le tue attività alle quali hai impostato un tempo prestabilito. Questo valore non include il tempo speso oltre l'ammontare prestabilito sulle attività o il tempo trascorso su delle attività a scadenza indefinita."
 	},
 	"txtNoTasks": {
 		"message": "Non hai ancora creato nessuna attività!"
@@ -96,7 +96,7 @@
 		"message": "Info"
 	},
 	"btnReset": {
-		"message": "Ripristina"
+		"message": "Resetta"
 	},
 	"btnDelete": {
 		"message": "Elimina"
@@ -105,7 +105,7 @@
 		"message": "Svuota la cronologia delle attività"
 	},
 	"btnResetAll": {
-		"message": "Ripristina tutto"
+		"message": "Resetta tutto"
 	},
 	"btnDeleteAll": {
 		"message": "Elimina tutto"
@@ -141,7 +141,7 @@
 		"message": "Tempo trascorso nelle attività"
 	},
 	"txtTotalPieTitle": {
-		"message": "Tempo trascorso totale"
+		"message": "Tempo trascorso totale (Cronologia)"
 	},
 	"txtTaskInfo": {
 		"message": "Informazione sull'attività"
@@ -159,7 +159,7 @@
 		"message": "La cronologia delle attività è disabilitata. Puoi abilitarla nel menù strumenti."
 	},
 	"txtSelectDate": {
-		"message": "Selezionare una data"
+		"message": "Seleziona una data"
 	},
 	"txtNoHistory": {
 		"message": "Nessuna cronologia salvata in quel giorno."
@@ -189,16 +189,13 @@
 		"message": "Elimina tutti i dati dell'applicazione"
 	},
 	"toolResetSettings": {
-		"message": "Ripristina situazione iniziale"
+		"message": "Resetta alla situazione iniziale"
 	},
 	"txtSettings": {
 		"message": "Impostazioni"
 	},
 	"txtGeneralSettings": {
 		"message": "Impostazioni generali"
-	},
-	"optEnableCharts": {
-		"message": "Attiva grafici a torta"
 	},
 	"optHideNotice": {
 		"message": "Nascondi il box delle notifiche"
@@ -271,6 +268,9 @@
 	},
 	"optLoopSound": {
 		"message": "Ripeti il suono finchè non lo disattivi"
+	},
+	"optEnableCharts": {
+		"message": "Attiva grafici a torta"
 	},
 	"txtPerfSettings": {
 		"message": "Impostazioni prestazioni"
@@ -362,15 +362,6 @@
 	"confResetSettings": {
 		"message": "Sei sicuro di voler ripristinare tutte le impostazioni al loro valore predefinito?"
 	},
-	"confUpdated": {
-		"message": "Task Timer è stato aggiornato alla versione $version$!\nVuoi vedere le novità?\nNota: dovrai avviare nuovamente le tue attività se Chrome ha aggiornato automaticamente l'app mentre era avviata.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Vuoi votare\/commentare sul Chrome Web Store?\nCi aiuterebbe molto!"
 	},
@@ -439,9 +430,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "L'applicazione è già aperta.\nSe ti sembra che qualcosa non vada, prova a chiudere tutte le finestre di Chrome e riavviala."
 	},
 	"txtSuggestionTitle": {
 		"message": "Invia un suggerimento"

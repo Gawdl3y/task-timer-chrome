@@ -1,0 +1,446 @@
+{
+	"appName": {
+		"message": "Vremenski mjeritelj aktivnosti\n\nMy comment: keep the original title. It sounds funny when it's translated."
+	},
+	"appDesc": {
+		"message": "Jednostavan alat koji pomaže praćenje vremena provedenog na raznim aktivnostima kao što su poslovne, za vrijeme učenja i sl."
+	},
+	"txtTitle": {
+		"message": "Vremenski mjeritelj aktivnosti\n\nMy comment: keep the original title. It sounds funny when its translated."
+	},
+	"txtDescription": {
+		"message": "Koristite ovaj alat za praćenje vremena provedenog na poslu, na učenju ili za bilo koju drugu aktivnost."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Može se dogoditi da prijevod nije točan."
+	},
+	"txtCreatedBy": {
+		"message": "Napravio [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Prijavite grešku."
+	},
+	"txtSuggest": {
+		"message": "Imate li prijedlog? [Javite nam]"
+	},
+	"txtAbout": {
+		"message": "O..."
+	},
+	"txtDonate": {
+		"message": "Donirajte"
+	},
+	"txtLoading": {
+		"message": "Pokretanje u tijeku..."
+	},
+	"txtComingSoon": {
+		"message": "Uskoro!"
+	},
+	"txtHours": {
+		"message": "Sati"
+	},
+	"txtMinutes": {
+		"message": "Minute"
+	},
+	"txtSeconds": {
+		"message": "Sekunde"
+	},
+	"txtIndefinite": {
+		"message": "Neograničeno"
+	},
+	"infoData": {
+		"message": "Bilješka: Ova aplikacija sprema samo lokalno, na vašem računalu, u vašem pregledniku.\nNemojte se brinuti, vaše aktivnosti neće biti izbrisane ako ispraznite Chromovu predmemoriju (cache)."
+	},
+	"infoSettings": {
+		"message": "Provjerite postavke kliknuvši na gumb u obliku zupčanika u gornjem desnom kutu programa!\nSadrži postavke kao što su notifikacije na radnoj površini kada je aktivnost gotova."
+	},
+	"infoPerformance": {
+		"message": "Radi li vam aplikacija sporo? Unutar postavka probajte povećati vrijeme ažuriranja dijagrama u obliku pite, ili ga deaktivirajte.\nJoš uvijek vam radi sporo? Povećajte generalno vrijeme ažuriranja ili deaktivirajte praćenje povijesti aktivnosti."
+	},
+	"infoTranslate": {
+		"message": "Želite li pomoći u prevođenju na druge jezike? Kliknite [ovdje]."
+	},
+	"infoTotals": {
+		"message": "Unutar ovog reda, kolumna \"Utrošeno vrijeme\" je zbroj utrošenog vremena na svim aktivnostima.\nUnutar ovog reda, kolumna \"Cilj\" je zbroj svih ciljeva vaših aktivnosti, osim nedefiniranih.\nUnutar ovog reda, kolumna \"Napredak\" je zbroj svih napredka za ................. Taj napredak ne sadrži vrijeme koje je prekoračilo zadani cilj jedne aktivnosti, ili utrošeno vrijeme za aktivnosti bez cilja."
+	},
+	"txtNoTasks": {
+		"message": "Još uvijek niste napravili niti jednu aktivnost!"
+	},
+	"txtEditTasks": {
+		"message": "Napravite dupli klik na ime aktivnosti, vremenu ili cilju da ga modificirate."
+	},
+	"lblTask": {
+		"message": "Aktivnost"
+	},
+	"lblTimeSpent": {
+		"message": "Utrošeno vrijeme"
+	},
+	"lblGoal": {
+		"message": "Cilj"
+	},
+	"lblProgress": {
+		"message": "Napredak"
+	},
+	"lblOptions": {
+		"message": "Mogućnosti"
+	},
+	"lblTotals": {
+		"message": "Ukupno"
+	},
+	"btnStart": {
+		"message": "Početak"
+	},
+	"btnStop": {
+		"message": "Završetak"
+	},
+	"btnInfo": {
+		"message": "Informacije"
+	},
+	"btnReset": {
+		"message": "Resetiranje"
+	},
+	"btnDelete": {
+		"message": "Izbriši"
+	},
+	"btnClearHistory": {
+		"message": "Izbriši povijest"
+	},
+	"btnResetAll": {
+		"message": "Resetiraj sve aktivnosti"
+	},
+	"btnDeleteAll": {
+		"message": "Izbriši sve aktivnosti"
+	},
+	"lblName": {
+		"message": "Naziv"
+	},
+	"lblTaskName": {
+		"message": "Naziv aktivnosti"
+	},
+	"lblGoalBoth": {
+		"message": "Cilj (sati : minute)"
+	},
+	"lblGoalHours": {
+		"message": "Ciljani sati"
+	},
+	"lblGoalMinutes": {
+		"message": "Ciljane minute"
+	},
+	"lblIndefinite": {
+		"message": "Neograničeno"
+	},
+	"lblStart": {
+		"message": "Početak"
+	},
+	"lblStartNow": {
+		"message": "Odmah pokreni aktivnost"
+	},
+	"btnAddTask": {
+		"message": "Dodaj aktivnost"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Vrijeme provedeno na aktivnostima"
+	},
+	"txtTotalPieTitle": {
+		"message": "Ukupno provedeno vrijeme (povijest)"
+	},
+	"txtTaskInfo": {
+		"message": "Informacija o aktivnosti"
+	},
+	"txtNoDescription": {
+		"message": "Ubaci informaciju\/komentare o aktivnosti"
+	},
+	"txtTaskOptions": {
+		"message": "Opcije aktivnosti"
+	},
+	"txtHistory": {
+		"message": "Povijest"
+	},
+	"txtHistoryDisabled": {
+		"message": "Praćenje povijesti zadatka je onemogućeno. Možete ga omogućiti u izborniku alata."
+	},
+	"txtSelectDate": {
+		"message": "Molim odaberi datum."
+	},
+	"txtNoHistory": {
+		"message": "Nema spremljene povijesti tog dana."
+	},
+	"lblDescription": {
+		"message": "Opis"
+	},
+	"lblHour": {
+		"message": "Sati"
+	},
+	"tskExcludeTotals": {
+		"message": "Izuzmi ovu aktivnost sa zbroja redova"
+	},
+	"tskExcludeCharts": {
+		"message": "Izuzmi ovu aktivnost iz dijagrama u obliku pite"
+	},
+	"txtTools": {
+		"message": "Alati"
+	},
+	"toolExportCSV": {
+		"message": "Izvezi akcije kao CSV datoteku"
+	},
+	"toolClearAllHistory": {
+		"message": "Izbriši svu povijest aktivnosti"
+	},
+	"toolClearData": {
+		"message": "Izbriši sve podatke aplikacije."
+	},
+	"toolResetSettings": {
+		"message": "Resetiraj na izvornim postavkama"
+	},
+	"txtSettings": {
+		"message": "Postavke"
+	},
+	"txtGeneralSettings": {
+		"message": "Opće postavke"
+	},
+	"optHideNotice": {
+		"message": "Sakrij obavijesti"
+	},
+	"optConfirmReset": {
+		"message": "Pitaj za provjeru kada želiš resetirati aktivnost"
+	},
+	"optConfirmDelete": {
+		"message": "Pitaj za provjeru kada želiš izbrisati aktivnost"
+	},
+	"optStartDefault": {
+		"message": "Automatski stavi kvačicu na Start."
+	},
+	"optSaveFields": {
+		"message": "Spremanje sadržaja novonapravljenih polja sa zadacima kad se ponovno pokrene program."
+	},
+	"optUseIcons": {
+		"message": "Korištenje ikone umjesto gumba za uređivanje opcija zadataka(dobro za male ekrane)"
+	},
+	"opt12Hour": {
+		"message": "Korištenje 12-satnog formata (am , pm) za vrijeme kod kojeg se može koristiti."
+	},
+	"optCustomDialogs": {
+		"message": "Kosrištenje vlastitih dijaloga umjesto ugrađenih Chrome-ovih"
+	},
+	"optUpdateAlert": {
+		"message": "Pokreni aplikaciju kada je ažuriranje gotovo"
+	},
+	"txtTaskSettings": {
+		"message": "Opcije aktivnosti"
+	},
+	"optEnableSync": {
+		"message": "Omogućiti sinkronizaciju (EKSPERIMENTALNO, može poremetiti vaše zadatke)"
+	},
+	"optTrackHistory": {
+		"message": "Praćenje povijesti zadatka (kako biste imali uvid u statistiku za svaki pojedini zadatak)"
+	},
+	"optNoOvertime": {
+		"message": "Onemogući aktivnostima da prekorače zadane ciljeve."
+	},
+	"optStopTimer": {
+		"message": "Zaustavi aktivnost kada dođe do cilja"
+	},
+	"optOnlyOne": {
+		"message": "Omogući da bude pokrenuta samo jedna aktivnost"
+	},
+	"txtNotifSettings": {
+		"message": "Postavke obavijesti"
+	},
+	"optShowPopup": {
+		"message": "Prikaži na stranici iskočni prozor kada je aktivnost došla do cilja."
+	},
+	"optShowNotification": {
+		"message": "Prikaži obavijest na radnoj površini kada aktivnost stigne do cilja"
+	},
+	"optPlaySound": {
+		"message": "Pokreni zvuk kada je aktivnost došla do cilja"
+	},
+	"optUseDefault": {
+		"message": "Koristi zadani zvuk"
+	},
+	"optUseCustom": {
+		"message": "Koristi vlastiti zvuk"
+	},
+	"optSoundURL": {
+		"message": "URL vlastitog zvuka"
+	},
+	"optBtnPreview": {
+		"message": "Preslušajte zvuk"
+	},
+	"optLoopSound": {
+		"message": "Ponavljanje zvuka dok ga ne zaustavite"
+	},
+	"optEnableCharts": {
+		"message": "Omogući dijagrame u obliku pite"
+	},
+	"txtPerfSettings": {
+		"message": "Postavke izvedba"
+	},
+	"optUpdateTime1": {
+		"message": "Ažuriranje zadatka svaki\/e"
+	},
+	"optUpdateTime2": {
+		"message": "Sekunda\/e"
+	},
+	"optChartUpdateTime1": {
+		"message": "Ažuriraj dijagrame svaku"
+	},
+	"txtSaveSettings": {
+		"message": "Spremi postavke"
+	},
+	"txtJSError": {
+		"message": "Negdje u skripti se desila greška. Molim da pošaljete obavijest o grešci sa slijedećim informacijama, kao i opisom što ste napravili i\/ili što se desilo."
+	},
+	"txtTriedRefresh": {
+		"message": "Dali ste probali ažurirati aplikaciju?"
+	},
+	"txtUsualFix": {
+		"message": "Ovo će uglavnom ispraviti bilo kakve pogreške, ali će cjelokupno izbrisati sve vaše zadatke i postavke."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Poništi"
+	},
+	"btnYes": {
+		"message": "Da"
+	},
+	"btnNo": {
+		"message": "Ne"
+	},
+	"btnClose": {
+		"message": "Zatvori"
+	},
+	"btnCloseNotice": {
+		"message": "Zatvori obavijest"
+	},
+	"btnStopAlarm": {
+		"message": "Zaustavi alarm"
+	},
+	"btnSave": {
+		"message": "Spremi"
+	},
+	"confResetTask": {
+		"message": "Jeste li sigurni da želite vratiti zadatak \"$taskName$\" u početno stanje?\nOvo neće vratiti povijest zadatka u početno stanje.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Jeste li sigurni da želite izbrisati zadatak \"$taskName$\"?\nOvo će također izbrisati povijest zadatka.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Jeste li sigurni da želite izbrisati povijest zadatka \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Jeste li sigurni da želite vratiti vrijeme utrošeno na sve vaše zadatke na 0?"
+	},
+	"confDeleteAll": {
+		"message": "Jeste li sigurni da želite izbrisati sve vaše zadatke?"
+	},
+	"confClearAllHistory": {
+		"message": "Jeste li sigurni da želite izbrisati povijest svih zadataka?"
+	},
+	"confResetData": {
+		"message": "Jeste li sigurni da želite potpuno izbrisati sve podatke Task Timer-a?\nOvo će odstraniti sve vaše zadatke i postavke."
+	},
+	"confResetSettings": {
+		"message": "Jeste li sigurni da želite vratiti sve postavke na njihove početne vrijednosti?"
+	},
+	"confRating": {
+		"message": "Želite li ocijeniti-recenzirati ovu aplikaciju u Chrome Web Store?\nTo stvarno pomaže!"
+	},
+	"confSmallWindow": {
+		"message": "Izgleda da vam je Task Timer pokrenut u malom prozoru, malom ekranu ili na maloj rezoluciji. Želite li prijeći na ikone umjesto tipki u popisu zadataka? To će pomoći osigurati da zadaci ne zauzimaju više od jednog reda svaki."
+	},
+	"noteTaskFinished": {
+		"message": "Aktivnost je gotova!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Zadatak \"$taskName$\" je dostigao svoj cilj!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Desktop Obavijesti Rade!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Ako vidite ovo, znači da su desktop obavijesti omogućene i da rade ispravno! Woo!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Čini se kako koristite put do lokalnih datoteka na vašem računalu za URL vlastitog zvuka.\nNažalost, lokalne datoteke se ne mogu koristiti jer Chrome ne dozvoljava pristup vašem lokalnom sustavu datoteka, čak niti za zvuk.\nSamo se internetski URL-ovi (koji počinju s http, https ili ftp) mogu koristiti. To znači kako morate naći zvuk online, ili učitati negdje zvuk koji želite."
+	},
+	"noteErrorOccurred": {
+		"message": "Dogodila se pogreška!"
+	},
+	"sucSavedDesc": {
+		"message": "Spremljen opis!"
+	},
+	"sucSavedSettings": {
+		"message": "Spremljene postavke!"
+	},
+	"sucSyncReceived": {
+		"message": "Primljeni radni podaci za sinkronizaciju!"
+	},
+	"sucSyncSent": {
+		"message": "Poslani radni podaci za sinkronizaciju!"
+	},
+	"errGeneric": {
+		"message": "Greška!"
+	},
+	"errTask": {
+		"message": "Greška u imenu aktivnosti ili cilju."
+	},
+	"errTaskName": {
+		"message": "Greška u imenu aktivnosti."
+	},
+	"errTaskTime": {
+		"message": "Greška u vremenu."
+	},
+	"errGoalTime": {
+		"message": "Greška u cilju aktivnosti."
+	},
+	"errSoundURL": {
+		"message": "Nevažeći URL zvuka."
+	},
+	"errFinishEditing": {
+		"message": "Najprije završite uređivanje zadatka \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Dajte nam prijedlog"
+	},
+	"txtSuggestionInfo": {
+		"message": "Kako biste dali prijedlog, molimo kliknite [ovdje].\nUkoliko još nitko nije predložio istu ideju, kliknite \"Novi predmet\". Provjerite da ste za predložak označili \"Zahtjev za poboljšanjem\" i imenujte ga opisno!\nUkoliko imate višestruke ideje, molimo izradite zaseban predmet za svaku ideju."
+	},
+	"txtBugTitle": {
+		"message": "Prijavite grešku"
+	},
+	"txtBugInfo": {
+		"message": "Kako biste prijavili bug, molimo kliknite [ovdje].\nUkoliko još nitko nije prijavio isti bug, kliknite \"Novi problem\". Provjerite da ste imenovali problem opisno!\nUkoliko ste naišli na višestruke bug-ove, molimo izradite zaseban predmet za svaku ideju.\nBudite sigurni da vaše prijavljivanje bug-a sadrži dolje navedene podatke:"
+	}
+}

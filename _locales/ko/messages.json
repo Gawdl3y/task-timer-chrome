@@ -1,0 +1,446 @@
+{
+	"appName": {
+		"message": "작업 시간기록계"
+	},
+	"appDesc": {
+		"message": "일, 공부, 기타 일정 등 작업에 소요되는 시간 및 진도를 확인하고 기록할 수 있는 간단한 도구입니다."
+	},
+	"txtTitle": {
+		"message": "작업 시간기록계"
+	},
+	"txtDescription": {
+		"message": "이 도구를 사용하여 당신이 업무, 공부 또는 다른 종류의 모든 일에 보내는 시간을 관리하고 기록하세요."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "번역이 정확하지 않을 수도 있습니다."
+	},
+	"txtCreatedBy": {
+		"message": "[Schuyler Cebulskie]에 의해 개발됨."
+	},
+	"txtReportBug": {
+		"message": "버그를 신고해주세요!"
+	},
+	"txtSuggest": {
+		"message": "아이디어가 있습니까?[알려 주세요]"
+	},
+	"txtAbout": {
+		"message": "소개합니다."
+	},
+	"txtDonate": {
+		"message": "기부해 주세요."
+	},
+	"txtLoading": {
+		"message": "로딩 중..."
+	},
+	"txtComingSoon": {
+		"message": "곧 찾아옵니다!"
+	},
+	"txtHours": {
+		"message": "시간"
+	},
+	"txtMinutes": {
+		"message": "분"
+	},
+	"txtSeconds": {
+		"message": "초"
+	},
+	"txtIndefinite": {
+		"message": "기한 없음"
+	},
+	"infoData": {
+		"message": "걱정하지 마세요! 여러분의 정보는 PC에 직접 저장됩니다.\n크롬 브라우저의 캐시가 지워져도 여러분의 정보는 남아있습니다."
+	},
+	"infoSettings": {
+		"message": "프로그램의 오른쪽 상단에 있는 기어 버튼을 눌러서 환경설정을 해주세요. \n작업 완료시의 알림 등의 설정을 하실 수 있습니다."
+	},
+	"infoPerformance": {
+		"message": "너무 느린가요? 그렇다면 파이 차트 업데이트 시간을 늘리거나, 사용하지 않도록 설정해보세요. 그래도 느리다면, 작업 내역 추적 업데이트 시간을 늘리거나 사용하지 않도록 설정하면 됩니다."
+	},
+	"infoTranslate": {
+		"message": "작업 시간기록계를 다른 언어로 번역하는 것을 도와주시겠어요? [여기]를 눌러주세요."
+	},
+	"infoTotals": {
+		"message": "전체보기 줄입니다. 최소 2개 이상의 태스크가 등록됐을 때만 나타납니다.\n\n경과 시간(Time Spent)은 등록된 태스크에 이미 쓰여진 시간을 보여줍니다.\n목표(Goal)는 현재 등록된 모든 태스크에 설정된 목표 시한을 보여줍니다. (기한 없음으로 설정된 태스크 제외)\n진행 상황(Progress)는 목표한 시한까지 남아있는 시간을 보여줍니다. 태스크에 이미 쓰여진 경과 시간을 제한 것입니다. 이 진행상황은 작업 목표 시간을 초과한 작업이나 목표시간이 정의되지 않은 작업은 포함하지 않습니다."
+	},
+	"txtNoTasks": {
+		"message": "아직 아직 어떤 작업도 만들지 않았습니다."
+	},
+	"txtEditTasks": {
+		"message": "작업 이름, 시간, 목표 등을 편집하려면 해당 항목을 더블 클릭하세요."
+	},
+	"lblTask": {
+		"message": "작업"
+	},
+	"lblTimeSpent": {
+		"message": "경과 시간"
+	},
+	"lblGoal": {
+		"message": "목적"
+	},
+	"lblProgress": {
+		"message": "진행 상황"
+	},
+	"lblOptions": {
+		"message": "선택 사항"
+	},
+	"lblTotals": {
+		"message": "합계"
+	},
+	"btnStart": {
+		"message": "시작"
+	},
+	"btnStop": {
+		"message": "멈춤"
+	},
+	"btnInfo": {
+		"message": "정보"
+	},
+	"btnReset": {
+		"message": "초기화"
+	},
+	"btnDelete": {
+		"message": "지우기"
+	},
+	"btnClearHistory": {
+		"message": "작업내역 지우기"
+	},
+	"btnResetAll": {
+		"message": "전체 초기화"
+	},
+	"btnDeleteAll": {
+		"message": "전체 지우기"
+	},
+	"lblName": {
+		"message": "이름"
+	},
+	"lblTaskName": {
+		"message": "작업명"
+	},
+	"lblGoalBoth": {
+		"message": "목표 (시간 : 분)"
+	},
+	"lblGoalHours": {
+		"message": "목표시간"
+	},
+	"lblGoalMinutes": {
+		"message": "목표분"
+	},
+	"lblIndefinite": {
+		"message": "목표시간 미정(무기한)"
+	},
+	"lblStart": {
+		"message": "시작"
+	},
+	"lblStartNow": {
+		"message": "즉시 작업 시작"
+	},
+	"btnAddTask": {
+		"message": "작업 추가"
+	},
+	"txtCurrentPieTitle": {
+		"message": "작업 소요 시간"
+	},
+	"txtTotalPieTitle": {
+		"message": "총 소요 시간"
+	},
+	"txtTaskInfo": {
+		"message": "작업 정보"
+	},
+	"txtNoDescription": {
+		"message": "작업에 대한 정보\/코멘트 입력"
+	},
+	"txtTaskOptions": {
+		"message": "작업 옵션"
+	},
+	"txtHistory": {
+		"message": "히스토리"
+	},
+	"txtHistoryDisabled": {
+		"message": "작업에 대한 히스토리 추적이 해제되었습니다. 도구(tools) 메뉴에서 다시 활성화할 수 있습니다."
+	},
+	"txtSelectDate": {
+		"message": "날짜를 선택하세요."
+	},
+	"txtNoHistory": {
+		"message": "이 날짜에는 저장된 기록이 존재하지 않습니다."
+	},
+	"lblDescription": {
+		"message": "설명"
+	},
+	"lblHour": {
+		"message": "시간"
+	},
+	"tskExcludeTotals": {
+		"message": "전체 줄에서 이 작업을 제외"
+	},
+	"tskExcludeCharts": {
+		"message": "파이 차트에서 이 작업 제외"
+	},
+	"txtTools": {
+		"message": "도구"
+	},
+	"toolExportCSV": {
+		"message": "CSV file로 작업 내보내기"
+	},
+	"toolClearAllHistory": {
+		"message": "모든 작업 기록 삭제"
+	},
+	"toolClearData": {
+		"message": "이 앱에 기록된 모든 정보 삭제"
+	},
+	"toolResetSettings": {
+		"message": "기본설정으로 돌아가기"
+	},
+	"txtSettings": {
+		"message": "설정"
+	},
+	"txtGeneralSettings": {
+		"message": "일반 설정"
+	},
+	"optHideNotice": {
+		"message": "알림상자 숨기기"
+	},
+	"optConfirmReset": {
+		"message": "작업을 초기화하려고 할 때 한 번 더 확인하게 합니다"
+	},
+	"optConfirmDelete": {
+		"message": "작업을 지우려고 할 때 한 번 더 확인하게 합니다"
+	},
+	"optStartDefault": {
+		"message": "\"시작\" 체크상자에 체크하는 것을 기본값으로 합니다"
+	},
+	"optSaveFields": {
+		"message": "새 작업 영역에 있는 내용을 어플리케이션을 재실행할 때에도 보존합니다"
+	},
+	"optUseIcons": {
+		"message": "작업 옵션에 버튼 대신 아이콘을 사용합니다 (작은 화면에 적합함)"
+	},
+	"opt12Hour": {
+		"message": "적용가능한 곳에 12시간 형식을 사용합니다"
+	},
+	"optCustomDialogs": {
+		"message": "크롬에 내장된 것이 아닌 어플리케이션 고유의 대화 상자를 사용합니다"
+	},
+	"optUpdateAlert": {
+		"message": "어플리케이션이 업데이트 된 경우에는 어플리케이션을 엽니다."
+	},
+	"txtTaskSettings": {
+		"message": "작업 설정"
+	},
+	"optEnableSync": {
+		"message": "동기화를 활성화합니다. (아직 실험중입니다, 등록된 작업에 영향을 미칠 수 있습니다.)"
+	},
+	"optTrackHistory": {
+		"message": "작업 기록 추적 (각 작업에 대한 통계를 볼 수 있습니다)"
+	},
+	"optNoOvertime": {
+		"message": "작업에 설정된 목표 시한을 초과하는 것을 허락하지 않습니다."
+	},
+	"optStopTimer": {
+		"message": "목표 시한에 도달했을 때 작업을 중지시킵니다."
+	},
+	"optOnlyOne": {
+		"message": "한 번에 한 작업만 실행되게 합니다. (멀티태스킹 불허)"
+	},
+	"txtNotifSettings": {
+		"message": "알림 설정"
+	},
+	"optShowPopup": {
+		"message": "작업이 목표 시한에 도달했을 때 팝업 창으로 알립니다."
+	},
+	"optShowNotification": {
+		"message": "작업이 목표 시한에 도달했을 때 데스크탑 알림으로 보여줍니다."
+	},
+	"optPlaySound": {
+		"message": "작업이 목표시간에 도달하면 알림음을 재생합니다"
+	},
+	"optUseDefault": {
+		"message": "기본음 사용하기"
+	},
+	"optUseCustom": {
+		"message": "사용자 지정음 사용하기"
+	},
+	"optSoundURL": {
+		"message": "사용자 지정음"
+	},
+	"optBtnPreview": {
+		"message": "알림음 미리듣기"
+	},
+	"optLoopSound": {
+		"message": "당신이 멈출때까지 알림음을 반복합니다"
+	},
+	"optEnableCharts": {
+		"message": "파이차트 활성화"
+	},
+	"txtPerfSettings": {
+		"message": "성능 설정"
+	},
+	"optUpdateTime1": {
+		"message": "작업 시간을 다음 간격으로 업데이트 합니다. 매"
+	},
+	"optUpdateTime2": {
+		"message": "초 (s)"
+	},
+	"optChartUpdateTime1": {
+		"message": "파이 차트를 다음 간격으로 업데이트 합니다."
+	},
+	"txtSaveSettings": {
+		"message": "설정 저장"
+	},
+	"txtJSError": {
+		"message": "스크립트 어딘가에서 오류가 발생했습니다. 당신이 무엇을 했고\/무엇이 일어났는지와 함께, 다음의 정보를 첨부하여 버그 신고를 해주세요:"
+	},
+	"txtTriedRefresh": {
+		"message": "어플리케이션을 새로고침 해보셨나요?"
+	},
+	"txtUsualFix": {
+		"message": "이것은 통상 어떤 오류라도 해결하지만, 당신의 모든 작업과 설정을 초기화시킬 것입니다."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "취소"
+	},
+	"btnYes": {
+		"message": "예"
+	},
+	"btnNo": {
+		"message": "아니오"
+	},
+	"btnClose": {
+		"message": "닫기"
+	},
+	"btnCloseNotice": {
+		"message": "알림 닫기"
+	},
+	"btnStopAlarm": {
+		"message": "알림 멈추기"
+	},
+	"btnSave": {
+		"message": "저장"
+	},
+	"confResetTask": {
+		"message": "정말 <em>$taskName$<em\/> 작업을 초기화하시겠습니까?\n작업 히스토리 또한 초기화됩니다.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "정말 <em>$taskName$<em\/> 작업을 삭제하시겠습니까?\n작업 히스토리 또한 삭제됩니다.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "정말 <em>$taskName$<em\/>의 작업 히스토리를 삭제하시겠습니까?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "모든 작업의 소요시간을 초기화하시겠습니까?"
+	},
+	"confDeleteAll": {
+		"message": "모든 작업을 삭제하시겠습니까?"
+	},
+	"confClearAllHistory": {
+		"message": "모든 작업의 히스토리를 삭제하시겠습니까?"
+	},
+	"confResetData": {
+		"message": "작업 시간기록계의 데이터를 완전히 삭제하시겠습니까?\n모든 작업과 설정정보를 삭제합니다."
+	},
+	"confResetSettings": {
+		"message": "당신은 정말 모든 환경설정을 그것들의 기본 설정으로 재설정하시길 원하십니까?"
+	},
+	"confRating": {
+		"message": "이 앱에 대하여 크롬 웹스토어에서 별점과 리뷰를 작성해 주시겠습니까?\n이것은 정말 도움이 됩니다."
+	},
+	"confSmallWindow": {
+		"message": "작업 시간기록계를 작은 윈도우나 작은 모니터 또는 저해상도 화면에서 실행하는 것으로 보입니다. 작업 목록에서 버튼 대신 아이콘을 쓰고 싶으십니까? 작업이 하나의 줄이상 차지하지 않는 것을 도와 드릴 것입니다.\n\n이 설정은 툴 메뉴에서 변경 가능합니다."
+	},
+	"noteTaskFinished": {
+		"message": "작업이 완료되었습니다!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "<em>$taskName$<em\/> 작업이 목표시간에 도달했습니다!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "데스크탑 알림 정상 동작!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "당신이 이 메세지를 보신다면, 데스크탑 알림이 활성화되었고 아주 잘 동작하고 있다는 것입니다. 좋아요~!"
+	},
+	"noteNoLocalFiles": {
+		"message": "사용자 지정음을 당신 컴퓨터의 로컬 파일 경로로 지정한 것 갈아 보입니다. 불행하게도 크롬이 당신의 로컬 파일을 접근하는 것을 허용하지 않기 때문에 로컬 파일은 이용할 수 없습니다. 인터넷 URL(http, https, 또는 ftp로 시작하는)만 사용할 수 있습니다. 즉, 당신은 사용자 지정음을 온라인에서 찾거나 어딘가에 업로드후 지정해야 합니다."
+	},
+	"noteErrorOccurred": {
+		"message": "오류가 발생하였습니다."
+	},
+	"sucSavedDesc": {
+		"message": "설명이 저장되었습니다."
+	},
+	"sucSavedSettings": {
+		"message": "설정이 저장되었습니다."
+	},
+	"sucSyncReceived": {
+		"message": "동기화를 위해 일정 정보를 받았습니다."
+	},
+	"sucSyncSent": {
+		"message": "동기화를 위해 일정 정보를 보냈습니다."
+	},
+	"errGeneric": {
+		"message": "오류!"
+	},
+	"errTask": {
+		"message": "유효하지 않은 작업 이름 또는 목표입니다."
+	},
+	"errTaskName": {
+		"message": "유효하지 않은 작업명 입니다."
+	},
+	"errTaskTime": {
+		"message": "유효하지 않은 시간입니다."
+	},
+	"errGoalTime": {
+		"message": "유효하지 않은 목표 시간입니다."
+	},
+	"errSoundURL": {
+		"message": "유효하지 않은 사용자 지정음주소(sound URL)입니다."
+	},
+	"errFinishEditing": {
+		"message": "<em>$taskName$<em\/>  작업의 편집을 먼저 끝내시기 바랍니다!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "의견 제안하기"
+	},
+	"txtSuggestionInfo": {
+		"message": "제안을 하기 위해서 [여기]를 누르십시오.\n동일한 아이디어를 제안한 사람이 없다면, \"새 이슈\"를 누르십시오. 반드시 \"개선 요청\"이라는 템플릿을 선택하고, 내용이 설명가능하도록 제목을 달아 주십시오.\n여러가지 아이디어가 있다면, 각각 분리해서 하나씩 만들어 주십시오."
+	},
+	"txtBugTitle": {
+		"message": "버그 신고"
+	},
+	"txtBugInfo": {
+		"message": "오류보고를 위해 [여기]를 클릭하세요.\n만약 아무도 동일한 오류를 보고하지 않았다면, \"새로운 문제\"를 클릭하세요. 제목이 문제를 잘 설명할 수 있도록 작성해 주세요!\n만약 다수의 오류를 발견하였다면, 각각의 문제를 별도로 보고해주세요.\n버그를 보고하실 때는, 세부정보를 포함시켜주세요."
+	}
+}

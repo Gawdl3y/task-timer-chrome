@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Task Timer"
+	},
+	"appDesc": {
+		"message": "Lihtne tööriist millega saab mõõta töödeks õpinguteks ja muudeks tegevusteks kulunud aega."
+	},
+	"txtTitle": {
+		"message": "Aja haldur"
+	},
+	"txtDescription": {
+		"message": "Kasuta seda vahendit tööde, õppingute ja muude tegevustek kulunud aja mõõtmiseks."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Tõlked ei pruugi olla täpsed"
+	},
+	"txtCreatedBy": {
+		"message": "Loodud [Schuyler Cebulskie] poolt"
+	},
+	"txtReportBug": {
+		"message": "Teata veast"
+	},
+	"txtSuggest": {
+		"message": "On teil idee? Ütle meile! :"
+	},
+	"txtAbout": {
+		"message": "Info"
+	},
+	"txtDonate": {
+		"message": "Anneta"
+	},
+	"txtLoading": {
+		"message": "Laadimine ..."
+	},
+	"txtComingSoon": {
+		"message": "Varsti tuleb!"
+	},
+	"txtHours": {
+		"message": "Tunnid"
+	},
+	"txtMinutes": {
+		"message": "Minutid"
+	},
+	"txtSeconds": {
+		"message": "Sekundid"
+	},
+	"txtIndefinite": {
+		"message": "Määramata"
+	},
+	"infoData": {
+		"message": "Märkus: See ainult salvestab kohapeal, arvuti brauseris. \nÄrge muretsege, teie ülesanded ** ei ** saa kustutada, kui sa selget Chrome vahemälu \/ ladustamine."
+	},
+	"infoSettings": {
+		"message": "Veenduge, et vaadata läbi seaded klõpsates käik nuppu üleval paremas nurgas app! \nOn seaded nagu töölaua teatisi selle kohta, millal ülesanne viimistluse."
+	},
+	"infoPerformance": {
+		"message": "Kas app töötab aeglaselt jaoks? Proovige tõsta sektordiagramm uuendus aega seaded, või puuet tordi diagramme täielikult. \nikka töötab aeglaselt? Tõsta üldist update ajal või keelata ülesanne ajaloo jälgimine."
+	},
+	"infoTranslate": {
+		"message": "Soovid aidata tõlkida Task Timer teistesse keeltesse? Klõpsa [siin]."
+	},
+	"infoTotals": {
+		"message": "See on kokku reas. See ainult tundub, kui teil on rohkem kui üks ülesanne. \"oldud aeg kokku\" veergu selles reas kokku kulutatud aeg iga üks oma ülesandeid. \"Goal\" veerus selles reas kokku kõik eesmärgist korda kõik oma ülesandeid, välja arvatud määramata ones. \"Progress\" veerus selles reas annab teile kogu edusamme viimistlus eesmärkide kõiki oma ülesandeid. See edu ei sisalda aega, mis läks üle ülesande eesmärk, või aeg, mis kulutatakse määramatu eesmärke."
+	},
+	"txtNoTasks": {
+		"message": "Sa ei ole loonud ülesandeid veel!"
+	},
+	"txtEditTasks": {
+		"message": "Topeltklõpsake ülesande nimi, aeg, või eesmärk muuta."
+	},
+	"lblTask": {
+		"message": "Ülesanne"
+	},
+	"lblTimeSpent": {
+		"message": "Saidil oldud aeg kokku"
+	},
+	"lblGoal": {
+		"message": "Eesmärk"
+	},
+	"lblProgress": {
+		"message": "Edu"
+	},
+	"lblOptions": {
+		"message": "Valikud"
+	},
+	"lblTotals": {
+		"message": "Summad"
+	},
+	"btnStart": {
+		"message": "Alusta"
+	},
+	"btnStop": {
+		"message": "Lõpeta"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Lähtestage"
+	},
+	"btnDelete": {
+		"message": "Kustuta"
+	},
+	"btnClearHistory": {
+		"message": "Puhasta ajalugu"
+	},
+	"btnResetAll": {
+		"message": "Nulli kõik"
+	},
+	"btnDeleteAll": {
+		"message": "Kustuta kõik"
+	},
+	"lblName": {
+		"message": "Nimi"
+	},
+	"lblTaskName": {
+		"message": "Ülesande nimi"
+	},
+	"lblGoalBoth": {
+		"message": "Eesmärk (tunde : minuteid)"
+	},
+	"lblGoalHours": {
+		"message": "Eesmärk Tundi"
+	},
+	"lblGoalMinutes": {
+		"message": "Eesmärk Protokoll"
+	},
+	"lblIndefinite": {
+		"message": "Määramata"
+	},
+	"lblStart": {
+		"message": "Alusta"
+	},
+	"lblStartNow": {
+		"message": "Alusta ülesannet koheselt"
+	},
+	"btnAddTask": {
+		"message": "Lisa Ülesanne"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Aega kulunud ülesannetele"
+	},
+	"txtTotalPieTitle": {
+		"message": "Kokku kulutatud aega (ajalugu)"
+	},
+	"txtOther": {
+		"message": "Muu"
+	},
+	"txtTaskInfo": {
+		"message": "Ülesande kirjeldus"
+	},
+	"txtNoDescription": {
+		"message": "Sisesta teabe \/ kommentaarid ülesande kohta"
+	},
+	"txtTaskOptions": {
+		"message": "Ülesande sätted"
+	},
+	"txtHistory": {
+		"message": "Ajalugu"
+	},
+	"txtHistoryDisabled": {
+		"message": "Ülesanne ajalugu jälgimine on keelatud. Saate selle menüüs Tööriistad."
+	},
+	"txtSelectDate": {
+		"message": "Palun valige kuupäev."
+	},
+	"txtNoHistory": {
+		"message": "Ei ole salvestatud ajalugu sellel päeval."
+	},
+	"lblDescription": {
+		"message": "Kirjeldus"
+	},
+	"lblHour": {
+		"message": "Tund"
+	},
+	"tskExcludeTotals": {
+		"message": "Välistada selle ülesande kokku rida"
+	},
+	"tskExcludeCharts": {
+		"message": "jäta selle ülesande tordidiagrammilt välja"
+	},
+	"txtTools": {
+		"message": "Tööriistad"
+	},
+	"toolExportCSV": {
+		"message": "Eksport ülesandeid CSV-failina"
+	},
+	"toolClearAllHistory": {
+		"message": "Kustuta kõik ülesande ajalugu"
+	},
+	"toolClearData": {
+		"message": "Kustuta kõik rakenduse andmed"
+	},
+	"toolResetSettings": {
+		"message": "Vaikesätete laadimine"
+	},
+	"txtSettings": {
+		"message": "Sätted"
+	},
+	"txtGeneralSettings": {
+		"message": "Üldised seaded"
+	},
+	"optHideNotice": {
+		"message": "Peida teate kast"
+	},
+	"optConfirmReset": {
+		"message": "Küsi kinnitust, kui proovite taastada ülesannet"
+	},
+	"optConfirmDelete": {
+		"message": "Küsi kinnitust ülesande kustutamisel"
+	},
+	"optStartDefault": {
+		"message": "Märgi \"Start\" linnuke vaikimisi"
+	},
+	"optSaveFields": {
+		"message": "Hoia, mida teil on uus ülesanne väljad kui sa taaskäivitada rakenduse"
+	},
+	"optUseIcons": {
+		"message": "Kasutage ikoonide asemel nupud ülesanne valikuid (hea väikeste ekraanide)"
+	},
+	"opt12Hour": {
+		"message": "Kasuta 12-tunni vormingut korda vajaduse korral"
+	},
+	"optCustomDialogs": {
+		"message": "Kohandatud dialoogid mitte Chrome'i sisseehitatud ones"
+	},
+	"optUpdateAlert": {
+		"message": "Avage rakendus, kui seda on ajakohastatud"
+	},
+	"txtTaskSettings": {
+		"message": "Ülesanne Seaded"
+	},
+	"optEnableSync": {
+		"message": "Luba sünkroniseerimine (katseline, võib rikkuda teie ülesandeid)"
+	},
+	"optTrackHistory": {
+		"message": "Track ülesanne ajalugu (nii saate vaadata statistikat iga ülesanne)"
+	},
+	"optNoOvertime": {
+		"message": "Ärge laske ülesandeid minna üle nende eesmärkide"
+	},
+	"optStopTimer": {
+		"message": "Lõpetage ülesanne, kui ta jõuab oma eesmärgini"
+	},
+	"optOnlyOne": {
+		"message": "Luba ainult üks ülesanne olema töökorras korraga"
+	},
+	"txtNotifSettings": {
+		"message": "Teatiste seaded"
+	},
+	"optShowPopup": {
+		"message": "Näita hüpikaken lehel kui ülesanne jõuab oma eesmärgini"
+	},
+	"optShowNotification": {
+		"message": "Kuva töölaua teade, kui ülesanne jõuab oma eesmärgini"
+	},
+	"optPlaySound": {
+		"message": "Mängi heli, kui ülesanne jõuab oma eesmärgini"
+	},
+	"optUseDefault": {
+		"message": "Kasuta vaikimisi heli"
+	},
+	"optUseCustom": {
+		"message": "Kasuta kohandatud heli"
+	},
+	"optSoundURL": {
+		"message": "Kohandatud heli URL"
+	},
+	"optBtnPreview": {
+		"message": "Eelvaade heli"
+	},
+	"optLoopSound": {
+		"message": "Loop heli kuni te selle peatate"
+	},
+	"txtChartSettings": {
+		"message": "Diagrammi seaded"
+	},
+	"optEnableCharts": {
+		"message": "Luba tordi diagramme"
+	},
+	"optShowChartPercent": {
+		"message": "Näita skeemil protsendi sildid"
+	},
+	"optCombineSmallSlices": {
+		"message": "Kombineeri väikesed viilud diagrammi \"Muud\""
+	},
+	"txtPerfSettings": {
+		"message": "Jõudlusseadistused"
+	},
+	"optUpdateTime1": {
+		"message": "Uuenda ajal ülesandeid igal"
+	},
+	"optUpdateTime2": {
+		"message": "sekundil"
+	},
+	"optChartUpdateTime1": {
+		"message": "Uuenda tordi diagramme igal"
+	},
+	"txtSaveSettings": {
+		"message": "Salvesta seaded"
+	},
+	"txtJSError": {
+		"message": "Viga kuskil skripti. Palun saatke teade vea kohta järgmise teabe, samuti seda, mida sa ei \/ mis juhtus:"
+	},
+	"txtTriedRefresh": {
+		"message": "Kas oled proovinud värskendav rakendust?"
+	},
+	"txtUsualFix": {
+		"message": "See on parandab tavalisel vead, kuid kustutab kõik ülesanded ja seaded."
+	},
+	"btnOK": {
+		"message": "Korras"
+	},
+	"btnCancel": {
+		"message": "Tühista"
+	},
+	"btnYes": {
+		"message": "Jah"
+	},
+	"btnNo": {
+		"message": "Ei"
+	},
+	"btnClose": {
+		"message": "Sulge"
+	},
+	"btnCloseNotice": {
+		"message": "Sulge teade"
+	},
+	"btnStopAlarm": {
+		"message": "Peata äratus"
+	},
+	"btnSave": {
+		"message": "Salvesta"
+	},
+	"confResetTask": {
+		"message": "Kas olete kindel, et soovite taastada ülesande \"$taskName$\" ? \nSee ei nulli ülesande ajalugu.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Kas olete kindel, et soovite kustutada ülesande \"$taskName$\" ? \nSee kustutab ka ülesande ajaloost",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Oled sa kindel, et tahad kustutada  ülesanne \"$taskName$\" ajaloo?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Kas olete kindel, et soovite nullida kõigi oma ülesannete ajad?"
+	},
+	"confDeleteAll": {
+		"message": "Oled sa kindel, et soovid kustutada kõik oma ülesanded?"
+	},
+	"confClearAllHistory": {
+		"message": "Oled sa kindel, et tahad kustutada  kõigi oma ülesannete ajaloo?"
+	},
+	"confResetData": {
+		"message": "Oled sa kindel, et tahad kustutada kõik Task Timer on andmed täielikult? \nSee aitab vabaneda oma ülesandeid ja seaded."
+	},
+	"confResetSettings": {
+		"message": "Kas olete kindel, et soovite taastada kõik seaded tagasi vaikimisi väärtustega?"
+	},
+	"confRating": {
+		"message": "Kas soovite anda seda rakenduset hinnata või arvustada\/läbivaatamiseks Chrome'i veebipoes? \nSee tõesti aitab meid!"
+	},
+	"confSmallWindow": {
+		"message": "Sa paistad töötavat Task Timer'iga väikese akna, väike monitori või madala resolutsiooniga. Kas sa tahaksid nuppude asemel kasutada ikoone ülesannete nimekirjas? See aitab tagada, et ülesanded ei võta rohkem kui üks rida iga. See seade saab muuta ka menüüs Tööriistad."
+	},
+	"noteTaskFinished": {
+		"message": "Ülesanne lõppetatud!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Ülesanne \"$taskName$\" on jõudnud lõpuni!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Töölauateavitused töö!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Sa nägemine tähendab see töölauamärguanded on lubatud ja töötab korralikult! Vau!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Tundub te kasutate tee kohalik fail oma masina kohandatud heli URL. \nKahjuks kohalikke faile ei saa kasutada, kui Chrome ei võimalda juurdepääsu oma kohaliku failisüsteemi, isegi heli. \nAinult internet URL ( alguses seisab http, https, või FTP) saab kasutada. See tähendab, et sa pead leidma usaldusväärse internetis või laadige heli, mida soovite kusagil."
+	},
+	"noteErrorOccurred": {
+		"message": "Ilmnes viga!"
+	},
+	"sucSavedDesc": {
+		"message": "Kirjeldus salvestatud!"
+	},
+	"sucSavedSettings": {
+		"message": "Seaded salvestatud!"
+	},
+	"sucSyncReceived": {
+		"message": "Ülesande andmed sünkroniseerimiseks vastu võetud!"
+	},
+	"sucSyncSent": {
+		"message": "Saadetud ülesande andmeid sünkroniseerimiseks!"
+	},
+	"errGeneric": {
+		"message": "Viga!"
+	},
+	"errTask": {
+		"message": "Vigane ülesande nimi või eesmärk."
+	},
+	"errTaskName": {
+		"message": "Vigane ülesande nimi."
+	},
+	"errTaskTime": {
+		"message": "Vigane aeg."
+	},
+	"errGoalTime": {
+		"message": "Vigane eesmärgi aeg."
+	},
+	"errSoundURL": {
+		"message": "Vigane kohandatud heli URL."
+	},
+	"errFinishEditing": {
+		"message": "Lõpeta kõigepealt  ülesanne \"$taskName$\" redigeerimine!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Tee ettepanek"
+	},
+	"txtSuggestionInfo": {
+		"message": "Teha ettepaneku, kliki [siin]. \nKui keegi on juba samal ideel, seejärel \"Uus teema\". Veenduge, et valida \"Enhancement taotlus\" jaoks malli, ja pealkiri see kirjeldavalt! \nKui teil on mitu ideed, palun luua eraldi teema igaühe jaoks."
+	},
+	"txtBugTitle": {
+		"message": "Teata veast"
+	},
+	"txtBugInfo": {
+		"message": "Teavita veast, siis kliki [siin]. \nKui keegi on juba teatatud sama viga nuppu \"Uus teema\". Veenduge, et pealkiri küsimuse kirjeldavalt! \nKui oled leidnud mitu vigu, palun luua eraldi teema igaühe jaoks. \nkindlasti ka allpool andmeid oma veateatele:"
+	}
+}

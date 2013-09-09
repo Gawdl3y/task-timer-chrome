@@ -57,7 +57,7 @@
 		"message": "Lassúnak tűnik az alkalmazás? Próbálja meg a diagram frissítési idejét növelni, vagy kapcsolja ki az automatikus frissítést. Még mindig lassú? Növelje az általános frissítési időt, vagy tiltsa le az előzményeket."
 	},
 	"infoTranslate": {
-		"message": "Szeretne segíteni más nyelvekre lefordítani a Időbeosztó? Kattintson [ide]."
+		"message": "Szeretne segíteni más nyelvekre lefordítani a Időbeosztót? Kattintson [ide]."
 	},
 	"infoTotals": {
 		"message": "Ez az összesítő sor. Csak akkor jelenik meg, hogy egynél több feladata fut.\n\nA \"eltöltött idő\" oszlop az valamennyi feladattal kapcsolatban összesen eltöltött időt mutatja.\nA \"Cél\" oszlopban az összes feladatra fordítható idő összegét mutatja.\nA \"Folyamatjelző\" az elérendő célhoz hátralevő időt jeleníti meg grafikusan. Ez a folyamatjelző nem jeleníti meg az egyes feladatokból hátralévő, illetve a meghatározatlan idejű feladatokat."
@@ -117,7 +117,7 @@
 		"message": "Feladat neve"
 	},
 	"lblGoalBoth": {
-		"message": "Vége (óra:perc)"
+		"message": "Hátralévő idő (óra:perc)"
 	},
 	"lblGoalHours": {
 		"message": "Vége óra"
@@ -142,6 +142,9 @@
 	},
 	"txtTotalPieTitle": {
 		"message": "Összes felhasznált idő"
+	},
+	"txtOther": {
+		"message": "Egyébb"
 	},
 	"txtTaskInfo": {
 		"message": "Feladat információ"
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Általános beállítások"
-	},
-	"optEnableCharts": {
-		"message": "Kördiagram engedélyezése"
 	},
 	"optHideNotice": {
 		"message": "Az emlékeztető elrejtése"
@@ -271,6 +271,9 @@
 	},
 	"optLoopSound": {
 		"message": "Ismétled a hangot amíg meg nem állítom"
+	},
+	"optEnableCharts": {
+		"message": "Kördiagram engedélyezése"
 	},
 	"txtPerfSettings": {
 		"message": "Teljesítmény beállítások"
@@ -362,15 +365,6 @@
 	"confResetSettings": {
 		"message": "Biztos vissza akarod állítani az összes beállításodat alapértelmezettre"
 	},
-	"confUpdated": {
-		"message": "A Task Timer frissítve a \"$version$\" verzióra.\nMegakarod nézni a változásokat?\nNe feledd, hogy újra indítsd a feladataidat, ha a Chrome auto-update folyamatban frissített, amikor a program futott.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Nem akarnád osztályozni ezt a programot a Chrome Web Store-ban?\nEz tényleg segítene nekünk!"
 	},
@@ -439,9 +433,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "A program már meg van nyitva. \nHa ez hibásnak tűnik, próbáld meg bezárni a Chrome ablakot és újraindítani a böngészőt."
 	},
 	"txtSuggestionTitle": {
 		"message": "Ajánlat"

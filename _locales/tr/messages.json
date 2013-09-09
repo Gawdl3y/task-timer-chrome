@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Görev Zamanlayıcı"
+	},
+	"appDesc": {
+		"message": "İş, ödev veya diğer işlerinizde harcadığınız zamanı ölçmenizi sağlamak için kullanabileceğiniz basit bir araç."
+	},
+	"txtTitle": {
+		"message": "Görev Zamanlayıcı"
+	},
+	"txtDescription": {
+		"message": "Bu aracı iş, ödev ve diğer işlerinizi yaparken harcadığınız zamanı kaydetmek için kullanabilirsiniz"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Çeviri doğru değil."
+	},
+	"txtCreatedBy": {
+		"message": "[Schuyler Cebulskie] tarafından tasarlanmıştır."
+	},
+	"txtReportBug": {
+		"message": "Hata bildirin"
+	},
+	"txtSuggest": {
+		"message": "Bir fikriniz mi var? [Çekinmeyin paylaşın]"
+	},
+	"txtAbout": {
+		"message": "Hakkında"
+	},
+	"txtDonate": {
+		"message": "Bağış \/ Destek"
+	},
+	"txtLoading": {
+		"message": "Yükleniyor..."
+	},
+	"txtComingSoon": {
+		"message": "Pek yakında !"
+	},
+	"txtHours": {
+		"message": "Saat"
+	},
+	"txtMinutes": {
+		"message": "Dakika"
+	},
+	"txtSeconds": {
+		"message": "Saniye"
+	},
+	"txtIndefinite": {
+		"message": "Tanımlanmamış"
+	},
+	"infoData": {
+		"message": "Not: Bu sadece bilgisayarınızda tarayıcınıza yerel kayıt yapar\nMerak etmeyin Tarayıcınızın kaşesini(verilerini) boşaltsanızda silinmezler"
+	},
+	"infoSettings": {
+		"message": "Ekranın sağ üst köşesindeki ayarlar butonuna basarak ayarlarınızı kontrol etmeyi unutmayın.\nİşleriniz bitince masaüstü bildirimi yapan ayar benzeri ayarları bulabilirsiniz."
+	},
+	"infoPerformance": {
+		"message": "Uygulama yavaş mı çalışıyor?"
+	},
+	"infoTranslate": {
+		"message": "Task Timer'ın diğer dilleri çevrilmesine yardım etmek mi istiyorsunuz? Tıklayın (buraya)"
+	},
+	"infoTotals": {
+		"message": "Bu toplamlar satırıdır. Bu sadece, birden fazla görev varsa görünür.\n\nBu satırın sütun görevlerin her biri için harcanan zaman toplamları \"Geçirilen Zaman\".\nBu satırın \"Hedef\" sütununda belirsiz haricindeki tüm görevleri, gelen golü kez tüm toplamları.\nBu satırın \"İlerleme\" sütunu tüm görevleri hedeflerine bitirme yolunda toplam ilerleme verir. Bu ilerleme, bir görevin amacı gitti harcanan zaman, ya da belirsiz bir gol ile görevler harcanan içermez."
+	},
+	"txtNoTasks": {
+		"message": "Oluşturulmuş herhangi bir göreviniz yok."
+	},
+	"txtEditTasks": {
+		"message": "Görev adı, zamnı, ve hedef tarihi değiştirmek için çift tıklayınız"
+	},
+	"lblTask": {
+		"message": "Görev"
+	},
+	"lblTimeSpent": {
+		"message": "Geçen Zaman"
+	},
+	"lblGoal": {
+		"message": "Hedef"
+	},
+	"lblProgress": {
+		"message": "İlerleme"
+	},
+	"lblOptions": {
+		"message": "Özellikler"
+	},
+	"lblTotals": {
+		"message": "Toplam"
+	},
+	"btnStart": {
+		"message": "Başla"
+	},
+	"btnStop": {
+		"message": "Bitir"
+	},
+	"btnInfo": {
+		"message": "Bilgi"
+	},
+	"btnReset": {
+		"message": "Yenile"
+	},
+	"btnDelete": {
+		"message": "Sil"
+	},
+	"btnClearHistory": {
+		"message": "Geçmişi Sil"
+	},
+	"btnResetAll": {
+		"message": "Hepsini Yenile"
+	},
+	"btnDeleteAll": {
+		"message": "Hepsini Sil"
+	},
+	"lblName": {
+		"message": "İsim"
+	},
+	"lblTaskName": {
+		"message": "Görev Adı"
+	},
+	"lblGoalBoth": {
+		"message": "Hedef (Saat : dakika)"
+	},
+	"lblGoalHours": {
+		"message": "Hedef Saat"
+	},
+	"lblGoalMinutes": {
+		"message": "Hedef Dakika"
+	},
+	"lblIndefinite": {
+		"message": "Belirsiz"
+	},
+	"lblStart": {
+		"message": "Başla"
+	},
+	"lblStartNow": {
+		"message": "Ferhal Görevi Başlat"
+	},
+	"btnAddTask": {
+		"message": "Görev Ekle"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Görevde Geçirilen Zaman"
+	},
+	"txtTotalPieTitle": {
+		"message": "Toplam Geçirilen Süre"
+	},
+	"txtOther": {
+		"message": "Diğer"
+	},
+	"txtTaskInfo": {
+		"message": "Görev Açıklaması"
+	},
+	"txtNoDescription": {
+		"message": "Görev hakkında bilgi yada yorum giriniz."
+	},
+	"txtTaskOptions": {
+		"message": "Görev Özellikleri"
+	},
+	"txtHistory": {
+		"message": "Geçmiş"
+	},
+	"txtHistoryDisabled": {
+		"message": "Görev geçmişi izleme devre dışı bırakıldı. Sen araçlar menüsünden etkinleştirebilirsin."
+	},
+	"txtSelectDate": {
+		"message": "Lütfen Bir Tarih Seçiniz"
+	},
+	"txtNoHistory": {
+		"message": "O gün için hiç bir kayıt geçmişi yok"
+	},
+	"lblDescription": {
+		"message": "Tanımlama"
+	},
+	"lblHour": {
+		"message": "Saat"
+	},
+	"tskExcludeTotals": {
+		"message": "Bu görev toplam satırından hariçtir."
+	},
+	"tskExcludeCharts": {
+		"message": "Bu görev grafik pastan hariç"
+	},
+	"txtTools": {
+		"message": "Araçlar"
+	},
+	"toolExportCSV": {
+		"message": "Görevleri CSV aktar"
+	},
+	"toolClearAllHistory": {
+		"message": "Tüm görevler geçmişini temizle"
+	},
+	"toolClearData": {
+		"message": "Tüm uygulama verilerini temizle"
+	},
+	"toolResetSettings": {
+		"message": "Standart Ayarlara Dön"
+	},
+	"txtSettings": {
+		"message": "Ayarlar"
+	},
+	"txtGeneralSettings": {
+		"message": "Genel Ayarlar"
+	},
+	"optHideNotice": {
+		"message": "Not kutusu gizle"
+	},
+	"optConfirmReset": {
+		"message": "Bir görevi sıfırlamak istediğinde onaylamak için sor"
+	},
+	"optConfirmDelete": {
+		"message": "Bir görevi silmeye çalıştığında onaylamak için sor"
+	},
+	"optStartDefault": {
+		"message": "Standart olarak \"Başla\" kutusunu seç"
+	},
+	"optSaveFields": {
+		"message": "Uygulama yeniden başladığında görevler korunsun"
+	},
+	"optUseIcons": {
+		"message": "Görev ayarları için ikon kullanın (ufak ekranlar için idealdir)"
+	},
+	"opt12Hour": {
+		"message": "12-lik saat formatını kullan"
+	},
+	"optCustomDialogs": {
+		"message": "Özel diyaloglar yerine Chrome'un yerleşik olanları kullanın"
+	},
+	"optUpdateAlert": {
+		"message": "Uygulamayı açtığınızda güncelleme yapılsın."
+	},
+	"txtTaskSettings": {
+		"message": "Görev Ayarları"
+	},
+	"optEnableSync": {
+		"message": "SYNC etkinleştir. (Deneme aşamasındadır ! - veri kaybı olabilir.)"
+	},
+	"optTrackHistory": {
+		"message": "Göre Geçmişi (Her görev için istatislik görebilirsiniz.)"
+	},
+	"optNoOvertime": {
+		"message": "görev hedef zamana ulaştığında durdurma"
+	},
+	"optStopTimer": {
+		"message": "görev hedef zaman ulaştığında durdur"
+	},
+	"optOnlyOne": {
+		"message": "Sadece bir görevin çalışmasına izin ver."
+	},
+	"txtNotifSettings": {
+		"message": "Duyuru ayarları"
+	},
+	"optShowPopup": {
+		"message": "Bir görev hedefine ulaştığında sayfada bir popup Göster"
+	},
+	"optShowNotification": {
+		"message": "Bir görev hedefine ulaştığında bir masaüstü bildirim göster"
+	},
+	"optPlaySound": {
+		"message": "Bir görev hedefine ulaştığında bir ses çal"
+	},
+	"optUseDefault": {
+		"message": "Varsayılan sesi kullan"
+	},
+	"optUseCustom": {
+		"message": "Özel ses kullan"
+	},
+	"optSoundURL": {
+		"message": "Özel Ses İçin URL"
+	},
+	"optBtnPreview": {
+		"message": "Ses Dosyasını Dinle"
+	},
+	"optLoopSound": {
+		"message": "Ses durdurana kadar çalsın."
+	},
+	"txtChartSettings": {
+		"message": "Grafik Ayarları"
+	},
+	"optEnableCharts": {
+		"message": "Pasta Grafikleri Etkinleştir"
+	},
+	"optShowChartPercent": {
+		"message": "Grafikte Etiketleri Göster"
+	},
+	"optCombineSmallSlices": {
+		"message": "Grafikte küçük parçaları \"Diğer\" diye adlandır."
+	},
+	"txtPerfSettings": {
+		"message": "Performans Ayarları"
+	},
+	"optUpdateTime1": {
+		"message": "Tüm görevlerin zamanıı güncelle"
+	},
+	"optUpdateTime2": {
+		"message": "Saniye"
+	},
+	"optChartUpdateTime1": {
+		"message": "Tüm pasta grafiklerini güncelle"
+	},
+	"txtSaveSettings": {
+		"message": "Ayarları Kaydet"
+	},
+	"txtJSError": {
+		"message": "Bir hata komutu olduğunda bir yere kaydedin ve lütfen nasıl ve ne olduğu hakkında hata raporu gönderin."
+	},
+	"txtTriedRefresh": {
+		"message": "Uygulamayı yeniliyerek denedi mi?"
+	},
+	"txtUsualFix": {
+		"message": "Bu genellikle bazı hataları düzeltir, ancak görevler ve tüm ayar silinecektir."
+	},
+	"btnOK": {
+		"message": "Tamam"
+	},
+	"btnCancel": {
+		"message": "Vazgeç"
+	},
+	"btnYes": {
+		"message": "Evet"
+	},
+	"btnNo": {
+		"message": "Hayır"
+	},
+	"btnClose": {
+		"message": "Kapat"
+	},
+	"btnCloseNotice": {
+		"message": "Notu Kapat"
+	},
+	"btnStopAlarm": {
+		"message": "Bitiş Alarmı"
+	},
+	"btnSave": {
+		"message": "Kaydet"
+	},
+	"confResetTask": {
+		"message": "\"$taskName$\" Görevini resetlemek istediğinize eminmisiniz?\nGörev geçmişini resetlleyemezsiniz.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "\"$taskName$\" Görevini silmek istediğinize eminmisiniz ?\nGörev geçmişinden silinecektir.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "\"$taskName$\" görevinin görev geçmişini silmeye eminmisiniz?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Tüm görevlerde Geçen Süreleri resetlemeye eminmisiniz"
+	},
+	"confDeleteAll": {
+		"message": "Tüm görevleriniz silinecek eminmisiniz ?"
+	},
+	"confClearAllHistory": {
+		"message": "Tüm görev geçmişiniz silinecek eminmisiniz ?"
+	},
+	"confResetData": {
+		"message": "Tüm zamanlayıcısının tüm verilerini silmeye eminmisiniz ?\nTüm görev ve ayarlar silinmiş olucak."
+	},
+	"confResetSettings": {
+		"message": "Varsayılan ayarlara dönmek istediğinize eminmisiniz ?"
+	},
+	"confRating": {
+		"message": "Chrome Web Mağzasında uygulamamıza oy vermek istermisiniz."
+	},
+	"confSmallWindow": {
+		"message": "Sen küçük bir pencere, küçük monitör, veya bir düşük çözünürlükte Görev Zamanlayıcı çalışıyor gibi görünüyor. Eğer görev listesinde simgeler yerine düğmeleri geçmek ister misiniz? Bu görevler birden fazla satır, her yapmayız emin olun yardımcı olacaktır.\n\nBu ayar ayrıca araçlar menüsünden değiştirilebilir."
+	},
+	"noteTaskFinished": {
+		"message": "Görev Tamamlandı !"
+	},
+	"noteTaskFinishedLong": {
+		"message": "\"$taskName$\" görevi hedef zamana ulaştı.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Masaüstü notları Çalışıyor !"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Bu araç masaüstü bildirimleri etkin görme ve doğru çalışıyor! Woo!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Eğer özel ses URL için makinenizde bir yerel dosya yolunu kullanarak konum gibi görünüyor.\nCrom hatta bir ses için, yerel dosya sistemine erişime izin vermiyor gibi ne yazık ki, yerel dosyalar, kullanılamaz.\nSadece internet URL'ler (http, https veya ftp ile başlayan) kullanılabilir. Bu bir ses çevrimiçi bulmak, ya da bir yere istediğiniz ses yüklemek gerekiyor demektir."
+	},
+	"noteErrorOccurred": {
+		"message": "Hata ile karşılaşıldı !"
+	},
+	"sucSavedDesc": {
+		"message": "Tanım Kaydedildi !"
+	},
+	"sucSavedSettings": {
+		"message": "Ayarları Kaydedildi !"
+	},
+	"sucSyncReceived": {
+		"message": "Senkronizasyonu  için zaman!"
+	},
+	"sucSyncSent": {
+		"message": "Senkronizasyonu  için verileri gönderiliyor!"
+	},
+	"errGeneric": {
+		"message": "Hata!"
+	},
+	"errTask": {
+		"message": "geçersiz görev adı veya hedef"
+	},
+	"errTaskName": {
+		"message": "geçersiz görev adı"
+	},
+	"errTaskTime": {
+		"message": "geçersiz saat"
+	},
+	"errGoalTime": {
+		"message": "Geçersiz bitiş zamanı"
+	},
+	"errSoundURL": {
+		"message": "Geçersin özel ses URL"
+	},
+	"errFinishEditing": {
+		"message": "ilk \"$taskName$\" düzenleme görevini tamamlayın !",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Bir öneride bulunun."
+	},
+	"txtSuggestionInfo": {
+		"message": "Öneride bulunmak için [buraya] tıklayın.\nEğer kimse daha önce benzer bir öneride bulunmadıysa bunu \"Yeni Öneri\" olarak girin. Taslak\"Geliştirme İsteği\"Başlığın tanımlayıcı olmasına dikkat edin.\nEğer birden fazla hata buldu iseniz, her biri için ayrı sorun tanımlayın lütfen.\nAşağıdaki bilgileri girmeniz hata raporu için gereklidir."
+	},
+	"txtBugTitle": {
+		"message": "Bir hata bildirin"
+	},
+	"txtBugInfo": {
+		"message": "Hata bildirmek için [buraya] tıklayın.\nEğer kimse daha önce benzer bir hatayı bildirmedi ise bunu \"Yeni Sorun\" olarak girin. Başlığın tanımlayıcı olmasına dikkat edin.\nEğer birden fazla hata buldu iseniz, her biri için ayrı sorun tanımlayın lütfen.\nAşağıdaki bilgileri girmeniz hata raporu için gereklidir."
+	}
+}

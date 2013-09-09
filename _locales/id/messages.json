@@ -194,9 +194,6 @@
 	"txtGeneralSettings": {
 		"message": "Setting Umum"
 	},
-	"optEnableCharts": {
-		"message": "Aktifkan Grafik Pie"
-	},
 	"optHideNotice": {
 		"message": "Sembunyikan kotak pengingat"
 	},
@@ -268,6 +265,9 @@
 	},
 	"optLoopSound": {
 		"message": "Ulang terus bunyi itu sampai dihentikan"
+	},
+	"optEnableCharts": {
+		"message": "Aktifkan Grafik Pie"
 	},
 	"txtPerfSettings": {
 		"message": "Setting Performa"
@@ -359,15 +359,6 @@
 	"confResetSettings": {
 		"message": "Apakah anda yakin akan mereset seluruh seting ke setingan awal?"
 	},
-	"confUpdated": {
-		"message": "Pencata Waktu telah diperbaharui ke versi $version$!\nApakah anda ingin melihat catatan perubahan?\nIngat! Anda harus mengulang catatan tugas anda jika jika Chrome memperbaharui aplikasi secara otomatis sewaktu tugas tersebut sedang dikerjakan.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Apakah anda ingin memberikan peringkat\/ulasan untuk aplikasi ini di Chrome Web Store? \nHal ini akan sangat membantu!"
 	},
@@ -436,9 +427,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "Aplikasi sudah terbuka.\nKalau nampaknya kurang benar, silakan tutup semua jendela Chrome kemudian restart kembali."
 	},
 	"txtSuggestionTitle": {
 		"message": "Beri saran"

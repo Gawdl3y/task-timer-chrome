@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Tempo Total Gasto (Histórico)"
 	},
+	"txtOther": {
+		"message": "Outro"
+	},
 	"txtTaskInfo": {
 		"message": "Informação da Tarefa"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "Configurações Gerais"
-	},
-	"optEnableCharts": {
-		"message": "Ativar gráficos pizza"
 	},
 	"optHideNotice": {
 		"message": "Esconder a caixa de avisos"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "Tocar o som até você pará-lo"
+	},
+	"txtChartSettings": {
+		"message": "Configurações do diagrama"
+	},
+	"optEnableCharts": {
+		"message": "Ativar gráficos pizza"
+	},
+	"optShowChartPercent": {
+		"message": "Exibir etiquetas de porcentagem do diagrama"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combinar pequenas fatias do diagrama em \"Outro\""
 	},
 	"txtPerfSettings": {
 		"message": "Configurações de Performance"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "Você tem certeza que deseja reiniciar todas as configurações para seus valores padrão?"
 	},
-	"confUpdated": {
-		"message": "O Task Timer foi atualizado para a versão $version$!\nVocê gostaria de ver a lista de mudanças desta versão?\nEsteja ciente de que você terá que reiniciar as tarefas que estiverem rodando no caso do Chrome atualizar automaticamente o aplicativo.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Você gostaria de dar uma nota\/opinião para este aplicativo na Web Loja do Chrome?\nIsto realmente nos ajudará!"
 	},
@@ -393,10 +396,10 @@
 		"message": "Notificações da Área de Trabalho Funcionam!"
 	},
 	"noteNotifsWorkBody": {
-		"message": "Se você está vendo isso significa que as notificações de desktop estão habilitadas e funcionando corretamente! Uhu!"
+		"message": "Se você está vendo isso, significa que as notificações de desktop estão habilitadas e funcionando corretamente! Uhu!"
 	},
 	"noteNoLocalFiles": {
-		"message": "Parece que você está usando um caminho para um arquivo local em sua máquina para a URL de som customizada.\nInfelizmente, arquivos locais não podem ser utilizados, pois Chrome não permite acesso aos arquivos do seu sistema, inclusive sons.\nApenas endereços de internet (começando com http, https, ou ftp) podem ser utilizados. Isto significa que você precisa encontrar um som online, ou enviar um som que você queira usar para algum lugar."
+		"message": "Parece que você está usando um caminho para um arquivo local em sua máquina para a URL de som customizada.\nInfelizmente, arquivos locais não podem ser utilizados, pois o Chrome não permite acesso aos arquivos do seu sistema, inclusive sons.\nSomente endereços de internet (começando com http, https, ou ftp) podem ser utilizados. Isto significa que você precisa encontrar um som online, ou enviar um som que você queira usar para algum lugar."
 	},
 	"noteErrorOccurred": {
 		"message": "Ocorreu um erro!"
@@ -408,10 +411,10 @@
 		"message": "Configurações salvas!"
 	},
 	"sucSyncReceived": {
-		"message": "Recebeu dados de tarefas para sincronizar!"
+		"message": "Dados de tarefas para sincronizar recebidos!"
 	},
 	"sucSyncSent": {
-		"message": "Enviou os dados de tarefas para sincronização!"
+		"message": "Dados de tarefas para sincronização enviados!"
 	},
 	"errGeneric": {
 		"message": "Erro!"
@@ -440,19 +443,16 @@
 			}
 		}
 	},
-	"errAlreadyOpen": {
-		"message": "A aplicação já está aberta.\nSe isto parece estar incorreto, tente fechar todas as janelas do Chrome e reinicie a aplicação."
-	},
 	"txtSuggestionTitle": {
 		"message": "Faça uma sugestão"
 	},
 	"txtSuggestionInfo": {
-		"message": "Para fazer uma sugestão, por favor clique [aqui]\nSe ninguém ja tiver sugerido a mesma idéia, clique \"Nova Idéia\". Tenha certeza de selecionar o modelo \"Sugestão de Melhoria\", e um título descritivo."
+		"message": "Para fazer uma sugestão, por favor clique [aqui]\nSe ninguém tiver sugerido a mesma idéia, clique \"Nova Idéia\". Tenha certeza de selecionar o modelo \"Sugestão de Melhoria\", e um título descritivo."
 	},
 	"txtBugTitle": {
 		"message": "Comunicar um problema"
 	},
 	"txtBugInfo": {
-		"message": "Para reportar um problema, por favor clique [aqui].\nSe ninguém tiver reportado a mesma falha, clique \"Novo Problema\". Tenha certeza de entitular o assunto descritivamente!\nSe você encontrar múltiplas falhas, por favor crie uma ocorrência para cada problema, separadamente.\nTenha certeza de ter incluído a informação abaixo em seu relatório de falha:"
+		"message": "Para comunicar um problema, por favor clique [aqui].\nSe ninguém tiver reportado a mesma falha, clique \"Novo Problema\". Tenha certeza de entitular o assunto descritivamente!\nSe você encontrar múltiplas falhas, por favor crie uma ocorrência para cada problema, separadamente.\nTenha certeza de ter incluído a informação abaixo em seu relatório de falha:"
 	}
 }

@@ -1,9 +1,9 @@
 {
 	"appName": {
-		"message": "Temporizador de tareas"
+		"message": "Task Timer"
 	},
 	"appDesc": {
-		"message": "Una herramienta sencilla que te ayuda a llevar un control del tiempo empleado en tareas tales como trabajo, estudios y otras cosas."
+		"message": "Una sencilla herramienta que te ayuda a controlar del tiempo empleado en tareas tales como trabajo, estudios u otras cosas."
 	},
 	"txtTitle": {
 		"message": "Temporizador de tareas"
@@ -12,7 +12,7 @@
 		"message": "Utiliza esta herramienta para llevar un control del tiempo que empleas en el trabajo, los estudios, o cualquier otro tipo de tarea."
 	},
 	"txtTranslationsAccuracy": {
-		"message": "La traducción puede no ser exacta."
+		"message": "La traducción podría no ser exacta."
 	},
 	"txtCreatedBy": {
 		"message": "Creado por [Schuyler Cebulskie]"
@@ -51,22 +51,22 @@
 		"message": "Nota: Esto sólo se guarda localmente, en tu ordenador, en tu navegador.\nNo te preocupes, tus tareas **no** se eliminarán si borras los datos de navegación de Chrome."
 	},
 	"infoSettings": {
-		"message": "¡Asegúrate de revisar la configuración haciendo clic en el botón del engranaje, en la esquina superior derecha de la aplicación!\nHay opciones tales como notificaciones en el escritorio cuando una tarea finaliza."
+		"message": "¡Asegúrate de revisar la configuración haciendo clic en el botón del herramientas, en la esquina superior derecha de la aplicación!\nHay opciones tales como notificaciones de escritorio para cuando finaliza una tarea."
 	},
 	"infoPerformance": {
-		"message": "¿Te parece que la aplicación se ejecuta lentamente? Intenta alargar el tiempo de actualización de la gráfica, en la configuración, o desactívala completamente.\n¿Sigue muy lenta? Alarga el tiempo de actualización general o desactiva la monitorización del historial de tareas."
+		"message": "¿La aplicación se ejecuta lentamente? Intenta alargar el tiempo de actualización de los gráficos circulares, en la configuración, o desactiva completamente los gráficos.\n¿Aún va lento? Aumenta el tiempo de actualización general o desactiva el historial de tareas."
 	},
 	"infoTranslate": {
-		"message": "¿Quieres ayudar a traducir el texto de esta aplicación a otras lenguas? Haz clic [aquí]."
+		"message": "¿Quieres ayudar a traducir el texto de esta aplicación a otraos idiomas? Haz clic [aquí]."
 	},
 	"infoTotals": {
-		"message": "Esta es la fila de totales. Sólo aparece cuando tienes más de una tarea.\n\nLa columna \"Tiempo empleado\" de esta fila suma el tiempo empleado en cada una de tus tareas.\nLa columna \"Meta\" de esta fila suma el tiempo de todas las metas no indefinidas de tus tareas.\nLa columna \"Progreso\" de esta fila muestra el progreso hacia el total de las metas de todas sus tareas. Este progreso no incluye el tiempo que haya rebasado alguna meta, ni el tiempo empleado en las tareas con metas indefinidas."
+		"message": "Esta es la fila de totales. Sólo aparece cuando tienes más de una tarea.\n\nLa columna \"Tiempo empleado\" de esta fila suma el tiempo empleado en cada una de tus tareas.\nLa columna \"Objetivo\" de esta fila suma el tiempo de todos los tiempos objetivo no indefinidos de tus tareas.\nLa columna \"Progreso\" de esta fila muestra el progreso hacia el total de los tiempos objetivo de todas sus tareas. Este progreso no incluye el tiempo que haya rebasado algun tiempo objetivo, ni el tiempo empleado en las tareas con tiempo objetivo indefinido."
 	},
 	"txtNoTasks": {
-		"message": "¡No has creado ninguna tarea!"
+		"message": "¡Aún no has creado ninguna tarea!"
 	},
 	"txtEditTasks": {
-		"message": "Haz doble clic en el nombre, el tiempo empleado o la meta de una tarea, para editarla."
+		"message": "Haz doble clic en el nombre, el tiempo empleado o la objetivo de una tarea, para editarla."
 	},
 	"lblTask": {
 		"message": "Tarea"
@@ -75,7 +75,7 @@
 		"message": "Tiempo empleado"
 	},
 	"lblGoal": {
-		"message": "Meta"
+		"message": "Objetivo"
 	},
 	"lblProgress": {
 		"message": "Progreso"
@@ -87,10 +87,10 @@
 		"message": "Totales"
 	},
 	"btnStart": {
-		"message": "Comenzar a contar"
+		"message": "Iniciar"
 	},
 	"btnStop": {
-		"message": "Detener"
+		"message": "Parar"
 	},
 	"btnInfo": {
 		"message": "Información"
@@ -102,7 +102,7 @@
 		"message": "Borrar"
 	},
 	"btnClearHistory": {
-		"message": "Eliminar historial de tareas"
+		"message": "Eliminar historial"
 	},
 	"btnResetAll": {
 		"message": "Reiniciar todas las tareas"
@@ -117,22 +117,22 @@
 		"message": "Tarea"
 	},
 	"lblGoalBoth": {
-		"message": "Meta (horas : minutos)"
+		"message": "Objetivo (horas : minutos)"
 	},
 	"lblGoalHours": {
-		"message": "Horas de la meta"
+		"message": "Hora Objetivo"
 	},
 	"lblGoalMinutes": {
-		"message": "Minutos de la meta"
+		"message": "Minutos del objetivo"
 	},
 	"lblIndefinite": {
-		"message": "Meta indefinida"
+		"message": "Indefinido"
 	},
 	"lblStart": {
-		"message": "Comenzar"
+		"message": "Iniciar"
 	},
 	"lblStartNow": {
-		"message": "Comienza a contar al agregar la tarea"
+		"message": "Inicar la tarea inmediatamente"
 	},
 	"btnAddTask": {
 		"message": "Agregar tarea"
@@ -143,26 +143,29 @@
 	"txtTotalPieTitle": {
 		"message": "Tiempo total empleado (Historial)"
 	},
+	"txtOther": {
+		"message": "Otros"
+	},
 	"txtTaskInfo": {
 		"message": "Información de la tarea"
 	},
 	"txtNoDescription": {
-		"message": "Ingresa información o comentarios acerca de la tarea"
+		"message": "Introduce información\/comentarios acerca de la tarea"
 	},
 	"txtTaskOptions": {
-		"message": "Opciones para la tarea"
+		"message": "Opciones de Tarea"
 	},
 	"txtHistory": {
 		"message": "Historial"
 	},
 	"txtHistoryDisabled": {
-		"message": "El seguimiento del historial de las tareas está desactivado. Puedes activarlo desde el menú Herramientas."
+		"message": "El historial de seguimiento de Tareas está desactivado. Puedes activarlo desde el menú Herramientas."
 	},
 	"txtSelectDate": {
 		"message": "Por favor, selecciona una fecha."
 	},
 	"txtNoHistory": {
-		"message": "No hay historial de ese día."
+		"message": "No hay registros de ese día."
 	},
 	"lblDescription": {
 		"message": "Descripción"
@@ -174,16 +177,16 @@
 		"message": "Excluir esta tarea de la fila de totales."
 	},
 	"tskExcludeCharts": {
-		"message": "Excluir esta tarea de la gráfica."
+		"message": "Excluir esta tarea de los gráficos."
 	},
 	"txtTools": {
 		"message": "Herramientas"
 	},
 	"toolExportCSV": {
-		"message": "Exportar las tareas como un archivo CSV"
+		"message": "Exportar Tareas como .CSV"
 	},
 	"toolClearAllHistory": {
-		"message": "Eliminar el historial de tareas"
+		"message": "Eliminar todo el historial de la Tarea"
 	},
 	"toolClearData": {
 		"message": "Eliminar todos los datos de la aplicación"
@@ -197,11 +200,8 @@
 	"txtGeneralSettings": {
 		"message": "Configuración general"
 	},
-	"optEnableCharts": {
-		"message": "Activar la gráfica circular"
-	},
 	"optHideNotice": {
-		"message": "Esconder el cuadro de avisos"
+		"message": "Ocultar el cuadro de aviso"
 	},
 	"optConfirmReset": {
 		"message": "Pedir confirmación cuando intentes reiniciar una tarea"
@@ -210,7 +210,7 @@
 		"message": "Pedir confirmación cuando intentes eliminar una tarea"
 	},
 	"optStartDefault": {
-		"message": "Marcar por defecto la casilla de \"Comenzar\""
+		"message": "Marcar por defecto la casilla de \"Iniciar\""
 	},
 	"optSaveFields": {
 		"message": "Conservar lo que esté en los campos para una nueva tarea al reiniciar la aplicación"
@@ -219,7 +219,7 @@
 		"message": "Usar iconos en lugar de botones para las opciones de la tarea (ideal para pantallas pequeñas)"
 	},
 	"opt12Hour": {
-		"message": "Usar formato de 12 horas cuando aplique"
+		"message": "Usar el formato '12 horas' cuando aplique"
 	},
 	"optCustomDialogs": {
 		"message": "Usar los cuadros de diálogo de la aplicación en lugar de los de Chrome"
@@ -228,19 +228,19 @@
 		"message": "Abrir la aplicación cuando se actualice"
 	},
 	"txtTaskSettings": {
-		"message": "Configuración para las tareas"
+		"message": "Configuración de la Tarea"
 	},
 	"optEnableSync": {
 		"message": "Permitir sincronización (EXPERMENTAL, puede arruinar tus tareas)"
 	},
 	"optTrackHistory": {
-		"message": "Monitorizar el historial de la tarea (de esta forma podrá ver las estadísticas de cada tarea)"
+		"message": "Monitorizar el historial de la tarea (así podrás ver las estadísticas de cada tarea)"
 	},
 	"optNoOvertime": {
-		"message": "No permitir que las tareas pasen más allá de sus metas"
+		"message": "No permitir que las tareas pasen más allá de su objetivo"
 	},
 	"optStopTimer": {
-		"message": "Parar una tarea cuando alcance su meta"
+		"message": "Parar una tarea cuando alcance su objetivo"
 	},
 	"optOnlyOne": {
 		"message": "Sólo permitir una tarea al mismo tiempo"
@@ -249,13 +249,13 @@
 		"message": "Opciones de notificación"
 	},
 	"optShowPopup": {
-		"message": "Mostrar una ventana emergente en la página cuando una tarea alcance su meta"
+		"message": "Mostrar una ventana emergente en la página cuando una tarea alcance su tiempo objetivo"
 	},
 	"optShowNotification": {
-		"message": "Mostrar una notificación de escritorio cuando una tarea alcance su meta"
+		"message": "Mostrar una notificación de escritorio cuando una tarea alcance su objetivo"
 	},
 	"optPlaySound": {
-		"message": "Emitir un sonido cuando una tarea alcance su meta"
+		"message": "Emitir un sonido cuando una tarea alcance su tiempo objetivo"
 	},
 	"optUseDefault": {
 		"message": "Usar el sonido por defecto"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "Repetir el sonido hasta que lo pares"
+	},
+	"txtChartSettings": {
+		"message": "Tabla de configuración"
+	},
+	"optEnableCharts": {
+		"message": "Activar la gráfica circular"
+	},
+	"optShowChartPercent": {
+		"message": "Mostrar las etiquetas del porcentaje de la tabla"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combine pequeñas partes de la tabla en \"Otros\""
 	},
 	"txtPerfSettings": {
 		"message": "Ajustes de rendimiento"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "¿Seguro que quieres reiniciar todos los ajustes a los valores por defecto?"
 	},
-	"confUpdated": {
-		"message": "Task Timer ha sido actualizado a la version $version$!\n¿Quieres ver el registro de cambios?\nTen en cuenta que necesitarás empezar tus tareas de nuevo si Chrome auto-actualiza la aplicación mientras se ejecuta.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "¿Te gustaría puntuar\/criticar esta aplicación en la tienda web de Chrome?\n¡Sería de mucha ayuda!"
 	},
@@ -381,7 +384,7 @@
 		"message": "¡Tarea finalizada!"
 	},
 	"noteTaskFinishedLong": {
-		"message": "¡La tarea \"$taskName$\" llegó a su meta!",
+		"message": "¡La tarea \"$taskName$\"se completó!",
 		"placeholders": {
 			"taskName": {
 				"content": "$1",
@@ -393,10 +396,10 @@
 		"message": "¡Las notificaciones de escritorio están funcionando!"
 	},
 	"noteNotifsWorkBody": {
-		"message": "¡Si ves esto significa que las notificaciones de escritorio están activadas y trabajando correctamente! ¡Viva!"
+		"message": "¡Si ves esto significa que las notificaciones de escritorio están activadas y trabajando correctamente! ¡Enhorabuena!"
 	},
 	"noteNoLocalFiles": {
-		"message": "Parece que estás usando una ruta local en tu máquina para la URL del sonido personalizado.\nDesgraciadamente, los archivos locales no se pueden usar, ya que Chrome no permite el acceso a tu sistema de archivos locales ni siquiera para un sonido.\nSólo se pueden ustilizar direcciones de internet (que empiezan por http, https, o ftp). Eso significa que necesitas encontrar un sonido en línea, o subir el sonido que quieres a algún lugar."
+		"message": "Parece que estás usando una ruta local en tu equipo para la URL del sonido personalizado.\nDesgraciadamente, los archivos locales no se pueden usar, ya que Chrome no permite el acceso a tu sistema de archivos locales ni siquiera para un sonido.\nSólo se pueden utilizar direcciones de internet (que empiezan por http, https, o ftp). Eso significa que necesitas encontrar un sonido en línea, o subir el sonido que quieres a algún sitio."
 	},
 	"noteErrorOccurred": {
 		"message": "¡Ha ocurrido un error!"
@@ -417,19 +420,19 @@
 		"message": "¡Error!"
 	},
 	"errTask": {
-		"message": "Nombre de tarea o meta inválido."
+		"message": "Nombre de tarea u objetivo no válido."
 	},
 	"errTaskName": {
-		"message": "Nombre de tarea inválido."
+		"message": "Nombre de tarea no válido."
 	},
 	"errTaskTime": {
-		"message": "Tiempo inválido."
+		"message": "Tiempo no válido."
 	},
 	"errGoalTime": {
-		"message": "Tiempo de meta inválido."
+		"message": "Tiempo Objetivo no válido."
 	},
 	"errSoundURL": {
-		"message": "URL de sonido personalizado inválido."
+		"message": "URL de sonido personalizado no válido"
 	},
 	"errFinishEditing": {
 		"message": "¡Primero termina de editar la tarea \"$taskName$\"!",
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "La aplicación ya está abierta.\nSi esto es incorrecto, prueba a cerrar todas las ventanas de Chrome y reiniciarlo."
 	},
 	"txtSuggestionTitle": {
 		"message": "Haz una sugerencia"

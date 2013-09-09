@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "总计任务已花时间（历史）"
 	},
+	"txtOther": {
+		"message": "其他"
+	},
 	"txtTaskInfo": {
 		"message": "任务信息"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "通用设置"
-	},
-	"optEnableCharts": {
-		"message": "使用饼状图"
 	},
 	"optHideNotice": {
 		"message": "隐藏提示框"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "循环播放声音直到点击停止"
+	},
+	"txtChartSettings": {
+		"message": "图表设置"
+	},
+	"optEnableCharts": {
+		"message": "使用饼状图"
+	},
+	"optShowChartPercent": {
+		"message": "显示图表百分比标签"
+	},
+	"optCombineSmallSlices": {
+		"message": "将小的图表结合进\"其他\""
 	},
 	"txtPerfSettings": {
 		"message": "性能设置"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "你确定要将所有的设置还原为默认设置吗？"
 	},
-	"confUpdated": {
-		"message": "任务计时器已更新至版本$version$！\n你想看看我们改了些什么吗？\n注意如果在Chrome浏览器自动更新软件时你有正在运行的任务，请在更新后重新开始。",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
 	},
@@ -439,9 +442,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "软件已经打开。\n如果出现问题，请关闭Chrome浏览器的所有窗口后重新启动软件。"
 	},
 	"txtSuggestionTitle": {
 		"message": "提个建议"

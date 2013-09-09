@@ -3,7 +3,7 @@
 		"message": "任务计时器"
 	},
 	"appDesc": {
-		"message": "这是一个简单的计时工具，你可以用它来记录你在工作、学习或者任何其他事情上所使用的时间。"
+		"message": "66"
 	},
 	"txtTitle": {
 		"message": "任务计时器"
@@ -15,7 +15,7 @@
 		"message": "请注意：各种本地语言的翻译可能没有准确表达出原本的含义，甚至出现翻译错误的情况。"
 	},
 	"txtCreatedBy": {
-		"message": "由Schuyler Cebulskie编写"
+		"message": "由[Schuyler Cebulskie]编写"
 	},
 	"txtReportBug": {
 		"message": "报告错误"
@@ -63,7 +63,7 @@
 		"message": "这是总计栏。只有在你有多于一个任务的时候出现。\n这一栏中的“已花时间”项是你花在每个任务上的时间总和。\n这一栏中的“目标”项是你所有任务目标完成时间的总和，不包含无限期任务。\n这一栏中的“进度”项是你所有任务目标达成进度的总和，这一进度不包括超出任务目标完成时间的部分或无限期任务所花费的时间。"
 	},
 	"txtNoTasks": {
-		"message": "您还没有创建任何任务呢亲~"
+		"message": "您还没有创建任何任务"
 	},
 	"txtEditTasks": {
 		"message": "双击一项任务的名称、时间或目标时间进行编辑。"
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "总计任务已花时间（历史）"
 	},
+	"txtOther": {
+		"message": "其他"
+	},
 	"txtTaskInfo": {
 		"message": "任务信息"
 	},
@@ -196,9 +199,6 @@
 	},
 	"txtGeneralSettings": {
 		"message": "通用设置"
-	},
-	"optEnableCharts": {
-		"message": "使用饼状图"
 	},
 	"optHideNotice": {
 		"message": "隐藏提示框"
@@ -271,6 +271,18 @@
 	},
 	"optLoopSound": {
 		"message": "循环播放声音直到点击停止"
+	},
+	"txtChartSettings": {
+		"message": "图表设定"
+	},
+	"optEnableCharts": {
+		"message": "使用饼状图"
+	},
+	"optShowChartPercent": {
+		"message": "显示图表百分率"
+	},
+	"optCombineSmallSlices": {
+		"message": "结合小图表进入“其他”"
 	},
 	"txtPerfSettings": {
 		"message": "性能设置"
@@ -362,15 +374,6 @@
 	"confResetSettings": {
 		"message": "你确定要将所有的设置还原为默认设置吗？"
 	},
-	"confUpdated": {
-		"message": "任务计时器已更新至版本$version$！\n你想看看我们改了些什么吗？\n注意如果在Chrome浏览器自动更新软件时你有正在运行的任务，请在更新后重新开始。",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
 	},
@@ -440,11 +443,8 @@
 			}
 		}
 	},
-	"errAlreadyOpen": {
-		"message": "软件已经打开。\n如果出现问题，请关闭Chrome浏览器的所有窗口后重新启动软件。"
-	},
 	"txtSuggestionTitle": {
-		"message": "提个建议"
+		"message": "提一个建议"
 	},
 	"txtSuggestionInfo": {
 		"message": "想要提建议，请按[这里]。\n如果之前没有人提过类似的建议，请点击“新问题”。确保选择模板中的”要求优化“并在题目中简单描述建议内容！\n如果你有多个建议，请就每个问题创建一个单独的建议。"

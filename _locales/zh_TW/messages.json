@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "工作計時器"
+	},
+	"appDesc": {
+		"message": "能幫助您輕鬆記錄工作、學習等用時的工具"
+	},
+	"txtTitle": {
+		"message": "工作計時器"
+	},
+	"txtDescription": {
+		"message": "使用這項工具追踪您用在工作，學習或是其他方面的任務"
+	},
+	"txtTranslationsAccuracy": {
+		"message": "翻譯不一定正確"
+	},
+	"txtCreatedBy": {
+		"message": "由 [Schuyler Cebulskie] 建立"
+	},
+	"txtReportBug": {
+		"message": "回報錯誤"
+	},
+	"txtSuggest": {
+		"message": "有新點子？[告訴我]"
+	},
+	"txtAbout": {
+		"message": "關於"
+	},
+	"txtDonate": {
+		"message": "捐獻"
+	},
+	"txtLoading": {
+		"message": "載入中…"
+	},
+	"txtComingSoon": {
+		"message": "敬請期待!"
+	},
+	"txtHours": {
+		"message": "時"
+	},
+	"txtMinutes": {
+		"message": "分"
+	},
+	"txtSeconds": {
+		"message": "秒"
+	},
+	"txtIndefinite": {
+		"message": "不限時間"
+	},
+	"infoData": {
+		"message": "溫馨提醒：資料只存於您的電腦瀏覽器本地端\n無需擔心，即使清除了Chrome的緩存\/內存空間，您的工作將不會被刪除"
+	},
+	"infoSettings": {
+		"message": "請按右上角的齒輪按鈕以檢視所有設定！\n這些設定包含當工作完成時的桌面提醒等等。"
+	},
+	"infoPerformance": {
+		"message": "此線上應用程式是否對您來說運作緩慢呢？請試著在設定內增加圓餅圖更新時間，或停用圓餅圖。\n仍運作緩慢嗎？增加總體更新時間或停用工作歷史追蹤。"
+	},
+	"infoTranslate": {
+		"message": "想要協助翻譯任務計時器至其他語言嗎？點擊[這裡]"
+	},
+	"infoTotals": {
+		"message": "這是全部的列表資訊。只有在您增加新"
+	},
+	"txtNoTasks": {
+		"message": "您目前沒有建立任何工作!"
+	},
+	"txtEditTasks": {
+		"message": "滑鼠雙擊工作名稱、時間或者是目標來編輯它。"
+	},
+	"lblTask": {
+		"message": "工作"
+	},
+	"lblTimeSpent": {
+		"message": "花費時間"
+	},
+	"lblGoal": {
+		"message": "目標"
+	},
+	"lblProgress": {
+		"message": "進度"
+	},
+	"lblOptions": {
+		"message": "選項"
+	},
+	"lblTotals": {
+		"message": "總共"
+	},
+	"btnStart": {
+		"message": "開始"
+	},
+	"btnStop": {
+		"message": "停止"
+	},
+	"btnInfo": {
+		"message": "詳細內容"
+	},
+	"btnReset": {
+		"message": "重置"
+	},
+	"btnDelete": {
+		"message": "刪除"
+	},
+	"btnClearHistory": {
+		"message": "刪除歷史資料"
+	},
+	"btnResetAll": {
+		"message": "重設所有工作"
+	},
+	"btnDeleteAll": {
+		"message": "刪除所有工作"
+	},
+	"lblName": {
+		"message": "名稱"
+	},
+	"lblTaskName": {
+		"message": "任務名稱"
+	},
+	"lblGoalBoth": {
+		"message": "目標(小時：分鐘)"
+	},
+	"lblGoalHours": {
+		"message": "目標小時"
+	},
+	"lblGoalMinutes": {
+		"message": "目標分鐘"
+	},
+	"lblIndefinite": {
+		"message": "未確定"
+	},
+	"lblStart": {
+		"message": "開始"
+	},
+	"lblStartNow": {
+		"message": "馬上開始任務"
+	},
+	"btnAddTask": {
+		"message": "新增任務"
+	},
+	"txtCurrentPieTitle": {
+		"message": "花在任務上的實際時間"
+	},
+	"txtTotalPieTitle": {
+		"message": "總共花費的時間（歷史）"
+	},
+	"txtOther": {
+		"message": "其他"
+	},
+	"txtTaskInfo": {
+		"message": "任務明細"
+	},
+	"txtNoDescription": {
+		"message": "為任務輸入信息或評論"
+	},
+	"txtTaskOptions": {
+		"message": "任務選項"
+	},
+	"txtHistory": {
+		"message": "歷史記錄"
+	},
+	"txtHistoryDisabled": {
+		"message": "工作追蹤功能已關閉。您可以在工具選單重新啟用。"
+	},
+	"txtSelectDate": {
+		"message": "請選擇日期"
+	},
+	"txtNoHistory": {
+		"message": "該日期沒有保存的歷史記錄"
+	},
+	"lblDescription": {
+		"message": "細說·"
+	},
+	"lblHour": {
+		"message": "小時"
+	},
+	"tskExcludeTotals": {
+		"message": "從總計行排除此項工作"
+	},
+	"tskExcludeCharts": {
+		"message": "從圓餅圖排除此項工作"
+	},
+	"txtTools": {
+		"message": "工具箱"
+	},
+	"toolExportCSV": {
+		"message": "匯出任務(CSV檔案)"
+	},
+	"toolClearAllHistory": {
+		"message": "清除所有任務歷史"
+	},
+	"toolClearData": {
+		"message": "清除所有資料"
+	},
+	"toolResetSettings": {
+		"message": "重設預設"
+	},
+	"txtSettings": {
+		"message": "設定"
+	},
+	"txtGeneralSettings": {
+		"message": "總體設定"
+	},
+	"optHideNotice": {
+		"message": "隱藏通知"
+	},
+	"optConfirmReset": {
+		"message": "在你試著重置工作時提出確認"
+	},
+	"optConfirmDelete": {
+		"message": "在你試著刪除工作時提出確認"
+	},
+	"optStartDefault": {
+		"message": "預設勾選\"開始\"勾選欄"
+	},
+	"optSaveFields": {
+		"message": "當您重新啟用應用程式時，保存您所有的新任務空間。"
+	},
+	"optUseIcons": {
+		"message": "在任務選項中使用圖標替代按鈕（使用於小型營幕）"
+	},
+	"opt12Hour": {
+		"message": "使用12小時進制"
+	},
+	"optCustomDialogs": {
+		"message": "使用自定義的對話框替換 Chrome 自帶對話框。"
+	},
+	"optUpdateAlert": {
+		"message": "更新後打開應用程式"
+	},
+	"txtTaskSettings": {
+		"message": "任務設定"
+	},
+	"optEnableSync": {
+		"message": "啟用同步（\"實驗性\"，可能會搞亂你的任務）"
+	},
+	"optTrackHistory": {
+		"message": "記錄任務的歷史記錄（這樣您就可以查看每個任務的數據）"
+	},
+	"optNoOvertime": {
+		"message": "不要在一個任務上花費超過預設的時間"
+	},
+	"optStopTimer": {
+		"message": "在完成任務後就停止任務"
+	},
+	"optOnlyOne": {
+		"message": "同時只允許一個任務在運行"
+	},
+	"txtNotifSettings": {
+		"message": "通知設定"
+	},
+	"optShowPopup": {
+		"message": "當一個任務達到預設時間時，在頁面上彈出提醒"
+	},
+	"optShowNotification": {
+		"message": "當一個任務達到預設時間時，彈出桌面提醒"
+	},
+	"optPlaySound": {
+		"message": "當一個任務達到預設時間時，發出音效。"
+	},
+	"optUseDefault": {
+		"message": "使用預設音效"
+	},
+	"optUseCustom": {
+		"message": "自定使用音效"
+	},
+	"optSoundURL": {
+		"message": "自定音效鏈接"
+	},
+	"optBtnPreview": {
+		"message": "預覽音效"
+	},
+	"optLoopSound": {
+		"message": "重複播放音效直到您停止它"
+	},
+	"txtChartSettings": {
+		"message": "圖表設定"
+	},
+	"optEnableCharts": {
+		"message": "開啟圓形圖標"
+	},
+	"optShowChartPercent": {
+		"message": "顯示圖表百分比標示"
+	},
+	"optCombineSmallSlices": {
+		"message": "將圖表中的小片段結合為\"其他\"選項"
+	},
+	"txtPerfSettings": {
+		"message": "性能設定"
+	},
+	"optUpdateTime1": {
+		"message": "更新所有任務時間"
+	},
+	"optUpdateTime2": {
+		"message": "秒"
+	},
+	"optChartUpdateTime1": {
+		"message": "更新圓餅圖"
+	},
+	"txtSaveSettings": {
+		"message": "保存設定"
+	},
+	"txtJSError": {
+		"message": "這個部分有錯誤發生。請您提供剛剛做了甚麼\/發生甚麼情形的錯誤資訊給我們。"
+	},
+	"txtTriedRefresh": {
+		"message": "已經重新載入插件嗎？"
+	},
+	"txtUsualFix": {
+		"message": "這個動作通常可以修正任何錯誤，但會清除您的所有任務和設定資訊。"
+	},
+	"btnOK": {
+		"message": "確定"
+	},
+	"btnCancel": {
+		"message": "取消"
+	},
+	"btnYes": {
+		"message": "是"
+	},
+	"btnNo": {
+		"message": "否"
+	},
+	"btnClose": {
+		"message": "關閉"
+	},
+	"btnCloseNotice": {
+		"message": "關閉通知"
+	},
+	"btnStopAlarm": {
+		"message": "停止鬧鐘"
+	},
+	"btnSave": {
+		"message": "保存"
+	},
+	"confResetTask": {
+		"message": "你確定要重設 \"$taskName$\"這項工作？\n這將不會重設此項工作的歷史。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "你確定要刪除 \"$taskName$\"這項工作？\n這將會一起刪除此工作歷史。",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "你確定要清除 \"$taskName$\" 的工作歷史？",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "你確定要重置所有工作花費時間？"
+	},
+	"confDeleteAll": {
+		"message": "你確定要刪除所有工作？"
+	},
+	"confClearAllHistory": {
+		"message": "你確定要清除所有工作歷史？"
+	},
+	"confResetData": {
+		"message": "你確定要完全清除所有工作計時器資料？\n這將會完全清除掉你的工作以及設定。"
+	},
+	"confResetSettings": {
+		"message": "你確定要重置所有設定回預設值？"
+	},
+	"confRating": {
+		"message": "請問你願意在Chrome線上應用程式商店給予這個線上應用程式評價或者是評論嗎？\n這將會幫上我們一把!"
+	},
+	"confSmallWindow": {
+		"message": "目前您似乎在較小的螢幕上、或較低解析度的工作環境中執行Task Timer。 您要不要將任務圖示切換為較小的按鈕顯示於任務列表呢? 這會幫助您確保所有任務列表不會占據超過一行的空間。\n\n這個功能也可以在工具列表中設定。"
+	},
+	"noteTaskFinished": {
+		"message": "任務完成!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "任務\"$taskName$\"已經達成目標!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "桌面通知已可使用!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "當您看到這個訊息，代表桌面通知功能已經啟用而且運作良好! 耶!"
+	},
+	"noteNoLocalFiles": {
+		"message": "似乎你自定義的聲音URL使用的路徑是在你機器上的本地文件。\n不幸的是本地文件不能使用，Chrome並不允許存取本地文件系統，即使是聲音。\n只有網際網路的網址可以使用（HTTP，HTTPS或FTP）。這表示你需要在網路上找聲音，或上傳你想要的聲音到網路上。"
+	},
+	"noteErrorOccurred": {
+		"message": "發生錯誤!"
+	},
+	"sucSavedDesc": {
+		"message": "解說保存了!"
+	},
+	"sucSavedSettings": {
+		"message": "設定保存了!"
+	},
+	"sucSyncReceived": {
+		"message": "同步任務資訊完成!"
+	},
+	"sucSyncSent": {
+		"message": "同步匯出工作任務!"
+	},
+	"errGeneric": {
+		"message": "錯誤!"
+	},
+	"errTask": {
+		"message": "任務名稱或是目標不明"
+	},
+	"errTaskName": {
+		"message": "任務名稱不明"
+	},
+	"errTaskTime": {
+		"message": "時間不明"
+	},
+	"errGoalTime": {
+		"message": "任務時間不明"
+	},
+	"errSoundURL": {
+		"message": "自定聲音鏈接不明"
+	},
+	"errFinishEditing": {
+		"message": "請先完成編輯 \"$taskName$\" 此項工作!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "請建議"
+	},
+	"txtSuggestionInfo": {
+		"message": "要提供建議,請按\"這裡\"。\n假如沒有人提供過這個意見，請按\"新增意見\"。請確認您提供意見時選擇\"功能增強需求\"針對整體工作範本，請提供描述性的標題是！\n假如您有多項意見想要提供，請分開提供各項意見。"
+	},
+	"txtBugTitle": {
+		"message": "回報錯誤"
+	},
+	"txtBugInfo": {
+		"message": "請點擊\"這裡\"回報錯誤\n假如沒有人回報過此問題，選擇\"新增問題\"。請確認您回報錯誤時提供具體描述的標題！\n假如您要回報多項錯誤，請分開回報各項錯誤。\n請確認您一併將以下資訊提供在回報錯誤內容中。"
+	}
+}

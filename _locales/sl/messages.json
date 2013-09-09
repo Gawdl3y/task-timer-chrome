@@ -197,9 +197,6 @@
 	"txtGeneralSettings": {
 		"message": "Splošne nastavitve"
 	},
-	"optEnableCharts": {
-		"message": "Omogoči tortne grafe"
-	},
 	"optHideNotice": {
 		"message": "Skrij pojavno okno z obvestili"
 	},
@@ -271,6 +268,9 @@
 	},
 	"optLoopSound": {
 		"message": "Ponavljaj zvočno opozorilo dokler ga ne ustavim"
+	},
+	"optEnableCharts": {
+		"message": "Omogoči tortne grafe"
 	},
 	"txtPerfSettings": {
 		"message": "Nastavitev delovanja"
@@ -362,15 +362,6 @@
 	"confResetSettings": {
 		"message": "Ste prepričan, da želite ponastaviti vse nastavitve na privzete vrednosti?"
 	},
-	"confUpdated": {
-		"message": "Task Timer je bil posodobljen na verzijo $version$!\nSi želite ogledati dnevnik sprememb?\nV primeru, da je Chrome samodejno posodobil aplikacijo med tem, ko ste beležili čas na opravilih, je potrebno ponovno pričeti beleženje časa za ta opravila.",
-		"placeholders": {
-			"version": {
-				"content": "$1",
-				"example": "1.7.2"
-			}
-		}
-	},
 	"confRating": {
 		"message": "Ste pripravljeni na Chrome Web Store oceniti aplikacijo ali napisati mnenje?\nTo zares pomaga!"
 	},
@@ -439,9 +430,6 @@
 				"example": "Chores"
 			}
 		}
-	},
-	"errAlreadyOpen": {
-		"message": "Aplikacija je že odprta.\nČe aplikacija ni odprta in zagledate to sporočilo, poskusite zapreti vsa okna v Chrome-u in ga ponovno zagnati."
 	},
 	"txtSuggestionTitle": {
 		"message": "Predlog"

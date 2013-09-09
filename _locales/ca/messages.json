@@ -1,0 +1,458 @@
+{
+	"appName": {
+		"message": "Temporitzador de tasques"
+	},
+	"appDesc": {
+		"message": "Una eina senzilla per ajudar a controlar el temps dedicat a diferents tasques com treball, estudi o altres."
+	},
+	"txtTitle": {
+		"message": "Temporitzador de tasques"
+	},
+	"txtDescription": {
+		"message": "Fes servir aquesta aplicació per controlar el temps que dediques a treball, estudis o altres."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Les traduccions poden no ser acurades."
+	},
+	"txtCreatedBy": {
+		"message": "Desenvolupat per"
+	},
+	"txtReportBug": {
+		"message": "Informa d'un error"
+	},
+	"txtSuggest": {
+		"message": "Tens alguna idea? [Digues-me-la]"
+	},
+	"txtAbout": {
+		"message": "A propòsit"
+	},
+	"txtDonate": {
+		"message": "Donació"
+	},
+	"txtLoading": {
+		"message": "Carregant..."
+	},
+	"txtComingSoon": {
+		"message": "Fins aviat!"
+	},
+	"txtHours": {
+		"message": "Hores"
+	},
+	"txtMinutes": {
+		"message": "Minuts"
+	},
+	"txtSeconds": {
+		"message": "Segons"
+	},
+	"txtIndefinite": {
+		"message": "Indefinit"
+	},
+	"infoData": {
+		"message": "Nota: Sols es guardarà localment, al teu ordinador, al teu navegador.\nNo et preocupis, les teves tasques **no** s'esborraran si esborres la memòria cau\/emmagatzematge del Chrome."
+	},
+	"infoSettings": {
+		"message": "Assegura't de revisar la configuració fent click al botó de l'escaire superior dret de l'aplicació!\nHi ha opcions com ara notificacions a l'escriptori per quan acabi alguna tasca."
+	},
+	"infoPerformance": {
+		"message": "L'aplicació funciona lentament? Prova d'augmentar el temps d'actualització del gràfic circular a la configuració, o deshabilita'ls completament.\nEncara funciona lentament? Augmenta el temps d'actualització general o deshabilita el seguiment històric de tasques."
+	},
+	"infoTranslate": {
+		"message": "Vols ajudar a traduir el Temporitzador de tasques a altres llengües? Fes clic [aquí]."
+	},
+	"infoTotals": {
+		"message": "Aquesta és la fila de totals. Només apareix quan tens més d'una tasca.\n\nLa columna \"Temps Gastat\" d'aquesta fila suma el temps dedicat a cada una de les tasques.\nLa columna \"Objectiu\" d'aquesta fila suma tots els temps dels objectius de totes les tasques, tret de les indefinides.\nLa columna \"Progrés\" d'aquesta fila et dona el progrés total respecte finalitzar els objectius de totes les tasques. Aquest progrés no inclou el temps dedicat"
+	},
+	"txtNoTasks": {
+		"message": "Encara no has creat cap tasca!"
+	},
+	"txtEditTasks": {
+		"message": "Fes doble clic al nom de la tasca, a l'hora o a l'objectiu per editar-la."
+	},
+	"lblTask": {
+		"message": "Tasca"
+	},
+	"lblTimeSpent": {
+		"message": "Temps Passat"
+	},
+	"lblGoal": {
+		"message": "Objectiu"
+	},
+	"lblProgress": {
+		"message": "Progrés"
+	},
+	"lblOptions": {
+		"message": "Opcions"
+	},
+	"lblTotals": {
+		"message": "Totals"
+	},
+	"btnStart": {
+		"message": "Comença"
+	},
+	"btnStop": {
+		"message": "Atura"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Reinicia"
+	},
+	"btnDelete": {
+		"message": "Esborra"
+	},
+	"btnClearHistory": {
+		"message": "Esborra l'històric"
+	},
+	"btnResetAll": {
+		"message": "Reinicia tot"
+	},
+	"btnDeleteAll": {
+		"message": "Esborra tot"
+	},
+	"lblName": {
+		"message": "Nom"
+	},
+	"lblTaskName": {
+		"message": "Nom de la tasca"
+	},
+	"lblGoalBoth": {
+		"message": "Objectiu (hores : minuts)"
+	},
+	"lblGoalHours": {
+		"message": "Hores objectiu"
+	},
+	"lblGoalMinutes": {
+		"message": "Minuts objectiu"
+	},
+	"lblIndefinite": {
+		"message": "Indefinit"
+	},
+	"lblStart": {
+		"message": "Comença"
+	},
+	"lblStartNow": {
+		"message": "Comença la tasca immediatament"
+	},
+	"btnAddTask": {
+		"message": "Afegeix tasca"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Temps dedicat a les tasques"
+	},
+	"txtTotalPieTitle": {
+		"message": "Temps total dedicat (Històric)"
+	},
+	"txtOther": {
+		"message": "Altres"
+	},
+	"txtTaskInfo": {
+		"message": "Informació de la tasca"
+	},
+	"txtNoDescription": {
+		"message": "Introdueix la informació\/comentaris sobre la tasca"
+	},
+	"txtTaskOptions": {
+		"message": "Opcions de la tasca"
+	},
+	"txtHistory": {
+		"message": "Històric"
+	},
+	"txtHistoryDisabled": {
+		"message": "Seguiment històric de tasques deshabilitat. Pots habilitar-lo al menú eines."
+	},
+	"txtSelectDate": {
+		"message": "Si us plau tria una data."
+	},
+	"txtNoHistory": {
+		"message": "No hi ha cap històric per aquest dia."
+	},
+	"lblDescription": {
+		"message": "Descripció"
+	},
+	"lblHour": {
+		"message": "Hora"
+	},
+	"tskExcludeTotals": {
+		"message": "Excloure aquesta tasca de la fila de totals"
+	},
+	"tskExcludeCharts": {
+		"message": "Excloure aquesta tasca del gràfic circular"
+	},
+	"txtTools": {
+		"message": "Eines"
+	},
+	"toolExportCSV": {
+		"message": "Exporta les tasques a un arxiu CSV"
+	},
+	"toolClearAllHistory": {
+		"message": "Neteja tot l'històric de les tasques"
+	},
+	"toolClearData": {
+		"message": "Neteja totes les dades de la aplicació"
+	},
+	"toolResetSettings": {
+		"message": "Reestableix a els valors per defecte"
+	},
+	"txtSettings": {
+		"message": "Configuració"
+	},
+	"txtGeneralSettings": {
+		"message": "Configuració general"
+	},
+	"optHideNotice": {
+		"message": "Amaga la capsa d'avisos"
+	},
+	"optConfirmReset": {
+		"message": "Demana confirmació quan vulguis reiniciar una tasca"
+	},
+	"optConfirmDelete": {
+		"message": "Demana confirmació quan vulguis esborrar una tasca"
+	},
+	"optStartDefault": {
+		"message": "Selecciona l'opció \"Comença\" per defecte"
+	},
+	"optSaveFields": {
+		"message": "Manté el que tinguis en els camps de nova tasca quan reinicies la aplicació"
+	},
+	"optUseIcons": {
+		"message": "Utilitza icones en comptes de botons per les opcions de les tasques (millor per pantalles petites)"
+	},
+	"opt12Hour": {
+		"message": "Utilitza el format de temps de 12 hores si s'escau"
+	},
+	"optCustomDialogs": {
+		"message": "Utilitza diàlegs personalitzats en comptes dels incrustats de Chrome"
+	},
+	"optUpdateAlert": {
+		"message": "Obre l'aplicació quan s'actualitzi"
+	},
+	"txtTaskSettings": {
+		"message": "Configuracions de les tasques"
+	},
+	"optEnableSync": {
+		"message": "Habilita sincronització (EXPERIMENTAL, potser s'embolica amb les teves tasques)"
+	},
+	"optTrackHistory": {
+		"message": "Segueix la història de les tasques (per tal que puguis veure estadístiques de cada tasca)"
+	},
+	"optNoOvertime": {
+		"message": "No deixis que les tasques sobrepassin els seus objectius"
+	},
+	"optStopTimer": {
+		"message": "Atura una tasca quan abasti el seu objectiu"
+	},
+	"optOnlyOne": {
+		"message": "Permet que només estigui activa una tasca alhora"
+	},
+	"txtNotifSettings": {
+		"message": "Configuració de notificacions"
+	},
+	"optShowPopup": {
+		"message": "Mostra una finestra emergent en la pàgina quan una tasca abasti el seu objectiu"
+	},
+	"optShowNotification": {
+		"message": "Mostra una notificació a l'escriptori quan una tasca abasti el seu objectiu"
+	},
+	"optPlaySound": {
+		"message": "Reprodueix un só quan una tasca assoleixi el seu objectiu"
+	},
+	"optUseDefault": {
+		"message": "Utilitza el só per defecte"
+	},
+	"optUseCustom": {
+		"message": "Utilitza un só personalitzat"
+	},
+	"optSoundURL": {
+		"message": "URL del só personalitzat"
+	},
+	"optBtnPreview": {
+		"message": "Escolta el só"
+	},
+	"optLoopSound": {
+		"message": "Torna a reproduir el só mentre no l'aturis"
+	},
+	"txtChartSettings": {
+		"message": "configuració de la carta"
+	},
+	"optEnableCharts": {
+		"message": "Activar gràfics circulars"
+	},
+	"optShowChartPercent": {
+		"message": "Mostra etiquetes percentuals a la gràfica"
+	},
+	"optCombineSmallSlices": {
+		"message": "Combina bocins de la taula a \"Altres\""
+	},
+	"txtPerfSettings": {
+		"message": "Configuració de rendiment"
+	},
+	"optUpdateTime1": {
+		"message": "Actualitza el temps de les tasques cada"
+	},
+	"optUpdateTime2": {
+		"message": "segon(s)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Actualitza els gràfics circulars cada"
+	},
+	"txtSaveSettings": {
+		"message": "Desa les configuracions"
+	},
+	"txtJSError": {
+		"message": "S'ha detectat un error al programari. Si us plau comuniqueu-lo amb la següent infirmació, així com què has fet o què ha passat:"
+	},
+	"txtTriedRefresh": {
+		"message": "Has provat a reiniciar la aplicació?"
+	},
+	"txtUsualFix": {
+		"message": "Això normalment arregla qualsevol errada, però esborrarà totes les teves tasques i configuracions."
+	},
+	"btnOK": {
+		"message": "D'acord"
+	},
+	"btnCancel": {
+		"message": "Cancel·lar"
+	},
+	"btnYes": {
+		"message": "Sí"
+	},
+	"btnNo": {
+		"message": "No"
+	},
+	"btnClose": {
+		"message": "Tancar"
+	},
+	"btnCloseNotice": {
+		"message": "Tancar avís"
+	},
+	"btnStopAlarm": {
+		"message": "Aturar l'alarma"
+	},
+	"btnSave": {
+		"message": "Desa"
+	},
+	"confResetTask": {
+		"message": "Estàs segur que vols reiniciar la tasca \"$taskName$\"?\nAixò no reiniciarà l'històric de tasques.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Estàs segur que vols esborrar la tasca \"$taskName$\"?\nAixò esborrarà també l'històric de la tasca.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Estàs segur que vols esborrar l'històric de la tasca \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Estàs segur que vols reiniciar el temps dedicat a totes les teves tasques?"
+	},
+	"confDeleteAll": {
+		"message": "Estàs segur que vols esborrar totes les teves tasques?"
+	},
+	"confClearAllHistory": {
+		"message": "Estàs segur que vols esborrar l'històric de totes les teves tasques?"
+	},
+	"confResetData": {
+		"message": "Estàs segur que vols netejar totes les dades dels temporitzadors?\nAixò esborrarà les teves tasques i configuracions"
+	},
+	"confResetSettings": {
+		"message": "Estàs segur que vols reiniciar totes les configuracions als seus valors per defecte?"
+	},
+	"confRating": {
+		"message": "Voldries donar una valoració\/revisió a aquesta aplicació a la tenda de Chrome?\nRealment ajuda!"
+	},
+	"confSmallWindow": {
+		"message": "Sembla que estàs executant Task Timer en una finestra petita, un monitor petit, o en baixa resolució. Vols canviar els botons de la llista de tasques per icones? Això ajudarà a assegurar que les tasques no ocupen més d'una línia cadascuna.\n\nAquesta opció pot ser modificada al menú eines."
+	},
+	"noteTaskFinished": {
+		"message": "Tasca acabada!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "La tasca \"$taskName$\" ha assolit el seu objectiu!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Les notificacions de l'escriptori funcionen!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Si veus això vol dir que les notificacions de l'escriptori estan habilitades i funcionen correctament! Woo!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Sembla que estàs utilitzant una ruta d'accés a un arxiu local del teu ordinador com a URL de so personalitzat.\nMalauradament, els arxius locals no es poden utilitzar, de la mateixa manera que Chrome no permet l'accés al sistema de fitxers local, fins i tot per a un so.\nNomés els URLs d'internet (que comencin amb htp, https, o ftp) es poden utilitzar. Això significa que has de trobar un so a internet, o penjar el so que vulguis a algún lloc."
+	},
+	"noteErrorOccurred": {
+		"message": "Ha ocorregut un error!"
+	},
+	"sucSavedDesc": {
+		"message": "Descripció desada!"
+	},
+	"sucSavedSettings": {
+		"message": "Configuracions desades!"
+	},
+	"sucSyncReceived": {
+		"message": "Dades de la tasca rebudes per sincronitzar!"
+	},
+	"sucSyncSent": {
+		"message": "Envia les dades de la tasca per sincronitzar!"
+	},
+	"errGeneric": {
+		"message": "Error!"
+	},
+	"errTask": {
+		"message": "Nom de tasca o objectiu no vàlid."
+	},
+	"errTaskName": {
+		"message": "Nom de tasca no vàlid."
+	},
+	"errTaskTime": {
+		"message": "Temps no vàlid."
+	},
+	"errGoalTime": {
+		"message": "Temps objectiu no vàlid."
+	},
+	"errSoundURL": {
+		"message": "URL de so personalitzat no vàlid."
+	},
+	"errFinishEditing": {
+		"message": "Abans acaba d'editar la tasca \"$taskName$\"!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"txtSuggestionTitle": {
+		"message": "Fer un suggeriment"
+	},
+	"txtSuggestionInfo": {
+		"message": "Per fer un suggeriment, si us plau fes click [aquí].\nSi de moment ningú ha suggerit la mateixa idea, fes click a \"Nova qüestió\". Assegura't de seleccionar \"Petició de Millora\" per la plantilla, i de posar-li un títol descriptiu!"
+	},
+	"txtBugTitle": {
+		"message": "Comunica un error"
+	},
+	"txtBugInfo": {
+		"message": "Per informar d'un error, si us plau fes click [aquí].\nSi de moment ningú ha comunicat el mateix error, fes click a \"Nova qüestió\". Assegura't de posar-li un títol descriptiu!\nSi has trobat múltiples errors, si us plau crea una qüestió diferent per a cada un.\nAssegura't d'incloure la següent informació a l'informe de l'error:"
+	}
+}
