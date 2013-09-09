@@ -1,12 +1,12 @@
 {
 	"appName": {
-		"message": "Vremenski mjeritelj aktivnosti\n\nMy comment: keep the original title. It sounds funny when it's translated."
+		"message": "Task Timer"
 	},
 	"appDesc": {
 		"message": "Jednostavan alat koji pomaže praćenje vremena provedenog na raznim aktivnostima kao što su poslovne, za vrijeme učenja i sl."
 	},
 	"txtTitle": {
-		"message": "Vremenski mjeritelj aktivnosti\n\nMy comment: keep the original title. It sounds funny when its translated."
+		"message": "Task Timer"
 	},
 	"txtDescription": {
 		"message": "Koristite ovaj alat za praćenje vremena provedenog na poslu, na učenju ili za bilo koju drugu aktivnost."
@@ -24,7 +24,7 @@
 		"message": "Imate li prijedlog? [Javite nam]"
 	},
 	"txtAbout": {
-		"message": "O..."
+		"message": "O"
 	},
 	"txtDonate": {
 		"message": "Donirajte"
