@@ -1,6 +1,5 @@
 // Settings checkboxes (ID: Default value)
 var settings_checkboxes = {
-    'hide-notice': false,
     'confirm-reset': true,
     'confirm-delete': true,
     'autostart-default': false,
@@ -53,13 +52,7 @@ function LoadSettings(reset_timer, from_save) {
     });
 
     // Display/hide the notice
-    if(Setting('hide-notice', false, true)) {
-        $('#hide-notice').attr('checked', 'checked');
-        if(from_save) $('#notice').fadeOut(800); else $('#notice').hide();
-    } else {
-        $('#hide-notice').removeAttr('checked');
-        if(from_save) $('#notice').fadeIn(800); else $('#notice').show();
-    }
+    if(Setting('hide-notice', false, true)) $('#notice').hide(); else $('#notice').show();
 
     // Display the translation notice
     if(!Setting('translate-hidden', false, true)) $('#translate-notice').show();
