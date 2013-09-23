@@ -451,9 +451,7 @@ function TaskSetting(id, task, value, only_not_exists) {
 
     // Make sure the task and settings exist
     if(typeof tasks[task] == 'undefined') tasks[task] = {};
-    if(typeof tasks[task].settings == 'undefined') tasks[task].settings = {};
-
-    // Check if the setting exists
+    if(typeof tasks[task].settings == 'undefined' || tasks[task].settings == null) tasks[task].settings = {};
     var exists = typeof tasks[task].settings[id] != 'undefined';
 
     if(typeof value != 'undefined' && ((exists && !only_not_exists) || (!exists && only_not_exists))) {
