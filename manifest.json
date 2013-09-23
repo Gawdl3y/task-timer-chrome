@@ -3,9 +3,10 @@
 
     "name": "__MSG_appName__",
     "description": "__MSG_appDesc__",
-    "version": "3.10.3",
+    "version": "3.10.4",
     "default_locale": "en",
     "offline_enabled": true,
+    "minimum_chrome_version": "22",
 
     "permissions": ["alarms", "storage"],
     "web_accessible_resources": ["style/images/icon-64.png"],
