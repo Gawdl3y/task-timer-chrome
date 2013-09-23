@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Verwijder alle taak geschiedenis"
 	},
+	"toolReloadApp": {
+		"message": "Herlaad de app"
+	},
 	"toolClearData": {
 		"message": "Verwijder alle opgeslagen applicatiegegevens"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "Sta toe om slechts 1 taak tegelijk te laten lopen"
+	},
+	"optBackgroundRunning": {
+		"message": "Blijf taken timen wanneer de app gesloten is"
 	},
 	"txtNotifSettings": {
 		"message": "Notificatie Instellingen"
@@ -373,6 +379,18 @@
 	},
 	"confResetSettings": {
 		"message": "Weet je zeker dat je alle instellingen wilt terugzetten naar de standaard waarden?"
+	},
+	"confUpdated": {
+		"message": "Taken Timer is geüpdatet naar versie $version$!\nWil je de changelog zien?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Weet dat je je taken opnieuw moet opstarten wanneer ze aan het lopen zijn als Chrome de app automatisch update."
 	},
 	"confRating": {
 		"message": "Zou je deze applicatie een waardering\/review willen geven in de Chrome Web Store?\nDit wordt erg gewaardeerd!"

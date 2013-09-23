@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "清除所有任務歷史"
 	},
+	"toolReloadApp": {
+		"message": "重新載入工作計時器"
+	},
 	"toolClearData": {
 		"message": "清除所有資料"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "同時只允許一個任務在運行"
+	},
+	"optBackgroundRunning": {
+		"message": "工作計時器關閉後仍持續工作項目計時"
 	},
 	"txtNotifSettings": {
 		"message": "通知設定"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "你確定要重置所有設定回預設值？"
 	},
+	"confUpdated": {
+		"message": "工作計時器已更新至新版本 $version$!",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "請注意，您將需要再次開始你的任務，如果Chrome的自動更新的應用程序，而任何正在運行。"
+	},
 	"confRating": {
 		"message": "請問你願意在Chrome線上應用程式商店給予這個線上應用程式評價或者是評論嗎？\n這將會幫上我們一把!"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "工作計時器已開啟。\n如果這是不正確的，請點選下方重新載入按鈕。如果你關閉Chrome瀏覽器，任務定時器將被重新加載。"
 	},
 	"txtSuggestionTitle": {
 		"message": "請建議"

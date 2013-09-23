@@ -12,7 +12,7 @@
 		"message": "Použite tento nástroj na sledovanie trávenia času, ktorý ste venovali práci, štúdiu alebo akejkoľvek inej činnosti."
 	},
 	"txtTranslationsAccuracy": {
-		"message": "Preklady nemusia byť vždy presné"
+		"message": "Preklady nemusia byť vždy presné."
 	},
 	"txtCreatedBy": {
 		"message": "Vytvoril [Schuyler Cebulskie]"
@@ -75,7 +75,7 @@
 		"message": "Uplynutý čas"
 	},
 	"lblGoal": {
-		"message": "Trvanie"
+		"message": "Cieľ"
 	},
 	"lblProgress": {
 		"message": "Priebeh"
@@ -132,7 +132,7 @@
 		"message": "Štart"
 	},
 	"lblStartNow": {
-		"message": "Štart úlohy okamžite"
+		"message": "Štart úlohy hneď"
 	},
 	"btnAddTask": {
 		"message": "Pridať úlohu"
@@ -144,7 +144,7 @@
 		"message": "Celkový strávený čas (počas celej histórie)"
 	},
 	"txtOther": {
-		"message": "Ďalšia"
+		"message": "Ostatné"
 	},
 	"txtTaskInfo": {
 		"message": "Informácia o úlohe"
@@ -381,7 +381,7 @@
 		"message": "Naozaj chcete vrátiť všetky nastavenia na základné hodnoty?"
 	},
 	"confUpdated": {
-		"message": "Task Timer bol aktualizovaný na verziu $version$!",
+		"message": "Task Timer bol aktualizovaný na verziu $version$!\nChcete vidieť zoznam zmien ?",
 		"placeholders": {
 			"version": {
 				"content": "$1",
@@ -396,7 +396,7 @@
 		"message": "Radi by ste dali hodnotenie tejto aplikácii na Chrome Web Store ?\nSkutočne to pomože!"
 	},
 	"confSmallWindow": {
-		"message": "Vyzerá to tak, že TaskTimer je spustený v malom okne, na malom monitore, alebo na nízkom rozlíšení. Chcete prepnúť na ikony namiesto tlačidiel v zozname úloh ? Toto zabezpečí, aby úlohy neboli rozložené na viacerých riadkoch."
+		"message": "Zdá sa, že TaskTimer je spustený v malom okne, na malom monitore, alebo na nízkom rozlíšení. Chcete prepnúť na ikony namiesto tlačidiel v zozname úloh ? Toto zabezpečí, aby úlohy neboli rozložené na viacerých riadkoch.\n\nToto nastavenie môže byť zmenené v menu Nástroje."
 	},
 	"noteTaskFinished": {
 		"message": "Úloha dokončená!"

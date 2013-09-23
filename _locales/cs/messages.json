@@ -366,7 +366,7 @@
 		}
 	},
 	"confResetAll": {
-		"message": "Opravdu chcete obnovit čas všech strávený úkolů?"
+		"message": "Opravdu chcete obnovit čas strávený všemi úkoly?"
 	},
 	"confDeleteAll": {
 		"message": "Opravdu chcete smazat všechny Vaše úkoly?"
