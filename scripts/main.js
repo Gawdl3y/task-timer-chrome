@@ -31,7 +31,7 @@ $(function() {
         LoadSettings();
 
         // If coming from a version older than 3.6, convert the stop-timer setting to no-overtime
-        if(parseFloat(localStorage['old-version']) < 3.6) {
+        if(typeof localStorage['old-version'] !== 'undefined' && version_compare('3.6.0', localStorage['old-version']) === -1) {
             if(!Setting('stop-timer', true, true)) {
                 Setting('no-overtime', false);
                 Setting('stop-timer', true);

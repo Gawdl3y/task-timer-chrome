@@ -201,6 +201,31 @@ function localisePage() {
     });
 }
 
+function version_compare(v1, v2) {
+    var v1parts = v1.split('.');
+    var v2parts = v2.split('.');
+
+    for(var i = 0; i < v1parts.length; i++) {
+        if(v2parts.length == i) {
+            return 1;
+        }
+
+        if(v1parts[i] == v2parts[i]) {
+            continue;
+        } else if(v1parts[i] > v2parts[i]) {
+            return 1;
+        } else {
+            return -1;
+        }
+    }
+
+    if(v1parts.length != v2parts.length) {
+        return -1;
+    }
+
+    return 0;
+}
+
 // JS Error handler
 function js_error(error, url, line) {
     if(!js_error_shown) {
