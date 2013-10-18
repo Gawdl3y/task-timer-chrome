@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Az összes előzmény törlése."
 	},
+	"toolReloadApp": {
+		"message": "Alkalmazás újraindítása"
+	},
 	"toolClearData": {
 		"message": "Az alkalmazás által mentett adatok törlése."
 	},
@@ -245,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Csak egy feladatot engedélyezz egy időben"
 	},
+	"optBackgroundRunning": {
+		"message": "Mérje a feladatokat mialatt az alkalmazás inaktív"
+	},
 	"txtNotifSettings": {
 		"message": "Figyelmeztetés beállítás"
 	},
@@ -271,6 +277,9 @@
 	},
 	"optLoopSound": {
 		"message": "Ismétled a hangot amíg meg nem állítom"
+	},
+	"txtChartSettings": {
+		"message": "Diagram beállításai"
 	},
 	"optEnableCharts": {
 		"message": "Kördiagram engedélyezése"

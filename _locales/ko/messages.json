@@ -24,7 +24,7 @@
 		"message": "아이디어가 있습니까?[알려 주세요]"
 	},
 	"txtAbout": {
-		"message": "소개합니다."
+		"message": "소개"
 	},
 	"txtDonate": {
 		"message": "기부해 주세요."
@@ -33,7 +33,7 @@
 		"message": "로딩 중..."
 	},
 	"txtComingSoon": {
-		"message": "곧 찾아옵니다!"
+		"message": "Coming Soon!"
 	},
 	"txtHours": {
 		"message": "시간"
@@ -63,7 +63,7 @@
 		"message": "전체보기 줄입니다. 최소 2개 이상의 태스크가 등록됐을 때만 나타납니다.\n\n경과 시간(Time Spent)은 등록된 태스크에 이미 쓰여진 시간을 보여줍니다.\n목표(Goal)는 현재 등록된 모든 태스크에 설정된 목표 시한을 보여줍니다. (기한 없음으로 설정된 태스크 제외)\n진행 상황(Progress)는 목표한 시한까지 남아있는 시간을 보여줍니다. 태스크에 이미 쓰여진 경과 시간을 제한 것입니다. 이 진행상황은 작업 목표 시간을 초과한 작업이나 목표시간이 정의되지 않은 작업은 포함하지 않습니다."
 	},
 	"txtNoTasks": {
-		"message": "아직 아직 어떤 작업도 만들지 않았습니다."
+		"message": "아직 어떤 작업도 만들지 않았습니다."
 	},
 	"txtEditTasks": {
 		"message": "작업 이름, 시간, 목표 등을 편집하려면 해당 항목을 더블 클릭하세요."
@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "총 소요 시간"
 	},
+	"txtOther": {
+		"message": "다른 것"
+	},
 	"txtTaskInfo": {
 		"message": "작업 정보"
 	},
@@ -184,6 +187,9 @@
 	},
 	"toolClearAllHistory": {
 		"message": "모든 작업 기록 삭제"
+	},
+	"toolReloadApp": {
+		"message": "앱 새로고침"
 	},
 	"toolClearData": {
 		"message": "이 앱에 기록된 모든 정보 삭제"
@@ -242,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "한 번에 한 작업만 실행되게 합니다. (멀티태스킹 불허)"
 	},
+	"optBackgroundRunning": {
+		"message": "앱이 닫혀도 task 시간 유지합니다."
+	},
 	"txtNotifSettings": {
 		"message": "알림 설정"
 	},
@@ -269,8 +278,17 @@
 	"optLoopSound": {
 		"message": "당신이 멈출때까지 알림음을 반복합니다"
 	},
+	"txtChartSettings": {
+		"message": "차트 설정"
+	},
 	"optEnableCharts": {
 		"message": "파이차트 활성화"
+	},
+	"optShowChartPercent": {
+		"message": "차트 비율 레이블 보기"
+	},
+	"optCombineSmallSlices": {
+		"message": "차트의 작은 부분을 다른 것과 통합하기"
 	},
 	"txtPerfSettings": {
 		"message": "성능 설정"
@@ -297,7 +315,7 @@
 		"message": "이것은 통상 어떤 오류라도 해결하지만, 당신의 모든 작업과 설정을 초기화시킬 것입니다."
 	},
 	"btnOK": {
-		"message": "OK"
+		"message": "수락"
 	},
 	"btnCancel": {
 		"message": "취소"
@@ -315,7 +333,7 @@
 		"message": "알림 닫기"
 	},
 	"btnStopAlarm": {
-		"message": "알림 멈추기"
+		"message": "알림 멈춤"
 	},
 	"btnSave": {
 		"message": "저장"
@@ -360,16 +378,28 @@
 		"message": "작업 시간기록계의 데이터를 완전히 삭제하시겠습니까?\n모든 작업과 설정정보를 삭제합니다."
 	},
 	"confResetSettings": {
-		"message": "당신은 정말 모든 환경설정을 그것들의 기본 설정으로 재설정하시길 원하십니까?"
+		"message": "모든 환경설정을 기본 설정으로 재설정하길 원하십니까?"
+	},
+	"confUpdated": {
+		"message": "Task Timer가 version $version$!로 업데이트 되었습니다!\nchangelog를 참고해 주세요.",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "만약 가동 중에 Chrome 이 앱을 자동 업데이트 하게 되면, task를 다시 시작해야 해야 합니다."
 	},
 	"confRating": {
-		"message": "이 앱에 대하여 크롬 웹스토어에서 별점과 리뷰를 작성해 주시겠습니까?\n이것은 정말 도움이 됩니다."
+		"message": "이 앱에 대하여 크롬 웹스토어에서 별점과 리뷰를 작성해 주시겠습니까?\n해주시면 저희에게 정말 도움이 됩니다."
 	},
 	"confSmallWindow": {
 		"message": "작업 시간기록계를 작은 윈도우나 작은 모니터 또는 저해상도 화면에서 실행하는 것으로 보입니다. 작업 목록에서 버튼 대신 아이콘을 쓰고 싶으십니까? 작업이 하나의 줄이상 차지하지 않는 것을 도와 드릴 것입니다.\n\n이 설정은 툴 메뉴에서 변경 가능합니다."
 	},
 	"noteTaskFinished": {
-		"message": "작업이 완료되었습니다!"
+		"message": "작업 완료!"
 	},
 	"noteTaskFinishedLong": {
 		"message": "<em>$taskName$<em\/> 작업이 목표시간에 도달했습니다!",
@@ -405,7 +435,7 @@
 		"message": "동기화를 위해 일정 정보를 보냈습니다."
 	},
 	"errGeneric": {
-		"message": "오류!"
+		"message": "에러!"
 	},
 	"errTask": {
 		"message": "유효하지 않은 작업 이름 또는 목표입니다."
@@ -430,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "이 앱이 이미 실행 중입니다.\n만약 상태가 제대로 나오지 않는다면, 밑에 있는 새로고침 버튼을 누르세요.\nChrome에서는 창을 닫게되면 Task Timer는 새로고침 됩니다."
 	},
 	"txtSuggestionTitle": {
 		"message": "의견 제안하기"

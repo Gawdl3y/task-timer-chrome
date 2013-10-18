@@ -1,9 +1,12 @@
 {
 	"appName": {
-		"message": "Temporizador de Tareas"
+		"message": "Tiempo de Tarea"
+	},
+	"appDesc": {
+		"message": "Una simple herramienta que ayuda a mantener un registro del tiempo dedicado a tareas tales como: Trabajo, Estudios, o cualquier otra."
 	},
 	"txtTitle": {
-		"message": "Temporizador de Tareas"
+		"message": "Tiempo de Tarea"
 	},
 	"txtDescription": {
 		"message": "Utiliza esta herramienta para mantener un registro del tiempo que pasas trabajando, estudiando o haciendo cualquier otro tipo de tarea."
@@ -51,7 +54,7 @@
 		"message": "¡Asegúrate de revisar los ajustes haciendo click en el botón con el icono de engranaje en la esquina superior derecha de esta aplicación!\nAllí encontrarás ajustes tales como notificaciones de escritorio para cuando se finaliza una tarea."
 	},
 	"infoPerformance": {
-		"message": "¿La aplicación corre de manera lenta para ti? Trata de incrementar la actualización de la gráfica de torta en ajustes, o deshabilitando  las gráficas de torta completamente. ¿ Todavía corre de manera lenta? Incrementa de manera general el tiempo para actualizaciones, o deshabilita el monitoreo del historial de tareas."
+		"message": "¿La aplicación corre de manera lenta para ti? Trata de incrementar la actualización de la gráfica de ajustes, o deshabilita  las gráficas completamente. ¿ Todavía corre lenta? Incrementa de manera general el tiempo de actualizacion, o deshabilita el monitoreo del historial de tareas."
 	},
 	"infoTranslate": {
 		"message": "¿Quieres ayudar a traducir \"Temporizador de tareas\" a otros lenguajes? Has click [aquí]"
@@ -185,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Limpiar todo el historial de tareas"
 	},
+	"toolReloadApp": {
+		"message": "Actualiza\/recarga  la aplicación"
+	},
 	"toolClearData": {
 		"message": "Limpiar toda la información de la aplicación"
 	},
@@ -241,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "Permitir que solo una tarea este activa a la vez."
+	},
+	"optBackgroundRunning": {
+		"message": "Mantiene el temporizador de las tareas corriendo mientras la aplicación esta cerrada"
 	},
 	"txtNotifSettings": {
 		"message": "Ajuste de notificaciones"
@@ -371,6 +380,18 @@
 	"confResetSettings": {
 		"message": "¿Realmente deseas regresar todas las configuraciones a los valores por defecto?"
 	},
+	"confUpdated": {
+		"message": "¡Temporizador de Tareas ha sido actualizado a la versión $version$!\n¿Te gustaría ver el registro de cambios?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Ten en cuenta que necesitarás iniciar tus tareas de nuevo si Chrome actualiza automáticamente la aplicación mientras esta operando en cualquier otro lugar."
+	},
 	"confRating": {
 		"message": "¿Te gustaría dar a esta aplicación una calificación\/comentario en la Tienda de Chrome (Chrome Web Store)?\n¡Realmente nos ayudaría!"
 	},
@@ -439,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "La aplicación está abierta ya.\nSi es incorrecto, presiona el botón de \"Recargar\" ubicado abajo de este mensaje. Temporizador de tareas se recargará como si hubieras cerrado Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Haz una sugerencia"

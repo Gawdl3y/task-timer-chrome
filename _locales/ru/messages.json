@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Очистить всю историю задач"
 	},
+	"toolReloadApp": {
+		"message": "Перезагрузить приложение"
+	},
 	"toolClearData": {
 		"message": "Очистить всю информацию приложения"
 	},
@@ -374,6 +377,15 @@
 	"confResetSettings": {
 		"message": "Вы действительно хотите вернуться к настройкам по умолчанию?"
 	},
+	"confUpdated": {
+		"message": "Таймер задач обновлен до версии $version$!\nХотите посмотреть историю изменений?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
 	"confRating": {
 		"message": "Хотите оценить и оставить отзыв о приложении в Chrome Web Store?\nЭто очень поможет!"
 	},
@@ -442,6 +454,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Программа уже запущена.\nЕсли это не так, нажмите кнопку Перезагрузка. Таймер задач будет перезагружен так, будто вы закроете Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Внести свое предложение"

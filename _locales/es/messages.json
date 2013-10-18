@@ -57,7 +57,7 @@
 		"message": "¿La aplicación se ejecuta lentamente? Intenta alargar el tiempo de actualización de los gráficos circulares, en la configuración, o desactiva completamente los gráficos.\n¿Aún va lento? Aumenta el tiempo de actualización general o desactiva el historial de tareas."
 	},
 	"infoTranslate": {
-		"message": "¿Quieres ayudar a traducir el texto de esta aplicación a otraos idiomas? Haz clic [aquí]."
+		"message": "¿Quieres ayudar a traducir el texto de esta aplicación a otros idiomas? Haz clic [aquí]."
 	},
 	"infoTotals": {
 		"message": "Esta es la fila de totales. Sólo aparece cuando tienes más de una tarea.\n\nLa columna \"Tiempo empleado\" de esta fila suma el tiempo empleado en cada una de tus tareas.\nLa columna \"Objetivo\" de esta fila suma el tiempo de todos los tiempos objetivo no indefinidos de tus tareas.\nLa columna \"Progreso\" de esta fila muestra el progreso hacia el total de los tiempos objetivo de todas sus tareas. Este progreso no incluye el tiempo que haya rebasado algun tiempo objetivo, ni el tiempo empleado en las tareas con tiempo objetivo indefinido."
@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Eliminar todo el historial de la Tarea"
 	},
+	"toolReloadApp": {
+		"message": "Recargar la aplicación"
+	},
 	"toolClearData": {
 		"message": "Eliminar todos los datos de la aplicación"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "Sólo permitir una tarea al mismo tiempo"
+	},
+	"optBackgroundRunning": {
+		"message": "Mantenga las tareas de medición mientras la aplicación está cerrada"
 	},
 	"txtNotifSettings": {
 		"message": "Opciones de notificación"

@@ -3,16 +3,16 @@
 		"message": "任务计时器"
 	},
 	"appDesc": {
-		"message": "一个用来跟踪任务时间消耗的简单工具,包括工作,学习,等其他任务."
+		"message": "一个用来跟踪记录任务消耗时间的简单工具，包括工作、学习等任务。"
 	},
 	"txtTitle": {
 		"message": "任务计时器"
 	},
 	"txtDescription": {
-		"message": "用这个工具来记录你在工作、学习或者其他任何事情上所用的时间。"
+		"message": "用这个工具来记录你在工作、学习或者任何其他事情上所用的时间。"
 	},
 	"txtTranslationsAccuracy": {
-		"message": "请注意：各种本地语言的翻译可能没有准确表达出原本的含义，甚至出现翻译错误的情况。"
+		"message": "请注意：不同语言的翻译可能没有准确表达出原本的含义，甚至出现翻译错误。"
 	},
 	"txtCreatedBy": {
 		"message": "由[Schuyler Cebulskie]编写"
@@ -21,7 +21,7 @@
 		"message": "报告错误"
 	},
 	"txtSuggest": {
-		"message": "有好的点子？[告诉我]"
+		"message": "好的点子？[告诉我]"
 	},
 	"txtAbout": {
 		"message": "关于"
@@ -48,13 +48,13 @@
 		"message": "无限期"
 	},
 	"infoData": {
-		"message": "注意：记录只能在本地保存，只能在您的电脑上使用浏览器来查看数据。\n另外，请放心，清理Chrome缓存和历史记录不会删除您的任务。"
+		"message": "注意：因为记录只能在本地保存，所以您只能在您的电脑上用浏览器来查看数据。\n另外，清理Chrome缓存和历史记录不会删除您的任务。"
 	},
 	"infoSettings": {
-		"message": "点击右上角的齿轮图标进行设置。\n您甚至可以设置任务结束时进行桌面提醒！"
+		"message": "请点击右上角的齿轮图标进行设置。\n您甚至可以在任务结束时让计时器执行桌面提醒！"
 	},
 	"infoPerformance": {
-		"message": "加载缓慢？请在设置里延长饼状图的刷新间隔，或者设置不显示饼状图。\n仍然很慢？请延长总刷新间隔，或关闭历史任务追踪。"
+		"message": "加载缓慢？请设置延长饼状图的刷新间隔，或不显示饼状图。\n仍然很慢？请延长总刷新间隔，或关闭历史任务追踪。"
 	},
 	"infoTranslate": {
 		"message": "想帮忙把任务计时器翻译成别的语言吗？点击[这里]。"
@@ -66,7 +66,7 @@
 		"message": "您还没有创建任何任务"
 	},
 	"txtEditTasks": {
-		"message": "双击一项任务的名称、时间或目标时间进行编辑。"
+		"message": "双击一项任务的名称、时间或目标时间来编辑。"
 	},
 	"lblTask": {
 		"message": "任务"
@@ -117,7 +117,7 @@
 		"message": "任务名称"
 	},
 	"lblGoalBoth": {
-		"message": "目标（小时：分钟）"
+		"message": "目标时间（小时：分钟）"
 	},
 	"lblGoalHours": {
 		"message": "目标小时"
@@ -159,7 +159,7 @@
 		"message": "历史"
 	},
 	"txtHistoryDisabled": {
-		"message": "任务历史跟踪功能被关闭了，你可以在工具菜单中重新开启它。"
+		"message": "任务历史跟踪功能被关闭了，您可以在工具菜单中重新开启它。"
 	},
 	"txtSelectDate": {
 		"message": "请选择日期。"
@@ -228,16 +228,16 @@
 		"message": "使用软件自带的对话提示而非Chrome浏览器的对话提示"
 	},
 	"optUpdateAlert": {
-		"message": "在软件更新后打开"
+		"message": "软件更新后打开"
 	},
 	"txtTaskSettings": {
 		"message": "任务设置"
 	},
 	"optEnableSync": {
-		"message": "允许同步（测试版功能，可能出错）"
+		"message": "开启同步（测试版功能，可能出错）"
 	},
 	"optTrackHistory": {
-		"message": "追踪任务历史（选择此项可使你看到每个任务的统计数据）"
+		"message": "追踪任务历史（选择此项可使您看到每个任务的统计数据）"
 	},
 	"optNoOvertime": {
 		"message": "不允许任务超过目标完成时间"
@@ -249,7 +249,7 @@
 		"message": "只允许同时进行一个任务"
 	},
 	"optBackgroundRunning": {
-		"message": "当应用关闭的时候,保持任务计时继续."
+		"message": "当应用关闭的时候，任务继续计时。"
 	},
 	"txtNotifSettings": {
 		"message": "提示设置"
@@ -258,7 +258,7 @@
 		"message": "当一项任务到达完成时间时在页面上显示弹出窗口"
 	},
 	"optShowNotification": {
-		"message": "当一项任务到达完成时间时在桌面上显示提示窗口"
+		"message": "当一项任务到达完成时间时在桌面上提示"
 	},
 	"optPlaySound": {
 		"message": "当一项任务到达完成时间时播放声音"
@@ -306,7 +306,7 @@
 		"message": "保存设置"
 	},
 	"txtJSError": {
-		"message": "脚本出现错误，请使用以下信息报错，并填写您的操作及出错情况。"
+		"message": "脚本错误，请使用以下信息反馈错误，并填写您的操作及出错情况。"
 	},
 	"txtTriedRefresh": {
 		"message": "您尝试刷新页面了吗？"
@@ -315,7 +315,7 @@
 		"message": "这通常会修复所有的问题，但是会清除所有的任务及设置。"
 	},
 	"btnOK": {
-		"message": "OK"
+		"message": "好"
 	},
 	"btnCancel": {
 		"message": "取消"
@@ -378,10 +378,10 @@
 		"message": "你确定要完全清除任务计时器的所有数据吗？\n这将删除你所有的任务和设置。"
 	},
 	"confResetSettings": {
-		"message": "你确定要将所有的设置还原为默认设置吗？"
+		"message": "你确定要还原默认设置吗？"
 	},
 	"confUpdated": {
-		"message": "任务计时器将更新到版本$version$!\n想看看变更日志吗?",
+		"message": "任务计时器将更新到版本$version$!\n想看看更新日志吗?",
 		"placeholders": {
 			"version": {
 				"content": "$1",
@@ -390,7 +390,7 @@
 		}
 	},
 	"confUpdatedRestartAddendum": {
-		"message": "如果应用运行时候,Chrome自动更新了应用,请一定记得你需要重新开始任务."
+		"message": "如果应用运行时候,Chrome自动更新了应用,请记得重新开始任务。"
 	},
 	"confRating": {
 		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
@@ -414,10 +414,10 @@
 		"message": "桌面提示可以使用了！"
 	},
 	"noteNotifsWorkBody": {
-		"message": "你看到这个提示说明桌面提示打开并且正常运行了！耶！"
+		"message": "当你看到这个提示说明桌面提示功能已经打开并且已经正常运行了！耶！"
 	},
 	"noteNoLocalFiles": {
-		"message": "你好像在使用电脑上的一个声音文件作为自定义声音的网址。\n不幸的是，本地文件是不能使用的，因为Chrome浏览器不允许软件使用你本地的文件系统，即时是一个声音文件也不可以。\n只有网址（用http，https，或者ftp开头的）才能使用。这意味着你需要找一个网上的声音文件，或上传你的声音文件到网上。"
+		"message": "你好像在使用电脑上的一个声音文件作为自定义声音的网址。\n不幸的是，不能使用本地文件，因为Chrome浏览器不允许软件接入你本地的文件，甚至是一个声音文件。\n只有网址（用http，https，或者ftp开头的）才能使用。这意味着你需要找一个网上的声音文件，或上传你的声音文件到网上。"
 	},
 	"noteErrorOccurred": {
 		"message": "出现错误！"
@@ -465,7 +465,7 @@
 		"message": "应用已经打开.\n如果这个出现的不正常,按下方的重新载入按钮.任务计时器将会重新载入,就像关闭了Chrome一样."
 	},
 	"txtSuggestionTitle": {
-		"message": "提一个建议"
+		"message": "提建议"
 	},
 	"txtSuggestionInfo": {
 		"message": "想要提建议，请按[这里]。\n如果之前没有人提过类似的建议，请点击“新问题”。确保选择模板中的”要求优化“并在题目中简单描述建议内容！\n如果你有多个建议，请就每个问题创建一个单独的建议。"

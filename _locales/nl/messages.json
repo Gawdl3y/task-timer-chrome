@@ -471,7 +471,7 @@
 		"message": "Om een suggestie achter te laten, kun je [hier] klikken (engels).\nAls niemand anders hetzelfde idee heeft achtergelaten, klik je op \"New issue\". Zorg ervoor dat je \"Enhancement Request\" selecteert als sjabloon, en maak een beschrijvende titel!\nAls je meerdere ideeën hebt, creëer dan alstublieft aparte kwesties voor elk idee."
 	},
 	"txtBugTitle": {
-		"message": "Meld een bug"
+		"message": "Meld een probleem"
 	},
 	"txtBugInfo": {
 		"message": "Om een bug te rapporteren, kun je [hier] klikken.\nAls niemand anders dezelfde bug heeft gerapporteerd, klik je op \"New Issue\". Zorg ervoor dat je een beschrijvende titel maakt!\nAls je meerdere bugs hebt gevonden, creëer dan alstublieft aparte kwesties voor elk idee."

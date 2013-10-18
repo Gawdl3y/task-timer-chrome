@@ -1,6 +1,6 @@
 {
 	"appName": {
-		"message": "Task Timer : Aufgabenplaner"
+		"message": "Aufgabenplaner"
 	},
 	"appDesc": {
 		"message": "Ein einfaches Tool, um zu dokumentieren, wie viel Zeit Sie für Ihre Arbeit, Ihr Studium oder jede andere Art von Aufgabe aufwenden."
@@ -374,6 +374,18 @@
 	"confResetSettings": {
 		"message": "Sind Sie sicher, dass Sie alle Einstellungen auf die Standardwerte zurücksetzen wollen?"
 	},
+	"confUpdated": {
+		"message": "Task Timer wurde aktualisiert zu Version  $version$!\nWürden Sie gerne sehen, was sich geändert hat?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Bitte beachten Sie, daß Sie Ihre Aufgaben neu starten müssen, sollte Chrome die App automatisch aktualisieren, während einige der Aufgaben ausgeführt werden."
+	},
 	"confRating": {
 		"message": "Möchten Sie für diese Anwendung im Chrome Web Store eine Bewertung abgeben?\nIch wäre Ihnen sehr dankbar!"
 	},
@@ -442,6 +454,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Die App ist bereits offen.\nFalls das nicht der Fall sein sollte, drücken Sie bitte den Button \"Neu laden\". Task Timer wird neu geladen, so als ob Sie Chrome geschlossen hätten."
 	},
 	"txtSuggestionTitle": {
 		"message": "Vorschlag machen"
