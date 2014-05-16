@@ -1,6 +1,9 @@
 {
+	"appName": {
+		"message": "Task Timer"
+	},
 	"appDesc": {
-		"message": "Uma maneira simples de ter consciência do tempo dedicado ao trabalho, estudos e outras tarefas\n\nUma ferramenta simples para ajudar a cronometrar o tempo passado em várias tarefas varias, tais como trabalho, estudo entre outras coisas."
+		"message": "Uma maneira simples de ter consciência do tempo dedicado ao trabalho, estudos e outras tarefas."
 	},
 	"txtTitle": {
 		"message": "Gestor de tarefas"
