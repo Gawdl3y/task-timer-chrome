@@ -84,15 +84,16 @@ function update_time() {
                         }
 
                         // Show Desktop Notification
-                        if(Setting('notify') && webkitNotifications.checkPermission() === 0) {
-                            var notification = webkitNotifications.createNotification('style/images/icon-64.png', locale('noteTaskFinished', tasks[i].text), locale('noteTaskFinishedLong', tasks[i].text));
+                        if(Setting('notify') && (Notification.permission === 'granted' || !Notification.permission)) {
+                            var notification = new Notification(locale('noteTaskFinished', tasks[i].text), {
+                                body: locale('noteTaskFinishedLong', tasks[i].text),
+                                icon: '/style/images/icon-64.png'
+                            });
                             notification.onclick = function() {
                                 $('#close-alarm').click();
                                 window.focus();
-                                this.cancel();
+                                this.close();
                             };
-
-                            notification.show();
                         }
                     }
                 }

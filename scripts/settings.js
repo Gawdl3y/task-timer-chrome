@@ -158,8 +158,11 @@ function SaveSettings() {
 
     // Check for notification permissions
     if(Setting('notify')) {
-        webkitNotifications.requestPermission(function() {
-            webkitNotifications.createNotification('/style/images/icon-64.png', locale('noteNotifsWork'), locale('noteNotifsWorkBody')).show();
+        Notification.requestPermission(function(permission) {
+            if(permission === 'granted') new Notification(locale('noteNotifsWork'), {
+                body: locale('noteNotifsWorkBody'),
+                icon: '/style/images/icon-64.png'
+            });
         });
     }
 
