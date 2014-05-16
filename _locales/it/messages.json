@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Tempo trascorso totale (Cronologia)"
 	},
+	"txtOther": {
+		"message": "Altri"
+	},
 	"txtTaskInfo": {
 		"message": "Informazione sull'attività"
 	},
@@ -184,6 +187,9 @@
 	},
 	"toolClearAllHistory": {
 		"message": "Elimina la cronologia di tutte le attività"
+	},
+	"toolReloadApp": {
+		"message": "Ricarica l'app"
 	},
 	"toolClearData": {
 		"message": "Elimina tutti i dati dell'applicazione"
@@ -242,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Consenti l'esecuzione di una sola attività alla volta"
 	},
+	"optBackgroundRunning": {
+		"message": "Mantieni il conteggio del tempo mentre l'app è chiusa"
+	},
 	"txtNotifSettings": {
 		"message": "Impostazioni notifiche"
 	},
@@ -269,8 +278,17 @@
 	"optLoopSound": {
 		"message": "Ripeti il suono finchè non lo disattivi"
 	},
+	"txtChartSettings": {
+		"message": "Settaggio dei grafici"
+	},
 	"optEnableCharts": {
 		"message": "Attiva grafici a torta"
+	},
+	"optShowChartPercent": {
+		"message": "Mostra l'etichetta della percentuale"
+	},
+	"optCombineSmallSlices": {
+		"message": "Unisci le sezioni piccole del grafico in \"Altri\""
 	},
 	"txtPerfSettings": {
 		"message": "Impostazioni prestazioni"
@@ -362,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Sei sicuro di voler ripristinare tutte le impostazioni al loro valore predefinito?"
 	},
+	"confUpdated": {
+		"message": "Task Timer è stato aggiornato alla version $version$!\nVuoi vedere il log delle modifiche?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Sappi che dovrai far partire nuovamente i tuoi task se Chrome aggiornerà automaticamente l'app durante l'esecuzione."
+	},
 	"confRating": {
 		"message": "Vuoi votare\/commentare sul Chrome Web Store?\nCi aiuterebbe molto!"
 	},
@@ -430,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "L'applicazione è già aperta.\nSe questo non ti sembra corretto, premi sotto il pulsante ricarica. Task Timer sarà ricaricato come se avessi chiuso Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Invia un suggerimento"

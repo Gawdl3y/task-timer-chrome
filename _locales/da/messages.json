@@ -1,0 +1,479 @@
+{
+	"appName": {
+		"message": "Opgave timer"
+	},
+	"appDesc": {
+		"message": "Et enkelt værktøj, der holder styr på den tid, du bruger på arbejde, studie eller andre ting."
+	},
+	"txtTitle": {
+		"message": "Opgave Timer"
+	},
+	"txtDescription": {
+		"message": "Brug dette værktøj til at holde styr på tiden, du bruger på arbejde, studie eller andre opgaver af den slags."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Oversættelserne er ikke nødvendigvis korrekte"
+	},
+	"txtCreatedBy": {
+		"message": "Lavet af [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Indrapporter en fejl i programmet"
+	},
+	"txtSuggest": {
+		"message": "Har du en god idé? [Kontakt mig]"
+	},
+	"txtAbout": {
+		"message": "Om"
+	},
+	"txtDonate": {
+		"message": "Doner til udvikling"
+	},
+	"txtLoading": {
+		"message": "Indlæser..."
+	},
+	"txtComingSoon": {
+		"message": "Kommer snart!"
+	},
+	"txtHours": {
+		"message": "Timer"
+	},
+	"txtMinutes": {
+		"message": "Minutter"
+	},
+	"txtSeconds": {
+		"message": "Sekunder"
+	},
+	"txtIndefinite": {
+		"message": "Ubestemt"
+	},
+	"infoData": {
+		"message": "Note: Dette gemmes kun lokalt, på din computer og i din browser.\nBare rolig, din opgaver bliver **ikke** slettet, hvis du sletter Chrome's cache\/storage."
+	},
+	"infoSettings": {
+		"message": "Husk at tjekke indstillingerne, du finder dem, ved at klikke på tandhjulet i øverste højre hjørne af app'en!\nDer er indstillinger såsom skrivebords-notifikationer for når en opgave er færdig."
+	},
+	"infoPerformance": {
+		"message": "Kører app'en langsomt for dig? prøv at forøge kagediagrams opdateringshastighed i indstillinger, eller at slå kage diagrammer helt fra.\nKører den stadigvæk langsomt? Forøg den generelle opdaterings hastighed eller slå 'task history' fra."
+	},
+	"infoTranslate": {
+		"message": "Vil du hjælpe med at oversætte Task Timer til andre sprog? Klik [her]"
+	},
+	"infoTotals": {
+		"message": "Det her er sum rækken. Den er kun synlig når du har mere end én opgave.\n\n\"Tid Brugt\" kolonnen i denne række viser summen af den tid du har brugt på alle dine opgaver.\n\"Mål\" kolonnen viser summen af alle 'mål' tiderne fra alle dine opgaver, ud over de uendelige.\n\"Fremskridt\" kolonnen viser det totalle fremskridt mod at opfylde dine mål af alle dine opgaver. Denne process inkluderer ikke den tid du har brugt længere end det mål du har sat for din opgave, eller den tid du har brugt på dem du har mærket som 'uendelige'."
+	},
+	"txtNoTasks": {
+		"message": "Du har ikke lavet nogle opgaver endnu!"
+	},
+	"txtEditTasks": {
+		"message": "Dobbleklik et opgave navn, tid eller mål for at ændre det."
+	},
+	"lblTask": {
+		"message": "Opgaver"
+	},
+	"lblTimeSpent": {
+		"message": "Tid brugt"
+	},
+	"lblGoal": {
+		"message": "Mål"
+	},
+	"lblProgress": {
+		"message": "Fremskridt"
+	},
+	"lblOptions": {
+		"message": "Indstillinger"
+	},
+	"lblTotals": {
+		"message": "Sum"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stop"
+	},
+	"btnInfo": {
+		"message": "Information"
+	},
+	"btnReset": {
+		"message": "Nulstil"
+	},
+	"btnDelete": {
+		"message": "Slet"
+	},
+	"btnClearHistory": {
+		"message": "Ryd historie"
+	},
+	"btnResetAll": {
+		"message": "Nulstil alt"
+	},
+	"btnDeleteAll": {
+		"message": "Slet alt"
+	},
+	"lblName": {
+		"message": "Navn"
+	},
+	"lblTaskName": {
+		"message": "Opgave navn"
+	},
+	"lblGoalBoth": {
+		"message": "Mål (timer : minutter)"
+	},
+	"lblGoalHours": {
+		"message": "Mål timer"
+	},
+	"lblGoalMinutes": {
+		"message": "Mål minutter"
+	},
+	"lblIndefinite": {
+		"message": "Ubestemt"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Start opgave øjeblikkeligt"
+	},
+	"btnAddTask": {
+		"message": "Tilføj opgave"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Tid brugt på opgaver"
+	},
+	"txtTotalPieTitle": {
+		"message": "Total tid brugt i alt (historie)"
+	},
+	"txtOther": {
+		"message": "Andet"
+	},
+	"txtTaskInfo": {
+		"message": "Opgave information"
+	},
+	"txtNoDescription": {
+		"message": "Indtast information\/kommentarer omkring opgaven"
+	},
+	"txtTaskOptions": {
+		"message": "Opgave indstillinger"
+	},
+	"txtHistory": {
+		"message": "Historie"
+	},
+	"txtHistoryDisabled": {
+		"message": "Opgave historie sporing er slået fra. Du kan slå det til i værktøjs menuen."
+	},
+	"txtSelectDate": {
+		"message": "Vælg venligst en dato."
+	},
+	"txtNoHistory": {
+		"message": "Der er ikke noget gemt historie den dag."
+	},
+	"lblDescription": {
+		"message": "Forklaring"
+	},
+	"lblHour": {
+		"message": "Time"
+	},
+	"tskExcludeTotals": {
+		"message": "Ekskluder denne opgave fra sum rækken"
+	},
+	"tskExcludeCharts": {
+		"message": "Ekskluder denne opgave fra kage-diagrammerne"
+	},
+	"txtTools": {
+		"message": "Værktøjer"
+	},
+	"toolExportCSV": {
+		"message": "Eksporter opgaver som en CSV fil"
+	},
+	"toolClearAllHistory": {
+		"message": "Ryd alt opgave historie"
+	},
+	"toolReloadApp": {
+		"message": "Genstart Programmet"
+	},
+	"toolClearData": {
+		"message": "Ryd alle appen's data."
+	},
+	"toolResetSettings": {
+		"message": "Nulstil til start"
+	},
+	"txtSettings": {
+		"message": "Indstillinger"
+	},
+	"txtGeneralSettings": {
+		"message": "Generelle indstillinger"
+	},
+	"optHideNotice": {
+		"message": "Skjul notifikations boksen"
+	},
+	"optConfirmReset": {
+		"message": "Bed om konfirmation når du forsøger at nulstille en opgave"
+	},
+	"optConfirmDelete": {
+		"message": "Bed om konfirmation når du forsøger at slette en opgave"
+	},
+	"optStartDefault": {
+		"message": "Afmærk \"Start\" boksen automatisk."
+	},
+	"optSaveFields": {
+		"message": "Behold hvad du har i de nye opgavefelter når du genstarter appen"
+	},
+	"optUseIcons": {
+		"message": "Brug ikoner i stedet for knapper i opgave indstillinger (godt til små skærme)"
+	},
+	"opt12Hour": {
+		"message": "Brug 12-timers format til tider det er muligt."
+	},
+	"optCustomDialogs": {
+		"message": "Brug brugerdefinerede dialoger i stedet for Chrome's indbyggede."
+	},
+	"optUpdateAlert": {
+		"message": "Åben appen når den er opdateret"
+	},
+	"txtTaskSettings": {
+		"message": "Opgave indstillinger"
+	},
+	"optEnableSync": {
+		"message": "Tillad synkronisering (EKSPERIMENTEL, kan påvirke dine opgaver)"
+	},
+	"optTrackHistory": {
+		"message": "Spor opgave historie (så du kan se statistikker for hver opgave)"
+	},
+	"optNoOvertime": {
+		"message": "Tillad ikke opgaver at gå over deres målsatte tid."
+	},
+	"optStopTimer": {
+		"message": "Afslut en opgave når den når dens mål."
+	},
+	"optOnlyOne": {
+		"message": "Tillad kun at have 1 opgave aktiv ad gangen"
+	},
+	"optBackgroundRunning": {
+		"message": "Fortsæt med at tage tid mens programmet er lukket"
+	},
+	"txtNotifSettings": {
+		"message": "Notifikations Indstillinger"
+	},
+	"optShowPopup": {
+		"message": "Vis en pop-up på siden når en opgave når dens mål"
+	},
+	"optShowNotification": {
+		"message": "Vis en skrivebord notifikation når en opgave når dens mål"
+	},
+	"optPlaySound": {
+		"message": "Afspil en lyd når en opgave når dens mål"
+	},
+	"optUseDefault": {
+		"message": "Brug den primære lydfil"
+	},
+	"optUseCustom": {
+		"message": "Brug en brugerdefineret lydfil"
+	},
+	"optSoundURL": {
+		"message": "Brugerdefineret lydfil URL"
+	},
+	"optBtnPreview": {
+		"message": "Hør lyd"
+	},
+	"optLoopSound": {
+		"message": "Afspil lyd uendeligt indtil du stopper den"
+	},
+	"txtChartSettings": {
+		"message": "Diagram Indstillinger"
+	},
+	"optEnableCharts": {
+		"message": "Tillad kagediagrammer"
+	},
+	"optShowChartPercent": {
+		"message": "Vis diagram procent titler"
+	},
+	"optCombineSmallSlices": {
+		"message": "Kombinér små stykker af diagrammet til \"andet\""
+	},
+	"txtPerfSettings": {
+		"message": "Ydeevne Indstillinger"
+	},
+	"optUpdateTime1": {
+		"message": "Opdater opgavernes tid hver"
+	},
+	"optUpdateTime2": {
+		"message": "Sekund(er)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Opdater kage diagrammerne hver"
+	},
+	"txtSaveSettings": {
+		"message": "Gem Indstillinger"
+	},
+	"txtJSError": {
+		"message": "Der er sket en fejl i scriptet. Rapporter venligst en bug med følgende information, og hvad du gjorde\/hvad der skete."
+	},
+	"txtTriedRefresh": {
+		"message": "Har du forsøgt at opdatere appen?"
+	},
+	"txtUsualFix": {
+		"message": "Dette vil normalt rette alle fejl, men vil rydde alle dine opgaver og indstillinger."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Cancel"
+	},
+	"btnYes": {
+		"message": "Ja"
+	},
+	"btnNo": {
+		"message": "Nej"
+	},
+	"btnClose": {
+		"message": "Luk"
+	},
+	"btnCloseNotice": {
+		"message": "Luk notifikation"
+	},
+	"btnStopAlarm": {
+		"message": "Stop Alarm"
+	},
+	"btnSave": {
+		"message": "Gem"
+	},
+	"confResetTask": {
+		"message": "Er du sikker på at du ønsker at nulstille opgaven \"$taskName$\"?\nDette vil ikke nulstille opgavens historie.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Er du sikker på at du ønsker at slette denne opgave \"$taskName$\"?\nDette vil slette opgavens historie også.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Er du sikker på at du ønsker at slette denne opgaves historie \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Er du sikker på at du ønsker at nulstille tiden brugt på ALLE dine opgaver?"
+	},
+	"confDeleteAll": {
+		"message": "Er du sikker på du ønsker at slette ALLE dine opgaver."
+	},
+	"confClearAllHistory": {
+		"message": "Er du sikker på at du vil slette historien på ALLE dine opgaver?"
+	},
+	"confResetData": {
+		"message": "Er du sikker på at du vil fjerne alt Task Timers data fuldstændigt?\nDette vil slette dine egne tasks og instillinger"
+	},
+	"confResetSettings": {
+		"message": "Er du sikker på at du vil sætte alle indstillinger tilbage til deres standart instillinger?"
+	},
+	"confUpdated": {
+		"message": "Task Timer er blevet opdateret til version $version$!\nVil du gerne se hvad der er ændret?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Du skal være opmærksom på at du bliver nød til at state din opgave igen, hvis Chrome har Autoopdateret programmet mens der var noge der brugte det."
+	},
+	"confRating": {
+		"message": "Vil du være sød at give denne app en rating\/brugerbeskrivelse  på Cromes Web store?\nDet vill virkeligt være en stor hjælp!"
+	},
+	"confSmallWindow": {
+		"message": "det virker til at du kører Task Timer i et lille vindue, lille skærm eller med meget lav opløsning. Vil du skifte til Iconer istedet for knapper i opgavelisten? Dette vil hjælpe til at forhindre at opgaver ikke fylder mere end en linje\n\nDisse indstillinger kan også ændres i værktøjs menuen."
+	},
+	"noteTaskFinished": {
+		"message": "Opgave fuldført!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Opgaven \"$taskName$\" har nået sit mål!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Skrivebords Notifikationer Virker!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "At du ser dette, betyder det, at skrivebords notifikationer er aktive og virker korrekt! Woo!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Det ser ud til at du bruger en sti til en lokal fil på  din maskine for selv valgte lyd URL.\nDesværre, kan man ikke bruge filer på sin lokale pc, da crome ikke giver adgang til de lokale filer på computeren. \nKun internet URLs (begynder med http https eller ftp ) kan bruges, Dette betyder at du blivr nød til at finde lyden du vil bruge online eller uploade den til et sted på nettet."
+	},
+	"noteErrorOccurred": {
+		"message": "Der er opstået en fejl"
+	},
+	"sucSavedDesc": {
+		"message": "beskrivelse gemt!"
+	},
+	"sucSavedSettings": {
+		"message": "indstillinger gemt!"
+	},
+	"sucSyncReceived": {
+		"message": "har modtaget opgave data for synkronisering"
+	},
+	"sucSyncSent": {
+		"message": "Sendt opgave data til synkronisering"
+	},
+	"errGeneric": {
+		"message": "Fejl!"
+	},
+	"errTask": {
+		"message": "Ugyldigt opgave navn eller mål"
+	},
+	"errTaskName": {
+		"message": "Ugyldigt opgave navn"
+	},
+	"errTaskTime": {
+		"message": "Ugyldig tid"
+	},
+	"errGoalTime": {
+		"message": "Ugyldig mål tid"
+	},
+	"errSoundURL": {
+		"message": "Ugyldig sti til special lyd"
+	},
+	"errFinishEditing": {
+		"message": "Færdigør redigeringen af opgaven \"$taskName$\" først.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "App'en er allerede åben,\nHvis dette virker for en fejl, tryk da på genindlæs knappen herunder. Task Timer vil derefter genstarte som hvis du havde genstartet Crome."
+	},
+	"txtSuggestionTitle": {
+		"message": "Giv et forslag"
+	},
+	"txtSuggestionInfo": {
+		"message": "For at stille et forslag, klik venligst [her]\nHvis der ikke er nogen der har rapporteret den samme ide, klik \"Nyt Problem\". Vær sikker på at vælge \"forbedrings ønske\" som template og vær så præcis i din beskrivelse"
+	},
+	"txtBugTitle": {
+		"message": "Rapporter en fejl"
+	},
+	"txtBugInfo": {
+		"message": "For at rapportere en fejl, klik venligst [her]\nHvis ingen har rapporteret den samme fejl, klik \"Ny Fejl\" og giv det en beskrivende overskrift.\nHvis du har funde flere fejl, skal du oprette en separat formular for hver enkelt.\nHusk også at få det nederste data med i din fejl rapport."
+	}
+}

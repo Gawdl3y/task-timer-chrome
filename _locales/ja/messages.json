@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "すべてのタスク履歴を消去する。"
 	},
+	"toolReloadApp": {
+		"message": "アプリケーションを再ロードする"
+	},
 	"toolClearData": {
 		"message": "すべてのアプリデータを消去する。"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "一度に一つのタスクの進行のみを許可する"
+	},
+	"optBackgroundRunning": {
+		"message": "アプリケーションが閉じている間もタスクの計測を続ける"
 	},
 	"txtNotifSettings": {
 		"message": "通知設定"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "すべての設定情報を初期化して宜しいですか？"
 	},
+	"confUpdated": {
+		"message": "タスクタイマーはバージョン$version$にアップデートされました。\nチェンジログを閲覧しますか？",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "タスク実行中に、クロームがアプリケーションを自動更新した場合、タスクを再スタートする必要があります。"
+	},
 	"confRating": {
 		"message": "クローム・ウェブ・ストアで、このアプリケーションの評価やレビューを行っていただけると、非常に助かります。"
 	},
@@ -397,6 +415,9 @@
 	},
 	"noteNotifsWorkBody": {
 		"message": "これが表示されているということはデスクトップ通知は有効で正常に作動しています！やったね！"
+	},
+	"noteNoLocalFiles": {
+		"message": "カスタムサウンドURLにあなたの機器のローカルファイルのパスを使用しているようです。\n残念ながら、サウンドのためでもローカルファイルは使用できません、クロームはあなたのローカルファイルシステムへのアクセスを許さないからです。(http httpsまたはftpで始まる）インタネットURLしか使用できません。サウンドファイルを使用したい場合、すでにオンライン上にあるもの又はアップロードされたサウンドファイルが必要です。"
 	},
 	"noteErrorOccurred": {
 		"message": "エラーが発生しました。"
@@ -440,8 +461,14 @@
 			}
 		}
 	},
+	"errAlreadyOpen": {
+		"message": "このアプリケーションは既に開いています。\nもしこれが誤りであれば、下にあるリロードボタンを押してください。タスクタイマーは、クロームを閉じたようにリロードされます。"
+	},
 	"txtSuggestionTitle": {
 		"message": "ツールについて提言する"
+	},
+	"txtSuggestionInfo": {
+		"message": "ご意見、ご感想は"
 	},
 	"txtBugTitle": {
 		"message": "バグ報告"

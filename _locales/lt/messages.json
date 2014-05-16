@@ -143,6 +143,9 @@
 	"txtTotalPieTitle": {
 		"message": "Visas praleistas laikas (istorija)"
 	},
+	"txtOther": {
+		"message": "Kiti"
+	},
 	"txtTaskInfo": {
 		"message": "Užduoties aprašymas"
 	},
@@ -184,6 +187,9 @@
 	},
 	"toolClearAllHistory": {
 		"message": "Išvalyti visą užduočių istoriją."
+	},
+	"toolReloadApp": {
+		"message": "Paleisti iš naujo programą"
 	},
 	"toolClearData": {
 		"message": "Išvalyti visus programos duomenis."
@@ -242,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Vienu metu leisti tik vieną užduotį"
 	},
+	"optBackgroundRunning": {
+		"message": "Skaičiuoti laiką, kai programa išjungta"
+	},
 	"txtNotifSettings": {
 		"message": "Pranešimų nustatymai"
 	},
@@ -269,8 +278,17 @@
 	"optLoopSound": {
 		"message": "Kartoti garsą, kol Jūs jį sustabdysite."
 	},
+	"txtChartSettings": {
+		"message": "Diagramos nustatymai"
+	},
 	"optEnableCharts": {
-		"message": "Įjungta dieagramos"
+		"message": "Įjungti diagramas"
+	},
+	"optShowChartPercent": {
+		"message": "Rodyti diagramos procentines reikšmes"
+	},
+	"optCombineSmallSlices": {
+		"message": "Įtraukti mažą skiltį \"Kiti\" į diagramą"
 	},
 	"txtPerfSettings": {
 		"message": "Našumo nustatymai"
@@ -362,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Ar Jūs tikrai norite nustatyti iš naujo visus nustatymus pagal numatytas vertes?"
 	},
+	"confUpdated": {
+		"message": "Užduočių laikmatis buvo atnaujintas iki $version$ versijos!\nNorite pamatyti pakeitimų žurnalą?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Atkreipkite dėmesį, jog užduotį reikia vėl pradėti, jei Chrome automatiškai atnaujino programą."
+	},
 	"confRating": {
 		"message": "Ar norėtumėte suteikti programai reitingą ar atsiliepimą Chrome Internetinėje parduotuvėje?\nTai tikrai pagelbėtų!"
 	},
@@ -430,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Programa jau atidaryta.\nJei ji rodoma netinkamai, spauskite mygtuką atnaujinti žemiau. Užduočių laikmatis bus atnaujintas, jei uždarysite Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Pateikti pasiūlymą."

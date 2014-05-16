@@ -1,0 +1,479 @@
+{
+	"appName": {
+		"message": "Oppgave planlegger"
+	},
+	"appDesc": {
+		"message": "Et enkelt verktøy til hjelp med å holde oversikt over tiden du bruker på arbeidsoppgaver, studier eller andre ting."
+	},
+	"txtTitle": {
+		"message": "Oppgaveplanlegger"
+	},
+	"txtDescription": {
+		"message": "Bruk dette verktøyet for å holde oversikt over tiden du bruker på arbeidsoppgaver, studier eller andre ting."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Oversettelsen er muligens ikke korrekte."
+	},
+	"txtCreatedBy": {
+		"message": "Opprettet [Schuyler Cebulskie]"
+	},
+	"txtReportBug": {
+		"message": "Rapporter en feil"
+	},
+	"txtSuggest": {
+		"message": "Har du en idé? [Fortell meg]"
+	},
+	"txtAbout": {
+		"message": "Om"
+	},
+	"txtDonate": {
+		"message": "Donér"
+	},
+	"txtLoading": {
+		"message": "Laster inn..."
+	},
+	"txtComingSoon": {
+		"message": "Kommer snart!"
+	},
+	"txtHours": {
+		"message": "Timer"
+	},
+	"txtMinutes": {
+		"message": "Minutter"
+	},
+	"txtSeconds": {
+		"message": "Sekunder"
+	},
+	"txtIndefinite": {
+		"message": "Udefinert"
+	},
+	"infoData": {
+		"message": "Merk: Denne siden lagrer kun lokalt, på datamaskinen, i nettleseren din. \nIkke bekymre deg, oppgavene dine vil ** ikke ** bli slettet hvis du tømmer Chrome sin cache\/lagring."
+	},
+	"infoSettings": {
+		"message": "Sørg for å sjekke ut innstillingene ved å klikke på tannhjulsknappen øverst i høyre hjørne av appen! \nDet er innstillinger som varsler for når en oppgave er ferdig, som for eksempel skrivebordsvarsling."
+	},
+	"infoPerformance": {
+		"message": "Kjører appen sakte for deg? Prøv å øke kakediagrammets oppdateringstid i innstillingene, eller skru av kakediagrammet helt. \nGår det fortsatt sakte? Øk generell oppdateringstid eller deaktiver oppgavehistoriesporing."
+	},
+	"infoTranslate": {
+		"message": "Ønsker du å hjelpe til med å oversette Task Timer til andre språk? Klikk [her]"
+	},
+	"infoTotals": {
+		"message": "Dette er oppsummerings raden. Det vises bare når du har mer enn én oppgave. \n\"Tid brukt\" kolonnen på denne raden utgjør den tid brukt på hver eneste en av dine oppgaver. \n\"Mål\"-kolonnen i denne raden utgjør tid for mål fra alle dine oppgaver, unntatt for de med som ikke er fastsatt. \n\"Fremdrift\"-kolonnen i denne raden gir deg den totale fremdriften for målene som er definert, for alle dine oppgaver. Fremdriften inkluderer ikke brukt tid som gikk ut over en oppgave's mål, eller tid brukt på oppgaver uten bestemte mål."
+	},
+	"txtNoTasks": {
+		"message": "Du har ikke opprettet noen oppgaver enda!"
+	},
+	"txtEditTasks": {
+		"message": "Dobbeltklikk på navnet,tiden eller målet til en oppgave for å redigere,"
+	},
+	"lblTask": {
+		"message": "Oppgave"
+	},
+	"lblTimeSpent": {
+		"message": "Tid benyttet"
+	},
+	"lblGoal": {
+		"message": "Mål"
+	},
+	"lblProgress": {
+		"message": "Fremgang"
+	},
+	"lblOptions": {
+		"message": "Valg"
+	},
+	"lblTotals": {
+		"message": "Total"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stopp"
+	},
+	"btnInfo": {
+		"message": "Informasjon"
+	},
+	"btnReset": {
+		"message": "Nullstill"
+	},
+	"btnDelete": {
+		"message": "Slett"
+	},
+	"btnClearHistory": {
+		"message": "Slett historie"
+	},
+	"btnResetAll": {
+		"message": "Nullstill alt"
+	},
+	"btnDeleteAll": {
+		"message": "Slett alt"
+	},
+	"lblName": {
+		"message": "Navn"
+	},
+	"lblTaskName": {
+		"message": "Oppgavenavn"
+	},
+	"lblGoalBoth": {
+		"message": "Mål (timer : minutter)"
+	},
+	"lblGoalHours": {
+		"message": "Måltimer"
+	},
+	"lblGoalMinutes": {
+		"message": "Målminutter"
+	},
+	"lblIndefinite": {
+		"message": "Uendelig"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Start oppgave umiddelbart"
+	},
+	"btnAddTask": {
+		"message": "Legg til en oppgave"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Tid benyttet på oppgave"
+	},
+	"txtTotalPieTitle": {
+		"message": "Total tid benyttet (historikk)"
+	},
+	"txtOther": {
+		"message": "Andre"
+	},
+	"txtTaskInfo": {
+		"message": "Oppgaveinformasjon"
+	},
+	"txtNoDescription": {
+		"message": "Legg inn informasjon\/kommentar til oppgaven"
+	},
+	"txtTaskOptions": {
+		"message": "Valg for oppgave"
+	},
+	"txtHistory": {
+		"message": "Historikk"
+	},
+	"txtHistoryDisabled": {
+		"message": "Sporing av historie er deaktivert. Du kan aktivere den i verktøymenyen."
+	},
+	"txtSelectDate": {
+		"message": "Vennligst velg en dato."
+	},
+	"txtNoHistory": {
+		"message": "Det er ikke noe historikk lagret på den dagen."
+	},
+	"lblDescription": {
+		"message": "Beskrivelse"
+	},
+	"lblHour": {
+		"message": "Time"
+	},
+	"tskExcludeTotals": {
+		"message": "Ekskluder denne oppgaven fra totalhistorikk"
+	},
+	"tskExcludeCharts": {
+		"message": "Ekskluder denne oppgaven fra kakediagram"
+	},
+	"txtTools": {
+		"message": "Verktøy"
+	},
+	"toolExportCSV": {
+		"message": "Eksoprter oppgave som CSV-fil"
+	},
+	"toolClearAllHistory": {
+		"message": "Slett all historie for oppgave"
+	},
+	"toolReloadApp": {
+		"message": "Last applikasjon på nytt"
+	},
+	"toolClearData": {
+		"message": "Nullstill programmets data"
+	},
+	"toolResetSettings": {
+		"message": "Nullstill til standardinnstillinger"
+	},
+	"txtSettings": {
+		"message": "Innstillinger"
+	},
+	"txtGeneralSettings": {
+		"message": "Generelle innstillinger"
+	},
+	"optHideNotice": {
+		"message": "Gjem varslingsboks"
+	},
+	"optConfirmReset": {
+		"message": "Be om tillatelser når du forsøker å nullstille en oppgave"
+	},
+	"optConfirmDelete": {
+		"message": "Be om bekreftelse når du prøver å slette en oppgave"
+	},
+	"optStartDefault": {
+		"message": "Ha avkrysningsboksen \"Start\" på som standard"
+	},
+	"optSaveFields": {
+		"message": "Behold det som står i 'ny oppgave'-feltet når du åpner appen på nytt"
+	},
+	"optUseIcons": {
+		"message": "Bruk ikoner i stedet for knapper for oppgaveinnstillinger (lurt for små skjermer)"
+	},
+	"opt12Hour": {
+		"message": "Bruk 12-timers format for klokke"
+	},
+	"optCustomDialogs": {
+		"message": "Bruk egendefinerte dialoger i stedet Chrome sine innebygde."
+	},
+	"optUpdateAlert": {
+		"message": "Åpne applikasjonen under oppdatering"
+	},
+	"txtTaskSettings": {
+		"message": "Innstillinger for oppgaver"
+	},
+	"optEnableSync": {
+		"message": "Skru på synkronisering (OBS! Kan tulle med oppgavene dine)"
+	},
+	"optTrackHistory": {
+		"message": "Følg oppgavehistorikk (så du kan se statistikk for hver oppgave)"
+	},
+	"optNoOvertime": {
+		"message": "Ikke tillat oppgaver å gå over tiden"
+	},
+	"optStopTimer": {
+		"message": "Stopp oppgaven når den har nådd sitt mål"
+	},
+	"optOnlyOne": {
+		"message": "Tillat kun én oppgave å kjøre av gangen"
+	},
+	"optBackgroundRunning": {
+		"message": "Behold kjørende oppgaver når applikasjonen er lukket."
+	},
+	"txtNotifSettings": {
+		"message": "Innstillinger for varsling"
+	},
+	"optShowPopup": {
+		"message": "Vis en popup på siden når en oppgave har nådd sitt mål"
+	},
+	"optShowNotification": {
+		"message": "Vis varsel på skrivebordet når en oppgave har nådd sitt mål"
+	},
+	"optPlaySound": {
+		"message": "Spill av en lyd når en oppgave har nådd sitt mål"
+	},
+	"optUseDefault": {
+		"message": "Bruk standardlyd"
+	},
+	"optUseCustom": {
+		"message": "Bruk egenvalgt lyd"
+	},
+	"optSoundURL": {
+		"message": "Lenke til egenvalgt lyd"
+	},
+	"optBtnPreview": {
+		"message": "Forhåndsvis lyd"
+	},
+	"optLoopSound": {
+		"message": "Gjenta lyden helt til du stopper den"
+	},
+	"txtChartSettings": {
+		"message": "Diagram innstillinger"
+	},
+	"optEnableCharts": {
+		"message": "Slå på kakediagram"
+	},
+	"optShowChartPercent": {
+		"message": "Vis prosent-etiketter i diagrammet"
+	},
+	"optCombineSmallSlices": {
+		"message": "Kombinèr mindre andeler av kakediagrammet til \"Andre\""
+	},
+	"txtPerfSettings": {
+		"message": "Innstillinger for ytelse"
+	},
+	"optUpdateTime1": {
+		"message": "Oppdater tiden for en oppgave hver"
+	},
+	"optUpdateTime2": {
+		"message": "sekund(er)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Oppdater kakediagram hver"
+	},
+	"txtSaveSettings": {
+		"message": "Lagre innstillinger"
+	},
+	"txtJSError": {
+		"message": "En feil har skjedd i ett skript. Vennligst rapporter en feil med følgende informasjon, og om hva du gjorde når dette inntraff:"
+	},
+	"txtTriedRefresh": {
+		"message": "Har du forsøkt å åpne applikasjonen på nytt?"
+	},
+	"txtUsualFix": {
+		"message": "Dette vil vanligvis fikse feil, men vil nullstille all oppgavene og innstillingene dine samtidig."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Avbryt"
+	},
+	"btnYes": {
+		"message": "Ja"
+	},
+	"btnNo": {
+		"message": "Nei"
+	},
+	"btnClose": {
+		"message": "Lukk"
+	},
+	"btnCloseNotice": {
+		"message": "Lukk varslingsboks"
+	},
+	"btnStopAlarm": {
+		"message": "Stopp alarm"
+	},
+	"btnSave": {
+		"message": "Lagre"
+	},
+	"confResetTask": {
+		"message": "Er du sikker på at du vil nullstille \"$taskName$\"?\nDette vil ikke nullstille oppgavens historikk.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Er du sikker på at du vil slette oppgaven \"$taskName$\"?\nDette vil også slette historikken for oppgaven.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Er du sikker på at du vil nullstille historikken til oppgaven\"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Er du sikker på at du vil nullstille tiden som er brukt på alle dine oppgaver?"
+	},
+	"confDeleteAll": {
+		"message": "Er du sikker på at du vil slette alle oppgavene dine?"
+	},
+	"confClearAllHistory": {
+		"message": "Er du sikker på at du vil slette historikken til alle oppgavene?"
+	},
+	"confResetData": {
+		"message": "Er du sikker på at du vil slette alle Task Timers data fullstendig?\nDette vil fjerne alle oppgavene og innstillingene dine."
+	},
+	"confResetSettings": {
+		"message": "Er du sikker på at du vil nullstille alle innstillinger tilbake til standardverdier?"
+	},
+	"confUpdated": {
+		"message": "Oppgaveplanleggeren har blitt oppdatert til versjon $version$!\nVil du ser hva som er endringsloggen?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Vær oppmerksom på at du må starte oppgaver på nytt dersom Chrome automatisk oppdaterte apllikasjonen mens oppgavene kjørte."
+	},
+	"confRating": {
+		"message": "Vil du gi din vurdering av Task Timer i Chrome App Store? Det vil hjelpe oss veldig!"
+	},
+	"confSmallWindow": {
+		"message": "Det virker som om du kjører Task Timer i et lite vindu, liten prosjektorstørrelse, eller med lav oppløsning. Vil du bytte til ikoner i stedet for oppgavelisten? Dette vil gjøre at oppgavene ikke tar opp mer enn en linje hver. \n\nDenne innstillingen kan også bli endret i verktøymenyen."
+	},
+	"noteTaskFinished": {
+		"message": "Oppgave fullført!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Oppgaven \"$taskName$\" har nådd sitt mål!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Skrivebordsvarsler fungerer!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Om du ser denne meldingen betyr det at skrivebordsvarslingen er skrudd på og virker som det skal! Woho!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Det ser ut som om du bruker en sti til en lokal fil på maskinen din som URL for brukervalgt lyd. Dessverre kan ikke lokale filer brukes, da Chrome ikke gir tilgang til ditt lokale filsystem, ikke en gang for en lyd. Kun internettnettadresser (som begynner med http, https, eller FTP) kan brukes. Dette betyr at du må finne en lyd på nettet, eller laste opp den lyden du vil ha et eller annet sted."
+	},
+	"noteErrorOccurred": {
+		"message": "En feil har oppstått!"
+	},
+	"sucSavedDesc": {
+		"message": "Beskrivelse lagret!"
+	},
+	"sucSavedSettings": {
+		"message": "Innstillinger lagret!"
+	},
+	"sucSyncReceived": {
+		"message": "Oppgave informasjon er mottatt og synkes!"
+	},
+	"sucSyncSent": {
+		"message": "Oppgave informasjon synkroniseres!"
+	},
+	"errGeneric": {
+		"message": "Feil!"
+	},
+	"errTask": {
+		"message": "Ugyldig navn på oppgave eller mål."
+	},
+	"errTaskName": {
+		"message": "Ugyldig navn på oppgave"
+	},
+	"errTaskTime": {
+		"message": "Ugyldig tid."
+	},
+	"errGoalTime": {
+		"message": "Ugyldig tid for mål"
+	},
+	"errSoundURL": {
+		"message": "Ugyldig egendefinert lyd URL"
+	},
+	"errFinishEditing": {
+		"message": "Avslutt endringene på oppgaven \"$taskName$\" først!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "Applikasjonen er allerede åpen.\nDersom du mener dette er feil, trykk på knappn \"Last på nytt\" under. Oppgaveplanleggeren vil da bli lastet inn på nytt, som om du lukket Chrome."
+	},
+	"txtSuggestionTitle": {
+		"message": "Kom med et forslag"
+	},
+	"txtSuggestionInfo": {
+		"message": "For å komme med forslag, klikk [her].\nDersom ingen andre allerede har foreslått samme idè, klikk \"Nytt problem\". Pass på at du velger \"Forbedrings forslag\" når du velger mal, og at tittelen beskriver problemet!\nHar du flere idèer, vennligst rapporter dem inn hver for seg."
+	},
+	"txtBugTitle": {
+		"message": "Rapporter en bug."
+	},
+	"txtBugInfo": {
+		"message": "For å rapportere feil, vennligst klikk [her].\nDersom ingen andre allerede har rapportert inn samme feil, klikk \"Nytt problem\". Pass på å lage en tittel som beskriver problemet!\nDersom du har funnet flere feil, vennligst rapporter feilene hver for seg.\nPass på at du legger ved informasjonen under i feil-rapporteringen:"
+	}
+}

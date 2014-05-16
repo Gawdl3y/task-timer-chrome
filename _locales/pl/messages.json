@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Wyczyść całą historię zadań"
 	},
+	"toolReloadApp": {
+		"message": "Przeładuj applikację"
+	},
 	"toolClearData": {
 		"message": "Wyczyść wszystkie dane aplikacji."
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "Pozwól, by tylko jedno zadania mogło być wykonywane w danej chwili"
+	},
+	"optBackgroundRunning": {
+		"message": "Pozostaw zadanie w tle"
 	},
 	"txtNotifSettings": {
 		"message": "Ustawienia powiadomień"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Czy jesteś pewny\/pewna, że chcesz zresetować wszystkie ustawienia do ich domyślnych wartości?"
 	},
+	"confUpdated": {
+		"message": "Licznik Czasu Zadań został uaktualniony do versji $version$!",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Miej na uwadze że będziesz musiał rozpocząć swoje zadania jeszcze raz jeżeli Chrome uaktualni aplikację w czasie gdy zadanie było uruchomione."
+	},
 	"confRating": {
 		"message": "Chciałbyś\/abyś ocenić\/skomentować aplikację w Sklepie Chrome?\nTo będzie naprawdę pomocne!"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Aplikacja jest już otwarta.\nJeżeli ten komunikat jest niepoprawny, naciśnij przycisk przeładuj poniżej. Licznik czasu zostanie przeładowany tak jakbyś zamkną Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Zgłoś sugestię"

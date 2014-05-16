@@ -1,12 +1,12 @@
 {
 	"appName": {
-		"message": "Temporizador de tarefas"
+		"message": "Cronômetro de Tarefas"
 	},
 	"appDesc": {
 		"message": "Uma ferramenta simples para ajudar a monitorar o tempo gasto em atividades como trabalho, estudos ou outras coisas."
 	},
 	"txtTitle": {
-		"message": "Temporizador de tarefas"
+		"message": "Cronômetro de tarefas"
 	},
 	"txtDescription": {
 		"message": "Use essa ferramenta para monitorar o tempo que você gasta com trabalho, estudos ou outro tipo de atividade."
@@ -21,7 +21,7 @@
 		"message": "Comunique um problema"
 	},
 	"txtSuggest": {
-		"message": "Tem alguma sugestão? [Diga-nos]"
+		"message": "Tem alguma sugestão? [Diga-me]"
 	},
 	"txtAbout": {
 		"message": "Sobre"
@@ -117,13 +117,13 @@
 		"message": "Nome da Tarefa"
 	},
 	"lblGoalBoth": {
-		"message": "Objetivo (horas : minutos)"
+		"message": "Meta (horas : minutos)"
 	},
 	"lblGoalHours": {
-		"message": "Objetivo Horas"
+		"message": "Meta de Horas"
 	},
 	"lblGoalMinutes": {
-		"message": "Objetivo Minutos"
+		"message": "Meta de Minutos"
 	},
 	"lblIndefinite": {
 		"message": "Indefinido"
@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Limpar histórico de todas as tarefas"
 	},
+	"toolReloadApp": {
+		"message": "Descrição do desenvolvedor: 'Recarregamento da '"
+	},
 	"toolClearData": {
 		"message": "Limpar todos os dados do aplicativo"
 	},
@@ -207,7 +210,7 @@
 		"message": "Perguntar para confirmar quando você tentar reiniciar uma tarefa"
 	},
 	"optConfirmDelete": {
-		"message": "Perguntar para confirmar quando você tentar excluir uma tarefa"
+		"message": "Pedir confirmação quando você tentar excluir uma tarefa"
 	},
 	"optStartDefault": {
 		"message": "Marcar o campo \"Iniciar\" por padrão"
@@ -231,19 +234,22 @@
 		"message": "Configurações de Tarefa"
 	},
 	"optEnableSync": {
-		"message": "Ativar a sincronização (EXPERIMENTAL, pode alterar suas tarefas)"
+		"message": "Ativar a sincronização (EXPERIMENTAL, pode interferir em suas tarefas)"
 	},
 	"optTrackHistory": {
 		"message": "Rastrear histórico de tarefas (você poderá visualizar as estatísticas de cada tarefa)"
 	},
 	"optNoOvertime": {
-		"message": "Não permitir tarefas ultrapassarem seus objetivos"
+		"message": "Não permitir que tarefas ultrapassem seus objetivos"
 	},
 	"optStopTimer": {
 		"message": "Parar uma tarefa quando ela alcançar seu objetivo"
 	},
 	"optOnlyOne": {
 		"message": "Permitir apenas uma tarefa sendo executada ao mesmo tempo"
+	},
+	"optBackgroundRunning": {
+		"message": "Continue anotando suas atividades enquanto a aplicação está fechada"
 	},
 	"txtNotifSettings": {
 		"message": "Configurações de Notificação"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "Você tem certeza que deseja reiniciar todas as configurações para seus valores padrão?"
 	},
+	"confUpdated": {
+		"message": "O Task Timer atualizou a versão para $version$!\nGostaria de ver o log das alterações?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Esteja certo de que você iniciou suas tarefas novamente se o Chrome  carregar automaticamente o aplicativo a qualquer momento."
+	},
 	"confRating": {
 		"message": "Você gostaria de dar uma nota\/opinião para este aplicativo na Web Loja do Chrome?\nIsto realmente nos ajudará!"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Este aplicativo já está aberto.\nSe isso parecer um erro, pressione o botão recarregar abaixo. O Task Timer será recarregado da mesma forma como se você tivesse fechado o chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Faça uma sugestão"

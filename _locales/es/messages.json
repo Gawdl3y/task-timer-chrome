@@ -1,9 +1,9 @@
 {
 	"appName": {
-		"message": "Task Timer"
+		"message": "Temporizador de tareas"
 	},
 	"appDesc": {
-		"message": "Una sencilla herramienta que te ayuda a controlar del tiempo empleado en tareas tales como trabajo, estudios u otras cosas."
+		"message": "Una herramienta sencilla que te ayudará a controlar del tiempo empleado en tareas tales como trabajo, estudios u otras cosas."
 	},
 	"txtTitle": {
 		"message": "Temporizador de tareas"
@@ -12,13 +12,13 @@
 		"message": "Utiliza esta herramienta para llevar un control del tiempo que empleas en el trabajo, los estudios, o cualquier otro tipo de tarea."
 	},
 	"txtTranslationsAccuracy": {
-		"message": "La traducción podría no ser exacta."
+		"message": "Las traducciones pueden no ser exactas"
 	},
 	"txtCreatedBy": {
 		"message": "Creado por [Schuyler Cebulskie]"
 	},
 	"txtReportBug": {
-		"message": "Reportar un error"
+		"message": "Informar de un error"
 	},
 	"txtSuggest": {
 		"message": "¿Tienes alguna sugerencia? [Dímela]."
@@ -48,25 +48,25 @@
 		"message": "Indefinido"
 	},
 	"infoData": {
-		"message": "Nota: Esto sólo se guarda localmente, en tu ordenador, en tu navegador.\nNo te preocupes, tus tareas **no** se eliminarán si borras los datos de navegación de Chrome."
+		"message": "Nota: Esto sólo se guarda localmente, en tu ordenador, dentro de tu navegador.\nNo te preocupes, tus tareas **no** se eliminarán si borras los datos de navegación de Chrome."
 	},
 	"infoSettings": {
-		"message": "¡Asegúrate de revisar la configuración haciendo clic en el botón del herramientas, en la esquina superior derecha de la aplicación!\nHay opciones tales como notificaciones de escritorio para cuando finaliza una tarea."
+		"message": "¡Asegúrate de revisar la configuración haciendo clic en el botón de herramientas, en la esquina superior derecha de la aplicación!\nHay opciones tales como notificaciones de escritorio para cuando finaliza una tarea."
 	},
 	"infoPerformance": {
-		"message": "¿La aplicación se ejecuta lentamente? Intenta alargar el tiempo de actualización de los gráficos circulares, en la configuración, o desactiva completamente los gráficos.\n¿Aún va lento? Aumenta el tiempo de actualización general o desactiva el historial de tareas."
+		"message": "¿La aplicación se ejecuta lentamente? Intenta alargar el tiempo de actualización de los gráficos circulares en la configuración, o desactiva completamente los gráficos.\n¿Aún va lento? Aumenta el tiempo de actualización general o desactiva el historial de tareas."
 	},
 	"infoTranslate": {
 		"message": "¿Quieres ayudar a traducir el texto de esta aplicación a otros idiomas? Haz clic [aquí]."
 	},
 	"infoTotals": {
-		"message": "Esta es la fila de totales. Sólo aparece cuando tienes más de una tarea.\n\nLa columna \"Tiempo empleado\" de esta fila suma el tiempo empleado en cada una de tus tareas.\nLa columna \"Objetivo\" de esta fila suma el tiempo de todos los tiempos objetivo no indefinidos de tus tareas.\nLa columna \"Progreso\" de esta fila muestra el progreso hacia el total de los tiempos objetivo de todas sus tareas. Este progreso no incluye el tiempo que haya rebasado algun tiempo objetivo, ni el tiempo empleado en las tareas con tiempo objetivo indefinido."
+		"message": "Esta es la fila de totales. Solo aparece cuando tienes más de una tarea.\n\nLa columna \"Tiempo empleado\" de esta fila suma el tiempo empleado en cada una de tus tareas.\nLa columna \"Objetivo\" de esta fila suma el tiempo de todos los tiempos objetivo no indefinidos de tus tareas.\nLa columna \"Progreso\" de esta fila muestra el progreso hacia el total de los tiempos objetivo de todas sus tareas. Este progreso no incluye el tiempo que haya rebasado algún tiempo objetivo, ni el tiempo empleado en las tareas con tiempo objetivo indefinido."
 	},
 	"txtNoTasks": {
 		"message": "¡Aún no has creado ninguna tarea!"
 	},
 	"txtEditTasks": {
-		"message": "Haz doble clic en el nombre, el tiempo empleado o la objetivo de una tarea, para editarla."
+		"message": "Haz doble clic en el nombre, el tiempo empleado o el objetivo de una tarea, para editarla."
 	},
 	"lblTask": {
 		"message": "Tarea"
@@ -132,7 +132,7 @@
 		"message": "Iniciar"
 	},
 	"lblStartNow": {
-		"message": "Inicar la tarea inmediatamente"
+		"message": "Iniciar la tarea inmediatamente"
 	},
 	"btnAddTask": {
 		"message": "Agregar tarea"
@@ -153,13 +153,13 @@
 		"message": "Introduce información\/comentarios acerca de la tarea"
 	},
 	"txtTaskOptions": {
-		"message": "Opciones de Tarea"
+		"message": "Opciones de la tarea"
 	},
 	"txtHistory": {
 		"message": "Historial"
 	},
 	"txtHistoryDisabled": {
-		"message": "El historial de seguimiento de Tareas está desactivado. Puedes activarlo desde el menú Herramientas."
+		"message": "El historial de seguimiento de tareas está desactivado. Puedes activarlo desde el menú Herramientas."
 	},
 	"txtSelectDate": {
 		"message": "Por favor, selecciona una fecha."
@@ -183,10 +183,10 @@
 		"message": "Herramientas"
 	},
 	"toolExportCSV": {
-		"message": "Exportar Tareas como .CSV"
+		"message": "Exportar tareas como archivo .CSV"
 	},
 	"toolClearAllHistory": {
-		"message": "Eliminar todo el historial de la Tarea"
+		"message": "Eliminar todo el historial de la tarea"
 	},
 	"toolReloadApp": {
 		"message": "Recargar la aplicación"
@@ -380,6 +380,18 @@
 	"confResetSettings": {
 		"message": "¿Seguro que quieres reiniciar todos los ajustes a los valores por defecto?"
 	},
+	"confUpdated": {
+		"message": "Task Times se ha actualizado a la versión $version$!\nQuiere revisar los cambios?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Tenga en cuenta que tendrá que comenzar sus tareas de nuevo si Chrome auto-actualiza la aplicación."
+	},
 	"confRating": {
 		"message": "¿Te gustaría puntuar\/criticar esta aplicación en la tienda web de Chrome?\n¡Sería de mucha ayuda!"
 	},
@@ -448,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Esta aplicación ya esta abierta.\nSi no es asi, pulsa el botón de recarga de abajo. Task Timer se reiniciará como si hubiera cerrado Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Haz una sugerencia"

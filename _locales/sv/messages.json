@@ -1,0 +1,476 @@
+{
+	"appName": {
+		"message": "Uppgifts tidtagare"
+	},
+	"appDesc": {
+		"message": "Ett enkelt verktyg för att hjälpa till att hålla koll på tid som har spenderats på uppgifter som t.ex. arbete, studier och annat."
+	},
+	"txtTitle": {
+		"message": "Uppgifts tidtagare"
+	},
+	"txtDescription": {
+		"message": "Använd detta verktyg för att hålla koll på tiden du spenderat på arbete, studier eller någon annan typ av uppgift."
+	},
+	"txtTranslationsAccuracy": {
+		"message": "Översättningar kan vara felaktiga."
+	},
+	"txtCreatedBy": {
+		"message": "Skapad av"
+	},
+	"txtReportBug": {
+		"message": "Rapportera ett fel"
+	},
+	"txtSuggest": {
+		"message": "Har du en idé?"
+	},
+	"txtAbout": {
+		"message": "Om oss"
+	},
+	"txtDonate": {
+		"message": "Donera"
+	},
+	"txtLoading": {
+		"message": "Laddar..."
+	},
+	"txtComingSoon": {
+		"message": "Kommer snart!"
+	},
+	"txtHours": {
+		"message": "Timmar"
+	},
+	"txtMinutes": {
+		"message": "Minuter"
+	},
+	"txtSeconds": {
+		"message": "Sekunder"
+	},
+	"txtIndefinite": {
+		"message": "Obestämd tid"
+	},
+	"infoData": {
+		"message": "Observera: Data sparas bara lokalt, på din dator, i din webbläsare.\nOroa dig inte, dina uppgifter kommer **inte** att raderas om du rensar Chromes cache."
+	},
+	"infoSettings": {
+		"message": "Säkerställ att du har rätt inställningar genom att klicka på kugghjulsknappen i övre högra hörnet i applikationen.\nDär finns t.ex. inställningar för notifiering när en uppgift avslutas."
+	},
+	"infoPerformance": {
+		"message": "Är appen långsam? Prova att öka cirkeldiagrams \"update time\" under inställningar, eller avaktivera cirkeldiagram helt. Forfarande långsamt? Öka den generella \"update time\" eller avaktivera \"task history tracking\"."
+	},
+	"infoTranslate": {
+		"message": "Vill du hjälpa till att översätta Task Timer till andra språk? Klicka [här]"
+	},
+	"infoTotals": {
+		"message": "Detta är summa raden. Det visas bara när du har mer än en uppgift.\n\n\"Spenderad tid\" kolumnen i denna rad uppger tiden för alla dina uppgifter.\n\"Mål\" kolumnen i denna rad uppger alla mål-tider från alla dina uppgifter, utom obestämda sådana.\nI \"Framsteg\" kolumnen i denna rad får du de totala framstegen mot att avsluta målen för alla dina uppgifter. Dessa framsteg omfattar inte tid som gick över en uppgifts mål, eller tid på aktiviteter med mål på obestämd tid."
+	},
+	"txtNoTasks": {
+		"message": "Inga nya uppgifter skapade ännu!"
+	},
+	"txtEditTasks": {
+		"message": "Dubbelklicka för att ändra uppgiftens namn, tid eller mål."
+	},
+	"lblTask": {
+		"message": "Uppgift"
+	},
+	"lblTimeSpent": {
+		"message": "Spenderad tid"
+	},
+	"lblGoal": {
+		"message": "Mål"
+	},
+	"lblProgress": {
+		"message": "Andel avklarat"
+	},
+	"lblOptions": {
+		"message": "Inställningar"
+	},
+	"lblTotals": {
+		"message": "Totalt"
+	},
+	"btnStart": {
+		"message": "Start"
+	},
+	"btnStop": {
+		"message": "Stoppa"
+	},
+	"btnInfo": {
+		"message": "Info"
+	},
+	"btnReset": {
+		"message": "Starta om"
+	},
+	"btnDelete": {
+		"message": "Ta bort"
+	},
+	"btnClearHistory": {
+		"message": "Ta bort historik"
+	},
+	"btnResetAll": {
+		"message": "Starta om allt"
+	},
+	"btnDeleteAll": {
+		"message": "Ta bort allt"
+	},
+	"lblName": {
+		"message": "Namn"
+	},
+	"lblTaskName": {
+		"message": "Uppgiftens namn"
+	},
+	"lblGoalBoth": {
+		"message": "Mål (timmar:minuter)"
+	},
+	"lblGoalHours": {
+		"message": "Mål timmar"
+	},
+	"lblGoalMinutes": {
+		"message": "Mål minuter"
+	},
+	"lblIndefinite": {
+		"message": "Oändligt"
+	},
+	"lblStart": {
+		"message": "Start"
+	},
+	"lblStartNow": {
+		"message": "Starta uppgiften direkt"
+	},
+	"btnAddTask": {
+		"message": "Lägg till uppgift"
+	},
+	"txtCurrentPieTitle": {
+		"message": "Tid spenderad på uppgiften"
+	},
+	"txtTotalPieTitle": {
+		"message": "Total tid spenderad (Historik)"
+	},
+	"txtOther": {
+		"message": "Övrigt"
+	},
+	"txtTaskInfo": {
+		"message": "Uppgiftens information"
+	},
+	"txtNoDescription": {
+		"message": "Ange information\/kommentarer om uppgiften"
+	},
+	"txtTaskOptions": {
+		"message": "Uppgiftens inställningar"
+	},
+	"txtHistory": {
+		"message": "Historik"
+	},
+	"txtHistoryDisabled": {
+		"message": "Historik spårning är inaktiverad på dina ” Uppgift”. Du kan aktivera den i menyn Verktyg."
+	},
+	"txtSelectDate": {
+		"message": "Var vänlig och välj ett datum"
+	},
+	"txtNoHistory": {
+		"message": "Det är ingen sparad historik under den här dagen"
+	},
+	"lblDescription": {
+		"message": "Beskrivning"
+	},
+	"lblHour": {
+		"message": "Timme"
+	},
+	"tskExcludeTotals": {
+		"message": "Uteslut denna uppgift från total summa raden"
+	},
+	"tskExcludeCharts": {
+		"message": "Uteslut denna uppgift från cirkeldiagrammet!"
+	},
+	"txtTools": {
+		"message": "Verktyg"
+	},
+	"toolExportCSV": {
+		"message": "Exportera uppgifter som en CSV-fil"
+	},
+	"toolClearAllHistory": {
+		"message": "Ta bort all historik"
+	},
+	"toolReloadApp": {
+		"message": "Lappa om appen"
+	},
+	"toolClearData": {
+		"message": "Rensa all data från appen"
+	},
+	"toolResetSettings": {
+		"message": "Återställ till ursprungs inställningarna."
+	},
+	"txtSettings": {
+		"message": "Inställningar"
+	},
+	"txtGeneralSettings": {
+		"message": "Almänna Inställningar"
+	},
+	"optHideNotice": {
+		"message": "Dölj meddelanderutan"
+	},
+	"optConfirmReset": {
+		"message": "Be att bekräfta när du försöker återställa en uppgift"
+	},
+	"optConfirmDelete": {
+		"message": "Be om att bekräfta när du försöker radera en uppgift"
+	},
+	"optStartDefault": {
+		"message": "Kryssa i \"Start\" rutan per automatik"
+	},
+	"optSaveFields": {
+		"message": "Behåll nuvarande data inom uppgiftsfältet när du startar om applikationen"
+	},
+	"optUseIcons": {
+		"message": "Använd ikoner istället för knappar till uppgifts inställningar (rekommenderat för mindre skärmar)"
+	},
+	"opt12Hour": {
+		"message": "Inställningar - Använd 12 timmars format i klockan"
+	},
+	"optCustomDialogs": {
+		"message": "Använd egna dialoger istället för Chromes inbyggda"
+	},
+	"optUpdateAlert": {
+		"message": "Öppna appen efter uppdatering"
+	},
+	"txtTaskSettings": {
+		"message": "Inställningar för uppgiften."
+	},
+	"optEnableSync": {
+		"message": "Tillåt synkronisering (experimentell, kan orsaka problem med dina uppgifter.)"
+	},
+	"optTrackHistory": {
+		"message": "spåra uppgiftshistorik (så att du kan se statistik för varje uppgift.)"
+	},
+	"optNoOvertime": {
+		"message": "Tillåt inte att uppgifterna tar längre tid än satta mål."
+	},
+	"optStopTimer": {
+		"message": "Avbryt en uppgift när den når sitt mål."
+	},
+	"optOnlyOne": {
+		"message": "Tillåt bara en aktiv uppgift åt gången."
+	},
+	"optBackgroundRunning": {
+		"message": "Fortsätt att låta timing uppgifterna att fortsätta ner appen är stängd"
+	},
+	"txtNotifSettings": {
+		"message": "Inställningar för notifikationer"
+	},
+	"optShowPopup": {
+		"message": "visa en popup-ruta på sidan när uppgiften når sitt mål."
+	},
+	"optShowNotification": {
+		"message": "Visa på skrivbordet när en uppgift når sitt mål."
+	},
+	"optPlaySound": {
+		"message": "Spela ett ljud när en uppgift når sitt mål"
+	},
+	"optUseDefault": {
+		"message": "Använd det förinställda ljudet"
+	},
+	"optUseCustom": {
+		"message": "Använd ett eget ljud."
+	},
+	"optSoundURL": {
+		"message": "URL till eget ljud"
+	},
+	"optBtnPreview": {
+		"message": "Förhandsgranska ljud"
+	},
+	"optLoopSound": {
+		"message": "Repetera ljudet tills du avbryter det."
+	},
+	"txtChartSettings": {
+		"message": "Diagraminställningar"
+	},
+	"optEnableCharts": {
+		"message": "Tillåt cirkeldiagram"
+	},
+	"optShowChartPercent": {
+		"message": "Visa %-ettiketter på diagramen"
+	},
+	"optCombineSmallSlices": {
+		"message": "Kombinera små tårtbitar från diagram till \"Other\""
+	},
+	"txtPerfSettings": {
+		"message": "Programmets uppförande"
+	},
+	"optUpdateTime1": {
+		"message": "Uppdatera tiden för uppgifterna var:"
+	},
+	"optUpdateTime2": {
+		"message": "sekund(er)"
+	},
+	"optChartUpdateTime1": {
+		"message": "Uppdatera tårtdiagramen var:"
+	},
+	"txtSaveSettings": {
+		"message": "Spara inställningar:"
+	},
+	"txtJSError": {
+		"message": "Ett fel har inträffat någonstans i scriptet. Var vänlig rapportera detta som en bugg med följande information, tillsammans med vad du gjorde\/vad som hände."
+	},
+	"txtTriedRefresh": {
+		"message": "Har du prövat att ladda om sidan?"
+	},
+	"txtUsualFix": {
+		"message": "Detta brukar normalt lösa de flesta problem, men kommer att nollställa alla dina uppgifter och inställningar."
+	},
+	"btnOK": {
+		"message": "OK"
+	},
+	"btnCancel": {
+		"message": "Avbryt"
+	},
+	"btnYes": {
+		"message": "Ja"
+	},
+	"btnNo": {
+		"message": "Nej"
+	},
+	"btnClose": {
+		"message": "Stäng"
+	},
+	"btnStopAlarm": {
+		"message": "Stoppa alarmet"
+	},
+	"btnSave": {
+		"message": "Spara"
+	},
+	"confResetTask": {
+		"message": "Är du säker på att du vill återställa uppgiften $taskName$?\nDetta kommer inte att återställa uppgiftens historik.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confDeleteTask": {
+		"message": "Är du säker på att du vill ta bort uppgiften \"$taskName$\"?\nDet kommer också att ta bort uppgiftens historik.",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confClearHistory": {
+		"message": "Är du säker på att du vill ta bort historiken av uppgift  \"$taskName$\"?",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"confResetAll": {
+		"message": "Är du säker på att du vill starta om tiden spenderad på alla uppgifter?"
+	},
+	"confDeleteAll": {
+		"message": "Är du säker på att du vill ta bort alla dina uppgifter?"
+	},
+	"confClearAllHistory": {
+		"message": "Är du säker på att du vill rensa historiken från alla uppgifter?"
+	},
+	"confResetData": {
+		"message": "Är du säker på att du vill radera alla Task Timer data helt?\nDetta kommer att ta bort alla dina uppgifter och inställningar."
+	},
+	"confResetSettings": {
+		"message": "Är du säker på att du vill ställa om alla inställningar till deras orginal inställningar?"
+	},
+	"confUpdated": {
+		"message": "Task Timer har uppdateras till version $version$!\nVill du se förändringarna?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Kom ihåg att du måste starta om din uppgift igen om Chrome automatiskt uppdaterade appen när den var öppen."
+	},
+	"confRating": {
+		"message": "Vill du ge den här appen en recension\/ ett betyg på Chrome Web Store?\nDet hjälper verkligen!"
+	},
+	"confSmallWindow": {
+		"message": "Du verkar använda Task Timer i ett litet fönster, liten skärm eller på en låg resulution. Vill du byta till icon istället för knappar i uppgift listan? Det ser till att uppgifter inte tar upp mer än en rad var. \n\nDen här inställningen kan också bytas i inställningar menyn."
+	},
+	"noteTaskFinished": {
+		"message": "Uppgift avklarad!"
+	},
+	"noteTaskFinishedLong": {
+		"message": "Uppgift \"$taskName$\" har kommit fram till sitt mål!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"noteNotifsWork": {
+		"message": "Skrivbordsaviseringar fungerar!"
+	},
+	"noteNotifsWorkBody": {
+		"message": "Detta betyder det skrivbordsaviseringar är aktiverade och fungerar! Woo!"
+	},
+	"noteNoLocalFiles": {
+		"message": "Det ser ut som du använder en sökväg till en lokal fil på din dator för den anpassade ljud-URLen.\nTyvärr kan lokala filer inte användas, eftersom Chrome inte tillåter åtkomst till din lokala filsystem, ens för ett ljud.\nEndast Internetwebbadresser (som börjar med http, https eller ftp) kan användas. Det betyder att du måste hitta ett klipp online eller ladda upp ljudet som du vill använda någonstans."
+	},
+	"noteErrorOccurred": {
+		"message": "En fel har inträffat"
+	},
+	"sucSavedDesc": {
+		"message": "Beskrivningen är sparad"
+	},
+	"sucSavedSettings": {
+		"message": "Inställningarna är sparade"
+	},
+	"sucSyncReceived": {
+		"message": "Mottagit uppgiftsdata för synkronisering!"
+	},
+	"sucSyncSent": {
+		"message": "Skickade uppgiftsdata för synkronisering!"
+	},
+	"errGeneric": {
+		"message": "Fel!"
+	},
+	"errTask": {
+		"message": "Ogiltigt namn på uppgift eller mål"
+	},
+	"errTaskName": {
+		"message": "Ogilitigt namn på uppgift"
+	},
+	"errTaskTime": {
+		"message": "Ogiltig tid"
+	},
+	"errGoalTime": {
+		"message": "Ogiltig tid för mål."
+	},
+	"errSoundURL": {
+		"message": "Ogiltig anpassatljud-URL."
+	},
+	"errFinishEditing": {
+		"message": "Avsluta redigering av uppgift \"$taskName$\" först!",
+		"placeholders": {
+			"taskName": {
+				"content": "$1",
+				"example": "Chores"
+			}
+		}
+	},
+	"errAlreadyOpen": {
+		"message": "Appen är redan öppen.\nOm det här inte stämmer, tryck på omladnings knappen under. Tak Timer kommer att ladda om om du stänger Chrome."
+	},
+	"txtSuggestionTitle": {
+		"message": "Föreslå förbättringar"
+	},
+	"txtSuggestionInfo": {
+		"message": "För att göra ett förslag, klicka [här].\nOm ingen har redan föreslagit samma idé, klicka på \"Ny fråga\". Se till att välja \"Enhancement Request\" som mall och  rubricera den beskrivande!\nOm du har flera idéer, skapa ett separat förslagför var och en."
+	},
+	"txtBugTitle": {
+		"message": "Rapportera en bugg"
+	},
+	"txtBugInfo": {
+		"message": "För att rapportera e bugg, vänligen klicka [här].\nOm ingen redan har rapporterat samma bugg, klicka på \"Ny fråga\". Se till att titeln på frågan är beskrivande!\nOm du har hittat flera buggar, vänligen skapa en separat fråga för var och en.\nVar noga med att inkludera nedanstående information i din felrapport:"
+	}
+}

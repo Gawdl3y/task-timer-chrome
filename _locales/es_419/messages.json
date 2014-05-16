@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "Tiempo de Tarea"
+		"message": "Temporizador de tareas"
 	},
 	"appDesc": {
-		"message": "Una simple herramienta que ayuda a mantener un registro del tiempo dedicado a tareas tales como: Trabajo, Estudios, o cualquier otra"
+		"message": "Una simple herramienta que ayuda a mantener un registro del tiempo dedicado a tareas tales como: Trabajo, Estudios, o cualquier otra actividad"
 	},
 	"txtTitle": {
-		"message": "Tiempo de Tarea"
+		"message": "Cronómetro de tarea"
 	},
 	"txtDescription": {
-		"message": "Utiliza esta herramienta para mantener un registro del tiempo que pasas trabajando, estudiando o haciendo cualquier otro tipo de tarea."
+		"message": "Utilice esta herramienta para mantener un registro del tiempo que pasa trabajando, estudiando o haciendo cualquier otro tipo de tarea."
 	},
 	"txtTranslationsAccuracy": {
 		"message": "Las traducciones pueden no ser exactas."
@@ -18,10 +18,10 @@
 		"message": "Creado por [Schuyler Cebulskie]"
 	},
 	"txtReportBug": {
-		"message": "Reporta un error"
+		"message": "Reporte un error"
 	},
 	"txtSuggest": {
-		"message": "¿Tienes alguna idea? [Cuéntamela]"
+		"message": "¿Tiene alguna idea? [Cuéntamela]"
 	},
 	"txtAbout": {
 		"message": "Acerca de nosotros"
@@ -444,7 +444,7 @@
 		"message": "Nombre de tarea inválido"
 	},
 	"errTaskTime": {
-		"message": "Tiempo inválido."
+		"message": "Tiempo no válido."
 	},
 	"errGoalTime": {
 		"message": "Tiempo para objetivo inválido."
@@ -453,7 +453,7 @@
 		"message": "URL para sonido personalizado inválido"
 	},
 	"errFinishEditing": {
-		"message": "Terminar de editar la tarea \"$taskName$\" primero!",
+		"message": "Termine de editar la tarea \"$taskName$\" primero!",
 		"placeholders": {
 			"taskName": {
 				"content": "$1",
@@ -465,7 +465,7 @@
 		"message": "La aplicación está abierta ya.\nSi es incorrecto, presiona el botón de \"Recargar\" ubicado abajo de este mensaje. Temporizador de tareas se recargará como si hubieras cerrado Chrome."
 	},
 	"txtSuggestionTitle": {
-		"message": "Haz una sugerencia"
+		"message": "Haga una sugerencia"
 	},
 	"txtSuggestionInfo": {
 		"message": "Para hacer alguna sugerencia, por favor dar click [aquí]\nSi nadie ha sugerido la misma idea, dar click en \"Nuevo asunto\". Asegúrese de seleccionar \"Solicitud de Mejora\" para la plantilla, y titularlo descriptivamente.  \nSi tiene varias ideas, por favor crear separadamente un asunto por cada una."

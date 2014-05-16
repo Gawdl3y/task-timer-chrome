@@ -1,9 +1,6 @@
 {
-	"appName": {
-		"message": "Gestor de tarefas"
-	},
 	"appDesc": {
-		"message": "Um instrumento simples de gerir o tempo dedicado ao trabalho, a estudos, ou outras tarefas."
+		"message": "Uma maneira simples de ter consciência do tempo dedicado ao trabalho, estudos e outras tarefas\n\nUma ferramenta simples para ajudar a cronometrar o tempo passado em várias tarefas varias, tais como trabalho, estudo entre outras coisas."
 	},
 	"txtTitle": {
 		"message": "Gestor de tarefas"
@@ -12,7 +9,7 @@
 		"message": "Use esta aplicação para gerir melhor o tempo dispendido em trabalho, estudo ou quaisquer outras tarefas"
 	},
 	"txtTranslationsAccuracy": {
-		"message": "As traduções podem não estar percisas"
+		"message": "As traduções podem não estar correctas."
 	},
 	"txtCreatedBy": {
 		"message": "Desenvolvido por [Schuyler Cebulskie]"
@@ -33,7 +30,7 @@
 		"message": "A carregar..."
 	},
 	"txtComingSoon": {
-		"message": "Disponivel em breve!"
+		"message": "Disponível brevemente!"
 	},
 	"txtHours": {
 		"message": "Horas"
@@ -51,7 +48,7 @@
 		"message": "Nota: Os dados da aplicação serão gravados localmente, no seu computador, no seu motor de busca.\nNão se preocupe, as suas tarefas **não** serão apagadas caso limpe a cache do Chrome."
 	},
 	"infoSettings": {
-		"message": "Assegure-se de que verifica as definições, clicando no botão que contém a figura de uma roda dentada no canto superior direito da aplicação!\nHá definições, como notificações no ambiente,quando as tarefas estão concluídas."
+		"message": "Assegure-se de que verifica as definições, clicando no botão que contém a figura de uma roda dentada no canto superior direito da aplicação!\nHá definições como, notificações no ambiente quando as tarefas estão concluídas."
 	},
 	"infoPerformance": {
 		"message": "A velocidade da aplicação é lenta? Experimente aumentar o tempo de actualização dos gráficos ou mesmo desactivar a sua visualização.\nAinda assim o problema persiste? Aumente o tempo geral de actualização ou desactive o histórico de tarefas."
@@ -120,10 +117,10 @@
 		"message": "Objetivo (horas : minutos)"
 	},
 	"lblGoalHours": {
-		"message": "Objectivo horas"
+		"message": "Horas do Objectivo"
 	},
 	"lblGoalMinutes": {
-		"message": "Objectivo minutos"
+		"message": "Minutos do Objectivo"
 	},
 	"lblIndefinite": {
 		"message": "Indefinido"
@@ -188,6 +185,9 @@
 	"toolClearAllHistory": {
 		"message": "Limpar todo o histórico de tarefas"
 	},
+	"toolReloadApp": {
+		"message": "Recarregar aplicação"
+	},
 	"toolClearData": {
 		"message": "Limpar todos os dados da aplicação"
 	},
@@ -245,6 +245,9 @@
 	"optOnlyOne": {
 		"message": "Permitir que apenas uma tarefa seja executada ao mesmo tempo"
 	},
+	"optBackgroundRunning": {
+		"message": "Manter a sincronização das tarefas enquanto a aplicação está fechada."
+	},
 	"txtNotifSettings": {
 		"message": "Definições de Notificações"
 	},
@@ -272,8 +275,17 @@
 	"optLoopSound": {
 		"message": "Repetir o som até que o pare"
 	},
+	"txtChartSettings": {
+		"message": "Definições do gráfico."
+	},
 	"optEnableCharts": {
 		"message": "Ativar gráficos"
+	},
+	"optShowChartPercent": {
+		"message": "Mostrar etiquetas de percentagem do gráfico."
+	},
+	"optCombineSmallSlices": {
+		"message": "Combinar pequenas fatias do gráfico apenas numa categoria \"Outros\"."
 	},
 	"txtPerfSettings": {
 		"message": "Definições de Desempenho"
@@ -365,6 +377,18 @@
 	"confResetSettings": {
 		"message": "Tem a certeza de que quer eliminar todas as suas definições?"
 	},
+	"confUpdated": {
+		"message": "Temporizador de Tarefas foi actualizado para a versão: $version$!\nGostaria de ver o registo das alterações?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Tenha em atenção:  vai precisar de começar as suas tarefas do inicio se o Chrome fizer updates automáticos da aplicação."
+	},
 	"confRating": {
 		"message": "Gostaria de classificar\/comentar esta aplicação na Chrome Web Store"
 	},
@@ -433,6 +457,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "Esta aplicação já se encontra aberta.\nSe isto está incorrecto, carregue no botão abaixo, para o carregamento da página. A aplicação irá recarregar a página como se tivesse fechado o Chrome."
 	},
 	"txtSuggestionTitle": {
 		"message": "Fazer uma sugestão"

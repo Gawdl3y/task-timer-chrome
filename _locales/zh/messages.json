@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "清除所有任务历史"
 	},
+	"toolReloadApp": {
+		"message": "重新加载应用"
+	},
 	"toolClearData": {
 		"message": "清除所有软件数据"
 	},
@@ -244,6 +247,9 @@
 	},
 	"optOnlyOne": {
 		"message": "只允许同时进行一个任务"
+	},
+	"optBackgroundRunning": {
+		"message": "在应用关闭时保存正在计时的任务。"
 	},
 	"txtNotifSettings": {
 		"message": "提示设置"
@@ -374,6 +380,18 @@
 	"confResetSettings": {
 		"message": "你确定要将所有的设置还原为默认设置吗？"
 	},
+	"confUpdated": {
+		"message": "任务计时器已经更新到 版本 $version$！\n你想要看一下更改日志吗？",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "请注意如果Chrome浏览器自动更新正在运行的应用，你得重新开始你的任务。"
+	},
 	"confRating": {
 		"message": "恳请你花一点时间到Chrome网上商店里给这个软件打个分或写个评论，\n这将会帮助我们创造出更好的工具和使用体验！"
 	},
@@ -442,6 +460,9 @@
 				"example": "Chores"
 			}
 		}
+	},
+	"errAlreadyOpen": {
+		"message": "应用已经打开。\n如果应用看起来是不正确的，请按下面的重新加载按钮。  任务计时器会重新加载好像是你关闭了Chrome一样。"
 	},
 	"txtSuggestionTitle": {
 		"message": "提个建议"

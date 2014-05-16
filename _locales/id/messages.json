@@ -3,13 +3,13 @@
 		"message": "Pencatat Waktu"
 	},
 	"appDesc": {
-		"message": "Alat sederhana yang membantu anda mencatat waktu yang digunakan seperti bekerja, belajar dan hal lain."
+		"message": "Alat sederhana yang membantu anda mencatat waktu untuk bekerja, belajar dan lainnya."
 	},
 	"txtTitle": {
 		"message": "Pencatat Waktu"
 	},
 	"txtDescription": {
-		"message": "Gunakan perangkat ini untuk mencatat lamanya waktu yang anda gunakan untuk bekerja, belajar, atau mengerjakan tugas lainnya."
+		"message": "Gunakan perangkat ini untuk mencatat lamanya waktu yang digunakan untuk bekerja, belajar, atau mengerjakan tugas lainnya."
 	},
 	"txtTranslationsAccuracy": {
 		"message": "Terjemahan mungkin kurang akurat"
@@ -24,13 +24,13 @@
 		"message": "Punya ide lain yang keren? [Beritahu saya]"
 	},
 	"txtAbout": {
-		"message": "About"
+		"message": "Tentang developer"
 	},
 	"txtDonate": {
 		"message": "Donasi"
 	},
 	"txtLoading": {
-		"message": "Loading..."
+		"message": "Memuat..."
 	},
 	"txtComingSoon": {
 		"message": "Segera!"
@@ -45,7 +45,7 @@
 		"message": "Detik"
 	},
 	"txtIndefinite": {
-		"message": "Tak berbatas"
+		"message": "Tak terbatas"
 	},
 	"infoData": {
 		"message": "Catatan: Ini hanya akan disimpan secara lokal di komputer anda di browser anda.\nJangan khawatir, daftar ini tidak akan terhapus ketika anda membersihkan cache\/storage Chrome."
@@ -54,10 +54,13 @@
 		"message": "Pastikan anda telah mengecek laman pengaturan dengan mengklik tombol gear di sisi kanan atas aplikasi ini!\nAda pengaturan seperti notifikasi desktop ketika tugas telah selesai."
 	},
 	"infoPerformance": {
-		"message": "Apakah applikasi ini terlalu lambat? Coba tingkatkan waktu pie chart di setting, atau matikan pie charts. \nMasih lambat? Tingkatkan waktu update umum atau matikan tracking sejarah tugas."
+		"message": "Apakah applikasi ini berjalan lambat untuk anda? Coba tambahkan waktu pemutakhiran pie chart di Settings, atau matikan pie charts. \nMasih lambat? Tambahkan waktu update umum atau matikan tracking sejarah tugas."
 	},
 	"infoTranslate": {
 		"message": "Ingin membantu menerjemahkan Task Timer ke bahasa lain? Klik [di sini]."
+	},
+	"infoTotals": {
+		"message": "Berikut adalah baris berisi jumlah total. Baris ini hanya muncul jika anda memiliki lebih dari satu tugas.\n\nKolom \"Waktu terpakai\" isinya menjumlahkan waktu yang sudah berjalan untuk sampai ke Target .\nKolom \"Target\" isinya menjumlahkan waktu Target dari semua tugas, selain yang waktunya tidak terbatas.\nKolom \"Perkembangan\" menunjukkan semua perkembangan sampai penyelesaian waktu Target semua tugas. Kolom ini tidak termasuk Waktu Terpakai yang melebihi waktu Target, atau Waktu Terpakai pada tugas yang tidak terbatas waktu."
 	},
 	"txtNoTasks": {
 		"message": "Anda belum membuat tugas apapun!"
@@ -69,7 +72,7 @@
 		"message": "Tugas"
 	},
 	"lblTimeSpent": {
-		"message": "Waktu yang diperlukan"
+		"message": "Waktu terpakai"
 	},
 	"lblGoal": {
 		"message": "Target"
@@ -111,7 +114,7 @@
 		"message": "Nama"
 	},
 	"lblTaskName": {
-		"message": "Nama Pekerjaan"
+		"message": "Nama Tugas"
 	},
 	"lblGoalBoth": {
 		"message": "Target (jam : menit)"
@@ -139,6 +142,9 @@
 	},
 	"txtTotalPieTitle": {
 		"message": "Total Waktu yang Telah Dihabiskan (Sejarah)"
+	},
+	"txtOther": {
+		"message": "Lainnya"
 	},
 	"txtTaskInfo": {
 		"message": "Informasi Tugas"
@@ -168,10 +174,10 @@
 		"message": "Jam"
 	},
 	"tskExcludeTotals": {
-		"message": "Termasuk tugas ini dalam baris total"
+		"message": "Mengecualikan tugas ini dari dalam baris total"
 	},
 	"tskExcludeCharts": {
-		"message": "Termasuk tugas ini dalam grafik pie"
+		"message": "Mengecualikan tugas ini dari dalam grafik pie"
 	},
 	"txtTools": {
 		"message": "Peralatan"
@@ -181,6 +187,9 @@
 	},
 	"toolClearAllHistory": {
 		"message": "Hapus semua catatan tugas"
+	},
+	"toolReloadApp": {
+		"message": "Mengulangi memuat aplikasi"
 	},
 	"toolClearData": {
 		"message": "Hapus semua data aplikasi"
@@ -239,6 +248,9 @@
 	"optOnlyOne": {
 		"message": "Hany perbolehkan satu tugas dalam satu waktu"
 	},
+	"optBackgroundRunning": {
+		"message": "Tetap catat waktu walau aplikasi ditutup"
+	},
 	"txtNotifSettings": {
 		"message": "Setting Pengingat"
 	},
@@ -266,8 +278,17 @@
 	"optLoopSound": {
 		"message": "Ulang terus bunyi itu sampai dihentikan"
 	},
+	"txtChartSettings": {
+		"message": "Pengaturan chart"
+	},
 	"optEnableCharts": {
 		"message": "Aktifkan Grafik Pie"
+	},
+	"optShowChartPercent": {
+		"message": "Tampilkan label persentase chart"
+	},
+	"optCombineSmallSlices": {
+		"message": "Gabungkan potongan-potongan kecil di chart ke dalam \"Lainnya\""
 	},
 	"txtPerfSettings": {
 		"message": "Setting Performa"
@@ -359,11 +380,23 @@
 	"confResetSettings": {
 		"message": "Apakah anda yakin akan mereset seluruh seting ke setingan awal?"
 	},
+	"confUpdated": {
+		"message": "Aplikasi Pencatat Waktu sekarang sudah di-update ke versi $version$!\nApakah anda tertarik untuk melihat isi changelog?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Harap perhatikan bahwa anda harus memulai semua tugas anda lagi jika Chrome otomatis meng-update aplikasi ini saat  tugas sedang berjalan."
+	},
 	"confRating": {
 		"message": "Apakah anda ingin memberikan peringkat\/ulasan untuk aplikasi ini di Chrome Web Store? \nHal ini akan sangat membantu!"
 	},
 	"confSmallWindow": {
-		"message": "Hal ini juga bisa di rubah di menu Peralatan (Tools)"
+		"message": "Hal ini juga bisa dirubah di menu Peralatan (Tools)"
 	},
 	"noteTaskFinished": {
 		"message": "Tugas Selesai!"
@@ -399,7 +432,7 @@
 		"message": "Menerima Data tugas untuk disinkronkan!"
 	},
 	"sucSyncSent": {
-		"message": "Mengirim Data tugas untuk disinkronkan!"
+		"message": "Mengirim data tugas untuk disinkronkan!"
 	},
 	"errGeneric": {
 		"message": "Error!"
@@ -420,7 +453,7 @@
 		"message": "URL bunyi khusus tidak valid."
 	},
 	"errFinishEditing": {
-		"message": "Selesaikan editing tugas \"$taskName$\" dahulu!",
+		"message": "Selesaikan mengedit tugas \"$taskName$\" dahulu!",
 		"placeholders": {
 			"taskName": {
 				"content": "$1",
@@ -428,16 +461,19 @@
 			}
 		}
 	},
+	"errAlreadyOpen": {
+		"message": "Aplikasi sudah dibuka.\nJika ternyata terlihat belum benar, tekan tombol reload dibawah. Pencatat Waktu akan dimuat ulang walaupun menutup Chrome."
+	},
 	"txtSuggestionTitle": {
 		"message": "Beri saran"
 	},
 	"txtSuggestionInfo": {
-		"message": "Untuk memberi saran, silakan klik [Di sini].\nJika Saran anda tidak ada yang sama dengan yang lainnya, klik \" New issue\". Pastikan anda telah memilih \"Enhancement Request\" sebagai template, dan beri judul yang deskriptif.\nKalau idenya lebih dari satu, silakan bagi menjadi beberapa bagian."
+		"message": "Untuk memberi saran, silakan klik [di sini].\nJika belum ada yang menyarankan usul yang sama, klik \"New issue\". Pastikan anda telah memilih \"Enhancement Request\" sebagai template, dan beri judul yang deskriptif!\nJika saran anda lebih dari satu, silakan ajukan secara terpisah."
 	},
 	"txtBugTitle": {
-		"message": "Laporkan bug"
+		"message": "Laporkan kesalahan"
 	},
 	"txtBugInfo": {
-		"message": "Untuk melaporkan bug, silakan klik [Di sini].\nJika laporan anda tidak ada yang sama dengan yang lainnya, klik \" New issue\". Pastikan anda telah memberi judul yang deskriptif.\nPastikan juga anda memasukkan data berikut ke dalam laporan anda:"
+		"message": "Untuk melaporkan bug, silakan klik [di sini].\nJika belum ada yang melaporkan bug yang sama, klik \"New issue\". Pastikan anda memberi judul yang deskriptif!\nJika anda menemukan beberapa kesalahan, silahkan membuat issue terpisah untuk masing-masing kesalahan.\nPastikan juga anda memasukkan data berikut ke dalam laporan anda:"
 	}
 }

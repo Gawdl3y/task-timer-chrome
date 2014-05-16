@@ -1,6 +1,6 @@
 {
 	"appName": {
-		"message": "Task Timer"
+		"message": "Minuteur de tâches"
 	},
 	"appDesc": {
 		"message": "Une application simple qui vous aide à mesurer le temps passé sur vos travaux, études ou quoi que ce soit d'autre."
@@ -9,10 +9,10 @@
 		"message": "Task Timer"
 	},
 	"txtDescription": {
-		"message": "Utilisez cette application pour mesurer le temps que vous passez à travailler, à étudier, ou à réaliser tout type de tâches."
+		"message": "Utilisez cette application pour mesurer le temps que vous passez à travailler, à étudier, ou à réaliser tout type de tâche."
 	},
 	"txtTranslationsAccuracy": {
-		"message": "Les traductions peuvent ne pas être précises."
+		"message": "La traduction peut parfois ne pas être précise."
 	},
 	"txtCreatedBy": {
 		"message": "Développé par [Schuyler Cebulskie]"
@@ -21,7 +21,7 @@
 		"message": "Signaler un problème"
 	},
 	"txtSuggest": {
-		"message": "Une idée ? [Contacter moi ¡]"
+		"message": "Une idée ? [Contactez moi ¡]"
 	},
 	"txtAbout": {
 		"message": "À propos"
@@ -60,13 +60,13 @@
 		"message": "Vous voulez aidez à traduire Task Timer dans d'autres langues ? Cliquez [ici]"
 	},
 	"infoTotals": {
-		"message": "Ceci est la colonne Total. Elle apparaît seulement si vous avez plus d'une tâche.\n\nLa colonne \" Temps passé\" totalise le temps passé sur chacun de vos tâches.\nLa colonne \"Objectif\" comptabilise votre objectif de temps sur l'ensemble de vos tâches, autres que celles à durée indéterminée.\nLa colonne \"Avancement\" vous donne l''avancement de l'ensemble de vos tâches. Cet avancement n'inclut pas le temps passé qui dépasse le but d'une tâche, ou le temps passé sur des tâches à des objectifs indéfinis."
+		"message": "Ceci est la colonne Total. Elle apparaît seulement si vous avez plus d'une tâche.\n\nLa colonne \" Temps passé\" totalise le temps passé sur chacune de vos tâches.\nLa colonne \"Objectif\" comptabilise votre objectif de temps sur l'ensemble de vos tâches autres que celles à durée indéterminée.\nLa colonne \"Avancement\" vous donne l''avancement de l'ensemble de vos tâches. Cet avancement n'inclut pas le temps passé qui dépasse le but d'une tâche, ou le temps passé sur des tâches à des objectifs indéfinis."
 	},
 	"txtNoTasks": {
 		"message": "Vous n'avez encore créé aucune tâche !"
 	},
 	"txtEditTasks": {
-		"message": "Double cliquez sur le nom d'une tâche, une durée, ou un objectif pour l'éditer."
+		"message": "Double cliquez sur le nom d'une tâche, une durée, ou un objectif, pour l'éditer."
 	},
 	"lblTask": {
 		"message": "Tâche"
@@ -188,6 +188,9 @@
 	"toolClearAllHistory": {
 		"message": "Effacer tout l'historique des tâches"
 	},
+	"toolReloadApp": {
+		"message": "Redémarrer l'application"
+	},
 	"toolClearData": {
 		"message": "Effacer toutes les données de l'application"
 	},
@@ -201,19 +204,19 @@
 		"message": "Options Générales"
 	},
 	"optHideNotice": {
-		"message": "Cacher l'en-tête de notifications"
+		"message": "Cacher l'en-tête des notifications"
 	},
 	"optConfirmReset": {
-		"message": "Demander confirmation pour la réinitialisation d'une tâche"
+		"message": "Demander confirmation lors de la réinitialisation d'une tâche"
 	},
 	"optConfirmDelete": {
-		"message": "Demander confirmation pour l'effacement d'une tâche"
+		"message": "Demander confirmation lors de la suppression d'une tâche"
 	},
 	"optStartDefault": {
-		"message": "Cocher la case \"Commencer\" par défaut"
+		"message": "Par défaut, cocher la case \"Commencer\""
 	},
 	"optSaveFields": {
-		"message": "Sauvegarder le contenu du champ \"Nouvelle Tâche\" lorsque vous relancer l'application"
+		"message": "Sauvegarder le contenu du champ \"Nouvelle Tâche\" lorsque vous relancez l'application"
 	},
 	"optUseIcons": {
 		"message": "Utiliser des icônes à la place des boutons dans les options de tâches (recommandé pour les petits écrans)"
@@ -222,7 +225,7 @@
 		"message": "Utiliser le format 12-Heures lorsque cela est possible"
 	},
 	"optCustomDialogs": {
-		"message": "Utilisez des boîtes de dialogue personnalisées plutôt que celles incluses dans Chrome"
+		"message": "Utilisez des boîtes de dialogue personnalisées plutôt que celles de Chrome"
 	},
 	"optUpdateAlert": {
 		"message": "Lancer l'application après une mise à jour"
@@ -240,22 +243,25 @@
 		"message": "Ne pas permettre aux tâches d'aller au-delà de l'objectif"
 	},
 	"optStopTimer": {
-		"message": "Arrêter la tâche quand elle atteint son objectif"
+		"message": "Arrêter la tâche quand elle a atteint son objectif"
 	},
 	"optOnlyOne": {
 		"message": "Ne permettre qu'à une seule tâche de tourner en même temps"
+	},
+	"optBackgroundRunning": {
+		"message": "Garder les tâches actives à la fermeture de l'application"
 	},
 	"txtNotifSettings": {
 		"message": "Options de Notifications"
 	},
 	"optShowPopup": {
-		"message": "Afficher un pop-up sur la page quand une tâche atteint son objectif"
+		"message": "Afficher un pop-up sur la page quand une tâche a atteint son objectif"
 	},
 	"optShowNotification": {
-		"message": "Afficher une notification de bureau quand une tâche atteint son objectif"
+		"message": "Afficher une notification de bureau quand une tâche a atteint son objectif"
 	},
 	"optPlaySound": {
-		"message": "Alerte sonore quand une tâche atteint son objectif"
+		"message": "Produire une alerte sonore quand une tâche a atteint son objectif"
 	},
 	"optUseDefault": {
 		"message": "Utiliser l'alerte sonore par défaut"
@@ -282,7 +288,7 @@
 		"message": "Afficher les légendes des pourcentages"
 	},
 	"optCombineSmallSlices": {
-		"message": "Combiner des portions du graphique pour \"Autre\""
+		"message": "Combiner les petites fractions d'un graphique dans \"Autre\""
 	},
 	"txtPerfSettings": {
 		"message": "Options de Performances"
@@ -333,7 +339,7 @@
 		"message": "Sauvegarder"
 	},
 	"confResetTask": {
-		"message": "Etes-vous sûr de vouloir réinitialiser la tâche \"$taskName$\" ?\nCeci ne réinitialisera pas l'historique de la tâche.",
+		"message": "Êtes-vous sûr de vouloir réinitialiser la tâche \"$taskName$\" ?\nCeci ne réinitialisera pas l'historique de la tâche.",
 		"placeholders": {
 			"taskName": {
 				"content": "$1",
@@ -351,7 +357,7 @@
 		}
 	},
 	"confClearHistory": {
-		"message": "Etes-vous sûr de vouloir effacer l'historique de la tâche \"$taskName$\" ?",
+		"message": "Êtes-vous sûr de vouloir effacer l'historique de la tâche \"$taskName$\" ?",
 		"placeholders": {
 			"taskName": {
 				"content": "$1",
@@ -360,19 +366,31 @@
 		}
 	},
 	"confResetAll": {
-		"message": "Etes-vous sûr de vouloir réinitialiser le temps passé sur toutes vos tâches?"
+		"message": "Êtes-vous sûr de vouloir réinitialiser le temps passé sur toutes vos tâches?"
 	},
 	"confDeleteAll": {
-		"message": "Etes-vous sûr de vouloir effacer toutes vos tâches?"
+		"message": "Êtes-vous sûr de vouloir effacer toutes vos tâches?"
 	},
 	"confClearAllHistory": {
-		"message": "Etes-vous sûr de vouloir effacer l'historique de toutes vos tâches?"
+		"message": "Êtes-vous sûr de vouloir effacer l'historique de toutes vos tâches?"
 	},
 	"confResetData": {
-		"message": "Etes-vous sûr de vouloir effacer complètement tout les données de Task Timer?\nCeci supprimera vos tâches et vos options."
+		"message": "Êtes-vous sûr de vouloir complètement effacer toutes les données de Task Timer?\nCeci supprimera vos tâches et vos options."
 	},
 	"confResetSettings": {
-		"message": "Etes-vous sûr de vouloir réinitialiser toutes vos options à leur valeur par défault?"
+		"message": "Êtes-vous sûr de vouloir réinitialiser toutes vos options à leurs valeurs par défault?"
+	},
+	"confUpdated": {
+		"message": "Task Timer a été mis à jour à la version $version$!\nVoulez-vous voir les changements apportés ?",
+		"placeholders": {
+			"version": {
+				"content": "$1",
+				"example": "1.7.2"
+			}
+		}
+	},
+	"confUpdatedRestartAddendum": {
+		"message": "Soyez conscient que vous aurez besoin de redémarrer vos tâches si une mise à jour de Chrome survient alors que les compteurs sont actifs."
 	},
 	"confRating": {
 		"message": "Voudriez-vous noter et commenter cette application sur Chrome Web Store?\nCela nous aide énormément !"
@@ -399,7 +417,7 @@
 		"message": "Si vous voyez ceci, cela veut dire que les notifications de bureau sont activées et fonctionnent correctement! Waouh!"
 	},
 	"noteNoLocalFiles": {
-		"message": "Il semble que vous vous servez d'un chemin vers un fichier local sur votre machine pour le lien sonore personnalisé.\nMalheureusement, les fichiers locaux ne peuvent pas être utilisés, puisque Chrome ne permet pas l'accès à votre système de fichiers local, même pour un son.\nSeul un lien Internet (en commençant par http, https ou ftp) peut être utilisé. Cela signifie que vous avez besoin de trouver un son en ligne, ou mettre en ligne quelque part le son que vous voulez."
+		"message": "Il semble que vous vous servez d'un chemin vers un fichier local sur votre machine pour le lien sonore personnalisé.\nMalheureusement, les fichiers locaux ne peuvent pas être utilisés, car Chrome ne permet pas l'accès à votre système de fichiers local, même pour un son.\nSeul un lien Internet (en commençant par http, https ou ftp) peut être utilisé. Cela signifie que vous avez besoin de trouver un son en ligne, ou mettre en ligne quelque part le son que vous voulez."
 	},
 	"noteErrorOccurred": {
 		"message": "Une Erreur s'est produite !"
@@ -411,7 +429,7 @@
 		"message": "Options sauvegardées"
 	},
 	"sucSyncReceived": {
-		"message": "Donnée(s) de synchronisation reçue(s)"
+		"message": "Données de synchronisation bien reçues"
 	},
 	"sucSyncSent": {
 		"message": "Envoi des données de synchronisation"
@@ -443,16 +461,19 @@
 			}
 		}
 	},
+	"errAlreadyOpen": {
+		"message": "L'application est déjà ouverte.\nSi cela est incorrect, appuyez sur le bouton de rechargement ci-dessous. Task Timer sera rechargé comme si vous fermiez Chrome."
+	},
 	"txtSuggestionTitle": {
 		"message": "Faire une suggestion"
 	},
 	"txtSuggestionInfo": {
-		"message": "Pour faire une suggestion, s'il vous plaît cliquez [ici].\nSi personne n'a déjà suggéré la même idée, cliquez sur \"Nouvelle publication\". Prenez soin de sélectionner \"Demande d'amélioration» pour le modèle, et le titre descriptif!\nSi vous avez d'autres suggestions, s'il vous plaît posez une question distincte pour chacun d'eux."
+		"message": "Pour faire une suggestion, s'il vous plaît cliquez [ici].\nSi personne n'a déjà suggéré la même idée, cliquez sur \"Nouvelle publication\". Prenez soin de sélectionner \"Demande d'amélioration» comme modèle, et donnez un titre descriptif!\nSi vous avez d'autres suggestions, s'il vous plaît, veuillez poser une question distincte pour chacune d'elle."
 	},
 	"txtBugTitle": {
 		"message": "Mentionner un problème"
 	},
 	"txtBugInfo": {
-		"message": "¨Pour rapporter un bug, cliquer [ici].\nSi personne n'a encore reporté ce bug, cliquer sur \"Nouveau problème\". Faites en sorte de donner un titre qui décrive précisément le bug!\nSi vous trouvez plusieurs bugs, merci de créer un sujet différent pour chaque bug.\nAssurez-vous d'inclure les données suivantes dans votre rapport :"
+		"message": "Pour rapporter un bug, cliquer [ici].\nSi personne n'a encore reporté ce bug, cliquer sur \"Nouveau problème\". Faites en sorte de donner un titre qui décrive précisément le bug!\nSi vous trouvez plusieurs bugs, merci de créer un sujet différent pour chaque bug.\nAssurez-vous d'inclure les données suivantes dans votre rapport :"
 	}
 }
